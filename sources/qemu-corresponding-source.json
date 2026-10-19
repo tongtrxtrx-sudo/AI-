@@ -1,0 +1,17 @@
+{
+  "component": "QEMU patched Windows build corresponding source",
+  "binary_version_string": "v11.1.0-12130-ge470268ff4",
+  "repository": "https://repo.or.cz/qemu/ar7.git",
+  "commit": "e470268ff446ec56728215a987ed166d5ed8fb64",
+  "tree": "f7f8eccd4e165c6c448946419cfbdb48f9e3db28",
+  "acquisition": "Normal public Git smart-HTTP fetch of exact commit; Gitweb snapshot returned anti-bot HTML and was excluded. No anti-bot challenge bypassed.",
+  "filename": "qemu-e470268ff446ec56728215a987ed166d5ed8fb64.tar.gz",
+  "bytes": 42164621,
+  "sha256": "03b9d88d3b8e07ef706449e1d674bfae9c5272bd65a27b52955c0815d16f6d73",
+  "archive_entries": 12144,
+  "git_fsck_exit_code": 0,
+  "source_archive_download_verified": true,
+  "submodules_bundled": false,
+  "submodule_gitlinks_recorded": 15,
+  "verification": "HTTPS CA checked; exact full commit matches official distributor-linked Gitweb and binary version short revision; fetched git objects verified by git fsck; local git archive PAX commit matches. No detached GPG signature assertion."
+}

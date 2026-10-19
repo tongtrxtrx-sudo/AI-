@@ -1,0 +1,62 @@
+[
+  {
+    "path": "roms/QemuMacDrivers",
+    "commit": "90c488d5f4a407342247b9ea869df1c2d9c8e266"
+  },
+  {
+    "path": "roms/SLOF",
+    "commit": "47457c9078a217150aa1634f2657e6804fbde467"
+  },
+  {
+    "path": "roms/edk2",
+    "commit": "4dfdca63a93497203f197ec98ba20e2327e4afe4"
+  },
+  {
+    "path": "roms/ipxe",
+    "commit": "4bd064de239dab2426b31c9789a1f4d78087dc63"
+  },
+  {
+    "path": "roms/openbios",
+    "commit": "e5ac46dd24e6216c36aa80462af25457e7029440"
+  },
+  {
+    "path": "roms/opensbi",
+    "commit": "74434f255873d74e56cc50aa762d1caf24c099f8"
+  },
+  {
+    "path": "roms/qboot",
+    "commit": "8ca302e86d685fa05b16e2b208888243da319941"
+  },
+  {
+    "path": "roms/qemu-palcode",
+    "commit": "99d9b4dcf27d7fbcbadab71bdc88ef6531baf6bf"
+  },
+  {
+    "path": "roms/seabios",
+    "commit": "b52ca86e094d19b58e2304417787e96b940e39c6"
+  },
+  {
+    "path": "roms/seabios-hppa",
+    "commit": "6d6a72c218f6bf6b0e0b6a8bd26c5c67ba3ad2e0"
+  },
+  {
+    "path": "roms/skiboot",
+    "commit": "785a5e3070a86e18521e62fe202b87209de30fa2"
+  },
+  {
+    "path": "roms/u-boot",
+    "commit": "840658b093976390e9537724f802281c9c8439f5"
+  },
+  {
+    "path": "roms/u-boot-sam460ex",
+    "commit": "1e5f4a1607cc6713d27ffe48dd9de84e69cfc1c2"
+  },
+  {
+    "path": "roms/vbootrom",
+    "commit": "1c8e9510b22c5b0fd7d7753f08042a4bcbd2939d"
+  },
+  {
+    "path": "tests/lcitool/libvirt-ci",
+    "commit": "5176e136ab11e275eb9f57c3d5c80e77af6507cb"
+  }
+]
