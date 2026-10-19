@@ -1,0 +1,16 @@
+{
+  "started_at_utc": "2026-10-19T11:17:58.719697+00:00",
+  "scope": "Linux production prepare_base, complete real pinned GitHub HTTPS parts and full disk assembly",
+  "windows_real_machine_tested": false,
+  "vm_started_by_this_check": false,
+  "local_builder_base_available_to_prepare_base": false,
+  "passed": true,
+  "base_bytes": 1260322816,
+  "base_sha256": "231caefcf5fb7ae00142fa8b9a514077821933861db4a7609d728d42d11df26d",
+  "public_part_count": 14,
+  "cached_part_count": 14,
+  "runtime_overlay_created": false,
+  "duration_seconds": 53.403,
+  "asset_manifest_sha256": "400201a45fddbe9825e432c683cfe1a5a6d49713741f82f756d1fc57384f847f",
+  "finished_at_utc": "2026-10-19T11:18:52.122775+00:00"
+}

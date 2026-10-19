@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "scope": "R&D delivery artifact integrity and explicitly scoped runtime checks; Windows hardware and financial numeric acceptance are not claimed",
+  "zip": {
+    "filename": "EPM-NoDocker-Windows-x64.zip",
+    "bytes": 102443756,
+    "sha256": "4ac17bc8fea90e7e98fa3e5dff83fcfe4f8e5e8ea807ce6bfb7d70d1931ad2c8",
+    "file_count": 3154
+  },
+  "equivalent_download_filenames": [
+    "EPM-NoDocker-Windows-x64.zip",
+    "自研EPM压缩文档.zip"
+  ],
+  "local_crc_and_all_member_sha256_passed": true,
+  "independent_archive_review": {
+    "passed": true,
+    "checks_passed": 29,
+    "report": "verification/final-package-independent-review.json",
+    "scope": "Actual archive hashes/source Git blobs/Word/license membership and explicit runtime limits"
+  },
+  "public_zip_full_download_verification": "pending",
+  "public_base_full_download_and_assembly": {
+    "started_at_utc": "2026-10-19T11:17:58.719697+00:00",
+    "scope": "Linux production prepare_base, complete real pinned GitHub HTTPS parts and full disk assembly",
+    "windows_real_machine_tested": false,
+    "vm_started_by_this_check": false,
+    "local_builder_base_available_to_prepare_base": false,
+    "passed": true,
+    "base_bytes": 1260322816,
+    "base_sha256": "231caefcf5fb7ae00142fa8b9a514077821933861db4a7609d728d42d11df26d",
+    "public_part_count": 14,
+    "cached_part_count": 14,
+    "runtime_overlay_created": false,
+    "duration_seconds": 53.403,
+    "asset_manifest_sha256": "400201a45fddbe9825e432c683cfe1a5a6d49713741f82f756d1fc57384f847f",
+    "finished_at_utc": "2026-10-19T11:18:52.122775+00:00"
+  },
+  "public_word_files": {
+    "public_commit": "fd847e7bfc919e54ca0110ddb316dc4225d8fc58",
+    "all_passed": true,
+    "files": [
+      {
+        "filename": "EPM_PRD_CN.docx",
+        "http": 200,
+        "bytes": 383385,
+        "sha256": "d67d92fbeda7396124196256395ee329610464d6dc3bd4db5b6388166c3996a4",
+        "expected_sha256": "d67d92fbeda7396124196256395ee329610464d6dc3bd4db5b6388166c3996a4",
+        "word_format_verified": true,
+        "passed": true
+      },
+      {
+        "filename": "EPM_System_Manual_CN.docx",
+        "http": 200,
+        "bytes": 56034,
+        "sha256": "37acc430180cea1642a462af17fd7fcf054651eb6a33a9eb84a5608c387b539d",
+        "expected_sha256": "37acc430180cea1642a462af17fd7fcf054651eb6a33a9eb84a5608c387b539d",
+        "word_format_verified": true,
+        "passed": true
+      },
+      {
+        "filename": "EPM_User_Manual_CN.docx",
+        "http": 200,
+        "bytes": 64373,
+        "sha256": "bc54fda4455e9c5036ce769a2ee5c42d806aaaa1f41dcf54ff7668eff5fa1d23",
+        "expected_sha256": "bc54fda4455e9c5036ce769a2ee5c42d806aaaa1f41dcf54ff7668eff5fa1d23",
+        "word_format_verified": true,
+        "passed": true
+      },
+      {
+        "filename": "EPM_Install_Manual_CN.docx",
+        "http": 200,
+        "bytes": 50775,
+        "sha256": "b5c29508be25bbc0422cd763355eadebdcd5c3ddf4de01ea0c43987eb50a87c4",
+        "expected_sha256": "b5c29508be25bbc0422cd763355eadebdcd5c3ddf4de01ea0c43987eb50a87c4",
+        "word_format_verified": true,
+        "passed": true
+      }
+    ]
+  },
+  "runtime_evidence": {
+    "fresh_exact_base_passed": true,
+    "first_boot_seconds": 1850.07,
+    "cold_copy_resume_seconds": 268.88,
+    "dbt_nodes_passed": 330,
+    "wine_two_windows_pe_boots_passed": true,
+    "windows_real_machine_tested": false,
+    "full_financial_numeric_acceptance_tested": false
+  },
+  "original_master_expected": "5581c0997311578ac42c5a8c136fdad60e98efcc"
+}

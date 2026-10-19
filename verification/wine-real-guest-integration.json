@@ -1,0 +1,223 @@
+{
+  "started_at_utc": "2026-10-19T11:09:38.989613+00:00",
+  "scope": "Production native C -> bundled Windows Python -> Windows QEMU under Wine, initialized private guest snapshot",
+  "windows_real_machine_tested": false,
+  "public_first_boot_retested": false,
+  "browser_interaction_tested_by_this_runner": false,
+  "resources": {
+    "cpus": 2,
+    "memory_mb": 6144,
+    "acceleration": "TCG"
+  },
+  "persistence_marker_origin": "Private File created through real Frappe API in Linux guest before snapshot; read after each Wine warm boot",
+  "financial_transaction_acceptance_tested": false,
+  "source_base_sha256": "b2fdd10ce0f642a34dd74c70facd943769bb78f4c3828874d90d6220509a88dd",
+  "checks": {
+    "native_check_exit": 0,
+    "first_ready": true,
+    "duplicate_exit": 0,
+    "duplicate_reused": true,
+    "private_file_marker_read_after_restore": true,
+    "first_safe_stop_exit": 0,
+    "first_controller_exit": 0,
+    "second_ready": true,
+    "private_file_metadata_and_content_survived_restart": true,
+    "second_safe_stop_exit": 0,
+    "second_controller_exit": 0
+  },
+  "timings_seconds": {
+    "private_snapshot_preparation": 1.923,
+    "native_check": 1.268,
+    "first_restored_snapshot_start_to_strict_ready": 455.005,
+    "duplicate_reuse": 3.592,
+    "first_boot_login_metadata_close_private_file_read": 74.129,
+    "first_qmp_safe_stop_through_controller_exit": 14.955,
+    "restart_to_strict_ready": 538.125,
+    "second_boot_login_metadata_close_private_file_read": 77.165,
+    "second_qmp_safe_stop_through_controller_exit": 14.57,
+    "total_including_snapshot_preparation": 1180.848
+  },
+  "errors": [],
+  "first_boot_stages": [
+    {
+      "state": "Preparing",
+      "progress": 0
+    },
+    {
+      "state": "Booting",
+      "progress": 0
+    },
+    {
+      "state": "Booting",
+      "progress": 15
+    },
+    {
+      "state": "Booting",
+      "progress": 80
+    },
+    {
+      "state": "Booting",
+      "progress": 90
+    },
+    {
+      "state": "Ready",
+      "progress": 100
+    }
+  ],
+  "first_boot_http_validation": {
+    "exit_code": 0,
+    "checks": {
+      "ready_with_expected_machine": true,
+      "http_login": true,
+      "authenticated_administrator": true,
+      "desk_page": true,
+      "metadata_entity": true,
+      "metadata_consolidation_group": true,
+      "metadata_budget_line": true,
+      "metadata_scenario": true,
+      "konsol_close_page": true,
+      "private_marker_metadata_read": true,
+      "private_marker_content_hash_match": true
+    },
+    "passed": true,
+    "marker_sha256": "6cc1f1c9c5ecb785de8a0a5fa6a19218c43c67990baa7f54f7a58cc899dc0e4e",
+    "client_cookie_policy": "Chromium-equivalent Secure-cookie loopback exemption limited to 127.0.0.1 HTTP",
+    "error_type": null,
+    "http_status": null
+  },
+  "restart_stages": [
+    {
+      "state": "Preparing",
+      "progress": 0
+    },
+    {
+      "state": "Booting",
+      "progress": 0
+    },
+    {
+      "state": "Booting",
+      "progress": 15
+    },
+    {
+      "state": "Booting",
+      "progress": 80
+    },
+    {
+      "state": "Booting",
+      "progress": 90
+    },
+    {
+      "state": "Ready",
+      "progress": 100
+    }
+  ],
+  "second_boot_http_validation": {
+    "exit_code": 0,
+    "checks": {
+      "ready_with_expected_machine": true,
+      "http_login": true,
+      "authenticated_administrator": true,
+      "desk_page": true,
+      "metadata_entity": true,
+      "metadata_consolidation_group": true,
+      "metadata_budget_line": true,
+      "metadata_scenario": true,
+      "konsol_close_page": true,
+      "private_marker_metadata_read": true,
+      "private_marker_content_hash_match": true
+    },
+    "passed": true,
+    "marker_sha256": "6cc1f1c9c5ecb785de8a0a5fa6a19218c43c67990baa7f54f7a58cc899dc0e4e",
+    "client_cookie_policy": "Chromium-equivalent Secure-cookie loopback exemption limited to 127.0.0.1 HTTP",
+    "error_type": null,
+    "http_status": null
+  },
+  "finished_at_utc": "2026-10-19T11:29:17.914738+00:00",
+  "success": true,
+  "schema_version": 1,
+  "raw_runner_exit_code": 0,
+  "vm_asset_manifest_used_by_this_run": {
+    "schema_version": 1,
+    "base": {
+      "filename": "base.qcow2",
+      "bytes": 1259274240,
+      "sha256": "b2fdd10ce0f642a34dd74c70facd943769bb78f4c3828874d90d6220509a88dd"
+    },
+    "kernel": {
+      "filename": "vmlinuz",
+      "sha256": "4a44487bb3cfdc2be1d7697b8c71c97733d6ab2db62e6e6e8f1c6af9431ffd2e"
+    },
+    "initrd": {
+      "filename": "initrd.img",
+      "sha256": "e4e8b737ca0b5a6fd70909bffe353e9566fe4c6653f642f485f93e61e03b1854"
+    }
+  },
+  "host_source_sha256": {
+    "app/portable_launcher.py": "5a3dc99b2a5e5e3b1261513fe95a2ace3807d944ec7311facc2214d553a17789",
+    "app/fat_seed.py": "e5b22bbbafd0fbe3b5c2a7ae996efaa05e856136845c4cd99db3ff8357a8524e",
+    "build/host/test_host.py": "a1a69f132e43eb006bcd718543e1e9c6a41113d2b298246497fed821d1f442bb"
+  },
+  "host_suite": {
+    "executed": 18,
+    "passed": 18,
+    "failed": 0,
+    "skipped": 0,
+    "raw_exit_code": 0
+  },
+  "chinese_space_program_and_data_paths_tested": true,
+  "actual_windows_pe_binaries_under_wine": true,
+  "linux_executable_wrappers_used": false,
+  "test_only_force_quit_used_in_this_successful_attempt": false,
+  "cold_qcow2_verification": {
+    "windows_qemu_img_check_exit": 0,
+    "windows_qemu_img_info_exit": 0,
+    "format": "qcow2",
+    "backing_filename": "base.qcow2",
+    "scope": "QCOW2 structure/backing verification only; no repair requested"
+  },
+  "private_file_metadata_and_hash_match_both_boots": true,
+  "http_checks_passed_total": 22,
+  "default_gui_entry": {
+    "executed_at_utc": "2026-10-19T11:24:09.829746+00:00",
+    "scope": "Zero-argument native GUI entry from Chinese-space program path, bundled pythonw branch; existing per-user VM/controller is reused",
+    "native_exit_code": 0,
+    "same_native_launcher_sha256": true,
+    "stdout_empty_as_gui_pythonw": true,
+    "stderr_present": false,
+    "windows_real_machine_tested": false,
+    "browser_visual_interaction_tested": false,
+    "second_vm_started": false,
+    "controller_record_still_matches_existing_data": true,
+    "default_root_has_new_business_seed": false,
+    "success": true
+  },
+  "timing_scope": "Monotonic cloud Wine observations; start/restart runs from native process launch to strict Ready, shutdown includes stop CLI and controller exit; public first installation is not timed here",
+  "started_at_utc_scope": "After private snapshot preparation; total_including_snapshot_preparation includes the earlier preparation interval",
+  "binary_sha256": {
+    "自研EPM.exe": "550d52485493005800f0d2289b7c20b9791565893573cf5d29426f0c9a12e5f1",
+    "python/python.exe": "4d6f5f81a4bca11191c4c7c6b43632694d0a4ce74e068619d8fdc161d469859a",
+    "python/pythonw.exe": "d72294fb338bc2fc8896d25a7395a4db466425427e1559e77185d5135a830681",
+    "python/python312.dll": "9a0e3435aaa680d868150f87ab3e388ad2eebc22f87e036155c7b4eda8cd2120",
+    "qemu/qemu-system-x86_64.exe": "47d57a6072e0bb3bd98f87926eb129eb1736dfe818c67b3b81ef7ce4edd0b3cd",
+    "qemu/qemu-img.exe": "9d930582d0d574bb106d89982c547688e10b8f356192d302cc3d0ae4e8674534"
+  },
+  "runtime_copy": {
+    "content_tree_sha256": "167e4e747c3834447e07968667069ee6d1ebb1786c0aea3f4d1a8319d57c4a5e",
+    "files_verified": 73,
+    "runtime_copy_initrd_sha256": "e4e8b737ca0b5a6fd70909bffe353e9566fe4c6653f642f485f93e61e03b1854"
+  },
+  "final_guest_shutdown_serial_contains_power_down": true,
+  "endpoint_ports": {
+    "first_boot": 18480,
+    "second_boot": 18480
+  },
+  "limitations": [
+    "Wine execution does not replace acceptance on an actual Windows machine",
+    "This run restores an initialized private snapshot over its exact original backing; final new-seed first installation is verified separately by the Linux VM builder",
+    "No company financial data or financial transaction acceptance is part of this test",
+    "Browser UI interaction is verified separately; this runner uses --no-browser, and its zero-argument pythonw check confirms reuse/exit only",
+    "HTTP test client applies the documented exact-127.0.0.1 Secure-cookie exception to match Chromium; application authentication/cookie/TLS logic is unchanged",
+    "Only the final successful attempt is summarized here; earlier UUID-format and broken-initrd attempts are retained separately as failed build evidence"
+  ],
+  "report_saved_at_utc": "2026-10-19T11:30:51.256271+00:00"
+}

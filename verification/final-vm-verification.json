@@ -1,0 +1,262 @@
+{
+  "schema_version": 1,
+  "verified_utc": "2026-10-19T12:03:32.481282+00:00",
+  "passed": true,
+  "acceptance_scope": "Research delivery: exact pristine base fresh offline initialization on Linux QEMU TCG, original HTTP/warehouse/semantic services, isolated test File persistence through cold copy on the identical immutable base, and normal ACPI exit. Separate Windows PE chain under Wine uses an older initialized private snapshot.",
+  "assets": [
+    {
+      "path": "vm/epm-base.qcow2",
+      "bytes": 1260322816,
+      "sha256": "231caefcf5fb7ae00142fa8b9a514077821933861db4a7609d728d42d11df26d"
+    },
+    {
+      "path": "vm/vmlinuz",
+      "bytes": 14170048,
+      "sha256": "4a44487bb3cfdc2be1d7697b8c71c97733d6ab2db62e6e6e8f1c6af9431ffd2e"
+    },
+    {
+      "path": "vm/initrd.img",
+      "bytes": 15892130,
+      "sha256": "e4e8b737ca0b5a6fd70909bffe353e9566fe4c6653f642f485f93e61e03b1854"
+    }
+  ],
+  "immutable_assets_unchanged_after_tests": {
+    "vm/epm-base.qcow2": true,
+    "vm/vmlinuz": true,
+    "vm/initrd.img": true
+  },
+  "public_base_clean_audit": {
+    "passed": true,
+    "checks_passed": 17,
+    "test_seed_site_overlay_or_password_in_base": false
+  },
+  "fresh_first_boot": {
+    "new_seed_and_empty_site": true,
+    "automatic_core_attempts": 1,
+    "manual_adoption_or_existing_site_reused": false,
+    "outbound_network_blocked_by_qemu_restrict": true,
+    "cpus": 2,
+    "memory_mb": 6144,
+    "acceleration": "TCG; no KVM",
+    "first_ready_utc": "2026-10-19T11:44:30.266812+00:00",
+    "request_to_strict_ready_seconds": 1850.07,
+    "http_status": 200,
+    "expected_machine_verified": true,
+    "passed_service_probes": 23,
+    "all_services": {
+      "mariadb": true,
+      "redis_cache": true,
+      "redis_queue": true,
+      "clickhouse": true,
+      "web": true,
+      "socketio": true,
+      "cube": true,
+      "unit_firstboot": true,
+      "unit_web": true,
+      "unit_worker": true,
+      "unit_scheduler": true,
+      "unit_socketio": true,
+      "unit_cube": true,
+      "unit_clickhouse": true,
+      "unit_redis_cache": true,
+      "unit_redis_queue": true,
+      "unit_site_init": true,
+      "unit_mariadb": true,
+      "konsol_database": true,
+      "clickhouse_authenticated": true,
+      "cube_readyz": true,
+      "cube_authenticated_models": true,
+      "initial_dbt_build": true
+    },
+    "passed": true
+  },
+  "initial_warehouse": {
+    "schema_version": 1,
+    "dbt_version": "1.10.13",
+    "generated_at": "2026-10-19T11:41:54.683781Z",
+    "elapsed_seconds": 497.85005927085876,
+    "result_status_counts": {
+      "success": 81,
+      "pass": 249
+    },
+    "resource_type_counts": {
+      "operation": 3,
+      "model": 78,
+      "test": 249
+    },
+    "node_count": 330,
+    "all_nodes_passed": true,
+    "initial_dbt_marker_exists": true
+  },
+  "representative_cube_query": {
+    "schema_version": 1,
+    "cube_readyz_200": true,
+    "authenticated_metadata_nonempty": true,
+    "representative_query_success": true,
+    "semantic_model_count": 7,
+    "result_row_count": 1,
+    "query_elapsed_seconds": 2.99,
+    "passed": true
+  },
+  "original_http_acceptance": {
+    "passed": true,
+    "checks_passed": 12,
+    "checks": {
+      "ready_with_expected_machine": true,
+      "http_login": true,
+      "authenticated_administrator": true,
+      "desk_page": true,
+      "metadata_entity": true,
+      "metadata_consolidation_group": true,
+      "metadata_budget_line": true,
+      "metadata_scenario": true,
+      "konsol_close_page": true,
+      "private_marker_created": true,
+      "private_marker_metadata_read": true,
+      "private_marker_content_hash_match": true
+    },
+    "client_cookie_policy": "Chromium-equivalent Secure-cookie loopback exemption limited to 127.0.0.1 HTTP"
+  },
+  "worker_probe": {
+    "schema_version": 1,
+    "same_original_probe_found": true,
+    "initial_180_second_observation_expired": true,
+    "job_finished": true,
+    "smoke_job_removed": true,
+    "scope": "Same original short-queue probe observed after startup default-queue backlog; no new test job enqueued.",
+    "status": "finished",
+    "enqueued_to_finished_seconds": 204.048954,
+    "passed": true
+  },
+  "native_consistent_backup": {
+    "passed": true,
+    "elapsed_seconds": 208.38,
+    "checks": {
+      "all_expected_files_nonempty": true,
+      "backup_directory_private": true,
+      "includes_epm_raw_database_directory": true,
+      "includes_site_database_configuration": true,
+      "includes_machine_private_configuration": true,
+      "mariadb_dump_has_sql": true,
+      "all_application_units_resumed": true
+    },
+    "scope": "Actual guest backup export was tested. Independent restoration of its SQL/tar archives was not tested. All generated backups and credentials remain inside the private test overlay."
+  },
+  "first_shutdown": {
+    "schema_version": 1,
+    "acpi_powerdown_requested": true,
+    "exit_code": 0,
+    "exit_observed_utc": "2026-10-19T11:54:36.074053+00:00",
+    "request_to_exit_observed_seconds": 40.52,
+    "serial_power_down_observed": true,
+    "force_quit_used": false,
+    "cold_qcow_check_exit_code": 0
+  },
+  "cold_copy_resume": {
+    "same_immutable_base_sha256": "231caefcf5fb7ae00142fa8b9a514077821933861db4a7609d728d42d11df26d",
+    "copied_only_after_normal_exit": true,
+    "source_and_copy_overlay_sha256_equal": true,
+    "no_rebase_performed": true,
+    "matching_seed_and_file_state_used": true,
+    "outbound_network_blocked": true,
+    "ready_utc": "2026-10-19T11:59:08.693671+00:00",
+    "request_to_strict_ready_seconds": 268.88,
+    "expected_machine_verified": true,
+    "passed_service_probes": 23,
+    "passed": true,
+    "scope": "Resume of an isolated initialized overlay copied while cold, relying on the exact same immutable base; not a complete production financial backup/restore acceptance."
+  },
+  "http_after_cold_copy": {
+    "checks": {
+      "ready_with_expected_machine": true,
+      "http_login": true,
+      "authenticated_administrator": true,
+      "desk_page": true,
+      "metadata_entity": true,
+      "metadata_consolidation_group": true,
+      "metadata_budget_line": true,
+      "metadata_scenario": true,
+      "konsol_close_page": true,
+      "private_marker_metadata_read": true,
+      "private_marker_content_hash_match": true,
+      "private_marker_deleted": true,
+      "private_marker_absent": true
+    },
+    "private_file_content_sha256": "ceae6a34353d7220c388d4d6def1410d442cf095c50c85d00dddbac306f8fba4",
+    "private_file_metadata_and_content_persisted": true,
+    "private_test_file_deleted_and_resource_404": true,
+    "actual_delete_http_status": 202,
+    "probe_assertion_correction": {
+      "initial_probe_asserted_http_200_and_returned_1": true,
+      "fixed_source_expected_http_status": 202,
+      "actual_nginx_file_delete_status": 202,
+      "file_resource_absent_404_verified_in_same_original_run": true,
+      "platform_or_base_changed": false,
+      "delete_operation_reexecuted": false
+    },
+    "passed": true
+  },
+  "scheduler_actual_execution": {
+    "configuration_enabled": true,
+    "process_lock_held": true,
+    "worker_heartbeat_present": true,
+    "existing_minute_job_complete_record": true,
+    "last_execution_advanced_since_this_boot_early_observation": true,
+    "early_execution_site_local": "2026-10-19T17:19:00.080545",
+    "later_execution_site_local": "2026-10-19T17:30:52.378570",
+    "later_complete_site_local": "2026-10-19T17:30:53.284966",
+    "scope": "Existing no-due-schedule minute task ran and recorded Complete. Does not establish success of all financial scheduled tasks."
+  },
+  "dbt_result_generated_at_unchanged_on_resume": true,
+  "final_shutdown": {
+    "schema_version": 1,
+    "qmp_identity_verified": true,
+    "acpi_powerdown_requested": true,
+    "qemu_exit_code": 0,
+    "stopped_utc": "2026-10-19T12:02:17.437057+00:00",
+    "request_to_exit_seconds": 6.105,
+    "serial_power_down_observed": true,
+    "force_quit_used": false,
+    "cold_qcow_check_exit_code": 0
+  },
+  "cloud_helper": {
+    "run_actual_guest": true,
+    "duplicate_reused_existing_uuid": true,
+    "status_ready_expected_machine": true,
+    "safe_stop_and_qemu_exit_0": true,
+    "uses_persistent_qemu_tools": true,
+    "current_vm_running": false
+  },
+  "windows_execution": {
+    "production_native_c_bundled_windows_python_windows_qemu_under_wine": true,
+    "http_checks_passed_total": 22,
+    "first_restored_snapshot_ready_seconds": 455.005,
+    "second_ready_seconds": 538.125,
+    "windows_real_machine_tested": false,
+    "fresh_public_base_first_boot_under_wine_tested": false,
+    "scope": "Two real Windows PE QEMU warm boots through the production EXE/private interpreter under Wine, on older initialized private snapshot; not Windows hardware and not a fresh public-base first boot."
+  },
+  "public_asset_download": {
+    "passed": true,
+    "parts": 14,
+    "duration_seconds": 53.403,
+    "scope": "Linux production prepare_base, complete real pinned GitHub HTTPS parts and full disk assembly"
+  },
+  "limits": {
+    "full_financial_consolidation_budget_numeric_acceptance_tested": false,
+    "real_erp_excel_odbc_integration_tested": false,
+    "production_high_availability_capacity_or_compliance_accepted": false,
+    "windows_real_machine_tested": false
+  },
+  "evidence_files": [
+    "build/evidence/final-fresh-dbt-results.json",
+    "build/evidence/final-fresh-http-create.json",
+    "build/evidence/final-cold-copy-http-read-and-cleanup.json (original strict-200 assertion failure retained)",
+    "build/evidence/final-cold-copy-http-read-and-cleanup-corrected.json",
+    "build/evidence/final-file-delete-status-evidence.json",
+    "build/evidence/final-fresh-native-backup.json",
+    "build/evidence/final-cold-copy-scheduler-late.json",
+    "build/host/wine-real-guest-integration.json",
+    "build-evidence/public-base-assembly.json"
+  ]
+}

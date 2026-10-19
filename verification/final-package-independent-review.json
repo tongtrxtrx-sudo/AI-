@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "reviewed_utc": "2026-10-19T12:08:46.269763+00:00",
+  "reviewer": "independent workflow_review agent",
+  "passed": true,
+  "scope": "Final local startup ZIP integrity, explicit member selection, original pinned source preservation, genuine Word files, license hashes, absence of private runtime material by name/common text patterns, immutable public base/source references and truthful sanitized test-report boundaries. Read-only; no publication or service/VM operations.",
+  "artifact": {
+    "filename": "EPM-NoDocker-Windows-x64.zip",
+    "bytes": 102443756,
+    "sha256": "4ac17bc8fea90e7e98fa3e5dff83fcfe4f8e5e8ea807ce6bfb7d70d1931ad2c8",
+    "member_count": 3154,
+    "external_completion_record": "build-evidence/final-package-local.json"
+  },
+  "checks": {
+    "external_completion_record": {
+      "passed": true,
+      "details": {
+        "filename": "EPM-NoDocker-Windows-x64.zip",
+        "bytes": 102443756,
+        "sha256": "4ac17bc8fea90e7e98fa3e5dff83fcfe4f8e5e8ea807ce6bfb7d70d1931ad2c8"
+      }
+    },
+    "zip_crc": {
+      "passed": true
+    },
+    "member_count_matches_external_record": {
+      "passed": true,
+      "details": {
+        "count": 3154
+      }
+    },
+    "unique_members": {
+      "passed": true
+    },
+    "single_safe_top_folder": {
+      "passed": true
+    },
+    "no_symlink_members": {
+      "passed": true
+    },
+    "exact_manifest_member_set": {
+      "passed": true,
+      "details": {
+        "manifest_files": 3153
+      }
+    },
+    "every_member_sha256_and_size": {
+      "passed": true,
+      "details": {
+        "mismatch_count": 0
+      }
+    },
+    "selected_text_credential_patterns": {
+      "passed": true,
+      "details": {
+        "text_files_scanned": 2907,
+        "matches": [],
+        "scope": "Common credential/private-key patterns in selected text only; not an exhaustive semantic audit of compiled code"
+      }
+    },
+    "member_set_matches_explicit_packaging_selection": {
+      "passed": true
+    },
+    "source_konsolidat_preserved_original_bytes": {
+      "passed": true
+    },
+    "source_konsol_preserved_original_bytes": {
+      "passed": true
+    },
+    "word_系统说明书.docx": {
+      "passed": true
+    },
+    "word_用户手册.docx": {
+      "passed": true
+    },
+    "word_免Docker版安装与使用手册.docx": {
+      "passed": true
+    },
+    "word_PRD研发需求文档.docx": {
+      "passed": true
+    },
+    "45_license_file_hashes_and_set": {
+      "passed": true,
+      "details": {
+        "indexed_files": 45,
+        "total_license_members": 46,
+        "hash_mismatches": 0
+      }
+    },
+    "no_private_disk_seed_overlay_personal_config_or_key_members": {
+      "passed": true,
+      "details": {
+        "prohibited_member_count": 0,
+        "unexplained_certificate_or_key_files": 0,
+        "allowed_public_certificate": "official pip certifi cacert.pem"
+      }
+    },
+    "base_asset_pin_14_fixed_public_parts": {
+      "passed": true
+    },
+    "packaged_kernel_and_initrd_hashes": {
+      "passed": true
+    },
+    "all_14_part_bytes_match_fixed_public_git_commit_and_assets": {
+      "passed": true,
+      "details": {
+        "part_count": 14,
+        "part_mismatches": 0,
+        "concatenated_sha256": "231caefcf5fb7ae00142fa8b9a514077821933861db4a7609d728d42d11df26d",
+        "fixed_public_commit": "0e3cb26ef322a196213acf2180b270765490976a",
+        "method": "Local publication files hashed and matched to immutable published Git blobs; public reachability supported separately by actual production HTTPS assembly evidence"
+      }
+    },
+    "source_archive_boundaries_truthful": {
+      "passed": true
+    },
+    "safe_final_runtime_report_scope": {
+      "passed": true
+    },
+    "wine_reports_explicitly_not_windows_hardware_acceptance": {
+      "passed": true
+    },
+    "actual_public_https_download_evidence_matches_final_base": {
+      "passed": true
+    },
+    "clean_base_public_audit_copies_identical_and_all_passed": {
+      "passed": true,
+      "details": {
+        "checks": 17,
+        "scope": "uninitialized exported rootfs; no file contents or credentials included"
+      }
+    },
+    "validation_document_states_real_windows_and_financial_limits": {
+      "passed": true
+    },
+    "zip_unchanged_during_review": {
+      "passed": true
+    },
+    "completion_record_unchanged_during_review": {
+      "passed": true
+    }
+  },
+  "observed": {
+    "source_preservation": {
+      "konsolidat": {
+        "files": 618,
+        "bytes": 3233235,
+        "pinned_commit": "99d7c5a3b08c82034cc26eced1fbb95eaafec12b",
+        "build_input_byte_mismatches": 0,
+        "git_blob_mismatches": 0,
+        "exact_git_path_set_matches": true,
+        "passed": true
+      },
+      "konsol": {
+        "files": 897,
+        "bytes": 10573900,
+        "pinned_commit": "d2d71efdb1f198610d711f656b8373ac0c9cd0c4",
+        "build_input_byte_mismatches": 0,
+        "git_blob_mismatches": 0,
+        "exact_git_path_set_matches": true,
+        "passed": true
+      }
+    },
+    "word_documents": {
+      "系统说明书.docx": {
+        "bytes": 56034,
+        "paragraphs": 352,
+        "valid_docx": true
+      },
+      "用户手册.docx": {
+        "bytes": 64373,
+        "paragraphs": 505,
+        "valid_docx": true
+      },
+      "免Docker版安装与使用手册.docx": {
+        "bytes": 50775,
+        "paragraphs": 219,
+        "valid_docx": true
+      },
+      "PRD研发需求文档.docx": {
+        "bytes": 383385,
+        "paragraphs": 15358,
+        "valid_docx": true
+      }
+    },
+    "acceptance_boundaries": {
+      "linux_final_pristine_base_fresh_boot_report_passed": true,
+      "wine_initialized_snapshot_two_cycle_report_success": true,
+      "windows_hardware_tested": false,
+      "financial_numeric_acceptance_tested": false,
+      "complete_independent_backup_restore_accepted": false,
+      "read_scope": "Only package-selected sanitized summaries, no private guest overlays/seeds/backups were opened"
+    }
+  },
+  "failed_checks": [],
+  "limitations": [
+    "No new Windows hardware/browser or financial acceptance test was performed by this review",
+    "Published part byte identity checked against the fixed Git objects and actual production HTTPS assembly report; this review did not download a second 1.26GB copy",
+    "Compiled artifacts are covered by provenance/hash checks, not a semantic proof that arbitrary binary payloads cannot contain secrets"
+  ],
+  "modified_files": [
+    "build-evidence/final-package-independent-review.json"
+  ]
+}
