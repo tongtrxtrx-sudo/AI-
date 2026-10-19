@@ -1,0 +1,30 @@
+{
+  "doctypes": 65,
+  "data_fields": 624,
+  "layout_fields": 220,
+  "source_api_methods": 122,
+  "static_permission_rows": 193,
+  "clickhouse_tables": 46,
+  "clickhouse_columns": 428,
+  "docx_tables": 236,
+  "docx_paragraphs": 1083,
+  "headings": 293,
+  "docx_bytes": 383139,
+  "editable_native_docx": true,
+  "data_fields_per_object_exact_match": true,
+  "pdf_pages": 242,
+  "pdf_bytes": 13891237,
+  "blank_or_under_100_text_character_pages": 0,
+  "visual_sample_pages": [
+    1,
+    118,
+    191
+  ],
+  "api_sample_page191_size_pt": [
+    792,
+    612
+  ],
+  "api_sample_max_text_x_pt": 741.722,
+  "api_sample_right_whitespace_pt": 50.278,
+  "qa_status": "通过文档结构与抽样版式核查；不代表软件功能验收"
+}
