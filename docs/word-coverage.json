@@ -22,13 +22,13 @@
   ],
   "documents": {
     "免Docker版安装与使用手册": {
-      "docx_bytes": 50810,
+      "docx_bytes": 50775,
       "tables": 5,
       "native_text_and_tables": true,
       "embedded_images": 0,
       "legacy_hits": [],
       "repeat_headers_all_tables": true,
-      "timing_reference_added": "TCG纯软件模拟2CPU/6GB，首次约10–30分钟参考，最终实际计时为准",
+      "timing_reference_added": "TCG默认2CPU/约6GB；首次启动可能数十分钟、低配置或初始化内容多时更久；以最终实测为准；默认最多等待7200秒。未填新冷启动计时。",
       "not_a_time_guarantee": true,
       "first_empty_dimension_adaptation": "本次新增3维度配置，现有维度保留，不插财务数据",
       "interrupted_core_recovery": "只限有本机登记的未完成初建站，不重置已就绪业务库",
@@ -37,16 +37,17 @@
       "regional_defaults_not_group_policy": true,
       "personal_user_epm_role_entity_grant_documented": true,
       "actual_browser_entry": "/app（匿名跳转登录）",
-      "empty_close_not_exe_failure_documented": true
+      "empty_close_not_exe_failure_documented": true,
+      "performance_scope_refined_this_round": true
     },
     "系统说明书": {
-      "docx_bytes": 55995,
+      "docx_bytes": 56034,
       "tables": 10,
       "native_text_and_tables": true,
       "embedded_images": 0,
       "legacy_hits": [],
       "repeat_headers_all_tables": true,
-      "timing_reference_added": "TCG纯软件模拟2CPU/6GB，首次约10–30分钟参考，最终实际计时为准",
+      "timing_reference_added": "TCG默认2CPU/约6GB；首次启动可能数十分钟、低配置或初始化内容多时更久；以最终实测为准；默认最多等待7200秒。未填新冷启动计时。",
       "not_a_time_guarantee": true,
       "first_empty_dimension_adaptation": "本次新增3维度配置，现有维度保留，不插财务数据",
       "interrupted_core_recovery": "只限有本机登记的未完成初建站，不重置已就绪业务库",
@@ -55,16 +56,17 @@
       "regional_defaults_not_group_policy": true,
       "personal_user_epm_role_entity_grant_documented": true,
       "actual_browser_entry": "/app（匿名跳转登录）",
-      "empty_close_not_exe_failure_documented": true
+      "empty_close_not_exe_failure_documented": true,
+      "performance_scope_refined_this_round": true
     },
     "用户手册": {
-      "docx_bytes": 64349,
+      "docx_bytes": 64373,
       "tables": 12,
       "native_text_and_tables": true,
       "embedded_images": 0,
       "legacy_hits": [],
       "repeat_headers_all_tables": true,
-      "timing_reference_added": "TCG纯软件模拟2CPU/6GB，首次约10–30分钟参考，最终实际计时为准",
+      "timing_reference_added": "TCG默认2CPU/约6GB；首次启动可能数十分钟、低配置或初始化内容多时更久；以最终实测为准；默认最多等待7200秒。未填新冷启动计时。",
       "not_a_time_guarantee": true,
       "first_empty_dimension_adaptation": "本次新增3维度配置，现有维度保留，不插财务数据",
       "interrupted_core_recovery": "只限有本机登记的未完成初建站，不重置已就绪业务库",
@@ -73,7 +75,8 @@
       "regional_defaults_not_group_policy": true,
       "personal_user_epm_role_entity_grant_documented": true,
       "actual_browser_entry": "/app（匿名跳转登录）",
-      "empty_close_not_exe_failure_documented": true
+      "empty_close_not_exe_failure_documented": true,
+      "performance_scope_refined_this_round": true
     }
   },
   "source_business_baseline_files_written": false,
@@ -88,5 +91,6 @@
     "all_original_body_xml_identical_after_removing_notice": true,
     "all_original_236_tables_unchanged": true,
     "pdf_pages_after_notice": 242
-  }
+  },
+  "performance_revision_scope": "只收窄不可靠的固定时间范围，保留其他业务/首次向导/权限/备份内容，PRD未改，未发布Git"
 }
