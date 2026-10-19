@@ -1,30 +1,68 @@
 {
-  "doctypes": 65,
-  "data_fields": 624,
-  "layout_fields": 220,
-  "source_api_methods": 122,
-  "static_permission_rows": 193,
-  "clickhouse_tables": 46,
-  "clickhouse_columns": 428,
-  "docx_tables": 236,
-  "docx_paragraphs": 1083,
-  "headings": 293,
-  "docx_bytes": 383139,
-  "editable_native_docx": true,
-  "data_fields_per_object_exact_match": true,
-  "pdf_pages": 242,
-  "pdf_bytes": 13891237,
-  "blank_or_under_100_text_character_pages": 0,
-  "visual_sample_pages": [
-    1,
-    118,
-    191
+  "scope": "免Docker版三份中文手册；历史PRD原样复制，历史架构陈述不作为新包操作说明",
+  "forbidden_legacy_strings": [
+    "18080",
+    "18069",
+    "14000",
+    "18123",
+    "19000",
+    "15432",
+    "Caddy",
+    "caddy",
+    "容器",
+    "数据卷",
+    "1 前提检查",
+    "2 初始化/启动",
+    "4 打开网页",
+    "6 查看本机登录信息",
+    "7 完整备份",
+    "8 日志",
+    "login-info.txt",
+    "data/backups"
   ],
-  "api_sample_page191_size_pt": [
-    792,
-    612
-  ],
-  "api_sample_max_text_x_pt": 741.722,
-  "api_sample_right_whitespace_pt": 50.278,
-  "qa_status": "通过文档结构与抽样版式核查；不代表软件功能验收"
+  "documents": {
+    "免Docker版安装与使用手册": {
+      "docx_bytes": 49165,
+      "tables": 5,
+      "native_text_and_tables": true,
+      "embedded_images": 0,
+      "legacy_hits": [],
+      "repeat_headers_all_tables": true,
+      "timing_reference_added": "TCG纯软件模拟2CPU/6GB，首次约10–30分钟参考，最终实际计时为准",
+      "not_a_time_guarantee": true
+    },
+    "系统说明书": {
+      "docx_bytes": 54481,
+      "tables": 10,
+      "native_text_and_tables": true,
+      "embedded_images": 0,
+      "legacy_hits": [],
+      "repeat_headers_all_tables": true,
+      "timing_reference_added": "TCG纯软件模拟2CPU/6GB，首次约10–30分钟参考，最终实际计时为准",
+      "not_a_time_guarantee": true
+    },
+    "用户手册": {
+      "docx_bytes": 62716,
+      "tables": 12,
+      "native_text_and_tables": true,
+      "embedded_images": 0,
+      "legacy_hits": [],
+      "repeat_headers_all_tables": true,
+      "timing_reference_added": "TCG纯软件模拟2CPU/6GB，首次约10–30分钟参考，最终实际计时为准",
+      "not_a_time_guarantee": true
+    }
+  },
+  "source_business_baseline_files_written": false,
+  "business_ui_fully_localized_claimed": false,
+  "new_windows_platform_validation_claimed": false,
+  "prd_copy": {
+    "bytes": 383385,
+    "unchanged_copy": false,
+    "sha256": "d67d92fbeda7396124196256395ee329610464d6dc3bd4db5b6388166c3996a4",
+    "historical_baseline_warning": "系统/用户手册已注明PRD保留前序基线，当前部署操作以新手册及验证说明为准",
+    "change": "仅在文首增加一个交付版本说明段落",
+    "all_original_body_xml_identical_after_removing_notice": true,
+    "all_original_236_tables_unchanged": true,
+    "pdf_pages_after_notice": 242
+  }
 }
