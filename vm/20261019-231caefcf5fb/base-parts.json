@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "base": {
+    "filename": "epm-base.qcow2",
+    "bytes": 1260322816,
+    "sha256": "231caefcf5fb7ae00142fa8b9a514077821933861db4a7609d728d42d11df26d",
+    "parts": [
+      {
+        "filename": "epm-base.qcow2.part001",
+        "bytes": 94371840,
+        "sha256": "8d710ce4e17c264711e9c41c12e99b86dbf346cb18604ec651f1782945cd7cde"
+      },
+      {
+        "filename": "epm-base.qcow2.part002",
+        "bytes": 94371840,
+        "sha256": "cf58a324f0467457b82fc69069f466f4bd567da37f62dd4099e378fb63c883ac"
+      },
+      {
+        "filename": "epm-base.qcow2.part003",
+        "bytes": 94371840,
+        "sha256": "3b581806bf180176b83137605e63098fbd9371b068ec95e490dd295fa62fc18c"
+      },
+      {
+        "filename": "epm-base.qcow2.part004",
+        "bytes": 94371840,
+        "sha256": "604188767efd68911bfbefc79c77a267d5bd9f281dc58b985b922a6be799d28f"
+      },
+      {
+        "filename": "epm-base.qcow2.part005",
+        "bytes": 94371840,
+        "sha256": "8a7da9da6bae2670de6dc3e06dcb66c8102e1ab4db4c16b3f368f7ab7ae656af"
+      },
+      {
+        "filename": "epm-base.qcow2.part006",
+        "bytes": 94371840,
+        "sha256": "b001166372f1cb414e36af57f421c4a9881db0dc37e1eaf484d03eb7698ad815"
+      },
+      {
+        "filename": "epm-base.qcow2.part007",
+        "bytes": 94371840,
+        "sha256": "1bbd217f618264ac8429a426de5cfa9ea9e6063a4d2b362e9d99a492085e6e96"
+      },
+      {
+        "filename": "epm-base.qcow2.part008",
+        "bytes": 94371840,
+        "sha256": "af6b05d4e0f248e7c4c281456d3e732f03e7607dcb69d00b8d0a05d26069b9ad"
+      },
+      {
+        "filename": "epm-base.qcow2.part009",
+        "bytes": 94371840,
+        "sha256": "2df045264293ea3d7dd272f7abde95f3910d2eb2fb4761ccc77fd3342c5273db"
+      },
+      {
+        "filename": "epm-base.qcow2.part010",
+        "bytes": 94371840,
+        "sha256": "107cedf2d41442b0b0c11cbba2b699ab3fc4a94271daea1db2f84729b44511b0"
+      },
+      {
+        "filename": "epm-base.qcow2.part011",
+        "bytes": 94371840,
+        "sha256": "bfb16e6d651020b5d7677a8dd8730d70a0e8dd4cf607148cef0d6f9b344d7472"
+      },
+      {
+        "filename": "epm-base.qcow2.part012",
+        "bytes": 94371840,
+        "sha256": "721841bb6f22301a8a4010d3f8c5c8b6939cacb11acbb31e60d08da35f44ad85"
+      },
+      {
+        "filename": "epm-base.qcow2.part013",
+        "bytes": 94371840,
+        "sha256": "e1b563b6d4c5aaf29f60f13933bba61bda0fe8a0dd64cb99a639a455815b596b"
+      },
+      {
+        "filename": "epm-base.qcow2.part014",
+        "bytes": 33488896,
+        "sha256": "1bc4389af6b9736cdbf1827ed0f036ca5d310fb092ff1ae9e5e9eab628d1d95c"
+      }
+    ]
+  }
+}
