@@ -22,34 +22,43 @@
   ],
   "documents": {
     "免Docker版安装与使用手册": {
-      "docx_bytes": 49165,
+      "docx_bytes": 49810,
       "tables": 5,
       "native_text_and_tables": true,
       "embedded_images": 0,
       "legacy_hits": [],
       "repeat_headers_all_tables": true,
       "timing_reference_added": "TCG纯软件模拟2CPU/6GB，首次约10–30分钟参考，最终实际计时为准",
-      "not_a_time_guarantee": true
+      "not_a_time_guarantee": true,
+      "first_empty_dimension_adaptation": "本次新增3维度配置，现有维度保留，不插财务数据",
+      "interrupted_core_recovery": "只限有本机登记的未完成初建站，不重置已就绪业务库",
+      "no_overall_platform_pass_claim": true
     },
     "系统说明书": {
-      "docx_bytes": 54481,
+      "docx_bytes": 55056,
       "tables": 10,
       "native_text_and_tables": true,
       "embedded_images": 0,
       "legacy_hits": [],
       "repeat_headers_all_tables": true,
       "timing_reference_added": "TCG纯软件模拟2CPU/6GB，首次约10–30分钟参考，最终实际计时为准",
-      "not_a_time_guarantee": true
+      "not_a_time_guarantee": true,
+      "first_empty_dimension_adaptation": "本次新增3维度配置，现有维度保留，不插财务数据",
+      "interrupted_core_recovery": "只限有本机登记的未完成初建站，不重置已就绪业务库",
+      "no_overall_platform_pass_claim": true
     },
     "用户手册": {
-      "docx_bytes": 62716,
+      "docx_bytes": 63337,
       "tables": 12,
       "native_text_and_tables": true,
       "embedded_images": 0,
       "legacy_hits": [],
       "repeat_headers_all_tables": true,
       "timing_reference_added": "TCG纯软件模拟2CPU/6GB，首次约10–30分钟参考，最终实际计时为准",
-      "not_a_time_guarantee": true
+      "not_a_time_guarantee": true,
+      "first_empty_dimension_adaptation": "本次新增3维度配置，现有维度保留，不插财务数据",
+      "interrupted_core_recovery": "只限有本机登记的未完成初建站，不重置已就绪业务库",
+      "no_overall_platform_pass_claim": true
     }
   },
   "source_business_baseline_files_written": false,
