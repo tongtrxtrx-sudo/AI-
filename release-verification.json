@@ -18,7 +18,32 @@
     "report": "verification/final-package-independent-review.json",
     "scope": "Actual archive hashes/source Git blobs/Word/license membership and explicit runtime limits"
   },
-  "public_zip_full_download_verification": "pending",
+  "public_zip_full_download_verification": {
+    "passed": true,
+    "http_status": 200,
+    "public_software_commit": "b6ea7297fbd713835b7b5caba53539239379e4c2",
+    "immutable_url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/b6ea7297fbd713835b7b5caba53539239379e4c2/%E8%87%AA%E7%A0%94EPM%E5%8E%8B%E7%BC%A9%E6%96%87%E6%A1%A3.zip",
+    "bytes": 102443756,
+    "sha256": "4ac17bc8fea90e7e98fa3e5dff83fcfe4f8e5e8ea807ce6bfb7d70d1931ad2c8",
+    "zip_crc_passed": true,
+    "native_word_files_verified": [
+      "系统说明书.docx",
+      "用户手册.docx",
+      "免Docker版安装与使用手册.docx",
+      "PRD研发需求文档.docx"
+    ],
+    "duration_seconds": 8.42,
+    "branch_alias_head_checks": [
+      {
+        "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/EPM-NoDocker-Windows-x64.zip",
+        "http_status": 200
+      },
+      {
+        "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/%E8%87%AA%E7%A0%94EPM%E5%8E%8B%E7%BC%A9%E6%96%87%E6%A1%A3.zip",
+        "http_status": 200
+      }
+    ]
+  },
   "public_base_full_download_and_assembly": {
     "started_at_utc": "2026-10-19T11:17:58.719697+00:00",
     "scope": "Linux production prepare_base, complete real pinned GitHub HTTPS parts and full disk assembly",
@@ -86,5 +111,7 @@
     "windows_real_machine_tested": false,
     "full_financial_numeric_acceptance_tested": false
   },
-  "original_master_expected": "5581c0997311578ac42c5a8c136fdad60e98efcc"
+  "original_master_expected": "5581c0997311578ac42c5a8c136fdad60e98efcc",
+  "original_master_actual": "5581c0997311578ac42c5a8c136fdad60e98efcc",
+  "master_unchanged": true
 }
