@@ -22,7 +22,7 @@
   ],
   "documents": {
     "免Docker版安装与使用手册": {
-      "docx_bytes": 49810,
+      "docx_bytes": 50810,
       "tables": 5,
       "native_text_and_tables": true,
       "embedded_images": 0,
@@ -32,10 +32,15 @@
       "not_a_time_guarantee": true,
       "first_empty_dimension_adaptation": "本次新增3维度配置，现有维度保留，不插财务数据",
       "interrupted_core_recovery": "只限有本机登记的未完成初建站，不重置已就绪业务库",
-      "no_overall_platform_pass_claim": true
+      "no_overall_platform_pass_claim": true,
+      "first_login_setup_wizard_documented": true,
+      "regional_defaults_not_group_policy": true,
+      "personal_user_epm_role_entity_grant_documented": true,
+      "actual_browser_entry": "/app（匿名跳转登录）",
+      "empty_close_not_exe_failure_documented": true
     },
     "系统说明书": {
-      "docx_bytes": 55056,
+      "docx_bytes": 55995,
       "tables": 10,
       "native_text_and_tables": true,
       "embedded_images": 0,
@@ -45,10 +50,15 @@
       "not_a_time_guarantee": true,
       "first_empty_dimension_adaptation": "本次新增3维度配置，现有维度保留，不插财务数据",
       "interrupted_core_recovery": "只限有本机登记的未完成初建站，不重置已就绪业务库",
-      "no_overall_platform_pass_claim": true
+      "no_overall_platform_pass_claim": true,
+      "first_login_setup_wizard_documented": true,
+      "regional_defaults_not_group_policy": true,
+      "personal_user_epm_role_entity_grant_documented": true,
+      "actual_browser_entry": "/app（匿名跳转登录）",
+      "empty_close_not_exe_failure_documented": true
     },
     "用户手册": {
-      "docx_bytes": 63337,
+      "docx_bytes": 64349,
       "tables": 12,
       "native_text_and_tables": true,
       "embedded_images": 0,
@@ -58,7 +68,12 @@
       "not_a_time_guarantee": true,
       "first_empty_dimension_adaptation": "本次新增3维度配置，现有维度保留，不插财务数据",
       "interrupted_core_recovery": "只限有本机登记的未完成初建站，不重置已就绪业务库",
-      "no_overall_platform_pass_claim": true
+      "no_overall_platform_pass_claim": true,
+      "first_login_setup_wizard_documented": true,
+      "regional_defaults_not_group_policy": true,
+      "personal_user_epm_role_entity_grant_documented": true,
+      "actual_browser_entry": "/app（匿名跳转登录）",
+      "empty_close_not_exe_failure_documented": true
     }
   },
   "source_business_baseline_files_written": false,
