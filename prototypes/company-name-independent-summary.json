@@ -1,0 +1,59 @@
+{
+  "schema_version": 2,
+  "company_name": "杭州天元宠物用品有限公司",
+  "transport": "Exact HTML read_text -> Playwright set_content; file:// and Windows not tested",
+  "browser_version": "154.0.8037.57",
+  "verified_file_sha256": {
+    "full": "b1f98b96ce7fb153c225337580ff04cbb9b71aeaed174464d29974d47d9dbb27",
+    "lean": "f8e40d418446565cd36b2fc4389d1bcc17a18be081660e9b8109567a837ec3cb"
+  },
+  "navigation_views_checked": 40,
+  "page_errors": 0,
+  "observed_external_requests": 0,
+  "remaining_known_findings": 0,
+  "groups_reconcile": true,
+  "currency_csv_correct": true,
+  "full_budget_and_closing_flow_passed": true,
+  "lean_budget_null_and_all_reserved_controls_disabled": true,
+  "unit": "万元人民币；美元展示按7.10换算为万美元",
+  "current_revision_evidence": {
+    "company_name_review": "company-name/company-name-review.json",
+    "company_name_review_sha256": "eb0fbf08fcb8d328960a5764e7c6aff792c47f679a4e40f1974d97fbd206c87c",
+    "source_change_binding": "company-name/source-change-binding.json",
+    "source_change_binding_sha256": "0380905f93c377f67549190d0df3f872a3ac56f5f1e1e5bb504dc40c87339802",
+    "original_browser_suite": "../browser-test-report.json",
+    "original_browser_suite_sha256": "8b32ba8c1edb8bd88f746f9fa8d9bc7906a5e84d2ed15016b32d4e70281a1d72",
+    "original_browser_checks_reexecuted": 81,
+    "focused_independent_navigation_views_reexecuted": 40,
+    "responsive_widths_tested": [
+      1366,
+      1024,
+      768,
+      390
+    ],
+    "variants_tested": 2,
+    "business_boundaries": "Organization root, settings input, subgroup return hint, exported CSV company scope, all four lean budget pages disabled with null budget, no old main-company name in visible views."
+  },
+  "historical_financial_independent_reviews": {
+    "reexecuted_this_revision": false,
+    "reports": [
+      "first-review.json",
+      "flow-review.json",
+      "scope-review.json",
+      "spread-review.json",
+      "adjustment-review.json",
+      "currency-review.json"
+    ],
+    "original_verified_html_sha256": {
+      "full": "10ba426c4b78b88f029b73fbb48b7638103317e1af143b3c2fb51f86738f3da4",
+      "lean": "1347979b42e5742e07bf9b126bf1b9b2864d86d4db2513eee239670205292788"
+    },
+    "scope": "The six deeper financial independent reviews belong to the previously accepted revision and are retained in the history snapshot. They are not claimed as rerun on these newly named HTML files. Current 81-case browser rerun includes financial ties, USD export, budget/closing workflows; this focused review separately checks branding and boundaries. Exact source binding confirms no financial code changed."
+  },
+  "evidence_files": [
+    "company-name/company-name-review.json",
+    "company-name/source-change-binding.json",
+    "../browser-test-report.json"
+  ],
+  "reviewed_at_utc": "2026-10-20T05:50:32.510728+00:00"
+}

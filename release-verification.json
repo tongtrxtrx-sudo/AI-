@@ -67,5 +67,29 @@
   "real_group_financial_acceptance_tested": false,
   "master_modified": false,
   "actual_public_download_verification": "verification/zh2/public-final-downloads.json",
-  "actual_public_downloads_all_passed": true
+  "actual_public_downloads_all_passed": true,
+  "prototype_company_name_update": {
+    "company_name": "杭州天元宠物用品有限公司",
+    "scope": "Both interactive prototypes and screenshots only; packaged software and Word unchanged",
+    "package_verification": "prototypes/rebuild-verification.json",
+    "browser_verification": "prototypes/company-name-review.json",
+    "prototype_packages": [
+      {
+        "filename": "EPM-Consolidation-Analysis-Prototype-CN.zip",
+        "sha256": "bb19ee9b0e247c05cc91ba8d00530b44b68cdc8638acf5de50e852bf9d3494a1",
+        "member_count": 28,
+        "company_name_in_entry": true,
+        "crc_and_each_member_sha256": true,
+        "independent_source_rebuild_identical": true
+      },
+      {
+        "filename": "EPM-Full-Prototype-CN.zip",
+        "sha256": "a964c3a07b07d61bffacb6687d55a2096f540a57f822a862fc801f0bf2a5e74d",
+        "member_count": 28,
+        "company_name_in_entry": true,
+        "crc_and_each_member_sha256": true,
+        "independent_source_rebuild_identical": true
+      }
+    ]
+  }
 }

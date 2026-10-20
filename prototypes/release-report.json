@@ -7,61 +7,91 @@
     {
       "filename": "EPM-Full-Prototype-CN.zip",
       "entry_html": "01_完整产品交互原型.html",
-      "html_sha256": "10ba426c4b78b88f029b73fbb48b7638103317e1af143b3c2fb51f86738f3da4",
-      "zip_bytes": 564433,
-      "zip_sha256": "0270f5b9a4ef7dd107a85fe5a1d8bde97fcf010901df9f7b4fdcc349fcb34de9",
+      "html_sha256": "b1f98b96ce7fb153c225337580ff04cbb9b71aeaed174464d29974d47d9dbb27",
+      "zip_bytes": 1359840,
+      "zip_sha256": "a964c3a07b07d61bffacb6687d55a2096f540a57f822a862fc801f0bf2a5e74d",
       "zip_crc_verified": true,
       "all_members_sha256_verified": true,
       "members": [
         {
           "name": "EPM-Full-Prototype-CN/01_完整产品交互原型.html",
-          "bytes": 106290,
-          "sha256": "10ba426c4b78b88f029b73fbb48b7638103317e1af143b3c2fb51f86738f3da4"
+          "bytes": 106502,
+          "sha256": "b1f98b96ce7fb153c225337580ff04cbb9b71aeaed174464d29974d47d9dbb27"
         },
         {
           "name": "EPM-Full-Prototype-CN/SHA256SUMS.txt",
-          "bytes": 1551,
-          "sha256": "6c405f2884ce657b62bc95726fb9d55e7eff995d638e49b01018ec2736fb94aa"
+          "bytes": 2911,
+          "sha256": "15ba256bed967ab39510e7b9f3edc446959e98399b2a6de93d76ae1c9acfb541"
         },
         {
           "name": "EPM-Full-Prototype-CN/源码/build_prototypes.py",
-          "bytes": 6820,
-          "sha256": "fa14e483c3bea142c68669b9f93d69c502e499a226b0a89c826dec7b3d1d634c"
+          "bytes": 6838,
+          "sha256": "2465aaa6b1857a8a4590e5234510aba4f516ec5fc039315dae953f8c6dc03f63"
         },
         {
           "name": "EPM-Full-Prototype-CN/源码/evidence/browser-test-report.json",
           "bytes": 9212,
-          "sha256": "4438b362d5970047b51ca04937216eebf8fcda7418fa9c31f3f3baa57950487f"
+          "sha256": "8b32ba8c1edb8bd88f746f9fa8d9bc7906a5e84d2ed15016b32d4e70281a1d72"
+        },
+        {
+          "name": "EPM-Full-Prototype-CN/源码/evidence/company-name-source-change.json",
+          "bytes": 1349,
+          "sha256": "1ba5b0f05bcb5321b99dd05b9da5386808b1b1f49345526a279044e1dfaa45ab"
         },
         {
           "name": "EPM-Full-Prototype-CN/源码/evidence/full-overview.png",
-          "bytes": 245036,
-          "sha256": "f66cdfd5554f819ca76290d3da719ea45923f3317a0c988e590a9816d9ba46fa"
+          "bytes": 247900,
+          "sha256": "3db18f201a7ffe4bc6f08ea11a18e87eb5f705e86c1f37d6166f0fb051e835d1"
+        },
+        {
+          "name": "EPM-Full-Prototype-CN/源码/evidence/independent/company-name/company-name-review.json",
+          "bytes": 12006,
+          "sha256": "eb0fbf08fcb8d328960a5764e7c6aff792c47f679a4e40f1974d97fbd206c87c"
+        },
+        {
+          "name": "EPM-Full-Prototype-CN/源码/evidence/independent/company-name/full-overview-1366.png",
+          "bytes": 234189,
+          "sha256": "23a319491b4acbb914949bff60071d248367c0c496b9df3a0a38538201d6ff08"
+        },
+        {
+          "name": "EPM-Full-Prototype-CN/源码/evidence/independent/company-name/full-overview-768.png",
+          "bytes": 169687,
+          "sha256": "6811041387da2bfd890921e117ce5349676e460721e6ca4bcc00edf70305f047"
+        },
+        {
+          "name": "EPM-Full-Prototype-CN/源码/evidence/independent/company-name/source-change-binding.json",
+          "bytes": 1518,
+          "sha256": "0380905f93c377f67549190d0df3f872a3ac56f5f1e1e5bb504dc40c87339802"
         },
         {
           "name": "EPM-Full-Prototype-CN/源码/evidence/independent/independent-final-summary.json",
-          "bytes": 863,
-          "sha256": "190b820e4d60f42a0d25567e517b942f7cbbfeb77f94a35c67d068448cda4cbb"
+          "bytes": 2875,
+          "sha256": "1f24dd61a515cfdc0b816bae5a60c02a5f70513efbd17b7b91721052182ec3a2"
         },
         {
           "name": "EPM-Full-Prototype-CN/源码/package_prototypes.py",
-          "bytes": 4586,
-          "sha256": "787b8ef7c6bf0b2e8b424bc52fa5a5e703b6974fc16305dd092460b9ee16f207"
+          "bytes": 5190,
+          "sha256": "c2e2f3d44719945eed0c4590f969d3392075b81a37cade64e31c5b0219cd9c83"
         },
         {
           "name": "EPM-Full-Prototype-CN/源码/src/app.js",
-          "bytes": 86912,
-          "sha256": "f83c28243e90ebb5991187bd5285784b790e0138c18da10a215a69264ed4b602"
+          "bytes": 86948,
+          "sha256": "a42d89aebcf295dabe6621132172829aa8ce2723781c7c858593cce0edf6f3b9"
         },
         {
           "name": "EPM-Full-Prototype-CN/源码/src/shell.html",
-          "bytes": 2213,
-          "sha256": "32befd42f0778f8af915435b96794741b22877c6bdfffe9af0066e2cb640f0c0"
+          "bytes": 2231,
+          "sha256": "548b36a186f4e32dd5bdf5ef965a4a17ff221d9914004e91349c51fdd9c9af01"
         },
         {
           "name": "EPM-Full-Prototype-CN/源码/src/style.css",
-          "bytes": 16409,
-          "sha256": "d31f241cece462ee0b46315f94b3da5d060a981c705c51984ca6a4924cbffe41"
+          "bytes": 16549,
+          "sha256": "2785e921f753f0bfb646ec9c244ee34611664343a75866375c89307c7b9f6b5b"
+        },
+        {
+          "name": "EPM-Full-Prototype-CN/源码/tests/company_name_review.py",
+          "bytes": 7696,
+          "sha256": "522aacacbe3c4b7dd578f102e98335e8b37c5fec05c4c91e34668056c5a74ebd"
         },
         {
           "name": "EPM-Full-Prototype-CN/源码/tests/test_browser.py",
@@ -70,8 +100,8 @@
         },
         {
           "name": "EPM-Full-Prototype-CN/源码/使用说明.md",
-          "bytes": 4229,
-          "sha256": "fff3aae851c0e86ec15dae7b7a58111b583a23e8e3ea3e92e841c11957e27372"
+          "bytes": 4321,
+          "sha256": "76566d2896949b07b9b933d0dad66aea4f2e9519c20a3496a45d214675da79bc"
         },
         {
           "name": "EPM-Full-Prototype-CN/源码/默认打包版本.txt",
@@ -80,23 +110,48 @@
         },
         {
           "name": "EPM-Full-Prototype-CN/请先阅读.md",
-          "bytes": 4461,
-          "sha256": "0eb3ce028922aa4aad1b7a0edc16afe862ce87a4ca61234f94f06178ba6c9e8a"
+          "bytes": 4553,
+          "sha256": "3e1456e2e28a2665dd8e5e1423e23bab9a0ebaf3fba2eca8009029b3765e6adf"
         },
         {
           "name": "EPM-Full-Prototype-CN/验证资料/browser-test-report.json",
           "bytes": 9212,
-          "sha256": "4438b362d5970047b51ca04937216eebf8fcda7418fa9c31f3f3baa57950487f"
+          "sha256": "8b32ba8c1edb8bd88f746f9fa8d9bc7906a5e84d2ed15016b32d4e70281a1d72"
         },
         {
           "name": "EPM-Full-Prototype-CN/验证资料/full-overview.png",
-          "bytes": 245036,
-          "sha256": "f66cdfd5554f819ca76290d3da719ea45923f3317a0c988e590a9816d9ba46fa"
+          "bytes": 247900,
+          "sha256": "3db18f201a7ffe4bc6f08ea11a18e87eb5f705e86c1f37d6166f0fb051e835d1"
         },
         {
           "name": "EPM-Full-Prototype-CN/验证资料/independent-final-summary.json",
-          "bytes": 863,
-          "sha256": "190b820e4d60f42a0d25567e517b942f7cbbfeb77f94a35c67d068448cda4cbb"
+          "bytes": 2875,
+          "sha256": "1f24dd61a515cfdc0b816bae5a60c02a5f70513efbd17b7b91721052182ec3a2"
+        },
+        {
+          "name": "EPM-Full-Prototype-CN/验证资料/公司名称更新/company-name-review.json",
+          "bytes": 12006,
+          "sha256": "eb0fbf08fcb8d328960a5764e7c6aff792c47f679a4e40f1974d97fbd206c87c"
+        },
+        {
+          "name": "EPM-Full-Prototype-CN/验证资料/公司名称更新/company-name-source-change.json",
+          "bytes": 1349,
+          "sha256": "1ba5b0f05bcb5321b99dd05b9da5386808b1b1f49345526a279044e1dfaa45ab"
+        },
+        {
+          "name": "EPM-Full-Prototype-CN/验证资料/公司名称更新/full-overview-1366.png",
+          "bytes": 234189,
+          "sha256": "23a319491b4acbb914949bff60071d248367c0c496b9df3a0a38538201d6ff08"
+        },
+        {
+          "name": "EPM-Full-Prototype-CN/验证资料/公司名称更新/full-overview-768.png",
+          "bytes": 169687,
+          "sha256": "6811041387da2bfd890921e117ce5349676e460721e6ca4bcc00edf70305f047"
+        },
+        {
+          "name": "EPM-Full-Prototype-CN/验证资料/公司名称更新/source-change-binding.json",
+          "bytes": 1518,
+          "sha256": "0380905f93c377f67549190d0df3f872a3ac56f5f1e1e5bb504dc40c87339802"
         }
       ],
       "variant": "full"
@@ -104,61 +159,91 @@
     {
       "filename": "EPM-Consolidation-Analysis-Prototype-CN.zip",
       "entry_html": "02_合并与经营分析交互原型.html",
-      "html_sha256": "1347979b42e5742e07bf9b126bf1b9b2864d86d4db2513eee239670205292788",
-      "zip_bytes": 566948,
-      "zip_sha256": "73dcec3aaf57b0ca520cc67ece65cffe4ce0933f6111ffcaaec1b4c7eb41d0b1",
+      "html_sha256": "f8e40d418446565cd36b2fc4389d1bcc17a18be081660e9b8109567a837ec3cb",
+      "zip_bytes": 1374805,
+      "zip_sha256": "bb19ee9b0e247c05cc91ba8d00530b44b68cdc8638acf5de50e852bf9d3494a1",
       "zip_crc_verified": true,
       "all_members_sha256_verified": true,
       "members": [
         {
           "name": "EPM-Consolidation-Analysis-Prototype-CN/02_合并与经营分析交互原型.html",
-          "bytes": 85954,
-          "sha256": "1347979b42e5742e07bf9b126bf1b9b2864d86d4db2513eee239670205292788"
+          "bytes": 86166,
+          "sha256": "f8e40d418446565cd36b2fc4389d1bcc17a18be081660e9b8109567a837ec3cb"
         },
         {
           "name": "EPM-Consolidation-Analysis-Prototype-CN/SHA256SUMS.txt",
-          "bytes": 1560,
-          "sha256": "3362e16b655a48e5479171180e8791366a6d845ac30343e3f337ff3b7401c4ff"
+          "bytes": 2920,
+          "sha256": "ac0f5875f6fc2f9048504f7382f386a00686888d99de8b3ffa76bc90ecd94f09"
         },
         {
           "name": "EPM-Consolidation-Analysis-Prototype-CN/源码/build_prototypes.py",
-          "bytes": 6820,
-          "sha256": "fa14e483c3bea142c68669b9f93d69c502e499a226b0a89c826dec7b3d1d634c"
+          "bytes": 6838,
+          "sha256": "2465aaa6b1857a8a4590e5234510aba4f516ec5fc039315dae953f8c6dc03f63"
         },
         {
           "name": "EPM-Consolidation-Analysis-Prototype-CN/源码/evidence/browser-test-report.json",
           "bytes": 9212,
-          "sha256": "4438b362d5970047b51ca04937216eebf8fcda7418fa9c31f3f3baa57950487f"
+          "sha256": "8b32ba8c1edb8bd88f746f9fa8d9bc7906a5e84d2ed15016b32d4e70281a1d72"
+        },
+        {
+          "name": "EPM-Consolidation-Analysis-Prototype-CN/源码/evidence/company-name-source-change.json",
+          "bytes": 1349,
+          "sha256": "1ba5b0f05bcb5321b99dd05b9da5386808b1b1f49345526a279044e1dfaa45ab"
+        },
+        {
+          "name": "EPM-Consolidation-Analysis-Prototype-CN/源码/evidence/independent/company-name/company-name-review.json",
+          "bytes": 12006,
+          "sha256": "eb0fbf08fcb8d328960a5764e7c6aff792c47f679a4e40f1974d97fbd206c87c"
+        },
+        {
+          "name": "EPM-Consolidation-Analysis-Prototype-CN/源码/evidence/independent/company-name/lean-overview-1366.png",
+          "bytes": 237788,
+          "sha256": "6855a0924e87ff1298d3a9a949725777f23a9986ff85fe964bb22674a6ae9c05"
+        },
+        {
+          "name": "EPM-Consolidation-Analysis-Prototype-CN/源码/evidence/independent/company-name/lean-overview-768.png",
+          "bytes": 171675,
+          "sha256": "858ff06c463ad5ad8b1e4df2d3c3f133ab78e037ec265090c503f852fafa6a71"
+        },
+        {
+          "name": "EPM-Consolidation-Analysis-Prototype-CN/源码/evidence/independent/company-name/source-change-binding.json",
+          "bytes": 1518,
+          "sha256": "0380905f93c377f67549190d0df3f872a3ac56f5f1e1e5bb504dc40c87339802"
         },
         {
           "name": "EPM-Consolidation-Analysis-Prototype-CN/源码/evidence/independent/independent-final-summary.json",
-          "bytes": 863,
-          "sha256": "190b820e4d60f42a0d25567e517b942f7cbbfeb77f94a35c67d068448cda4cbb"
+          "bytes": 2875,
+          "sha256": "1f24dd61a515cfdc0b816bae5a60c02a5f70513efbd17b7b91721052182ec3a2"
         },
         {
           "name": "EPM-Consolidation-Analysis-Prototype-CN/源码/evidence/lean-overview.png",
-          "bytes": 249350,
-          "sha256": "b17ed97185653ec8be85a74b13791a517885458f78356506130a72da0aabc5fc"
+          "bytes": 252064,
+          "sha256": "492de34ecd3cb50442bd41a3c7e904238ed05cf690f2e4bc94a050c3bae7dbf6"
         },
         {
           "name": "EPM-Consolidation-Analysis-Prototype-CN/源码/package_prototypes.py",
-          "bytes": 4586,
-          "sha256": "787b8ef7c6bf0b2e8b424bc52fa5a5e703b6974fc16305dd092460b9ee16f207"
+          "bytes": 5190,
+          "sha256": "c2e2f3d44719945eed0c4590f969d3392075b81a37cade64e31c5b0219cd9c83"
         },
         {
           "name": "EPM-Consolidation-Analysis-Prototype-CN/源码/src/app.js",
-          "bytes": 86912,
-          "sha256": "f83c28243e90ebb5991187bd5285784b790e0138c18da10a215a69264ed4b602"
+          "bytes": 86948,
+          "sha256": "a42d89aebcf295dabe6621132172829aa8ce2723781c7c858593cce0edf6f3b9"
         },
         {
           "name": "EPM-Consolidation-Analysis-Prototype-CN/源码/src/shell.html",
-          "bytes": 2213,
-          "sha256": "32befd42f0778f8af915435b96794741b22877c6bdfffe9af0066e2cb640f0c0"
+          "bytes": 2231,
+          "sha256": "548b36a186f4e32dd5bdf5ef965a4a17ff221d9914004e91349c51fdd9c9af01"
         },
         {
           "name": "EPM-Consolidation-Analysis-Prototype-CN/源码/src/style.css",
-          "bytes": 16409,
-          "sha256": "d31f241cece462ee0b46315f94b3da5d060a981c705c51984ca6a4924cbffe41"
+          "bytes": 16549,
+          "sha256": "2785e921f753f0bfb646ec9c244ee34611664343a75866375c89307c7b9f6b5b"
+        },
+        {
+          "name": "EPM-Consolidation-Analysis-Prototype-CN/源码/tests/company_name_review.py",
+          "bytes": 7696,
+          "sha256": "522aacacbe3c4b7dd578f102e98335e8b37c5fec05c4c91e34668056c5a74ebd"
         },
         {
           "name": "EPM-Consolidation-Analysis-Prototype-CN/源码/tests/test_browser.py",
@@ -167,8 +252,8 @@
         },
         {
           "name": "EPM-Consolidation-Analysis-Prototype-CN/源码/使用说明.md",
-          "bytes": 4229,
-          "sha256": "fff3aae851c0e86ec15dae7b7a58111b583a23e8e3ea3e92e841c11957e27372"
+          "bytes": 4321,
+          "sha256": "76566d2896949b07b9b933d0dad66aea4f2e9519c20a3496a45d214675da79bc"
         },
         {
           "name": "EPM-Consolidation-Analysis-Prototype-CN/源码/默认打包版本.txt",
@@ -177,23 +262,48 @@
         },
         {
           "name": "EPM-Consolidation-Analysis-Prototype-CN/请先阅读.md",
-          "bytes": 4506,
-          "sha256": "3527ec93b2fa3fb427975c37fcae8957de95ce593cd431ad0000db1b757e99c2"
+          "bytes": 4598,
+          "sha256": "5a68ef6c1745e4a941e5987872979f00481f62d430f27829d0dbc842cfe65bbb"
         },
         {
           "name": "EPM-Consolidation-Analysis-Prototype-CN/验证资料/browser-test-report.json",
           "bytes": 9212,
-          "sha256": "4438b362d5970047b51ca04937216eebf8fcda7418fa9c31f3f3baa57950487f"
+          "sha256": "8b32ba8c1edb8bd88f746f9fa8d9bc7906a5e84d2ed15016b32d4e70281a1d72"
         },
         {
           "name": "EPM-Consolidation-Analysis-Prototype-CN/验证资料/independent-final-summary.json",
-          "bytes": 863,
-          "sha256": "190b820e4d60f42a0d25567e517b942f7cbbfeb77f94a35c67d068448cda4cbb"
+          "bytes": 2875,
+          "sha256": "1f24dd61a515cfdc0b816bae5a60c02a5f70513efbd17b7b91721052182ec3a2"
         },
         {
           "name": "EPM-Consolidation-Analysis-Prototype-CN/验证资料/lean-overview.png",
-          "bytes": 249350,
-          "sha256": "b17ed97185653ec8be85a74b13791a517885458f78356506130a72da0aabc5fc"
+          "bytes": 252064,
+          "sha256": "492de34ecd3cb50442bd41a3c7e904238ed05cf690f2e4bc94a050c3bae7dbf6"
+        },
+        {
+          "name": "EPM-Consolidation-Analysis-Prototype-CN/验证资料/公司名称更新/company-name-review.json",
+          "bytes": 12006,
+          "sha256": "eb0fbf08fcb8d328960a5764e7c6aff792c47f679a4e40f1974d97fbd206c87c"
+        },
+        {
+          "name": "EPM-Consolidation-Analysis-Prototype-CN/验证资料/公司名称更新/company-name-source-change.json",
+          "bytes": 1349,
+          "sha256": "1ba5b0f05bcb5321b99dd05b9da5386808b1b1f49345526a279044e1dfaa45ab"
+        },
+        {
+          "name": "EPM-Consolidation-Analysis-Prototype-CN/验证资料/公司名称更新/lean-overview-1366.png",
+          "bytes": 237788,
+          "sha256": "6855a0924e87ff1298d3a9a949725777f23a9986ff85fe964bb22674a6ae9c05"
+        },
+        {
+          "name": "EPM-Consolidation-Analysis-Prototype-CN/验证资料/公司名称更新/lean-overview-768.png",
+          "bytes": 171675,
+          "sha256": "858ff06c463ad5ad8b1e4df2d3c3f133ab78e037ec265090c503f852fafa6a71"
+        },
+        {
+          "name": "EPM-Consolidation-Analysis-Prototype-CN/验证资料/公司名称更新/source-change-binding.json",
+          "bytes": 1518,
+          "sha256": "0380905f93c377f67549190d0df3f872a3ac56f5f1e1e5bb504dc40c87339802"
         }
       ],
       "variant": "lean"

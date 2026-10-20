@@ -24,8 +24,10 @@ Windows 10/11 64位。完整解压后双击 SelfDevelopedEPM 文件夹里的“�
 
 ## 两套离线中文交互原型
 
-- [完整产品原型：集团合并＋全面预算＋经营分析](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/a4b2b46120a20d0102abfba5f84e86f8aee9ecf9/EPM-Full-Prototype-CN.zip)
-- [合并与经营分析原型：预算仅保留静态界面](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/a4b2b46120a20d0102abfba5f84e86f8aee9ecf9/EPM-Consolidation-Analysis-Prototype-CN.zip)
+两套原型的公司展示名称均已更新为“杭州天元宠物用品有限公司”。各页面、组织根、系统配置、导出范围及随包截图同步更新，金额等内容仍为演示数据。
+
+- [完整产品原型：集团合并＋全面预算＋经营分析](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/EPM-Full-Prototype-CN.zip)
+- [合并与经营分析原型：预算仅保留静态界面](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/EPM-Consolidation-Analysis-Prototype-CN.zip)
 
 每个ZIP解压后双击其中对应的HTML。全部样式、脚本及图形内嵌，不需要Python、Docker或CDN。永久显示“交互原型·演示数据”，使用合成数据，不连接运行平台账套，刷新重置。完整版含预算编制、分摊、送审、审批、锁定及版本操作；精简版预算四页仅静态预留，操作禁用。
 

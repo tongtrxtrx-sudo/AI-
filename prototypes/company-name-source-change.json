@@ -1,0 +1,29 @@
+{
+  "company_name": "杭州天元宠物用品有限公司",
+  "scope": "Four primary company display literals plus header width/wrapping; financial data and code unchanged",
+  "original_version_preserved": "/workspace/epm-prototypes-history/20261020-before-company-rename",
+  "changes": [
+    {
+      "file": "build_prototypes.py",
+      "exact_name_replacements": 1,
+      "before_sha256": "fa14e483c3bea142c68669b9f93d69c502e499a226b0a89c826dec7b3d1d634c",
+      "after_sha256": "2465aaa6b1857a8a4590e5234510aba4f516ec5fc039315dae953f8c6dc03f63"
+    },
+    {
+      "file": "src/shell.html",
+      "exact_name_replacements": 1,
+      "before_sha256": "32befd42f0778f8af915435b96794741b22877c6bdfffe9af0066e2cb640f0c0",
+      "after_sha256": "548b36a186f4e32dd5bdf5ef965a4a17ff221d9914004e91349c51fdd9c9af01"
+    },
+    {
+      "file": "src/app.js",
+      "exact_name_replacements": 2,
+      "before_sha256": "f83c28243e90ebb5991187bd5285784b790e0138c18da10a215a69264ed4b602",
+      "after_sha256": "a42d89aebcf295dabe6621132172829aa8ce2723781c7c858593cce0edf6f3b9"
+    }
+  ],
+  "financial_business_data_changed": false,
+  "business_javascript_exact_bytes_unchanged_except_two_company_display_literals": true,
+  "baseline_public_commit": "a4b2b46120a20d0102abfba5f84e86f8aee9ecf9",
+  "css_only_adds_company_select_width_and_header_wrapping": true
+}

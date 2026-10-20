@@ -1,0 +1,413 @@
+{
+  "scope": "Company-name update only: two exact generated HTML files, forty navigation views, responsive selected name, organization/settings/subgroup/CSV and lean reserved budget boundaries",
+  "transport": "Exact HTML read_text -> Playwright set_content; file:// and Windows not tested",
+  "started_at_utc": "2026-10-20T05:49:09.078926+00:00",
+  "variants": [
+    {
+      "variant": "full",
+      "entry_html": "01_完整产品交互原型.html",
+      "html_sha256": "b1f98b96ce7fb153c225337580ff04cbb9b71aeaed174464d29974d47d9dbb27",
+      "navigation": [
+        {
+          "route": "overview",
+          "h1": "集团经营总览",
+          "old_name_absent": true,
+          "demo_visible": true
+        },
+        {
+          "route": "org",
+          "h1": "集团组织与持股",
+          "old_name_absent": true,
+          "demo_visible": true
+        },
+        {
+          "route": "master",
+          "h1": "科目与管理维度",
+          "old_name_absent": true,
+          "demo_visible": true
+        },
+        {
+          "route": "sources",
+          "h1": "数据接入",
+          "old_name_absent": true,
+          "demo_visible": true
+        },
+        {
+          "route": "submissions",
+          "h1": "试算平衡报送",
+          "old_name_absent": true,
+          "demo_visible": true
+        },
+        {
+          "route": "rates",
+          "h1": "集团汇率",
+          "old_name_absent": true,
+          "demo_visible": true
+        },
+        {
+          "route": "ownership",
+          "h1": "持股与企业合并",
+          "old_name_absent": true,
+          "demo_visible": true
+        },
+        {
+          "route": "intercompany",
+          "h1": "内部往来核对",
+          "old_name_absent": true,
+          "demo_visible": true
+        },
+        {
+          "route": "journals",
+          "h1": "抵销与合并调整凭证",
+          "old_name_absent": true,
+          "demo_visible": true
+        },
+        {
+          "route": "closing",
+          "h1": "关账校验与签核",
+          "old_name_absent": true,
+          "demo_visible": true
+        },
+        {
+          "route": "statements",
+          "h1": "集团三张报表",
+          "old_name_absent": true,
+          "demo_visible": true
+        },
+        {
+          "route": "budget-cycle",
+          "h1": "预算周期与审批",
+          "old_name_absent": true,
+          "demo_visible": true
+        },
+        {
+          "route": "budget-sheet",
+          "h1": "预算编制与分摊",
+          "old_name_absent": true,
+          "demo_visible": true
+        },
+        {
+          "route": "budget-adjust",
+          "h1": "预算调整与滚动预测",
+          "old_name_absent": true,
+          "demo_visible": true
+        },
+        {
+          "route": "budget-version",
+          "h1": "版本与多情景",
+          "old_name_absent": true,
+          "demo_visible": true
+        },
+        {
+          "route": "analysis",
+          "h1": "经营差异与钻取",
+          "old_name_absent": true,
+          "demo_visible": true
+        },
+        {
+          "route": "reports",
+          "h1": "管理报表中心",
+          "old_name_absent": true,
+          "demo_visible": true
+        },
+        {
+          "route": "permissions",
+          "h1": "组织权限与角色",
+          "old_name_absent": true,
+          "demo_visible": true
+        },
+        {
+          "route": "audit",
+          "h1": "审计轨迹",
+          "old_name_absent": true,
+          "demo_visible": true
+        },
+        {
+          "route": "settings",
+          "h1": "系统配置",
+          "old_name_absent": true,
+          "demo_visible": true
+        }
+      ],
+      "layout": [
+        {
+          "selected": "杭州天元宠物用品有限公司",
+          "x": 268,
+          "right": 488,
+          "width": 1366,
+          "topbar_left": 236,
+          "topbar_right": 1366,
+          "text_width": 144.0010986328125,
+          "available_text_width": 182,
+          "document_scroll_width": 1366,
+          "viewport_width": 1366,
+          "name_fully_fits": true,
+          "in_topbar": true,
+          "no_page_horizontal_overflow": true
+        },
+        {
+          "selected": "杭州天元宠物用品有限公司",
+          "x": 225,
+          "right": 445,
+          "width": 1024,
+          "topbar_left": 205,
+          "topbar_right": 1024,
+          "text_width": 144.0010986328125,
+          "available_text_width": 182,
+          "document_scroll_width": 1024,
+          "viewport_width": 1024,
+          "name_fully_fits": true,
+          "in_topbar": true,
+          "no_page_horizontal_overflow": true
+        },
+        {
+          "selected": "杭州天元宠物用品有限公司",
+          "x": 79,
+          "right": 299,
+          "width": 768,
+          "topbar_left": 65,
+          "topbar_right": 768,
+          "text_width": 119.99981689453125,
+          "available_text_width": 182,
+          "document_scroll_width": 768,
+          "viewport_width": 768,
+          "name_fully_fits": true,
+          "in_topbar": true,
+          "no_page_horizontal_overflow": true
+        },
+        {
+          "selected": "杭州天元宠物用品有限公司",
+          "x": 79,
+          "right": 299,
+          "width": 390,
+          "topbar_left": 65,
+          "topbar_right": 390,
+          "text_width": 119.99981689453125,
+          "available_text_width": 182,
+          "document_scroll_width": 390,
+          "viewport_width": 390,
+          "name_fully_fits": true,
+          "in_topbar": true,
+          "no_page_horizontal_overflow": true
+        }
+      ],
+      "organization_root": true,
+      "settings_company": "杭州天元宠物用品有限公司",
+      "subgroup_return_hint": true,
+      "csv_scope_company": true,
+      "lean_budget_null": null,
+      "page_errors": [],
+      "external_requests": []
+    },
+    {
+      "variant": "lean",
+      "entry_html": "02_合并与经营分析交互原型.html",
+      "html_sha256": "f8e40d418446565cd36b2fc4389d1bcc17a18be081660e9b8109567a837ec3cb",
+      "navigation": [
+        {
+          "route": "overview",
+          "h1": "集团经营总览",
+          "old_name_absent": true,
+          "demo_visible": true
+        },
+        {
+          "route": "org",
+          "h1": "集团组织与持股",
+          "old_name_absent": true,
+          "demo_visible": true
+        },
+        {
+          "route": "master",
+          "h1": "科目与管理维度",
+          "old_name_absent": true,
+          "demo_visible": true
+        },
+        {
+          "route": "sources",
+          "h1": "数据接入",
+          "old_name_absent": true,
+          "demo_visible": true
+        },
+        {
+          "route": "submissions",
+          "h1": "试算平衡报送",
+          "old_name_absent": true,
+          "demo_visible": true
+        },
+        {
+          "route": "rates",
+          "h1": "集团汇率",
+          "old_name_absent": true,
+          "demo_visible": true
+        },
+        {
+          "route": "ownership",
+          "h1": "持股与企业合并",
+          "old_name_absent": true,
+          "demo_visible": true
+        },
+        {
+          "route": "intercompany",
+          "h1": "内部往来核对",
+          "old_name_absent": true,
+          "demo_visible": true
+        },
+        {
+          "route": "journals",
+          "h1": "抵销与合并调整凭证",
+          "old_name_absent": true,
+          "demo_visible": true
+        },
+        {
+          "route": "closing",
+          "h1": "关账校验与签核",
+          "old_name_absent": true,
+          "demo_visible": true
+        },
+        {
+          "route": "statements",
+          "h1": "集团三张报表",
+          "old_name_absent": true,
+          "demo_visible": true
+        },
+        {
+          "route": "budget-cycle",
+          "h1": "预算周期与审批",
+          "old_name_absent": true,
+          "demo_visible": true
+        },
+        {
+          "route": "budget-sheet",
+          "h1": "预算编制与分摊",
+          "old_name_absent": true,
+          "demo_visible": true
+        },
+        {
+          "route": "budget-adjust",
+          "h1": "预算调整与滚动预测",
+          "old_name_absent": true,
+          "demo_visible": true
+        },
+        {
+          "route": "budget-version",
+          "h1": "版本与多情景",
+          "old_name_absent": true,
+          "demo_visible": true
+        },
+        {
+          "route": "analysis",
+          "h1": "经营差异与钻取",
+          "old_name_absent": true,
+          "demo_visible": true
+        },
+        {
+          "route": "reports",
+          "h1": "管理报表中心",
+          "old_name_absent": true,
+          "demo_visible": true
+        },
+        {
+          "route": "permissions",
+          "h1": "组织权限与角色",
+          "old_name_absent": true,
+          "demo_visible": true
+        },
+        {
+          "route": "audit",
+          "h1": "审计轨迹",
+          "old_name_absent": true,
+          "demo_visible": true
+        },
+        {
+          "route": "settings",
+          "h1": "系统配置",
+          "old_name_absent": true,
+          "demo_visible": true
+        }
+      ],
+      "layout": [
+        {
+          "selected": "杭州天元宠物用品有限公司",
+          "x": 268,
+          "right": 488,
+          "width": 1366,
+          "topbar_left": 236,
+          "topbar_right": 1366,
+          "text_width": 144.0010986328125,
+          "available_text_width": 182,
+          "document_scroll_width": 1366,
+          "viewport_width": 1366,
+          "name_fully_fits": true,
+          "in_topbar": true,
+          "no_page_horizontal_overflow": true
+        },
+        {
+          "selected": "杭州天元宠物用品有限公司",
+          "x": 225,
+          "right": 445,
+          "width": 1024,
+          "topbar_left": 205,
+          "topbar_right": 1024,
+          "text_width": 144.0010986328125,
+          "available_text_width": 182,
+          "document_scroll_width": 1024,
+          "viewport_width": 1024,
+          "name_fully_fits": true,
+          "in_topbar": true,
+          "no_page_horizontal_overflow": true
+        },
+        {
+          "selected": "杭州天元宠物用品有限公司",
+          "x": 79,
+          "right": 299,
+          "width": 768,
+          "topbar_left": 65,
+          "topbar_right": 768,
+          "text_width": 119.99981689453125,
+          "available_text_width": 182,
+          "document_scroll_width": 768,
+          "viewport_width": 768,
+          "name_fully_fits": true,
+          "in_topbar": true,
+          "no_page_horizontal_overflow": true
+        },
+        {
+          "selected": "杭州天元宠物用品有限公司",
+          "x": 79,
+          "right": 299,
+          "width": 390,
+          "topbar_left": 65,
+          "topbar_right": 390,
+          "text_width": 119.99981689453125,
+          "available_text_width": 182,
+          "document_scroll_width": 390,
+          "viewport_width": 390,
+          "name_fully_fits": true,
+          "in_topbar": true,
+          "no_page_horizontal_overflow": true
+        }
+      ],
+      "organization_root": true,
+      "settings_company": "杭州天元宠物用品有限公司",
+      "subgroup_return_hint": true,
+      "csv_scope_company": true,
+      "lean_budget_null": true,
+      "page_errors": [],
+      "external_requests": []
+    }
+  ],
+  "findings": [],
+  "browser_version": "154.0.8037.57",
+  "passed": true,
+  "navigation_views_checked": 40,
+  "finished_at_utc": "2026-10-20T05:49:14.157999+00:00",
+  "selected_screenshot_visual_review": {
+    "passed": true,
+    "reviewed": [
+      "full-overview-1366.png",
+      "full-overview-390.png",
+      "lean-settings.png"
+    ],
+    "finding": "Exact requested full company name is visible without clipping; narrow layout wraps contexts; settings value and demonstration marker visible."
+  }
+}

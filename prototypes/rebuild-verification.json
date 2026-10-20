@@ -1,14 +1,22 @@
-[
-  {
-    "filename": "EPM-Full-Prototype-CN.zip",
-    "source_build_exit": 0,
-    "source_package_exit": 0,
-    "rebuilt_zip_identical_sha256": true
-  },
-  {
-    "filename": "EPM-Consolidation-Analysis-Prototype-CN.zip",
-    "source_build_exit": 0,
-    "source_package_exit": 0,
-    "rebuilt_zip_identical_sha256": true
-  }
-]
+{
+  "passed": true,
+  "company_name": "杭州天元宠物用品有限公司",
+  "files": [
+    {
+      "filename": "EPM-Consolidation-Analysis-Prototype-CN.zip",
+      "sha256": "bb19ee9b0e247c05cc91ba8d00530b44b68cdc8638acf5de50e852bf9d3494a1",
+      "member_count": 28,
+      "company_name_in_entry": true,
+      "crc_and_each_member_sha256": true,
+      "independent_source_rebuild_identical": true
+    },
+    {
+      "filename": "EPM-Full-Prototype-CN.zip",
+      "sha256": "a964c3a07b07d61bffacb6687d55a2096f540a57f822a862fc801f0bf2a5e74d",
+      "member_count": 28,
+      "company_name_in_entry": true,
+      "crc_and_each_member_sha256": true,
+      "independent_source_rebuild_identical": true
+    }
+  ]
+}
