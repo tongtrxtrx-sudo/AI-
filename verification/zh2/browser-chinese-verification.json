@@ -1,0 +1,323 @@
+{
+  "scope": "Linux Chromium real HTTP/DOM against an isolated running Chinese guest",
+  "started_at_utc": "2026-10-20T04:47:25.652438+00:00",
+  "windows_real_machine_tested": false,
+  "financial_numbers_acceptance_tested": false,
+  "checks": {
+    "strict_chinese_health": true,
+    "login_chinese_with_english_accept_language": true,
+    "interactive_admin_login": true,
+    "desk_boot_language_zh": true,
+    "official_browser_translation_samples": true,
+    "workspace_chinese_display": true,
+    "actual_deployed_close_manifest_matches_frozen_bundle": true,
+    "manual_eleven_screen_business_text_review": true,
+    "four_unsaved_chinese_forms": true,
+    "eleven_close_routes_chinese": true,
+    "no_known_untranslated_close_system_captions": true,
+    "no_javascript_exceptions": true,
+    "no_missing_local_assets": true
+  },
+  "forms": [
+    {
+      "doctype": "Entity",
+      "chinese_label": "法人",
+      "label_visible": true,
+      "actual_field_labels": [
+        {
+          "fieldname": "entity_code",
+          "source_label": "Entity Code",
+          "translated_label": "法人编码",
+          "visible_label": "法人编码",
+          "chinese_visible": true
+        },
+        {
+          "fieldname": "entity_name",
+          "source_label": "Entity Name",
+          "translated_label": "法人名称",
+          "visible_label": "法人名称",
+          "chinese_visible": true
+        }
+      ],
+      "actual_field_labels_chinese": true,
+      "unsaved_only": true
+    },
+    {
+      "doctype": "Consolidation Group",
+      "chinese_label": "合并集团",
+      "label_visible": true,
+      "actual_field_labels": [
+        {
+          "fieldname": "consolidation_group",
+          "source_label": "Consolidation Group",
+          "translated_label": "合并集团",
+          "visible_label": "合并集团",
+          "chinese_visible": true
+        },
+        {
+          "fieldname": "parent_consolidation_group",
+          "source_label": "Parent Consolidation Group",
+          "translated_label": "上级合并集团",
+          "visible_label": "上级合并集团",
+          "chinese_visible": true
+        }
+      ],
+      "actual_field_labels_chinese": true,
+      "unsaved_only": true
+    },
+    {
+      "doctype": "Budget Cycle",
+      "chinese_label": "预算周期",
+      "label_visible": true,
+      "actual_field_labels": [
+        {
+          "fieldname": "scenario_id",
+          "source_label": "Scenario",
+          "translated_label": "情景",
+          "visible_label": "情景",
+          "chinese_visible": true
+        },
+        {
+          "fieldname": "fiscal_year",
+          "source_label": "Fiscal Year",
+          "translated_label": "会计年度",
+          "visible_label": "会计年度",
+          "chinese_visible": true
+        }
+      ],
+      "actual_field_labels_chinese": true,
+      "unsaved_only": true
+    },
+    {
+      "doctype": "Main Account",
+      "chinese_label": "主科目",
+      "label_visible": true,
+      "actual_field_labels": [
+        {
+          "fieldname": "main_account",
+          "source_label": "Account Code",
+          "translated_label": "科目编码",
+          "visible_label": "科目编码",
+          "chinese_visible": true
+        },
+        {
+          "fieldname": "account_name",
+          "source_label": "Account Name",
+          "translated_label": "科目名称",
+          "visible_label": "科目名称",
+          "chinese_visible": true
+        }
+      ],
+      "actual_field_labels_chinese": true,
+      "unsaved_only": true
+    }
+  ],
+  "close_pages": [
+    {
+      "path": "/close/2026/9/my-work",
+      "http": 200,
+      "route_reached": true,
+      "screen_h1": [
+        "我的工作"
+      ],
+      "latin_lines_for_manual_review": [
+        "Administrator",
+        "请由关账负责人或系统管理员在关账设置中设置汇率变动阈值：集团汇率相对上次已批准汇率或ERP报价的变动超过该阈值时，必须填写变更原因。",
+        "epm-zh-test@example.invalid"
+      ],
+      "chinese_label_visible": true,
+      "expected_screen_api": "/api/method/konsol.close.mywork_api.get_my_work",
+      "screen_api_http": 200,
+      "screen_loading_finished": true,
+      "known_untranslated_system_captions": [],
+      "chinese_characters": 989
+    },
+    {
+      "path": "/close/2026/9/approvals",
+      "http": 200,
+      "route_reached": true,
+      "screen_h1": [
+        "审批"
+      ],
+      "latin_lines_for_manual_review": [
+        "Administrator"
+      ],
+      "chinese_label_visible": true,
+      "expected_screen_api": "/api/method/konsol.close.approvals_api.get_queue",
+      "screen_api_http": 200,
+      "screen_loading_finished": true,
+      "known_untranslated_system_captions": [],
+      "chinese_characters": 333
+    },
+    {
+      "path": "/close/2026/9/period",
+      "http": 200,
+      "route_reached": true,
+      "screen_h1": [
+        "会计期间 2026财年第09期"
+      ],
+      "latin_lines_for_manual_review": [
+        "Administrator",
+        "已设置关账政策：请由关账负责人或系统管理员在关账设置中设置自行审批政策：禁止，或说明理由后允许。请由关账负责人或系统管理员在关账设置中设置汇率变动阈值：集团汇率相对上次已批准汇率或ERP报价的变动超过该阈值时，必须填写变更原因。"
+      ],
+      "chinese_label_visible": true,
+      "expected_screen_api": "/api/method/konsol.close.grid_api.get_period_grid",
+      "screen_api_http": 200,
+      "screen_loading_finished": true,
+      "known_untranslated_system_captions": [],
+      "chinese_characters": 766
+    },
+    {
+      "path": "/close/2026/9/trial-balances",
+      "http": 200,
+      "route_reached": true,
+      "screen_h1": [
+        "试算平衡表"
+      ],
+      "latin_lines_for_manual_review": [
+        "Administrator"
+      ],
+      "chinese_label_visible": true,
+      "expected_screen_api": "/api/method/konsol.close.tb_read_api.my_tbs",
+      "screen_api_http": 200,
+      "screen_loading_finished": true,
+      "known_untranslated_system_captions": [],
+      "chinese_characters": 383
+    },
+    {
+      "path": "/close/2026/9/intercompany",
+      "http": 200,
+      "route_reached": true,
+      "screen_h1": [
+        "集团内部交易"
+      ],
+      "latin_lines_for_manual_review": [
+        "Administrator"
+      ],
+      "chinese_label_visible": true,
+      "expected_screen_api": "/api/method/konsol.close.ic_api.get_ic",
+      "screen_api_http": 200,
+      "screen_loading_finished": true,
+      "known_untranslated_system_captions": [],
+      "chinese_characters": 540
+    },
+    {
+      "path": "/close/2026/9/rates",
+      "http": 200,
+      "route_reached": true,
+      "screen_h1": [
+        "汇率与持股关系"
+      ],
+      "latin_lines_for_manual_review": [
+        "Administrator",
+        "请由关账负责人或系统管理员在关账设置中设置汇率变动阈值：集团汇率相对上次已批准汇率或ERP报价的变动超过该阈值时，必须填写变更原因。"
+      ],
+      "chinese_label_visible": true,
+      "expected_screen_api": "/api/method/konsol.close.rates_api.get_rates",
+      "screen_api_http": 200,
+      "screen_loading_finished": true,
+      "known_untranslated_system_captions": [],
+      "chinese_characters": 451
+    },
+    {
+      "path": "/close/2026/9/adjustments",
+      "http": 200,
+      "route_reached": true,
+      "screen_h1": [
+        "合并调整分录"
+      ],
+      "latin_lines_for_manual_review": [
+        "Administrator"
+      ],
+      "chinese_label_visible": true,
+      "expected_screen_api": "/api/method/konsol.close.journal_api.get_journals",
+      "screen_api_http": 200,
+      "screen_loading_finished": true,
+      "known_untranslated_system_captions": [],
+      "chinese_characters": 322
+    },
+    {
+      "path": "/close/2026/9/checks",
+      "http": 200,
+      "route_reached": true,
+      "screen_h1": [
+        "关账校验"
+      ],
+      "latin_lines_for_manual_review": [
+        "Administrator"
+      ],
+      "chinese_label_visible": true,
+      "expected_screen_api": "/api/method/konsol.close.checks_api.get_checks",
+      "screen_api_http": 200,
+      "screen_loading_finished": true,
+      "known_untranslated_system_captions": [],
+      "chinese_characters": 324
+    },
+    {
+      "path": "/close/2026/9/numbers",
+      "http": 200,
+      "route_reached": true,
+      "screen_h1": [
+        "合并报表 · 2026财年第09期"
+      ],
+      "latin_lines_for_manual_review": [
+        "Administrator"
+      ],
+      "chinese_label_visible": true,
+      "expected_screen_api": "/api/method/konsol.close.statement_api.get_statement",
+      "screen_api_http": 200,
+      "screen_loading_finished": true,
+      "known_untranslated_system_captions": [],
+      "chinese_characters": 471
+    },
+    {
+      "path": "/close/2026/9/sign-off",
+      "http": 200,
+      "route_reached": true,
+      "screen_h1": [
+        "签核"
+      ],
+      "latin_lines_for_manual_review": [
+        "Administrator",
+        "请由关账负责人或系统管理员在关账设置中设置汇率变动阈值：集团汇率相对上次已批准汇率或ERP报价的变动超过该阈值时，必须填写变更原因。"
+      ],
+      "chinese_label_visible": true,
+      "expected_screen_api": "/api/method/konsol.close.signoff_api.get_signoff",
+      "screen_api_http": 200,
+      "screen_loading_finished": true,
+      "known_untranslated_system_captions": [],
+      "chinese_characters": 761
+    },
+    {
+      "path": "/close/2026/9/audit-trail",
+      "http": 200,
+      "route_reached": true,
+      "screen_h1": [
+        "审计轨迹 · 2026财年第09期"
+      ],
+      "latin_lines_for_manual_review": [
+        "Administrator"
+      ],
+      "chinese_label_visible": true,
+      "expected_screen_api": "/api/method/konsol.close.trail_api.get_trail",
+      "screen_api_http": 200,
+      "screen_loading_finished": true,
+      "known_untranslated_system_captions": [],
+      "chinese_characters": 347
+    }
+  ],
+  "localization_version": "20261020-zh2",
+  "close_manifest_sha256": "cafb9ec9477f131609ef7e55eaf2e4dc61002c7ba4dfa5fb3f3202a58be17453",
+  "automated_checks_passed": true,
+  "passed": true,
+  "javascript_error_types": [],
+  "failed_assets": [],
+  "unsaved_navigation_dialogs": [],
+  "finished_at_utc": "2026-10-20T04:50:46.992335+00:00",
+  "manual_review_evidence": {
+    "file": "independent-review/deployed-zh2-eleven-screen-manual-review.json",
+    "sha256": "be9ff0ce991b148d71538da8f7e9f6c729c2f9be986c9f2686ddec61452824ba",
+    "reviewed_automated_report_sha256": "fc10af192e6f840eb78d28688b15efdad64e0dd90712c257240810a0b47425f2",
+    "scope": "Independent review of final actual deployed eleven screenshots and full visible text; original report snapshot retained with review."
+  }
+}

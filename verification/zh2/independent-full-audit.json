@@ -1,0 +1,33 @@
+{
+  "scope": "Independent final full ZIP comparison against pinned original and exact verified update; actual archive bytes, no new Windows-runtime acceptance claim",
+  "archive": "EPM-NoDocker-Windows-x64.zip",
+  "bytes": 104118000,
+  "sha256": "bfeba2a328aebae964ef855663065a987fd16934b9500f5d21ebd1b69996842c",
+  "member_count": 3159,
+  "every_member_crc_size_sha_verified": true,
+  "exact_full_member_set_matches_original_plus_verified_runtime_patch": true,
+  "unchanged_original_members_verified": 3142,
+  "original_source_files_byte_identical": 1515,
+  "native_exe_byte_identical": true,
+  "native_exe_sha256": "550d52485493005800f0d2289b7c20b9791565893573cf5d29426f0c9a12e5f1",
+  "windows_python_members_byte_identical": 1322,
+  "windows_qemu_members_byte_identical": 183,
+  "kernel_byte_identical": true,
+  "base_reference_and_parts_exactly_unchanged": true,
+  "host_assets_initrd_and_proof_equal_verified_update": true,
+  "runtime_patch_members_byte_identical": 10,
+  "complete_chinese_source_pointer": {
+    "filename": "EPM-Chinese-Memory-Update.zip",
+    "sha256": "35ed4dbfa9faa933429f0f08f5bd84b032fbe6957992b2755ec3d7fd95fdc5e4",
+    "public_url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/b221920879f66c3d47fb9a9626c2d2174ecc2a64/EPM-Chinese-Memory-Update.zip",
+    "public_commit": "b221920879f66c3d47fb9a9626c2d2174ecc2a64"
+  },
+  "word_v13_files_sha_verified": 4,
+  "forbidden_runtime_or_private_state_paths": [],
+  "original_source_fixture_files_preserved": true,
+  "private_runtime_secret_values_scanned": false,
+  "secret_scan_scope_note": "Exact selected runtime secret-value scan is performed separately by root; this audit checks member identity and excluded runtime-state paths.",
+  "below_github_100mib": true,
+  "github_limit_headroom_bytes": 739600,
+  "passed": true
+}

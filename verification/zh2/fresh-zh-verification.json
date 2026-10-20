@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "passed": true,
+  "profile": {
+    "memory_mib": 4096,
+    "cpus": 2,
+    "tcg_tb_size_mib": 128
+  },
+  "assets": {
+    "base": {
+      "path": "/workspace/epm-no-docker/vm/epm-base.qcow2",
+      "bytes": 1260322816,
+      "sha256": "231caefcf5fb7ae00142fa8b9a514077821933861db4a7609d728d42d11df26d"
+    },
+    "kernel": {
+      "path": "/workspace/epm-no-docker/vm/vmlinuz",
+      "bytes": 14170048,
+      "sha256": "4a44487bb3cfdc2be1d7697b8c71c97733d6ab2db62e6e6e8f1c6af9431ffd2e"
+    },
+    "initrd": {
+      "path": "/workspace/epm-zh2/deploy/candidate-zh2/initrd.img",
+      "bytes": 17554129,
+      "sha256": "b0af281a9708d6289fc8a18ff5cb2b09e942831ee14b75b6ad5b35f654f2a72c"
+    }
+  },
+  "fresh_independent_empty_overlay": true,
+  "fresh_independently_random_credentials": true,
+  "outbound_network_restricted": true,
+  "loopback_web_port": 18489,
+  "localization_candidate_version": "20261020-zh2",
+  "windows_physical_hardware_tested": false,
+  "test_reports": {
+    "fresh-zh-dbt": {
+      "schema_version": 1,
+      "dbt_version": "1.10.13",
+      "generated_at": "2026-10-20T04:51:13.587947Z",
+      "elapsed_seconds": 521.2980785369873,
+      "result_status_counts": {
+        "success": 81,
+        "pass": 249
+      },
+      "resource_type_counts": {
+        "operation": 3,
+        "model": 78,
+        "test": 249
+      },
+      "node_count": 330,
+      "all_nodes_passed": true,
+      "initial_dbt_marker_exists": true,
+      "probe_exit_code": 0
+    },
+    "fresh-zh-database": {
+      "schema_version": 1,
+      "checks": {
+        "system_language_zh": true,
+        "default_language_zh": true,
+        "all_user_languages_zh": true,
+        "administrator_language_zh": true,
+        "four_business_dictionary_samples_zh": true,
+        "workspace_exists": true,
+        "workspace_technical_identity_preserved": true,
+        "workspace_display_translation_zh": true,
+        "workspace_core_navigation_present": true,
+        "workspace_group_close_shortcut_present": true,
+        "workspace_raw_shortcut_references_resolve": true,
+        "workspace_raw_card_references_resolve": true,
+        "field_consolidation_group_zh": true,
+        "field_main_account_zh": true
+      },
+      "user_count": 2,
+      "representative_fields": [
+        {
+          "doctype": "Consolidation Group",
+          "fieldname": "consolidation_group",
+          "chinese_display_label": "合并集团"
+        },
+        {
+          "doctype": "Budget Line",
+          "fieldname": "main_account",
+          "chinese_display_label": "主科目"
+        }
+      ],
+      "writes_performed": false,
+      "passed": true,
+      "probe_exit_code": 0
+    },
+    "fresh-zh-http": {
+      "schema_version": 1,
+      "utc": "2026-10-20T04:55:10.564594+00:00",
+      "checks": {
+        "strict_localized_readiness": true,
+        "localized_workspace_ready_marker": true,
+        "unauthenticated_login_page_zh": true,
+        "administrator_login": true,
+        "authenticated_administrator": true,
+        "desk_html_http200": true,
+        "desk_boot_language_zh": true,
+        "desk_boot_four_business_translations": true,
+        "workspace_boot_translations": true,
+        "workspace_sidebar_route_present": true,
+        "workspace_actual_desktop_configuration_present": true,
+        "original_metadata_entity": true,
+        "original_metadata_scenario": true,
+        "original_metadata_budget_cycle": true,
+        "http_field_consolidation_group_translated": true,
+        "http_field_main_account_translated": true,
+        "close_page_available_zh": true
+      },
+      "financial_writes_performed": false,
+      "client_cookie_policy": "Chromium-equivalent Secure-cookie loopback exemption limited to 127.0.0.1 HTTP",
+      "strict_service_probe_count": 24,
+      "fresh_setup_wizard_complete": false,
+      "scope": "Raw metadata and Chinese Desk boot verified; completing setup wizard and financial business processing are outside this probe.",
+      "passed": true,
+      "probe_exit_code": 0
+    },
+    "fresh-zh-cube": {
+      "schema_version": 1,
+      "cube_readyz_200": true,
+      "authenticated_metadata_nonempty": true,
+      "representative_query_success": true,
+      "semantic_model_count": 7,
+      "result_row_count": 1,
+      "query_elapsed_seconds": 4.1,
+      "passed": true,
+      "probe_exit_code": 0
+    },
+    "fresh-zh-worker": {
+      "schema_version": 1,
+      "enqueued": true,
+      "job_finished": true,
+      "smoke_job_removed": true,
+      "elapsed_seconds": 183.46,
+      "probe_exit_code": 0
+    }
+  },
+  "errors": [],
+  "financial_test_inputs_created": false,
+  "validator_source_sha256": "a025eebf637c9607e4661417af7e44685adfc96a8f5392544c198636b6fc3642",
+  "cloud_controller_source_sha256": "f80652ac994d08e4b80300680b4e33d016bb24e4b838115f111308d1f0ae6e71",
+  "probe_source_sha256": {
+    "probe-native-dbt.py": "8c3eac49dfa89a29320a9dcb154ae8affcc73d652443c43c098fb703ee190222",
+    "probe-native-cube.py": "10e4e6e3a75878b3a466be5363af99749287ca4d92ac41bae655578484adb3bd",
+    "probe-native-worker.py": "8b7fb767fa573f9764e409cc719a00bbf01f95170f035cd38b01ea363190d7f2",
+    "probe-zh-database.py": "ecae0ddf1b38e38749ce352626f0ccc407facfd1f402064b1d411bb4095f4faa",
+    "probe-zh-http.py": "3ca46172f22ae7dbacdb60671cec428b2bac83c6807c15cc7202092e76c0a000"
+  },
+  "phase": "complete",
+  "updated_utc": "2026-10-20T04:59:30.057497+00:00",
+  "fresh_ready": true,
+  "actual_qemu_profile_verified": true,
+  "fresh_ready_seconds": 1548.31,
+  "strict_readiness_checks": {
+    "mariadb": true,
+    "redis_cache": true,
+    "redis_queue": true,
+    "clickhouse": true,
+    "web": true,
+    "socketio": true,
+    "cube": true,
+    "unit_firstboot": true,
+    "unit_web": true,
+    "unit_worker": true,
+    "unit_scheduler": true,
+    "unit_socketio": true,
+    "unit_cube": true,
+    "unit_clickhouse": true,
+    "unit_redis_cache": true,
+    "unit_redis_queue": true,
+    "unit_site_init": true,
+    "unit_mariadb": true,
+    "konsol_database": true,
+    "clickhouse_authenticated": true,
+    "cube_readyz": true,
+    "cube_authenticated_models": true,
+    "initial_dbt_build": true,
+    "localization_zh": true
+  },
+  "strict_probe_count": 24,
+  "locale_readiness_version": {
+    "version": "20261020-zh2",
+    "ready": true,
+    "language": "zh",
+    "workspace_ready": true
+  },
+  "all_24_probes_with_locale": true,
+  "dbt_330_completed": true,
+  "database_language_checks_passed": true,
+  "chinese_http_checks_passed": true,
+  "cube_query_completed": true,
+  "worker_task_completed_and_cleaned": true,
+  "acpi_stop_request_exit_code": 0,
+  "qemu_exit_code": 0,
+  "serial_power_down_observed": true,
+  "normal_acpi_exit_completed": true,
+  "force_quit_used": false,
+  "acpi_request_to_exit_seconds": 4.919,
+  "cold_qcow_check_exit_code": 0,
+  "candidate_assets_unchanged": {
+    "base": true,
+    "kernel": true,
+    "initrd": true
+  },
+  "original_english_initrd_untouched": true,
+  "scope_limits": [
+    "Fresh empty financial account; no real consolidation, budget numeric acceptance or production load tested.",
+    "Chinese metadata and login/session behavior are tested separately from browser visual inspection.",
+    "No second full backup/File restore test was repeated; baseline backups and cold-copy tests remain separately scoped.",
+    "Another isolated Windows QEMU warm-boot validation may run concurrently; elapsed times are observations, not a performance benchmark.",
+    "Linux QEMU TCG only; physical Windows hardware was not tested in this run."
+  ],
+  "auxiliary_observations_bound": true,
+  "auxiliary_checks": {
+    "exact_zh2_version": true,
+    "same_pinned_assets": true,
+    "161_actual_payload_hashes_match": true,
+    "guest_state_checks_passed": true,
+    "cloud_helper_real_status_strict24": true,
+    "host_memory_lifetime_observation_complete": true,
+    "host_oom_events_zero": true
+  },
+  "auxiliary_report_sha256": {
+    "fresh-zh-pinned-assets": "6e2338ce004d6fb6b8ba5d9db777e436a5d4a3c4f7a62d2fe239a0911f9482e2",
+    "fresh-zh-payload-on-disk": "5f19dd195361d5568d450df11038849629735fd3493a9072b5895b09dd8e4020",
+    "fresh-zh-guest-state": "de3dc971b627882404f17311cebba32c6207cfa32015ab2ca67b6866c390c9f1",
+    "fresh-zh-cloud-helper-status": "db0696ef9d82a1c31b78872e8dfc571216b706638e6e139b0738c280222f1073",
+    "fresh-zh-host-memory": "fec4d68164c6d1f7eed5e66133ceca30fba540bcdefbff3122fe9796e09b00c2"
+  },
+  "candidate_assets_json_sha256": "40e818fa5bebc635a6317b37fe3c4d89d68584ad85e5b47e01ce6141678020ff",
+  "payload_manifest_sha256": "429a6d360e0dece069df528bf7deaf7fb7cb1f083ecd7e42fd68271e97ed36d4",
+  "actual_frozen_payload_file_count": 161,
+  "guest_oom_kill_counter": 0,
+  "guest_memory_at_read_only_probe": {
+    "MemTotal_kib": 4021000,
+    "MemAvailable_kib": 2261476,
+    "SwapTotal_kib": 0,
+    "SwapFree_kib": 0
+  },
+  "host_qemu_peak_memory_kib": {
+    "VmRSS": 3520396,
+    "VmHWM": 3520932,
+    "VmSize": 5911412,
+    "VmPeak": 5911412,
+    "VmSwap": 0,
+    "RssAnon": 3482672,
+    "RssFile": 37604,
+    "RssShmem": 120
+  },
+  "host_memory_scope": "Actual Linux QEMU process memory; does not measure Windows commit or prove Windows hardware capacity.",
+  "host_memory_observation_sample_count": 914,
+  "host_cgroup_memory_event_deltas": {
+    "low": 0,
+    "high": 0,
+    "max": 0,
+    "oom": 0,
+    "oom_kill": 0,
+    "oom_group_kill": 0
+  },
+  "official_sidebar_and_workspace_configuration_verified": true,
+  "auxiliary_bound_utc": "2026-10-20T05:00:40.665573+00:00"
+}

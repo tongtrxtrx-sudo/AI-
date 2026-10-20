@@ -1,0 +1,307 @@
+{
+  "schema_version": 1,
+  "started_at_utc": "2026-10-20T04:32:01.594248+00:00",
+  "scope": "Existing initialized private Windows-QEMU disk upgrade and idempotent reboot under Wine; actual public base unchanged",
+  "windows_real_machine_tested": false,
+  "financial_transaction_acceptance_tested": false,
+  "real_excel_sideload_tested": false,
+  "test_driver_sha256": "8f4db16f6b9b81a58f516432deae3261e06f79e0f5da3076eba1b260627414a4",
+  "localization_version": "20261020-zh2",
+  "host_sha256": "d073378fa749f353c8bce38de2b4da57ef24eb8c5f2036c13d2bb5ca7086296b",
+  "native_exe_sha256": "550d52485493005800f0d2289b7c20b9791565893573cf5d29426f0c9a12e5f1",
+  "base_sha256": "231caefcf5fb7ae00142fa8b9a514077821933861db4a7609d728d42d11df26d",
+  "candidate_initrd_sha256": "b0af281a9708d6289fc8a18ff5cb2b09e942831ee14b75b6ad5b35f654f2a72c",
+  "candidate_assets_sha256": "40e818fa5bebc635a6317b37fe3c4d89d68584ad85e5b47e01ce6141678020ff",
+  "payload_manifest_sha256": "429a6d360e0dece069df528bf7deaf7fb7cb1f083ecd7e42fd68271e97ed36d4",
+  "payload_file_count": 161,
+  "pre_upgrade_readonly_baseline": {
+    "filename": "pre-upgrade-readonly-baseline.json",
+    "sha256": "56a8eb511248759f8e4de12d208926350037b2001bb59ce191f41bd246142da1",
+    "database": {
+      "setup_complete": true,
+      "financial_table_counts": {
+        "Budget Line": 0,
+        "Consolidation Journal": 0,
+        "Business Combination": 0,
+        "Business Disposal": 0
+      },
+      "konsolidat_workspace_exists": false
+    }
+  },
+  "resources": {
+    "memory_mb": 4096,
+    "cpus": 2,
+    "tcg_tb_size_mb": 128,
+    "shared_cloud_host": true
+  },
+  "checks": {
+    "native_memory_preflight": true,
+    "initial_upgrade_preserved_four_financial_table_counts_and_setup_flag": true,
+    "two_strict_24_ready_cycles": true,
+    "both_cycles_safely_stopped": true,
+    "public_source_and_base_unchanged": true,
+    "private_seed_identity_credentials_and_other_fields_unchanged": true,
+    "frozen_chinese_host_unchanged": true
+  },
+  "cycles": [
+    {
+      "cycle": 1,
+      "strict_ready_seconds": 541.888,
+      "stages": [
+        {
+          "state": "Preparing",
+          "progress": 0
+        },
+        {
+          "state": "Booting",
+          "progress": 0
+        },
+        {
+          "state": "Booting",
+          "progress": 15
+        },
+        {
+          "state": "Booting",
+          "progress": 80
+        },
+        {
+          "state": "Booting",
+          "progress": 90
+        },
+        {
+          "state": "Ready",
+          "progress": 100
+        }
+      ],
+      "health": {
+        "services": {
+          "mariadb": true,
+          "redis_cache": true,
+          "redis_queue": true,
+          "clickhouse": true,
+          "web": true,
+          "socketio": true,
+          "cube": true,
+          "unit_firstboot": true,
+          "unit_web": true,
+          "unit_worker": true,
+          "unit_scheduler": true,
+          "unit_socketio": true,
+          "unit_cube": true,
+          "unit_clickhouse": true,
+          "unit_redis_cache": true,
+          "unit_redis_queue": true,
+          "unit_site_init": true,
+          "unit_mariadb": true,
+          "konsol_database": true,
+          "clickhouse_authenticated": true,
+          "cube_readyz": true,
+          "cube_authenticated_models": true,
+          "initial_dbt_build": true,
+          "localization_zh": true
+        },
+        "localization": {
+          "version": "20261020-zh2",
+          "ready": true,
+          "language": "zh",
+          "workspace_ready": true
+        },
+        "ready": true
+      },
+      "native_status_ready": true,
+      "memory_4096_tcg_128": true,
+      "platform_entry_zh": true,
+      "test_only_ssh_forward_available": true,
+      "readonly_guest_evidence": {
+        "file_state": {
+          "state": "applied",
+          "version": "20261020-zh2",
+          "manifest_sha256": "429a6d360e0dece069df528bf7deaf7fb7cb1f083ecd7e42fd68271e97ed36d4",
+          "file_count": 161,
+          "idempotent": false
+        },
+        "display_and_financial_counts": {
+          "setup_complete": true,
+          "system_language": "zh",
+          "administrator_language": "zh",
+          "financial_table_counts": {
+            "Budget Line": 0,
+            "Consolidation Journal": 0,
+            "Business Combination": 0,
+            "Business Disposal": 0
+          },
+          "konsolidat_workspace_exists": true,
+          "administrator_default_workspace": null
+        }
+      },
+      "stop": {
+        "safe_acpi_stop": true,
+        "native_controller_exit_zero": true,
+        "qcow_check_zero": true,
+        "seconds": 10.073
+      }
+    },
+    {
+      "cycle": 2,
+      "strict_ready_seconds": 537.629,
+      "stages": [
+        {
+          "state": "Preparing",
+          "progress": 0
+        },
+        {
+          "state": "Booting",
+          "progress": 0
+        },
+        {
+          "state": "Booting",
+          "progress": 15
+        },
+        {
+          "state": "Booting",
+          "progress": 80
+        },
+        {
+          "state": "Booting",
+          "progress": 90
+        },
+        {
+          "state": "Ready",
+          "progress": 100
+        }
+      ],
+      "health": {
+        "services": {
+          "mariadb": true,
+          "redis_cache": true,
+          "redis_queue": true,
+          "clickhouse": true,
+          "web": true,
+          "socketio": true,
+          "cube": true,
+          "unit_firstboot": true,
+          "unit_web": true,
+          "unit_worker": true,
+          "unit_scheduler": true,
+          "unit_socketio": true,
+          "unit_cube": true,
+          "unit_clickhouse": true,
+          "unit_redis_cache": true,
+          "unit_redis_queue": true,
+          "unit_site_init": true,
+          "unit_mariadb": true,
+          "konsol_database": true,
+          "clickhouse_authenticated": true,
+          "cube_readyz": true,
+          "cube_authenticated_models": true,
+          "initial_dbt_build": true,
+          "localization_zh": true
+        },
+        "localization": {
+          "version": "20261020-zh2",
+          "ready": true,
+          "language": "zh",
+          "workspace_ready": true
+        },
+        "ready": true
+      },
+      "native_status_ready": true,
+      "memory_4096_tcg_128": true,
+      "platform_entry_zh": true,
+      "test_only_ssh_forward_available": true,
+      "readonly_guest_evidence": {
+        "file_state": {
+          "state": "applied",
+          "version": "20261020-zh2",
+          "manifest_sha256": "429a6d360e0dece069df528bf7deaf7fb7cb1f083ecd7e42fd68271e97ed36d4",
+          "file_count": 161,
+          "idempotent": true
+        },
+        "display_and_financial_counts": {
+          "setup_complete": true,
+          "system_language": "zh",
+          "administrator_language": "zh",
+          "financial_table_counts": {
+            "Budget Line": 0,
+            "Consolidation Journal": 0,
+            "Business Combination": 0,
+            "Business Disposal": 0
+          },
+          "konsolidat_workspace_exists": true,
+          "administrator_default_workspace": null
+        }
+      },
+      "stop": {
+        "safe_acpi_stop": true,
+        "native_controller_exit_zero": true,
+        "qcow_check_zero": true,
+        "seconds": 13.735
+      }
+    }
+  ],
+  "errors": [],
+  "windows_memory_preflight": {
+    "memory_mb": 4096,
+    "memory_selection": "explicit",
+    "tcg_tb_size_mb": 128,
+    "available_commit_mb": 18708,
+    "total_physical_mb": 34087,
+    "required_commit_mb": 5120
+  },
+  "transient_health_observations_during_browser_hold": [
+    {
+      "state": "Booting",
+      "progress": 90,
+      "observed_at_utc": "2026-10-20T04:43:42.300580+00:00"
+    },
+    {
+      "state": "Booting",
+      "progress": 90,
+      "observed_at_utc": "2026-10-20T04:43:44.316683+00:00"
+    },
+    {
+      "state": "Booting",
+      "progress": 90,
+      "observed_at_utc": "2026-10-20T04:43:46.330902+00:00"
+    },
+    {
+      "state": "Booting",
+      "progress": 90,
+      "observed_at_utc": "2026-10-20T04:43:48.342024+00:00"
+    },
+    {
+      "state": "Booting",
+      "progress": 90,
+      "observed_at_utc": "2026-10-20T04:44:34.796477+00:00"
+    },
+    {
+      "state": "Booting",
+      "progress": 90,
+      "observed_at_utc": "2026-10-20T04:44:36.807434+00:00"
+    },
+    {
+      "state": "Booting",
+      "progress": 90,
+      "observed_at_utc": "2026-10-20T04:44:38.820427+00:00"
+    },
+    {
+      "state": "Booting",
+      "progress": 90,
+      "observed_at_utc": "2026-10-20T04:44:40.834595+00:00"
+    },
+    {
+      "state": "Booting",
+      "progress": 90,
+      "observed_at_utc": "2026-10-20T04:44:42.846297+00:00"
+    },
+    {
+      "state": "Booting",
+      "progress": 90,
+      "observed_at_utc": "2026-10-20T04:44:44.864383+00:00"
+    }
+  ],
+  "private_seed_bytes_unchanged": true,
+  "private_seed_runtime_metadata_exception": "The production host may update host_web_port when its loopback port changes; no credential/identity fields may change.",
+  "finished_at_utc": "2026-10-20T05:02:03.457315+00:00",
+  "success": true
+}

@@ -1,0 +1,12 @@
+{
+  "filename": "EPM-NoDocker-Windows-x64.zip",
+  "bytes": 104118000,
+  "sha256": "bfeba2a328aebae964ef855663065a987fd16934b9500f5d21ebd1b69996842c",
+  "member_count": 3159,
+  "original_source_files_preserved": 1515,
+  "native_exe_unchanged": true,
+  "base_unchanged": true,
+  "every_member_crc_size_sha_verified": true,
+  "github_regular_blob_below_100_mib": true,
+  "localization_version": "20261020-zh2"
+}

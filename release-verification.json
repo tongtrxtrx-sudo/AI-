@@ -1,117 +1,69 @@
 {
-  "schema_version": 1,
-  "scope": "R&D delivery artifact integrity and explicitly scoped runtime checks; Windows hardware and financial numeric acceptance are not claimed",
-  "zip": {
+  "schema_version": 2,
+  "localization_version": "20261020-zh2",
+  "passed": true,
+  "scope": "Exact Chinese R&D release; actual platform evidence and archive integrity, not production financial or physical Windows acceptance",
+  "software": {
     "filename": "EPM-NoDocker-Windows-x64.zip",
-    "bytes": 102443756,
-    "sha256": "4ac17bc8fea90e7e98fa3e5dff83fcfe4f8e5e8ea807ce6bfb7d70d1931ad2c8",
-    "file_count": 3154
+    "bytes": 104118000,
+    "sha256": "bfeba2a328aebae964ef855663065a987fd16934b9500f5d21ebd1b69996842c",
+    "member_count": 3159,
+    "original_source_files_preserved": 1515,
+    "native_exe_unchanged": true,
+    "base_unchanged": true,
+    "every_member_crc_size_sha_verified": true,
+    "github_regular_blob_below_100_mib": true,
+    "localization_version": "20261020-zh2"
   },
-  "equivalent_download_filenames": [
-    "EPM-NoDocker-Windows-x64.zip",
-    "自研EPM压缩文档.zip"
-  ],
-  "local_crc_and_all_member_sha256_passed": true,
-  "independent_archive_review": {
+  "small_update": {
+    "filename": "EPM-Chinese-Memory-Update.zip",
+    "bytes": 21825982,
+    "sha256": "35ed4dbfa9faa933429f0f08f5bd84b032fbe6957992b2755ec3d7fd95fdc5e4",
+    "member_count": 577,
+    "localization_version": "20261020-zh2",
+    "every_member_crc_size_sha_verified": true,
+    "github_regular_blob_below_100_mib": true
+  },
+  "runtime_proof": "CHINESE-UPDATE-VERIFICATION.json",
+  "original_source_files_preserved": 1515,
+  "original_english_release_commit": "b6ea7297fbd713835b7b5caba53539239379e4c2",
+  "prototype_and_word_public_downloads": {
     "passed": true,
-    "checks_passed": 29,
-    "report": "verification/final-package-independent-review.json",
-    "scope": "Actual archive hashes/source Git blobs/Word/license membership and explicit runtime limits"
-  },
-  "public_zip_full_download_verification": {
-    "passed": true,
-    "http_status": 200,
-    "public_software_commit": "b6ea7297fbd713835b7b5caba53539239379e4c2",
-    "immutable_url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/b6ea7297fbd713835b7b5caba53539239379e4c2/%E8%87%AA%E7%A0%94EPM%E5%8E%8B%E7%BC%A9%E6%96%87%E6%A1%A3.zip",
-    "bytes": 102443756,
-    "sha256": "4ac17bc8fea90e7e98fa3e5dff83fcfe4f8e5e8ea807ce6bfb7d70d1931ad2c8",
-    "zip_crc_passed": true,
-    "native_word_files_verified": [
-      "系统说明书.docx",
-      "用户手册.docx",
-      "免Docker版安装与使用手册.docx",
-      "PRD研发需求文档.docx"
-    ],
-    "duration_seconds": 8.42,
-    "branch_alias_head_checks": [
-      {
-        "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/EPM-NoDocker-Windows-x64.zip",
-        "http_status": 200
-      },
-      {
-        "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/%E8%87%AA%E7%A0%94EPM%E5%8E%8B%E7%BC%A9%E6%96%87%E6%A1%A3.zip",
-        "http_status": 200
-      }
-    ]
-  },
-  "public_base_full_download_and_assembly": {
-    "started_at_utc": "2026-10-19T11:17:58.719697+00:00",
-    "scope": "Linux production prepare_base, complete real pinned GitHub HTTPS parts and full disk assembly",
-    "windows_real_machine_tested": false,
-    "vm_started_by_this_check": false,
-    "local_builder_base_available_to_prepare_base": false,
-    "passed": true,
-    "base_bytes": 1260322816,
-    "base_sha256": "231caefcf5fb7ae00142fa8b9a514077821933861db4a7609d728d42d11df26d",
-    "public_part_count": 14,
-    "cached_part_count": 14,
-    "runtime_overlay_created": false,
-    "duration_seconds": 53.403,
-    "asset_manifest_sha256": "400201a45fddbe9825e432c683cfe1a5a6d49713741f82f756d1fc57384f847f",
-    "finished_at_utc": "2026-10-19T11:18:52.122775+00:00"
-  },
-  "public_word_files": {
-    "public_commit": "fd847e7bfc919e54ca0110ddb316dc4225d8fc58",
-    "all_passed": true,
+    "commit": "a4b2b46120a20d0102abfba5f84e86f8aee9ecf9",
     "files": [
       {
-        "filename": "EPM_PRD_CN.docx",
+        "filename": "EPM-Full-Prototype-CN.zip",
+        "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/a4b2b46120a20d0102abfba5f84e86f8aee9ecf9/EPM-Full-Prototype-CN.zip",
         "http": 200,
-        "bytes": 383385,
-        "sha256": "d67d92fbeda7396124196256395ee329610464d6dc3bd4db5b6388166c3996a4",
-        "expected_sha256": "d67d92fbeda7396124196256395ee329610464d6dc3bd4db5b6388166c3996a4",
-        "word_format_verified": true,
-        "passed": true
+        "bytes": 564433,
+        "sha256": "0270f5b9a4ef7dd107a85fe5a1d8bde97fcf010901df9f7b4fdcc349fcb34de9",
+        "public_bytes_match_local": true,
+        "zip_crc_ok": true,
+        "member_count": 17
       },
       {
-        "filename": "EPM_System_Manual_CN.docx",
+        "filename": "EPM-Consolidation-Analysis-Prototype-CN.zip",
+        "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/a4b2b46120a20d0102abfba5f84e86f8aee9ecf9/EPM-Consolidation-Analysis-Prototype-CN.zip",
         "http": 200,
-        "bytes": 56034,
-        "sha256": "37acc430180cea1642a462af17fd7fcf054651eb6a33a9eb84a5608c387b539d",
-        "expected_sha256": "37acc430180cea1642a462af17fd7fcf054651eb6a33a9eb84a5608c387b539d",
-        "word_format_verified": true,
-        "passed": true
+        "bytes": 566948,
+        "sha256": "73dcec3aaf57b0ca520cc67ece65cffe4ce0933f6111ffcaaec1b4c7eb41d0b1",
+        "public_bytes_match_local": true,
+        "zip_crc_ok": true,
+        "member_count": 17
       },
       {
-        "filename": "EPM_User_Manual_CN.docx",
+        "filename": "EPM-Chinese-Word-Documents.zip",
+        "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/a4b2b46120a20d0102abfba5f84e86f8aee9ecf9/EPM-Chinese-Word-Documents.zip",
         "http": 200,
-        "bytes": 64373,
-        "sha256": "bc54fda4455e9c5036ce769a2ee5c42d806aaaa1f41dcf54ff7668eff5fa1d23",
-        "expected_sha256": "bc54fda4455e9c5036ce769a2ee5c42d806aaaa1f41dcf54ff7668eff5fa1d23",
-        "word_format_verified": true,
-        "passed": true
-      },
-      {
-        "filename": "EPM_Install_Manual_CN.docx",
-        "http": 200,
-        "bytes": 50775,
-        "sha256": "b5c29508be25bbc0422cd763355eadebdcd5c3ddf4de01ea0c43987eb50a87c4",
-        "expected_sha256": "b5c29508be25bbc0422cd763355eadebdcd5c3ddf4de01ea0c43987eb50a87c4",
-        "word_format_verified": true,
-        "passed": true
+        "bytes": 541822,
+        "sha256": "3360176985481ea1b12563fd693ada5e08b26d1b633850a46d167b2f20cc7c21",
+        "public_bytes_match_local": true,
+        "zip_crc_ok": true,
+        "member_count": 6
       }
     ]
   },
-  "runtime_evidence": {
-    "fresh_exact_base_passed": true,
-    "first_boot_seconds": 1850.07,
-    "cold_copy_resume_seconds": 268.88,
-    "dbt_nodes_passed": 330,
-    "wine_two_windows_pe_boots_passed": true,
-    "windows_real_machine_tested": false,
-    "full_financial_numeric_acceptance_tested": false
-  },
-  "original_master_expected": "5581c0997311578ac42c5a8c136fdad60e98efcc",
-  "original_master_actual": "5581c0997311578ac42c5a8c136fdad60e98efcc",
-  "master_unchanged": true
+  "physical_windows_tested": false,
+  "real_group_financial_acceptance_tested": false,
+  "master_modified": false
 }

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "commit": "b221920879f66c3d47fb9a9626c2d2174ecc2a64",
+  "files": [
+    {
+      "filename": "EPM-Chinese-Memory-Update.zip",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/b221920879f66c3d47fb9a9626c2d2174ecc2a64/EPM-Chinese-Memory-Update.zip",
+      "http": 200,
+      "bytes": 21825982,
+      "sha256": "35ed4dbfa9faa933429f0f08f5bd84b032fbe6957992b2755ec3d7fd95fdc5e4",
+      "public_bytes_match_local": true,
+      "zip_crc_ok": true,
+      "member_count": 577
+    }
+  ]
+}
