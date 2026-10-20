@@ -1,0 +1,50 @@
+{
+  "checkedAtUtc": "2026-10-20T09:33:34.582149+00:00",
+  "artifactCommit": "e3d7dbd803d47bef842f2b998dfaee29f9f3f918",
+  "passed": true,
+  "actualPublicHttpsDownloads": [
+    {
+      "path": "TianyuanEPM-Multilevel-Demo-Windows-x64.zip",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/e3d7dbd803d47bef842f2b998dfaee29f9f3f918/TianyuanEPM-Multilevel-Demo-Windows-x64.zip",
+      "httpStatus": 200,
+      "contentType": "application/zip",
+      "bytes": 18902004,
+      "sha256": "d91c3ffceb030081bf58fe88d1beb03b4e9e2495cbfccf068a2e3ef6d0bc22cc",
+      "matchesPublishedLocalBytes": true,
+      "zipCrcPassed": true,
+      "zipFileCount": 1415
+    },
+    {
+      "path": "multilevel-demo/EPM-Multilevel-Guide-CN.docx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/e3d7dbd803d47bef842f2b998dfaee29f9f3f918/multilevel-demo/EPM-Multilevel-Guide-CN.docx",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "bytes": 1052396,
+      "sha256": "482b19e002a2cc6703cf0e5281480b2aaabbe70c843e559ae55ebc568681c4fd",
+      "matchesPublishedLocalBytes": true,
+      "genuineWordDocument": true
+    },
+    {
+      "path": "multilevel-demo/EPM-Multilevel-Guide-CN.pdf",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/e3d7dbd803d47bef842f2b998dfaee29f9f3f918/multilevel-demo/EPM-Multilevel-Guide-CN.pdf",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "bytes": 1061707,
+      "sha256": "e20349c7065c56598d453081587317b327f9246de25081c85cb2be98e852aa3b",
+      "matchesPublishedLocalBytes": true
+    },
+    {
+      "path": "multilevel-demo/overview.png",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/e3d7dbd803d47bef842f2b998dfaee29f9f3f918/multilevel-demo/overview.png",
+      "httpStatus": 200,
+      "contentType": "image/png",
+      "bytes": 203262,
+      "sha256": "519a192e6542566773630b058d321ec6417a4392d81bb45eaba103dc51ecf5f6",
+      "matchesPublishedLocalBytes": true
+    }
+  ],
+  "zipSha256": "d91c3ffceb030081bf58fe88d1beb03b4e9e2495cbfccf068a2e3ef6d0bc22cc",
+  "masterExpectedUnchanged": "5581c0997311578ac42c5a8c136fdad60e98efcc",
+  "masterObservedUnchanged": "5581c0997311578ac42c5a8c136fdad60e98efcc",
+  "publishedBranch": "epm-download-20261019"
+}

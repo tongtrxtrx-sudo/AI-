@@ -1,6 +1,6 @@
 # 杭州天元宠物用品有限公司 · 多层合并中文 EPM Demo
 
-**[下载新版 Windows EXE 运行包（约18.9 MB）](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/TianyuanEPM-Multilevel-Demo-Windows-x64.zip)**
+**[下载新版 Windows EXE 运行包（约18.9 MB）](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/e3d7dbd803d47bef842f2b998dfaee29f9f3f918/TianyuanEPM-Multilevel-Demo-Windows-x64.zip)**
 
 完整解压 ZIP，双击 **天元EPM 多层合并Demo.exe**，会自动打开中文工作台。适用 Windows 10/11 64 位；包内附带运行环境，无需自行安装 Python、Docker、WSL 或虚拟机，不需要邮箱登录。
 
@@ -25,7 +25,7 @@
 4. 回到鸿旺，计算并签核；再切回集团计算并签核，钻取新下级结果ID。
 5. 在“集团分类汇率”发布期末率7.2→7.3的新版本，保持其他率不变；重新计算集团，对比净利润、折算差额和现金汇率影响。
 
-具体输入、按钮、预期结果及排错见 [新版中文Word手册](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/multilevel-demo/EPM-Multilevel-Guide-CN.docx)；ZIP内也有Word及PDF。
+具体输入、按钮、预期结果及排错见 [新版中文Word手册](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/e3d7dbd803d47bef842f2b998dfaee29f9f3f918/multilevel-demo/EPM-Multilevel-Guide-CN.docx)；ZIP内也有Word及PDF。
 
 ## 可核对的初始示例
 
