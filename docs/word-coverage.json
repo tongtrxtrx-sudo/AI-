@@ -1,31 +1,31 @@
 {
-  "version": "v1.2 中文界面更新 · 2026-10-20",
+  "version": "v1.3 中文界面与工作台修订 · 2026-10-20",
   "files": [
     {
       "filename": "PRD研发需求文档.docx",
-      "bytes": 388295,
-      "sha256": "64a4f9821acdff8f8753a9b61f0ebecf50c4cf15532af6f36fba13b97ce562f5",
+      "bytes": 389065,
+      "sha256": "79ce4ab709edf3b50ae8431e91660712949cc5b9290fa6966e72a0ab8b929c7e",
       "editable_word": true,
       "tables": 239
     },
     {
       "filename": "免Docker版安装与使用手册.docx",
-      "bytes": 41857,
-      "sha256": "dbc0aa747edddc36e58e41abc9a0dd6a0cce08c2b83154b33a474aba5d8cb20b",
+      "bytes": 42069,
+      "sha256": "7e3c36fc890b1e4c9dc131c46c39da5f0cd8bd35dce78025ab9cb608297ddc6a",
       "editable_word": true,
       "tables": 1
     },
     {
       "filename": "用户手册.docx",
-      "bytes": 66394,
-      "sha256": "8fe2fda83b861d7b54b80b082fa87257d1cd531b21e2348d739f4780aba70f95",
+      "bytes": 66618,
+      "sha256": "330f1af046871afebcc1db1575db786584663add9d45ae9107b92735d9d868c2",
       "editable_word": true,
       "tables": 13
     },
     {
       "filename": "系统说明书.docx",
-      "bytes": 58084,
-      "sha256": "435df8d8cacffc04508bbd91e9a26a9433c3ed152458e0a0f431f62b8ace1fb7",
+      "bytes": 58304,
+      "sha256": "07de9bf636f38f1cf139319f7dc175d0a2f98081e294f413e29a65209a71d6e8",
       "editable_word": true,
       "tables": 11
     }

@@ -19,9 +19,9 @@ Windows 10/11 64位。将整个ZIP解压到独立文件夹，双击里面的`自
 
 ## 中文Word文档
 
-[一次下载四份中文Word](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/EPM-Chinese-Word-Documents.zip)。以下为v1.2可编辑`.docx`，字段表可在Word/WPS编辑；软件原始ZIP中的旧文档可用这组文件替换：
+[一次下载四份中文Word](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/EPM-Chinese-Word-Documents.zip)。以下为v1.3可编辑`.docx`，字段表可在Word/WPS编辑；软件原始ZIP中的旧文档可用这组文件替换：
 
-- [研发需求文档：246页（v1.2），含流程、页面、字段、接口、数据表、权限与验收](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/docs/EPM_PRD_CN.docx)
+- [研发需求文档：247页（v1.3），含流程、页面、字段、接口、数据表、权限与验收](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/docs/EPM_PRD_CN.docx)
 - [系统说明书](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/docs/EPM_System_Manual_CN.docx)
 - [用户手册](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/docs/EPM_User_Manual_CN.docx)
 - [免Docker版安装与使用手册](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/docs/EPM_Install_Manual_CN.docx)
