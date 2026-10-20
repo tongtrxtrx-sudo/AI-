@@ -1,0 +1,202 @@
+{
+  "scope": "Offline Chinese interaction prototypes only; fictional demo data; no real API/accounting data",
+  "browser_checks_passed": 81,
+  "windows_double_click_tested": false,
+  "file_protocol_cloud_policy_blocked": true,
+  "release_files": [
+    {
+      "filename": "EPM-Full-Prototype-CN.zip",
+      "entry_html": "01_完整产品交互原型.html",
+      "html_sha256": "10ba426c4b78b88f029b73fbb48b7638103317e1af143b3c2fb51f86738f3da4",
+      "zip_bytes": 564433,
+      "zip_sha256": "0270f5b9a4ef7dd107a85fe5a1d8bde97fcf010901df9f7b4fdcc349fcb34de9",
+      "zip_crc_verified": true,
+      "all_members_sha256_verified": true,
+      "members": [
+        {
+          "name": "EPM-Full-Prototype-CN/01_完整产品交互原型.html",
+          "bytes": 106290,
+          "sha256": "10ba426c4b78b88f029b73fbb48b7638103317e1af143b3c2fb51f86738f3da4"
+        },
+        {
+          "name": "EPM-Full-Prototype-CN/SHA256SUMS.txt",
+          "bytes": 1551,
+          "sha256": "6c405f2884ce657b62bc95726fb9d55e7eff995d638e49b01018ec2736fb94aa"
+        },
+        {
+          "name": "EPM-Full-Prototype-CN/源码/build_prototypes.py",
+          "bytes": 6820,
+          "sha256": "fa14e483c3bea142c68669b9f93d69c502e499a226b0a89c826dec7b3d1d634c"
+        },
+        {
+          "name": "EPM-Full-Prototype-CN/源码/evidence/browser-test-report.json",
+          "bytes": 9212,
+          "sha256": "4438b362d5970047b51ca04937216eebf8fcda7418fa9c31f3f3baa57950487f"
+        },
+        {
+          "name": "EPM-Full-Prototype-CN/源码/evidence/full-overview.png",
+          "bytes": 245036,
+          "sha256": "f66cdfd5554f819ca76290d3da719ea45923f3317a0c988e590a9816d9ba46fa"
+        },
+        {
+          "name": "EPM-Full-Prototype-CN/源码/evidence/independent/independent-final-summary.json",
+          "bytes": 863,
+          "sha256": "190b820e4d60f42a0d25567e517b942f7cbbfeb77f94a35c67d068448cda4cbb"
+        },
+        {
+          "name": "EPM-Full-Prototype-CN/源码/package_prototypes.py",
+          "bytes": 4586,
+          "sha256": "787b8ef7c6bf0b2e8b424bc52fa5a5e703b6974fc16305dd092460b9ee16f207"
+        },
+        {
+          "name": "EPM-Full-Prototype-CN/源码/src/app.js",
+          "bytes": 86912,
+          "sha256": "f83c28243e90ebb5991187bd5285784b790e0138c18da10a215a69264ed4b602"
+        },
+        {
+          "name": "EPM-Full-Prototype-CN/源码/src/shell.html",
+          "bytes": 2213,
+          "sha256": "32befd42f0778f8af915435b96794741b22877c6bdfffe9af0066e2cb640f0c0"
+        },
+        {
+          "name": "EPM-Full-Prototype-CN/源码/src/style.css",
+          "bytes": 16409,
+          "sha256": "d31f241cece462ee0b46315f94b3da5d060a981c705c51984ca6a4924cbffe41"
+        },
+        {
+          "name": "EPM-Full-Prototype-CN/源码/tests/test_browser.py",
+          "bytes": 10612,
+          "sha256": "513a264d6d010e0ac9279f8dd37b02837b3ec0dea650a7d977effa6644e845d4"
+        },
+        {
+          "name": "EPM-Full-Prototype-CN/源码/使用说明.md",
+          "bytes": 4229,
+          "sha256": "fff3aae851c0e86ec15dae7b7a58111b583a23e8e3ea3e92e841c11957e27372"
+        },
+        {
+          "name": "EPM-Full-Prototype-CN/源码/默认打包版本.txt",
+          "bytes": 5,
+          "sha256": "0e716a5fef4e6dc1bcfff22ad52f73ca4eee3f4ea8292f4a1918daa32592889f"
+        },
+        {
+          "name": "EPM-Full-Prototype-CN/请先阅读.md",
+          "bytes": 4461,
+          "sha256": "0eb3ce028922aa4aad1b7a0edc16afe862ce87a4ca61234f94f06178ba6c9e8a"
+        },
+        {
+          "name": "EPM-Full-Prototype-CN/验证资料/browser-test-report.json",
+          "bytes": 9212,
+          "sha256": "4438b362d5970047b51ca04937216eebf8fcda7418fa9c31f3f3baa57950487f"
+        },
+        {
+          "name": "EPM-Full-Prototype-CN/验证资料/full-overview.png",
+          "bytes": 245036,
+          "sha256": "f66cdfd5554f819ca76290d3da719ea45923f3317a0c988e590a9816d9ba46fa"
+        },
+        {
+          "name": "EPM-Full-Prototype-CN/验证资料/independent-final-summary.json",
+          "bytes": 863,
+          "sha256": "190b820e4d60f42a0d25567e517b942f7cbbfeb77f94a35c67d068448cda4cbb"
+        }
+      ],
+      "variant": "full"
+    },
+    {
+      "filename": "EPM-Consolidation-Analysis-Prototype-CN.zip",
+      "entry_html": "02_合并与经营分析交互原型.html",
+      "html_sha256": "1347979b42e5742e07bf9b126bf1b9b2864d86d4db2513eee239670205292788",
+      "zip_bytes": 566948,
+      "zip_sha256": "73dcec3aaf57b0ca520cc67ece65cffe4ce0933f6111ffcaaec1b4c7eb41d0b1",
+      "zip_crc_verified": true,
+      "all_members_sha256_verified": true,
+      "members": [
+        {
+          "name": "EPM-Consolidation-Analysis-Prototype-CN/02_合并与经营分析交互原型.html",
+          "bytes": 85954,
+          "sha256": "1347979b42e5742e07bf9b126bf1b9b2864d86d4db2513eee239670205292788"
+        },
+        {
+          "name": "EPM-Consolidation-Analysis-Prototype-CN/SHA256SUMS.txt",
+          "bytes": 1560,
+          "sha256": "3362e16b655a48e5479171180e8791366a6d845ac30343e3f337ff3b7401c4ff"
+        },
+        {
+          "name": "EPM-Consolidation-Analysis-Prototype-CN/源码/build_prototypes.py",
+          "bytes": 6820,
+          "sha256": "fa14e483c3bea142c68669b9f93d69c502e499a226b0a89c826dec7b3d1d634c"
+        },
+        {
+          "name": "EPM-Consolidation-Analysis-Prototype-CN/源码/evidence/browser-test-report.json",
+          "bytes": 9212,
+          "sha256": "4438b362d5970047b51ca04937216eebf8fcda7418fa9c31f3f3baa57950487f"
+        },
+        {
+          "name": "EPM-Consolidation-Analysis-Prototype-CN/源码/evidence/independent/independent-final-summary.json",
+          "bytes": 863,
+          "sha256": "190b820e4d60f42a0d25567e517b942f7cbbfeb77f94a35c67d068448cda4cbb"
+        },
+        {
+          "name": "EPM-Consolidation-Analysis-Prototype-CN/源码/evidence/lean-overview.png",
+          "bytes": 249350,
+          "sha256": "b17ed97185653ec8be85a74b13791a517885458f78356506130a72da0aabc5fc"
+        },
+        {
+          "name": "EPM-Consolidation-Analysis-Prototype-CN/源码/package_prototypes.py",
+          "bytes": 4586,
+          "sha256": "787b8ef7c6bf0b2e8b424bc52fa5a5e703b6974fc16305dd092460b9ee16f207"
+        },
+        {
+          "name": "EPM-Consolidation-Analysis-Prototype-CN/源码/src/app.js",
+          "bytes": 86912,
+          "sha256": "f83c28243e90ebb5991187bd5285784b790e0138c18da10a215a69264ed4b602"
+        },
+        {
+          "name": "EPM-Consolidation-Analysis-Prototype-CN/源码/src/shell.html",
+          "bytes": 2213,
+          "sha256": "32befd42f0778f8af915435b96794741b22877c6bdfffe9af0066e2cb640f0c0"
+        },
+        {
+          "name": "EPM-Consolidation-Analysis-Prototype-CN/源码/src/style.css",
+          "bytes": 16409,
+          "sha256": "d31f241cece462ee0b46315f94b3da5d060a981c705c51984ca6a4924cbffe41"
+        },
+        {
+          "name": "EPM-Consolidation-Analysis-Prototype-CN/源码/tests/test_browser.py",
+          "bytes": 10612,
+          "sha256": "513a264d6d010e0ac9279f8dd37b02837b3ec0dea650a7d977effa6644e845d4"
+        },
+        {
+          "name": "EPM-Consolidation-Analysis-Prototype-CN/源码/使用说明.md",
+          "bytes": 4229,
+          "sha256": "fff3aae851c0e86ec15dae7b7a58111b583a23e8e3ea3e92e841c11957e27372"
+        },
+        {
+          "name": "EPM-Consolidation-Analysis-Prototype-CN/源码/默认打包版本.txt",
+          "bytes": 5,
+          "sha256": "bb3cb41b3af51ee06b911f551be1ba3055665a65326ad55fcb36c2871ca86634"
+        },
+        {
+          "name": "EPM-Consolidation-Analysis-Prototype-CN/请先阅读.md",
+          "bytes": 4506,
+          "sha256": "3527ec93b2fa3fb427975c37fcae8957de95ce593cd431ad0000db1b757e99c2"
+        },
+        {
+          "name": "EPM-Consolidation-Analysis-Prototype-CN/验证资料/browser-test-report.json",
+          "bytes": 9212,
+          "sha256": "4438b362d5970047b51ca04937216eebf8fcda7418fa9c31f3f3baa57950487f"
+        },
+        {
+          "name": "EPM-Consolidation-Analysis-Prototype-CN/验证资料/independent-final-summary.json",
+          "bytes": 863,
+          "sha256": "190b820e4d60f42a0d25567e517b942f7cbbfeb77f94a35c67d068448cda4cbb"
+        },
+        {
+          "name": "EPM-Consolidation-Analysis-Prototype-CN/验证资料/lean-overview.png",
+          "bytes": 249350,
+          "sha256": "b17ed97185653ec8be85a74b13791a517885458f78356506130a72da0aabc5fc"
+        }
+      ],
+      "variant": "lean"
+    }
+  ]
+}

@@ -8,11 +8,20 @@ Windows 10/11 64位。将整个ZIP解压到独立文件夹，双击里面的`自
 
 数据默认位于`%LOCALAPPDATA%\SelfDevelopedEPM\data`。结束时点启动页“安全退出（保留数据）”，等待Stopped；关闭浏览器会保留后台运行。旧Docker包应与新版分开放置。
 
+## 两套离线中文交互原型
+
+- [完整产品原型：合并＋预算＋经营分析](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/EPM-Full-Prototype-CN.zip)
+- [合并与经营分析原型：预算只保留静态界面](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/EPM-Consolidation-Analysis-Prototype-CN.zip)
+
+各ZIP解压后双击其中的HTML即可查看，不需要安装Python或Docker。永久显示“交互原型·演示数据”，使用合成数据，不连接运行软件账套；刷新重置。源文件、中文说明、重建方法及测试报告均随包。
+
+两版共40个导航视图及预算/关账/钻取等已实际浏览器复验，7类发现问题已修复。云端浏览器禁止file协议，测试采用读取同一HTML原文后加载DOM；没有声称Windows真机或file协议已经实测。[独立验收报告](prototypes/独立交互验收报告.md)。
+
 ## 中文Word文档
 
-压缩包的`docs`含以下四份可编辑`.docx`，字段表可在Word/WPS编辑：
+[一次下载四份中文Word](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/EPM-Chinese-Word-Documents.zip)。以下为v1.2可编辑`.docx`，字段表可在Word/WPS编辑；软件原始ZIP中的旧文档可用这组文件替换：
 
-- [研发需求文档：242页，含流程、页面、字段、接口、数据表、权限与验收](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/docs/EPM_PRD_CN.docx)
+- [研发需求文档：246页（v1.2），含流程、页面、字段、接口、数据表、权限与验收](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/docs/EPM_PRD_CN.docx)
 - [系统说明书](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/docs/EPM_System_Manual_CN.docx)
 - [用户手册](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/docs/EPM_User_Manual_CN.docx)
 - [免Docker版安装与使用手册](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/docs/EPM_Install_Manual_CN.docx)

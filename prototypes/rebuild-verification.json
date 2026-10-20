@@ -1,0 +1,14 @@
+[
+  {
+    "filename": "EPM-Full-Prototype-CN.zip",
+    "source_build_exit": 0,
+    "source_package_exit": 0,
+    "rebuilt_zip_identical_sha256": true
+  },
+  {
+    "filename": "EPM-Consolidation-Analysis-Prototype-CN.zip",
+    "source_build_exit": 0,
+    "source_package_exit": 0,
+    "rebuilt_zip_identical_sha256": true
+  }
+]

@@ -1,96 +1,33 @@
 {
-  "scope": "免Docker版三份中文手册；历史PRD原样复制，历史架构陈述不作为新包操作说明",
-  "forbidden_legacy_strings": [
-    "18080",
-    "18069",
-    "14000",
-    "18123",
-    "19000",
-    "15432",
-    "Caddy",
-    "caddy",
-    "容器",
-    "数据卷",
-    "1 前提检查",
-    "2 初始化/启动",
-    "4 打开网页",
-    "6 查看本机登录信息",
-    "7 完整备份",
-    "8 日志",
-    "login-info.txt",
-    "data/backups"
-  ],
-  "documents": {
-    "免Docker版安装与使用手册": {
-      "docx_bytes": 50775,
-      "tables": 5,
-      "native_text_and_tables": true,
-      "embedded_images": 0,
-      "legacy_hits": [],
-      "repeat_headers_all_tables": true,
-      "timing_reference_added": "TCG默认2CPU/约6GB；首次启动可能数十分钟、低配置或初始化内容多时更久；以最终实测为准；默认最多等待7200秒。未填新冷启动计时。",
-      "not_a_time_guarantee": true,
-      "first_empty_dimension_adaptation": "本次新增3维度配置，现有维度保留，不插财务数据",
-      "interrupted_core_recovery": "只限有本机登记的未完成初建站，不重置已就绪业务库",
-      "no_overall_platform_pass_claim": true,
-      "first_login_setup_wizard_documented": true,
-      "regional_defaults_not_group_policy": true,
-      "personal_user_epm_role_entity_grant_documented": true,
-      "actual_browser_entry": "/app（匿名跳转登录）",
-      "empty_close_not_exe_failure_documented": true,
-      "performance_scope_refined_this_round": true
+  "version": "v1.2 中文界面更新 · 2026-10-20",
+  "files": [
+    {
+      "filename": "PRD研发需求文档.docx",
+      "bytes": 388295,
+      "sha256": "64a4f9821acdff8f8753a9b61f0ebecf50c4cf15532af6f36fba13b97ce562f5",
+      "editable_word": true,
+      "tables": 239
     },
-    "系统说明书": {
-      "docx_bytes": 56034,
-      "tables": 10,
-      "native_text_and_tables": true,
-      "embedded_images": 0,
-      "legacy_hits": [],
-      "repeat_headers_all_tables": true,
-      "timing_reference_added": "TCG默认2CPU/约6GB；首次启动可能数十分钟、低配置或初始化内容多时更久；以最终实测为准；默认最多等待7200秒。未填新冷启动计时。",
-      "not_a_time_guarantee": true,
-      "first_empty_dimension_adaptation": "本次新增3维度配置，现有维度保留，不插财务数据",
-      "interrupted_core_recovery": "只限有本机登记的未完成初建站，不重置已就绪业务库",
-      "no_overall_platform_pass_claim": true,
-      "first_login_setup_wizard_documented": true,
-      "regional_defaults_not_group_policy": true,
-      "personal_user_epm_role_entity_grant_documented": true,
-      "actual_browser_entry": "/app（匿名跳转登录）",
-      "empty_close_not_exe_failure_documented": true,
-      "performance_scope_refined_this_round": true
+    {
+      "filename": "免Docker版安装与使用手册.docx",
+      "bytes": 41857,
+      "sha256": "dbc0aa747edddc36e58e41abc9a0dd6a0cce08c2b83154b33a474aba5d8cb20b",
+      "editable_word": true,
+      "tables": 1
     },
-    "用户手册": {
-      "docx_bytes": 64373,
-      "tables": 12,
-      "native_text_and_tables": true,
-      "embedded_images": 0,
-      "legacy_hits": [],
-      "repeat_headers_all_tables": true,
-      "timing_reference_added": "TCG默认2CPU/约6GB；首次启动可能数十分钟、低配置或初始化内容多时更久；以最终实测为准；默认最多等待7200秒。未填新冷启动计时。",
-      "not_a_time_guarantee": true,
-      "first_empty_dimension_adaptation": "本次新增3维度配置，现有维度保留，不插财务数据",
-      "interrupted_core_recovery": "只限有本机登记的未完成初建站，不重置已就绪业务库",
-      "no_overall_platform_pass_claim": true,
-      "first_login_setup_wizard_documented": true,
-      "regional_defaults_not_group_policy": true,
-      "personal_user_epm_role_entity_grant_documented": true,
-      "actual_browser_entry": "/app（匿名跳转登录）",
-      "empty_close_not_exe_failure_documented": true,
-      "performance_scope_refined_this_round": true
+    {
+      "filename": "用户手册.docx",
+      "bytes": 66394,
+      "sha256": "8fe2fda83b861d7b54b80b082fa87257d1cd531b21e2348d739f4780aba70f95",
+      "editable_word": true,
+      "tables": 13
+    },
+    {
+      "filename": "系统说明书.docx",
+      "bytes": 58084,
+      "sha256": "435df8d8cacffc04508bbd91e9a26a9433c3ed152458e0a0f431f62b8ace1fb7",
+      "editable_word": true,
+      "tables": 11
     }
-  },
-  "source_business_baseline_files_written": false,
-  "business_ui_fully_localized_claimed": false,
-  "new_windows_platform_validation_claimed": false,
-  "prd_copy": {
-    "bytes": 383385,
-    "unchanged_copy": false,
-    "sha256": "d67d92fbeda7396124196256395ee329610464d6dc3bd4db5b6388166c3996a4",
-    "historical_baseline_warning": "系统/用户手册已注明PRD保留前序基线，当前部署操作以新手册及验证说明为准",
-    "change": "仅在文首增加一个交付版本说明段落",
-    "all_original_body_xml_identical_after_removing_notice": true,
-    "all_original_236_tables_unchanged": true,
-    "pdf_pages_after_notice": 242
-  },
-  "performance_revision_scope": "只收窄不可靠的固定时间范围，保留其他业务/首次向导/权限/备份内容，PRD未改，未发布Git"
+  ]
 }
