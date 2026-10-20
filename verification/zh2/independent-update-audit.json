@@ -1,0 +1,22 @@
+{
+  "scope": "Independent actual update ZIP byte/member/CRC/hash and source-allowlist audit, including initrd payload bytes; no new runtime acceptance claim",
+  "archive": "EPM-Chinese-Memory-Update.zip",
+  "bytes": 21825982,
+  "sha256": "35ed4dbfa9faa933429f0f08f5bd84b032fbe6957992b2755ec3d7fd95fdc5e4",
+  "member_count": 577,
+  "every_member_crc_size_sha_verified": true,
+  "exact_packager_source_allowlist_matched": true,
+  "all_archived_sources_equal_frozen_workspace_bytes": true,
+  "developer_source_mandatory_members_checked": 18,
+  "payload_target_files": 161,
+  "embedded_initrd_updater_and_payload_exact": true,
+  "proof_and_candidate_hashes_exact": true,
+  "word_v13_files_verified": 4,
+  "server_rows": 751,
+  "desk_rows": 2114,
+  "forbidden_runtime_or_private_state_paths": [],
+  "private_runtime_secret_values_scanned": false,
+  "secret_scan_scope_note": "This audit checks explicit source membership and forbidden state paths. Exact selected runtime-secret value scan remains a separate release check.",
+  "below_github_100mib": true,
+  "passed": true
+}
