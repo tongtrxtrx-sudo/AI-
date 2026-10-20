@@ -1,0 +1,117 @@
+{
+  "passed": true,
+  "verified_at_utc": "2026-10-20T05:08:04.902419+00:00",
+  "scope": "Actual independent HTTPS downloads; exact bytes/SHA and archive CRC or native Word format checked",
+  "files": [
+    {
+      "filename": "EPM-NoDocker-Windows-x64.zip",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/33e474b166a258c7cb728ead06426fb28b9095c7/EPM-NoDocker-Windows-x64.zip",
+      "http": 200,
+      "bytes": 104118000,
+      "sha256": "bfeba2a328aebae964ef855663065a987fd16934b9500f5d21ebd1b69996842c",
+      "public_bytes_match_local": true,
+      "zip_crc_ok": true,
+      "member_count": 3159,
+      "localization_version": "20261020-zh2",
+      "published_zip_contains_exact_verified_runtime": true
+    },
+    {
+      "filename": "自研EPM压缩文档.zip",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/33e474b166a258c7cb728ead06426fb28b9095c7/%E8%87%AA%E7%A0%94EPM%E5%8E%8B%E7%BC%A9%E6%96%87%E6%A1%A3.zip",
+      "http": 200,
+      "bytes": 104118000,
+      "sha256": "bfeba2a328aebae964ef855663065a987fd16934b9500f5d21ebd1b69996842c",
+      "public_bytes_match_local": true,
+      "zip_crc_ok": true,
+      "member_count": 3159,
+      "localization_version": "20261020-zh2",
+      "published_zip_contains_exact_verified_runtime": true
+    },
+    {
+      "filename": "EPM-Chinese-Memory-Update.zip",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/b221920879f66c3d47fb9a9626c2d2174ecc2a64/EPM-Chinese-Memory-Update.zip",
+      "http": 200,
+      "bytes": 21825982,
+      "sha256": "35ed4dbfa9faa933429f0f08f5bd84b032fbe6957992b2755ec3d7fd95fdc5e4",
+      "public_bytes_match_local": true,
+      "zip_crc_ok": true,
+      "member_count": 577
+    },
+    {
+      "filename": "EPM-Full-Prototype-CN.zip",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/a4b2b46120a20d0102abfba5f84e86f8aee9ecf9/EPM-Full-Prototype-CN.zip",
+      "http": 200,
+      "bytes": 564433,
+      "sha256": "0270f5b9a4ef7dd107a85fe5a1d8bde97fcf010901df9f7b4fdcc349fcb34de9",
+      "public_bytes_match_local": true,
+      "zip_crc_ok": true,
+      "member_count": 17
+    },
+    {
+      "filename": "EPM-Consolidation-Analysis-Prototype-CN.zip",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/a4b2b46120a20d0102abfba5f84e86f8aee9ecf9/EPM-Consolidation-Analysis-Prototype-CN.zip",
+      "http": 200,
+      "bytes": 566948,
+      "sha256": "73dcec3aaf57b0ca520cc67ece65cffe4ce0933f6111ffcaaec1b4c7eb41d0b1",
+      "public_bytes_match_local": true,
+      "zip_crc_ok": true,
+      "member_count": 17
+    },
+    {
+      "filename": "EPM-Chinese-Word-Documents.zip",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/a4b2b46120a20d0102abfba5f84e86f8aee9ecf9/EPM-Chinese-Word-Documents.zip",
+      "http": 200,
+      "bytes": 541822,
+      "sha256": "3360176985481ea1b12563fd693ada5e08b26d1b633850a46d167b2f20cc7c21",
+      "public_bytes_match_local": true,
+      "zip_crc_ok": true,
+      "member_count": 6
+    },
+    {
+      "filename": "EPM_PRD_CN.docx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/a4b2b46120a20d0102abfba5f84e86f8aee9ecf9/docs/EPM_PRD_CN.docx",
+      "http": 200,
+      "bytes": 389065,
+      "sha256": "fcac4d47d6101ad6d1feaa2b193c9666763c5d7434f8f2f6b14e675b86b3b159",
+      "public_bytes_match_local": true,
+      "zip_crc_ok": true,
+      "member_count": 19,
+      "native_word_not_excel": true
+    },
+    {
+      "filename": "EPM_System_Manual_CN.docx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/a4b2b46120a20d0102abfba5f84e86f8aee9ecf9/docs/EPM_System_Manual_CN.docx",
+      "http": 200,
+      "bytes": 58304,
+      "sha256": "77deb3a94be9dd425e94c1540317245f48dad8c84b11e57e756ff0002c2e9696",
+      "public_bytes_match_local": true,
+      "zip_crc_ok": true,
+      "member_count": 19,
+      "native_word_not_excel": true
+    },
+    {
+      "filename": "EPM_User_Manual_CN.docx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/a4b2b46120a20d0102abfba5f84e86f8aee9ecf9/docs/EPM_User_Manual_CN.docx",
+      "http": 200,
+      "bytes": 66617,
+      "sha256": "e504bb322939324fd334bb62faefcf55cac0b62a118f8d4bdbe38b9b825312b3",
+      "public_bytes_match_local": true,
+      "zip_crc_ok": true,
+      "member_count": 19,
+      "native_word_not_excel": true
+    },
+    {
+      "filename": "EPM_Install_Manual_CN.docx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/a4b2b46120a20d0102abfba5f84e86f8aee9ecf9/docs/EPM_Install_Manual_CN.docx",
+      "http": 200,
+      "bytes": 42069,
+      "sha256": "685c0f54c1135fdfdf71e3fd7a1b5e159d16a2e55954bc47b3e4619aef68ec6a",
+      "public_bytes_match_local": true,
+      "zip_crc_ok": true,
+      "member_count": 19,
+      "native_word_not_excel": true
+    }
+  ],
+  "master_sha256_commit_unchanged": "5581c0997311578ac42c5a8c136fdad60e98efcc",
+  "local_master_worktree_clean": true
+}

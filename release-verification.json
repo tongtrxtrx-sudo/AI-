@@ -65,5 +65,7 @@
   },
   "physical_windows_tested": false,
   "real_group_financial_acceptance_tested": false,
-  "master_modified": false
+  "master_modified": false,
+  "actual_public_download_verification": "verification/zh2/public-final-downloads.json",
+  "actual_public_downloads_all_passed": true
 }

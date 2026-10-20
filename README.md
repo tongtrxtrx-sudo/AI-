@@ -1,6 +1,6 @@
 # 自研EPM · v1.3 中文免Docker便携研发版（20261020-zh2）
 
-[下载完整软件：自研EPM压缩文档.zip](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/%E8%87%AA%E7%A0%94EPM%E5%8E%8B%E7%BC%A9%E6%96%87%E6%A1%A3.zip) · [备用英文文件名](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/EPM-NoDocker-Windows-x64.zip)
+[下载完整软件：自研EPM压缩文档.zip](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/33e474b166a258c7cb728ead06426fb28b9095c7/%E8%87%AA%E7%A0%94EPM%E5%8E%8B%E7%BC%A9%E6%96%87%E6%A1%A3.zip) · [备用英文文件名](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/33e474b166a258c7cb728ead06426fb28b9095c7/EPM-NoDocker-Windows-x64.zip)
 
 Windows 10/11 64位。完整解压后双击 SelfDevelopedEPM 文件夹里的“自研EPM.exe”，浏览器显示中文启动进度。无需另装 Docker、Python 或 WSL；建议16GB及以上物理内存，数据所在盘至少留5GB，并为业务增长预留空间。
 
@@ -8,7 +8,7 @@ Windows 10/11 64位。完整解压后双击 SelfDevelopedEPM 文件夹里的“�
 
 ## 已经下载旧免Docker版
 
-优先下载较小的[中文化＋内存修复更新包](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/EPM-Chinese-Memory-Update.zip)。先在旧启动页安全退出，完整解压更新ZIP，将 app、vm、docs 等按原有层级复制到原 SelfDevelopedEPM 文件夹并替换同名文件，然后双击原“自研EPM.exe”。不要多套一层目录，不要删除账套或密码。
+优先下载较小的[中文化＋内存修复更新包](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/b221920879f66c3d47fb9a9626c2d2174ecc2a64/EPM-Chinese-Memory-Update.zip)。先在旧启动页安全退出，完整解压更新ZIP，将 app、vm、docs 等按原有层级复制到原 SelfDevelopedEPM 文件夹并替换同名文件，然后双击原“自研EPM.exe”。不要多套一层目录，不要删除账套或密码。
 
 基础盘版本未变；已校验完成的约1.26GB环境可复用。默认数据位置是 %LOCALAPPDATA%\SelfDevelopedEPM\data。中文更新在内置系统业务服务启动前检查准确的旧SHA、备份并写入；未知用户改动会拒绝覆盖。
 
@@ -24,8 +24,8 @@ Windows 10/11 64位。完整解压后双击 SelfDevelopedEPM 文件夹里的“�
 
 ## 两套离线中文交互原型
 
-- [完整产品原型：集团合并＋全面预算＋经营分析](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/EPM-Full-Prototype-CN.zip)
-- [合并与经营分析原型：预算仅保留静态界面](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/EPM-Consolidation-Analysis-Prototype-CN.zip)
+- [完整产品原型：集团合并＋全面预算＋经营分析](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/a4b2b46120a20d0102abfba5f84e86f8aee9ecf9/EPM-Full-Prototype-CN.zip)
+- [合并与经营分析原型：预算仅保留静态界面](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/a4b2b46120a20d0102abfba5f84e86f8aee9ecf9/EPM-Consolidation-Analysis-Prototype-CN.zip)
 
 每个ZIP解压后双击其中对应的HTML。全部样式、脚本及图形内嵌，不需要Python、Docker或CDN。永久显示“交互原型·演示数据”，使用合成数据，不连接运行平台账套，刷新重置。完整版含预算编制、分摊、送审、审批、锁定及版本操作；精简版预算四页仅静态预留，操作禁用。
 
@@ -33,12 +33,12 @@ Windows 10/11 64位。完整解压后双击 SelfDevelopedEPM 文件夹里的“�
 
 ## 四份v1.3可编辑中文Word
 
-[一次下载四份Word](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/EPM-Chinese-Word-Documents.zip)。完整软件及更新包的 docs 也已包含这四份原生 .docx，可在Word/WPS编辑：
+[一次下载四份Word](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/a4b2b46120a20d0102abfba5f84e86f8aee9ecf9/EPM-Chinese-Word-Documents.zip)。完整软件及更新包的 docs 也已包含这四份原生 .docx，可在Word/WPS编辑：
 
-- [PRD/RRD研发需求规格v1.3：含字段、流程、页面、接口、数据表、权限与验收](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/docs/EPM_PRD_CN.docx)
-- [系统说明书](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/docs/EPM_System_Manual_CN.docx)
-- [用户手册](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/docs/EPM_User_Manual_CN.docx)
-- [安装与使用手册](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/docs/EPM_Install_Manual_CN.docx)
+- [PRD/RRD研发需求规格v1.3：含字段、流程、页面、接口、数据表、权限与验收](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/a4b2b46120a20d0102abfba5f84e86f8aee9ecf9/docs/EPM_PRD_CN.docx)
+- [系统说明书](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/a4b2b46120a20d0102abfba5f84e86f8aee9ecf9/docs/EPM_System_Manual_CN.docx)
+- [用户手册](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/a4b2b46120a20d0102abfba5f84e86f8aee9ecf9/docs/EPM_User_Manual_CN.docx)
+- [安装与使用手册](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/a4b2b46120a20d0102abfba5f84e86f8aee9ecf9/docs/EPM_Install_Manual_CN.docx)
 
 按用户所给SCM PRD的结构与表格风格整理，区分原实现、二开目标、原型演示和当前验证范围。原上传附件未公开。文档SHA见 docs/SHA256SUMS.txt。
 
@@ -59,3 +59,5 @@ Linux Chromium实际登录、中文工作台、四类未保存业务表单和11�
 整包SHA见根 SHA256SUMS.txt。完整软件使用 PACKAGE-SHA256.json，小更新包使用 PATCH-SHA256.json，两种清单对应各自的ZIP。内置基础环境14分块仍固定在提交 0e3cb26ef322a196213acf2180b270765490976a，基础盘SHA未改。
 
 旧 EPM.zip 是依赖Docker的历史包。此前英文免Docker原版保留在固定提交 b6ea7297fbd713835b7b5caba53539239379e4c2，需要复现原始initrd时从该版本取文件。当前交付都在独立 epm-download-20261019 分支，master 保持原样。
+
+实际HTTPS下载与校验记录：[最终下载验证](verification/zh2/public-final-downloads.json)。完整软件与小更新已实际下载，两个完整软件文件名对应相同字节。
