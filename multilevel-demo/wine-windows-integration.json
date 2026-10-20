@@ -1,0 +1,110 @@
+{
+  "executionEnvironment": "Wine 64-bit compatibility environment on Linux",
+  "physicalWindowsTested": false,
+  "realNativeExeExecuted": true,
+  "bundledWindowsPythonExecuted": true,
+  "unicodeAndSpacePath": true,
+  "oldSoftwareOrOldDataModified": false,
+  "externalPythonInstallRequired": false,
+  "dockerWslVmUsed": false,
+  "checks": [
+    "Native EXE → private Windows Python → Windows HTTP + SQLite + static UI",
+    "Duplicate native launch reuses verified process without a second backend",
+    "Wrong random process identity is rejected; no PID-only reuse",
+    "Old product health identity is rejected even with valid PID creation and random identity",
+    "Windows native API reopens both subgroups, calculates/signs HW CNY and OS USD, and consolidates/signs group CNY from exact child result versions",
+    "Root revenue 2650, net 770, CTA 74 and cash FX 90 reconcile; seven unique leaf entities and unique inherited eliminations",
+    "Reopen preserves prior approved report values while marking historical results invalid and dependent ancestors stale",
+    "Windows backend saves budget edit independently of signed financial results through authenticated API",
+    "Page-style session + CSRF safe shutdown exits native process and preserves healthy SQLite",
+    "Native EXE restart preserves budget, all calculation versions, signoff, immutable historical values and revision; rotates local credentials",
+    "Native CLI safe stop works; stopped status is accurate",
+    "No-argument double-click GUI branch runs private pythonw.exe with isolated default app-data path",
+    "Fresh default data directory never reads or modifies either previous product directory",
+    "Explicit old-format private database fixture is rejected before DB/WAL mutation; no automatic migration",
+    "Original released ZIP, native EXE, launcher source and private Python input retain their exact baseline SHA256"
+  ],
+  "exeSha256": "e546e6e1c52975fd177f1203bdba2c3fe6b820f4a9e7815f971d1b71030e9338",
+  "launcherPySha256": "d5eb079b953c066e5eb0717c61a38b1fe811c4f6b928a880f107bd3703542f2a",
+  "backendSha256": "7d2734345f079837d2834576697cf334cd1eb145c7c0ccfe9836ffe6ecc2b3ed",
+  "backendSourceHashes": {
+    "consolidation.py": "3d56ffa2a1718fa9fbab02acd99b5e9bc5f4ec8aaa1416737686863e788cb283",
+    "engine.py": "26fd4283fa36f916fef4c0dd91a88aa63878d636e0e0a07a6957c251382ecac1",
+    "finance.py": "31e1fd61f35dc8d68fecb10d0209fd108237e2aded2efa80b2970fbed2019114",
+    "legacy_engine.py": "ecc9fc84cb156183dc2f6b56e25c8ec2409441577b3830c8d107701261d9230f",
+    "multilevel_domain.py": "b163b02d4dfb22e4a7d7e3f60486e2510135530a157b98c69095a6b7622712b2",
+    "multilevel_seed.py": "425b810becb6e56cb8f579c5ce5f03cad29e2a9dd194f902ec3de5be0e8c12db",
+    "server.py": "7d2734345f079837d2834576697cf334cd1eb145c7c0ccfe9836ffe6ecc2b3ed",
+    "store.py": "d29a97f8aafc3266680a9c06bb7b8f8a65e52eb0e804f44606ab1edafd55c563",
+    "test_consolidation.py": "bdff9a77433cfb505c2417528f4308d675ae76d68b813864968cc4fa23298c9e",
+    "test_multilevel_domain.py": "a55dc707e8ec7a6b164991890331fb98433248806bb0d8d044b9e6364a066016",
+    "test_multilevel_http.py": "e24a174f0cd9baebf671fbae23cd84d8fb52f7764212a186697d8c2b7b85eacd"
+  },
+  "frontendIndexSha256": "dc7bc4f57677b64378a03b23bbd27a8e24889a7d2170be4a97ce786fd25df760",
+  "previousVersionUnchangedBefore": {
+    "previousSoftwareZip": {
+      "sha256": "55d6ebe5318055dce47aa03638dff357f2ec46b86e61240b0f3d1541383f5519",
+      "bytes": 16473129
+    },
+    "previousExe": {
+      "sha256": "8820253bbcbb1d99b82054f10b62089e5be79237625e4fd700c9d479cea25abc",
+      "bytes": 180736
+    },
+    "previousLauncher": {
+      "sha256": "a8b6dac992b6e87a5a653ea60d14f2f3c7455a5e70ec118e8215ef0e24b13500",
+      "bytes": 14372
+    },
+    "privatePythonExecutable": {
+      "sha256": "4d6f5f81a4bca11191c4c7c6b43632694d0a4ce74e068619d8fdc161d469859a",
+      "bytes": 104952
+    }
+  },
+  "runtimeProbe": {
+    "os": "nt",
+    "platform": "win32",
+    "pythonVersion": "3.12.10",
+    "sqliteVersion": "3.49.1",
+    "pointerBits": 64,
+    "windowsVersion": [
+      10,
+      0,
+      19043,
+      2,
+      ""
+    ],
+    "windowsPlatformVersion": [
+      10,
+      0,
+      19043
+    ]
+  },
+  "goldenResult": {
+    "unitId": "TY_GROUP",
+    "version": 2,
+    "revenue": 2650,
+    "net": 770,
+    "cta": 74,
+    "cashFx": 90,
+    "leafCount": 7,
+    "eliminationCount": 3
+  },
+  "previousVersionUnchangedAfter": {
+    "previousSoftwareZip": {
+      "sha256": "55d6ebe5318055dce47aa03638dff357f2ec46b86e61240b0f3d1541383f5519",
+      "bytes": 16473129
+    },
+    "previousExe": {
+      "sha256": "8820253bbcbb1d99b82054f10b62089e5be79237625e4fd700c9d479cea25abc",
+      "bytes": 180736
+    },
+    "previousLauncher": {
+      "sha256": "a8b6dac992b6e87a5a653ea60d14f2f3c7455a5e70ec118e8215ef0e24b13500",
+      "bytes": 14372
+    },
+    "privatePythonExecutable": {
+      "sha256": "4d6f5f81a4bca11191c4c7c6b43632694d0a4ce74e068619d8fdc161d469859a",
+      "bytes": 104952
+    }
+  },
+  "passed": true
+}

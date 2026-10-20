@@ -1,64 +1,66 @@
-# 杭州天元宠物用品有限公司 · 全中文 EPM Demo
+# 杭州天元宠物用品有限公司 · 多层合并中文 EPM Demo
 
-本轮交付依据完整产品原型重新实现中文工作台，提供本机数据库和可保存的业务操作。默认公司名称为 **杭州天元宠物用品有限公司**，演示法人、人员、交易和金额均为虚构样例。
+**[下载新版 Windows EXE 运行包（约18.9 MB）](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/TianyuanEPM-Multilevel-Demo-Windows-x64.zip)**
 
-**[下载 Windows EXE 运行包（约16.5 MB）](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/a68390de1e21e857f9db12a903f2718d37d79edc/TianyuanEPMDemo-Windows-x64.zip)**
+完整解压 ZIP，双击 **天元EPM 多层合并Demo.exe**，会自动打开中文工作台。适用 Windows 10/11 64 位；包内附带运行环境，无需自行安装 Python、Docker、WSL 或虚拟机，不需要邮箱登录。
 
-Windows 10/11 64 位。完整解压 ZIP，双击 **天元EPM Demo.exe**，自动打开本机中文工作台。无需自行安装 Python、Docker、WSL 或虚拟机；首次启动无需下载其他运行环境，也不需要邮箱登录或英语初始化。
+![新版实际工作台](multilevel-demo/overview.png)
 
-![实际中文工作台](demo/overview.png)
+## 本次补齐的功能
 
-## 已实现的演示操作
+- **分级合并**：鸿旺三家独立法人先形成鸿旺人民币小合并；海外法人先形成美元小合并；集团正式计算引用有效、已签核的下级结果版本。
+- **真实范围与持股分开**：用户确认的鸿旺三份报表互不包含；管理合并树不会被误认为鸿旺直接持股树，真实持股按天元100%示例独立维护。
+- **分层抵销与血缘**：内部销售在交易双方最低共同合并层处理，下级抵销只继承一次；投资权益抵销保留实际母子关系、源资本及投资账面依据。
+- **美元财务报表折算**：资产负债使用期末汇率，逐月损益使用各月平均汇率，资本使用历史汇率，现金流使用流量汇率。外币报表折算差额和现金汇率变动影响分别列示。
+- **版本与重算**：源报送、成员、抵销或适用汇率变化使依赖结果失效；重开后逐层重算、签核。保留原结果金额、下级版本、源版本、抵销及汇率证据。
+- **中文可操作界面**：三表源字段编辑、完整CSV整批导入、成员配置、分类汇率、分层抵销、结果历史和钻取，以及集团人民币预算和经营分析。
 
-- 完整原型的 20 项中文导航，覆盖集团财务合并、全面预算、经营分析、基础档案和审计。
-- 试算余额 CSV 整批校验与导入、期间独立数据、平衡凭证草稿及审批、三表重算与勾稽、报送确认、内部交易说明、经营说明及关账签核。
-- 四层销售目标、量价与全年分摊、业务预算明细、提交审批锁定、完整版本复制、独立预算调整版及经营差异分析。
-- 业务操作在 SQLite 事务中保存；审计只读和审批职责由服务端检查。浏览器刷新与整个服务重启后保留已保存数据。
+所有演示配置和业务操作保存到本机 SQLite；再次启动会读取已保存数据。初始结果由同一正式计算与签核流程生成，并标记“系统初始化演示”。其他法人、人员、交易及金额为虚构样例。
 
-## 运行、退出和备份
+## 按这个顺序演示
 
-1. 解压后保留程序同目录的全部文件夹，双击新包中的 **天元EPM Demo.exe**。
-2. 点击左侧菜单体验业务。右上角“本机环境”可查看实际数据路径、打开文件夹和安全退出。
-3. 完成后选择“安全退出”。再次双击同一个 EXE，会读取先前已保存的数据。
+1. 在“分级合并与结果”查看鸿旺、海外和集团的初始结果及输入版本。
+2. 选择“鸿旺小合并”，重新开启并填写原因。系统同步使依赖它的集团结果失效，保留历史结果。
+3. 在“财务三表报送”编辑一个鸿旺法人源或下载完整CSV修改后导入；先保证源三表勾稽。
+4. 回到鸿旺，计算并签核；再切回集团计算并签核，钻取新下级结果ID。
+5. 在“集团分类汇率”发布期末率7.2→7.3的新版本，保持其他率不变；重新计算集团，对比净利润、折算差额和现金汇率影响。
 
-默认数据库保存在 `%LOCALAPPDATA%\TianyuanEPMDemo`，与程序解压位置分开。备份时先安全退出，再复制整个数据目录。关闭浏览器标签页时服务会继续运行。
+具体输入、按钮、预期结果及排错见 [新版中文Word手册](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/multilevel-demo/EPM-Multilevel-Guide-CN.docx)；ZIP内也有Word及PDF。
 
-本轮是按完整原型实现的独立演示应用，旧 Konsolidat 账套的数据迁入需另行适配。请从新 EXE 打开工作台，使用它自动选择的本机端口。
+## 可核对的初始示例
 
-## 详细中文文档三件套（V1.0）
+单位：境内及集团为人民币万元，海外原币为万美元，期间为2026年1—9月。
 
-**[一次下载三份Word＋PDF＋案例CSV（约7.6 MB）](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/7191c5dac2c38396b4886b5ead9589bd8cd6c94d/EPM-Documentation-CN.zip)**。三份PDF共65页，Word可在Word/WPS编辑；均依据当前独立中文Demo及实际源码编写。
+|项目|计算或预期|
+|---|---|
+|鸿旺小合并收入|1000＋300＋200－100＝1400|
+|海外美元收入 / 净利润|100 / 20|
+|集团收入|1400＋600－50＋100×7.0＝2650|
+|集团净利润|770|
+|集团期末资产 / 负债|2370 / 576|
+|集团资本 / 留存收益 / 折算差额|950 / 770 / 74|
+|集团现金流勾稽|期初950＋经营770＋筹资560＋现金汇率影响90＝期末2370|
+|仅把期末率7.2改7.3|利润不变，折算差额86，现金汇率影响110|
 
-| 文档 | Word下载 | 内容 |
-| --- | --- | --- |
-| 系统研发与交互说明书（PDF 21页） | [Word](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/7191c5dac2c38396b4886b5ead9589bd8cd6c94d/demo-docs/EPM-System-Development-Guide-CN.docx) | 研发架构、源码、前后端交互、接口字段、SQLite、计算与构建交付。 |
-| 产品说明书·含演示案例（PDF 20页） | [Word](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/7191c5dac2c38396b4886b5ead9589bd8cd6c94d/demo-docs/EPM-Product-Guide-With-Demos-CN.docx) | 20项菜单、产品联动、8个可照做的案例、输入与预期金额。 |
-| 用户操作手册（PDF 24页） | [Word](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/7191c5dac2c38396b4886b5ead9589bd8cd6c94d/demo-docs/EPM-User-Manual-CN.docx) | 安装、字段、报送、凭证、预算审批、关账、备份和排错。 |
+## 新旧环境与验证
 
-随包提供架构图、实际页面截图和三份已用HTTP验证的案例CSV。案例区分全新环境与承接关系，明确演示计算口径和后续研发能力；不会把设计目标当作已有功能。[阅读文档说明](demo-docs/README-文档使用说明.md)。 [文档包及三份Word实际下载核验](demo-docs/public-download-verification.json)。
+新版默认数据目录 **`%LOCALAPPDATA%\TianyuanEPMGroupDemo`**。它使用独立产品标识和端口，拒绝改写旧版或未知数据库；原来的 `TianyuanEPMDemo` 和 `SelfDevelopedEPM` 环境继续保留。请双击新EXE进入，使用它实际打开的地址。
 
-## 中文 Word 手册和源码
+关闭浏览器不会停止服务。演示结束通过“本机环境”安全退出；备份前先退出，再复制整个新版数据目录。
 
-- [下载可编辑中文 Word 使用手册](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/a68390de1e21e857f9db12a903f2718d37d79edc/demo/天元EPM_Demo中文版使用手册.docx)
-- [在线阅读中文版手册](demo/中文版Demo使用手册.md)
-- [查看独立验收报告](demo/独立验收报告.md)
-- 运行 ZIP 内包含完整前后端、原生 C 入口、可替换构建工具参数、接口字段契约、CSV 模板和 Python 原始许可。
+验证结果以 [新版独立验收报告](multilevel-demo/独立验收报告.md) 和包内证据为准。Windows原生EXE→包内Windows Python→Windows HTTP/SQLite在Wine实际运行；Wine不能替代Windows真机验收。EXE尚未签名。
 
-## 验证和边界
+本轮支持2026年、CNY/USD、全资全额合并。初始实际截至9期；10—12期未另报送时沿用9期累计。资本变动、分红、少数股东、复杂收购/商誉、其他币种、生产多用户隔离和外部ERP连接需另行研发验收。预算保持独立集团人民币口径，美元小合并不与人民币预算直接比较。
 
-实际 HTTP 和 Chromium 已验证中文导航、预算审批与独立版本、真实文件导入、凭证审批影响报表、签核与重新开启、本机路径、安全退出及重启保留。Windows 原生 EXE → 包内 Windows Python → Windows HTTP/SQLite 已在 Wine 中实际运行，含中文空格路径、重复启动复用与重启数据保留。Wine 验证不能替代 Windows 真机验收；EXE 当前未签名。
+## 源码、文档与此前交付
 
-初始演示账套以 2026 年 9 月为基准：收入 13,000 万元、净利润 1,720 万元、资产 9,580 万元、负债 4,730 万元、权益 4,850 万元，三表勾稽通过。会计年度固定 2026；未独立导入后续期间时，10—12 月沿用 9 月累计数。预算按全年 12 期编制。
+新版ZIP包含完整前后端、计算和事务源码、字段/API契约、构建入口、CSV模板、中文Word/PDF手册和测试证据。无需安装开发工具即可运行包内EXE。
 
-美元为展示币换算；CSV 导入后的经营现金流含演示估算。业务预算明细独立保存，成本费用预算比较使用演示基准。真实持股链、合并准则、完整三表预算模型、ERP 对接及生产多用户身份与组织隔离，仍属于正式项目研发及财务验收范围。角色切换用于单机演示。
-
-## 其他已有材料
-
+- [新版运行与演示手册](multilevel-demo/多层合并Demo安装与演示手册.md)
+- [原中文Demo及三份系统/产品/用户文档（V1历史版）](HISTORY-Chinese-Demo-V1.md)
 - [完整产品交互原型](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/a68390de1e21e857f9db12a903f2718d37d79edc/EPM-Full-Prototype-CN.zip)
 - [合并与分析交互原型（预算静态预留）](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/a68390de1e21e857f9db12a903f2718d37d79edc/EPM-Consolidation-Analysis-Prototype-CN.zip)
-- [已有四份中文 Word / PRD 研发需求材料](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/a4b2b46120a20d0102abfba5f84e86f8aee9ecf9/EPM-Chinese-Word-Documents.zip)
-- [此前 Konsolidat 运行平台交付记录](HISTORY-Konsolidat-Delivery.md)，含上游来源与旧包说明。
+- [既有中文Word/PRD研发需求材料](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/a4b2b46120a20d0102abfba5f84e86f8aee9ecf9/EPM-Chinese-Word-Documents.zip)
+- [此前Konsolidat运行平台交付记录](HISTORY-Konsolidat-Delivery.md)
 
-本交付仅更新 `epm-download-20261019` 分支；原仓库 `master` 保持原样。整包 SHA256 见根 `SHA256SUMS.txt`，包内另有逐文件校验清单。当前实际验证结果见 [demo/release-verification.json](demo/release-verification.json)。
-
-公开 ZIP、Word 手册及实际工作台截图已通过 HTTPS 实际下载，全部与本地交付字节一致：[下载验证记录](demo/public-download-verification.json)。
+本次仅更新已授权的 `epm-download-20261019` 下载分支，`master` 保持原样。根目录及ZIP内提供SHA256清单；公开下载核验结果见 [下载验证记录](multilevel-demo/public-download-verification.json)。

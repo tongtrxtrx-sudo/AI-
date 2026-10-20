@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "zipBytes": 18902004,
+  "zipSha256": "d91c3ffceb030081bf58fe88d1beb03b4e9e2495cbfccf068a2e3ef6d0bc22cc",
+  "fileCount": 1415,
+  "manifestEntriesVerified": 1414,
+  "zipCrcPassed": true,
+  "privateDataAbsent": true,
+  "editableWordManuals": [
+    "TianyuanEPMGroupDemo/docs/天元EPM_多层合并Demo安装与演示手册.docx"
+  ],
+  "runtimeMatchesFinalSource": true
+}

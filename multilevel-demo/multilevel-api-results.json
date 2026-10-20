@@ -1,0 +1,162 @@
+{
+  "generatedUtc": "2026-10-20T09:29:51.555370+00:00",
+  "environment": {
+    "python": "3.12.14",
+    "os": "Linux",
+    "architecture": "x86_64",
+    "privateFreshTemporaryDataDirectories": true
+  },
+  "sourceUnchangedDuringRun": true,
+  "sourceSha256": {
+    "backend/API-CONTRACT.md": "927c66d8c441e695db8130c324b9aa7edc988236b55cdedbe3ce6982ef0e7b6c",
+    "backend/CALCULATION-CONTRACT.md": "0ef59739c579a84c2cce1ec86e32933e9673eec94855af8b344652f8e05908dd",
+    "backend/consolidation.py": "3d56ffa2a1718fa9fbab02acd99b5e9bc5f4ec8aaa1416737686863e788cb283",
+    "backend/engine.py": "26fd4283fa36f916fef4c0dd91a88aa63878d636e0e0a07a6957c251382ecac1",
+    "backend/finance.py": "31e1fd61f35dc8d68fecb10d0209fd108237e2aded2efa80b2970fbed2019114",
+    "backend/legacy_engine.py": "ecc9fc84cb156183dc2f6b56e25c8ec2409441577b3830c8d107701261d9230f",
+    "backend/multilevel_domain.py": "b163b02d4dfb22e4a7d7e3f60486e2510135530a157b98c69095a6b7622712b2",
+    "backend/multilevel_seed.py": "425b810becb6e56cb8f579c5ce5f03cad29e2a9dd194f902ec3de5be0e8c12db",
+    "backend/server.py": "7d2734345f079837d2834576697cf334cd1eb145c7c0ccfe9836ffe6ecc2b3ed",
+    "backend/store.py": "d29a97f8aafc3266680a9c06bb7b8f8a65e52eb0e804f44606ab1edafd55c563",
+    "backend/test_consolidation.py": "bdff9a77433cfb505c2417528f4308d675ae76d68b813864968cc4fa23298c9e",
+    "backend/test_multilevel_domain.py": "a55dc707e8ec7a6b164991890331fb98433248806bb0d8d044b9e6364a066016",
+    "backend/test_multilevel_http.py": "e24a174f0cd9baebf671fbae23cd84d8fb52f7764212a186697d8c2b7b85eacd",
+    "build_windows.py": "553f501ac9c1e71f875660c0ba907912a35d706d150ace1d1a7d46b1df557908",
+    "frontend/dist/index.html": "dc7bc4f57677b64378a03b23bbd27a8e24889a7d2170be4a97ce786fd25df760",
+    "frontend/src/app.js": "0413f95966c21727549b3a3435e8e18e76bd7945e1bf890256b4e55f4ce36970",
+    "frontend/src/budget.js": "fe8f17e1973c2611397a7c4986b1931da18edf27985aa98be7a935f946f80a36",
+    "frontend/src/ml-actions.js": "89bdea8813aa367b5a8cb1720320ccafedca923a0a97cedd042e2d249d66cd49",
+    "frontend/src/ml-pages.js": "85b951ca63788ebae80fc6564c54fb2c36e4c54f13bb89b968dcfd2141a9a3c8",
+    "frontend/src/shell.html": "5b1a9d5ca94293b65c7dcde0ea32a18ed83b4e552e3913a8ca97d169ff5b533e",
+    "frontend/src/style.css": "44d1c984e74fa0877c3a91ba7e037792eb22adab2cb329986185c10e309ee0c8",
+    "frontend-build.py": "824c5d027fa9ed9045a15999385198e707bac6e3543ebb960d1a6c90d384ce45",
+    "package_windows.py": "2d43885d14ebcdb7c89cf84ad29a0be2065b01332ba8eba654d9cad345fef938",
+    "windows/app/demo_launcher.py": "d5eb079b953c066e5eb0717c61a38b1fe811c4f6b928a880f107bd3703542f2a",
+    "windows/launcher.c": "dba1c9276fe2d6438ccd37af8c6340e98f09299b549b410a3b4db67e344c4e93"
+  },
+  "acceptanceHarnessSha256": {
+    "support.py": "453f80c05dfcea8dfc01805287eb1615f4da24bc6bd6df87e8dc553b27a5b881",
+    "生成最终验收报告.py": "1a11639cbacf2b537debd7301d7e759da9560dfd550120ba2d275ad39f34c2ef",
+    "run_multilevel_api.py": "38e3783643a446df4114e67771afe45947c48baf1705695775fc45b6eb64bf1c",
+    "run_multilevel_browser.py": "13149373ff2058c7d978f8d925748225bef12138c47cd913f35056678f5a18a7"
+  },
+  "cases": [
+    {
+      "case": "M02/M04/M05/M06/M07 基准、层级与三表",
+      "passed": true,
+      "evidence": {
+        "集团收入": 2650,
+        "集团净利": 770,
+        "集团资产": 2370,
+        "鸿旺收入": 1400,
+        "海外美元收入": 100,
+        "海外美元净利": 20,
+        "集团CTA": 74,
+        "集团现金汇率影响": 90
+      }
+    },
+    {
+      "case": "M03/M13/M15/M16 下级前置、依赖与历史",
+      "passed": true,
+      "evidence": {
+        "失效下级禁止上卷": true,
+        "拒绝动作零写入": true,
+        "海外不相关结果保持": true,
+        "新子结果被根引用": true,
+        "历史金额保持": true
+      }
+    },
+    {
+      "case": "M09 动态树完整性和原子拒绝",
+      "passed": true,
+      "evidence": {
+        "重复叶子循环未知重复成员拒绝数": 4,
+        "配置保持原值": true
+      }
+    },
+    {
+      "case": "M11/M12 分类汇率敏感性与历史",
+      "passed": true,
+      "evidence": {
+        "只改期末汇率": "7.2→7.3",
+        "集团利润不变": 770,
+        "海外利润不变": 140,
+        "CTA": 86,
+        "现金汇率影响": 110,
+        "原结果CTA保持": 74,
+        "海外USD结果保持": true
+      }
+    },
+    {
+      "case": "M08/M10/M11 抵销层次去重和缺率阻止",
+      "passed": true,
+      "evidence": {
+        "错层抵销被拒绝": true,
+        "重复抵销来源被拒绝": true,
+        "拒绝动作零写入": true,
+        "缺少月度平均率不能生成正式结果": true
+      }
+    },
+    {
+      "case": "M13 源数据变更和相关祖先重算",
+      "passed": true,
+      "evidence": {
+        "源收入及现金增加": 10,
+        "鸿旺收入": 1410,
+        "集团收入": 2660,
+        "集团利润": 780,
+        "不相关海外结果保持": true
+      }
+    },
+    {
+      "case": "M14 抵销真实变更、审批与祖先重算",
+      "passed": true,
+      "evidence": {
+        "抵销累计金额": 110,
+        "草稿阻止计算": true,
+        "鸿旺收入": 1390,
+        "集团收入": 2640,
+        "净利润不变": 770,
+        "抵销继承一次": true,
+        "不相关海外保持": true,
+        "历史金额保持": true
+      }
+    },
+    {
+      "case": "M17/M18 输入原子性和请求权限",
+      "passed": true,
+      "evidence": {
+        "完整源CSV实际导入": true,
+        "错误批次整批零写入": true,
+        "审计只读接口拒绝": true,
+        "未登录CSRF跨站拒绝": true,
+        "过期revision拒绝": true
+      }
+    },
+    {
+      "case": "M05/M06/M17 美元原币CSV变更后实际逐层重算",
+      "passed": true,
+      "evidence": {
+        "USD完整六列CSV真实改数": 1,
+        "海外USD收入": 101,
+        "海外USD净利": 21,
+        "集团CNY收入": 2657,
+        "集团CNY净利": 777,
+        "集团CTA": 74.2,
+        "集团现金汇率影响": 90.2,
+        "三表校验全部通过": true
+      }
+    },
+    {
+      "case": "M19/M21 预算与完整服务重启保留",
+      "passed": true,
+      "evidence": {
+        "新增真实合并节点及成员上卷": true,
+        "整个服务进程重启": true,
+        "结果版本保留": true,
+        "配置保留": true,
+        "预算金额及锁定保留": true
+      }
+    }
+  ]
+}

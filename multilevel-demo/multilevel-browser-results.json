@@ -1,0 +1,144 @@
+{
+  "generatedUtc": "2026-10-20T09:30:47.455279+00:00",
+  "environment": {
+    "python": "3.12.14",
+    "os": "Linux",
+    "architecture": "x86_64",
+    "privateFreshTemporaryDataDirectories": true
+  },
+  "sourceUnchangedDuringRun": true,
+  "sourceSha256": {
+    "backend/API-CONTRACT.md": "927c66d8c441e695db8130c324b9aa7edc988236b55cdedbe3ce6982ef0e7b6c",
+    "backend/CALCULATION-CONTRACT.md": "0ef59739c579a84c2cce1ec86e32933e9673eec94855af8b344652f8e05908dd",
+    "backend/consolidation.py": "3d56ffa2a1718fa9fbab02acd99b5e9bc5f4ec8aaa1416737686863e788cb283",
+    "backend/engine.py": "26fd4283fa36f916fef4c0dd91a88aa63878d636e0e0a07a6957c251382ecac1",
+    "backend/finance.py": "31e1fd61f35dc8d68fecb10d0209fd108237e2aded2efa80b2970fbed2019114",
+    "backend/legacy_engine.py": "ecc9fc84cb156183dc2f6b56e25c8ec2409441577b3830c8d107701261d9230f",
+    "backend/multilevel_domain.py": "b163b02d4dfb22e4a7d7e3f60486e2510135530a157b98c69095a6b7622712b2",
+    "backend/multilevel_seed.py": "425b810becb6e56cb8f579c5ce5f03cad29e2a9dd194f902ec3de5be0e8c12db",
+    "backend/server.py": "7d2734345f079837d2834576697cf334cd1eb145c7c0ccfe9836ffe6ecc2b3ed",
+    "backend/store.py": "d29a97f8aafc3266680a9c06bb7b8f8a65e52eb0e804f44606ab1edafd55c563",
+    "backend/test_consolidation.py": "bdff9a77433cfb505c2417528f4308d675ae76d68b813864968cc4fa23298c9e",
+    "backend/test_multilevel_domain.py": "a55dc707e8ec7a6b164991890331fb98433248806bb0d8d044b9e6364a066016",
+    "backend/test_multilevel_http.py": "e24a174f0cd9baebf671fbae23cd84d8fb52f7764212a186697d8c2b7b85eacd",
+    "build_windows.py": "553f501ac9c1e71f875660c0ba907912a35d706d150ace1d1a7d46b1df557908",
+    "frontend/dist/index.html": "dc7bc4f57677b64378a03b23bbd27a8e24889a7d2170be4a97ce786fd25df760",
+    "frontend/src/app.js": "0413f95966c21727549b3a3435e8e18e76bd7945e1bf890256b4e55f4ce36970",
+    "frontend/src/budget.js": "fe8f17e1973c2611397a7c4986b1931da18edf27985aa98be7a935f946f80a36",
+    "frontend/src/ml-actions.js": "89bdea8813aa367b5a8cb1720320ccafedca923a0a97cedd042e2d249d66cd49",
+    "frontend/src/ml-pages.js": "85b951ca63788ebae80fc6564c54fb2c36e4c54f13bb89b968dcfd2141a9a3c8",
+    "frontend/src/shell.html": "5b1a9d5ca94293b65c7dcde0ea32a18ed83b4e552e3913a8ca97d169ff5b533e",
+    "frontend/src/style.css": "44d1c984e74fa0877c3a91ba7e037792eb22adab2cb329986185c10e309ee0c8",
+    "frontend-build.py": "824c5d027fa9ed9045a15999385198e707bac6e3543ebb960d1a6c90d384ce45",
+    "package_windows.py": "2d43885d14ebcdb7c89cf84ad29a0be2065b01332ba8eba654d9cad345fef938",
+    "windows/app/demo_launcher.py": "d5eb079b953c066e5eb0717c61a38b1fe811c4f6b928a880f107bd3703542f2a",
+    "windows/launcher.c": "dba1c9276fe2d6438ccd37af8c6340e98f09299b549b410a3b4db67e344c4e93"
+  },
+  "acceptanceHarnessSha256": {
+    "support.py": "453f80c05dfcea8dfc01805287eb1615f4da24bc6bd6df87e8dc553b27a5b881",
+    "生成最终验收报告.py": "1a11639cbacf2b537debd7301d7e759da9560dfd550120ba2d275ad39f34c2ef",
+    "run_multilevel_api.py": "38e3783643a446df4114e67771afe45947c48baf1705695775fc45b6eb64bf1c",
+    "run_multilevel_browser.py": "13149373ff2058c7d978f8d925748225bef12138c47cd913f35056678f5a18a7"
+  },
+  "cases": [
+    {
+      "case": "B01 真实HTTP入口与21项中文菜单",
+      "passed": true,
+      "evidence": {
+        "导航标题": [
+          "集团经营总览",
+          "集团组织与持股",
+          "科目与维度",
+          "数据接入",
+          "财务三表报送",
+          "集团分类汇率",
+          "分级合并与结果",
+          "持股与企业合并",
+          "内部往来核对",
+          "抵销与调整凭证",
+          "关账校验与签核",
+          "集团三张报表",
+          "预算周期与审批",
+          "预算编制与分摊",
+          "预算调整与滚动预测",
+          "版本与多情景",
+          "经营差异与钻取",
+          "管理报表中心",
+          "组织权限与角色",
+          "审计轨迹",
+          "系统配置"
+        ],
+        "集团收入": 2650
+      }
+    },
+    {
+      "case": "B02 UI重开、平衡改数、下级签核和集团上卷",
+      "passed": true,
+      "evidence": {
+        "鸿旺收入": 1410,
+        "集团收入": 2660,
+        "集团净利": 780,
+        "历史版本数": 2
+      }
+    },
+    {
+      "case": "B03 子结果、法人、抵销与汇率钻取及真实下载",
+      "passed": true,
+      "evidence": {
+        "导出当前结果ID": "RES-TY_GROUP-202609-V2",
+        "海外原币收入": 100,
+        "继承抵销可见": true
+      }
+    },
+    {
+      "case": "B04 UI发布7.3并重开重算签核",
+      "passed": true,
+      "evidence": {
+        "期末率": 7.3,
+        "海外折算利润保持": 140,
+        "CTA": 86,
+        "现金汇率影响": 110,
+        "原快照CTA": 74
+      }
+    },
+    {
+      "case": "B05 UI上传真实六列CSV文件，坏批次零写入后成功导入",
+      "passed": true,
+      "evidence": {
+        "不平衡拒绝": true,
+        "拒绝后revision不变": true,
+        "完整源行数": 126,
+        "文件导入已保存": true
+      }
+    },
+    {
+      "case": "B06 原币显示、UI重叠拒绝及新节点保存",
+      "passed": true,
+      "evidence": {
+        "海外收入": 100,
+        "原币": "USD",
+        "重叠叶子拒绝": true,
+        "新单元已保存": "BROWSER_SCOPE"
+      }
+    },
+    {
+      "case": "B07 UI预算审批锁定和独立调整",
+      "passed": true,
+      "evidence": {
+        "原版": "V2 年度目标",
+        "新版本": "V3 调整批准"
+      }
+    },
+    {
+      "case": "B08 UI环境位置、安全退出及整个服务重启",
+      "passed": true,
+      "evidence": {
+        "真实目录已核对": true,
+        "安全退出响应": 200,
+        "新节点预算与源报送保留": true
+      }
+    }
+  ],
+  "consoleErrors": [],
+  "browser": "Chromium / real HTTP / 1600x1000 / zh-CN"
+}

@@ -1,0 +1,18 @@
+{
+  "previousSoftwareZip": {
+    "sha256": "55d6ebe5318055dce47aa03638dff357f2ec46b86e61240b0f3d1541383f5519",
+    "bytes": 16473129
+  },
+  "previousExe": {
+    "sha256": "8820253bbcbb1d99b82054f10b62089e5be79237625e4fd700c9d479cea25abc",
+    "bytes": 180736
+  },
+  "previousLauncher": {
+    "sha256": "a8b6dac992b6e87a5a653ea60d14f2f3c7455a5e70ec118e8215ef0e24b13500",
+    "bytes": 14372
+  },
+  "privatePythonExecutable": {
+    "sha256": "4d6f5f81a4bca11191c4c7c6b43632694d0a4ce74e068619d8fdc161d469859a",
+    "bytes": 104952
+  }
+}
