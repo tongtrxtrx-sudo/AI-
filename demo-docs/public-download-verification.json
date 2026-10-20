@@ -1,0 +1,43 @@
+{
+  "checkedUtc": "2026-10-20T08:44:45.248843+00:00",
+  "artifactCommit": "7191c5dac2c38396b4886b5ead9589bd8cd6c94d",
+  "downloads": [
+    {
+      "path": "EPM-Documentation-CN.zip",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/7191c5dac2c38396b4886b5ead9589bd8cd6c94d/EPM-Documentation-CN.zip",
+      "httpStatus": 200,
+      "bytes": 7608226,
+      "sha256": "c03f7593ecf65253f9b40e60d88c9c2e08df8ca38e09d0036f72e6ffb442c4d6",
+      "matchesPublishedArtifact": true,
+      "zipContainerIntegrityPassed": true
+    },
+    {
+      "path": "demo-docs/EPM-System-Development-Guide-CN.docx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/7191c5dac2c38396b4886b5ead9589bd8cd6c94d/demo-docs/EPM-System-Development-Guide-CN.docx",
+      "httpStatus": 200,
+      "bytes": 576153,
+      "sha256": "8d45db508f4ae7be694d75b82d20ace0e0e6c930464c641297479ceafd421a30",
+      "matchesPublishedArtifact": true,
+      "zipContainerIntegrityPassed": true
+    },
+    {
+      "path": "demo-docs/EPM-Product-Guide-With-Demos-CN.docx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/7191c5dac2c38396b4886b5ead9589bd8cd6c94d/demo-docs/EPM-Product-Guide-With-Demos-CN.docx",
+      "httpStatus": 200,
+      "bytes": 1174756,
+      "sha256": "57e3e7ac739225294e1c922945b5b8b99758f93cdfb79cd4bac3c0741ab2efc0",
+      "matchesPublishedArtifact": true,
+      "zipContainerIntegrityPassed": true
+    },
+    {
+      "path": "demo-docs/EPM-User-Manual-CN.docx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/7191c5dac2c38396b4886b5ead9589bd8cd6c94d/demo-docs/EPM-User-Manual-CN.docx",
+      "httpStatus": 200,
+      "bytes": 1178532,
+      "sha256": "e186d5a54380a00d1c9eb7c9cffc05647607478285336688f3b66e4e022ecbf7",
+      "matchesPublishedArtifact": true,
+      "zipContainerIntegrityPassed": true
+    }
+  ],
+  "allPassed": true
+}

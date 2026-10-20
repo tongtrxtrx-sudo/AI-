@@ -61,5 +61,8 @@
   "ordinaryUsersNeedPython": false,
   "existingSoftwareModified": false,
   "uploadedPrdBodyIncluded": false,
-  "credentialsIncluded": false
+  "credentialsIncluded": false,
+  "documentationArtifactCommit": "7191c5dac2c38396b4886b5ead9589bd8cd6c94d",
+  "publicDownloadsVerified": true,
+  "downloadEvidence": "public-download-verification.json"
 }

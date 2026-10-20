@@ -27,15 +27,15 @@ Windows 10/11 64 位。完整解压 ZIP，双击 **天元EPM Demo.exe**，自动
 
 ## 详细中文文档三件套（V1.0）
 
-**[一次下载三份Word＋PDF＋案例CSV（约7.6 MB）](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/EPM-Documentation-CN.zip)**。三份PDF共65页，Word可在Word/WPS编辑；均依据当前独立中文Demo及实际源码编写。
+**[一次下载三份Word＋PDF＋案例CSV（约7.6 MB）](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/7191c5dac2c38396b4886b5ead9589bd8cd6c94d/EPM-Documentation-CN.zip)**。三份PDF共65页，Word可在Word/WPS编辑；均依据当前独立中文Demo及实际源码编写。
 
 | 文档 | Word下载 | 内容 |
 | --- | --- | --- |
-| 系统研发与交互说明书（PDF 21页） | [Word](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/demo-docs/EPM-System-Development-Guide-CN.docx) | 研发架构、源码、前后端交互、接口字段、SQLite、计算与构建交付。 |
-| 产品说明书·含演示案例（PDF 20页） | [Word](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/demo-docs/EPM-Product-Guide-With-Demos-CN.docx) | 20项菜单、产品联动、8个可照做的案例、输入与预期金额。 |
-| 用户操作手册（PDF 24页） | [Word](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/demo-docs/EPM-User-Manual-CN.docx) | 安装、字段、报送、凭证、预算审批、关账、备份和排错。 |
+| 系统研发与交互说明书（PDF 21页） | [Word](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/7191c5dac2c38396b4886b5ead9589bd8cd6c94d/demo-docs/EPM-System-Development-Guide-CN.docx) | 研发架构、源码、前后端交互、接口字段、SQLite、计算与构建交付。 |
+| 产品说明书·含演示案例（PDF 20页） | [Word](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/7191c5dac2c38396b4886b5ead9589bd8cd6c94d/demo-docs/EPM-Product-Guide-With-Demos-CN.docx) | 20项菜单、产品联动、8个可照做的案例、输入与预期金额。 |
+| 用户操作手册（PDF 24页） | [Word](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/7191c5dac2c38396b4886b5ead9589bd8cd6c94d/demo-docs/EPM-User-Manual-CN.docx) | 安装、字段、报送、凭证、预算审批、关账、备份和排错。 |
 
-随包提供架构图、实际页面截图和三份已用HTTP验证的案例CSV。案例区分全新环境与承接关系，明确演示计算口径和后续研发能力；不会把设计目标当作已有功能。[阅读文档说明](demo-docs/README-文档使用说明.md)。
+随包提供架构图、实际页面截图和三份已用HTTP验证的案例CSV。案例区分全新环境与承接关系，明确演示计算口径和后续研发能力；不会把设计目标当作已有功能。[阅读文档说明](demo-docs/README-文档使用说明.md)。 [文档包及三份Word实际下载核验](demo-docs/public-download-verification.json)。
 
 ## 中文 Word 手册和源码
 
