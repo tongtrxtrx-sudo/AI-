@@ -25,6 +25,18 @@ Windows 10/11 64 位。完整解压 ZIP，双击 **天元EPM Demo.exe**，自动
 
 本轮是按完整原型实现的独立演示应用，旧 Konsolidat 账套的数据迁入需另行适配。请从新 EXE 打开工作台，使用它自动选择的本机端口。
 
+## 详细中文文档三件套（V1.0）
+
+**[一次下载三份Word＋PDF＋案例CSV（约7.6 MB）](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/EPM-Documentation-CN.zip)**。三份PDF共65页，Word可在Word/WPS编辑；均依据当前独立中文Demo及实际源码编写。
+
+| 文档 | Word下载 | 内容 |
+| --- | --- | --- |
+| 系统研发与交互说明书（PDF 21页） | [Word](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/demo-docs/EPM-System-Development-Guide-CN.docx) | 研发架构、源码、前后端交互、接口字段、SQLite、计算与构建交付。 |
+| 产品说明书·含演示案例（PDF 20页） | [Word](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/demo-docs/EPM-Product-Guide-With-Demos-CN.docx) | 20项菜单、产品联动、8个可照做的案例、输入与预期金额。 |
+| 用户操作手册（PDF 24页） | [Word](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/demo-docs/EPM-User-Manual-CN.docx) | 安装、字段、报送、凭证、预算审批、关账、备份和排错。 |
+
+随包提供架构图、实际页面截图和三份已用HTTP验证的案例CSV。案例区分全新环境与承接关系，明确演示计算口径和后续研发能力；不会把设计目标当作已有功能。[阅读文档说明](demo-docs/README-文档使用说明.md)。
+
 ## 中文 Word 手册和源码
 
 - [下载可编辑中文 Word 使用手册](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/a68390de1e21e857f9db12a903f2718d37d79edc/demo/天元EPM_Demo中文版使用手册.docx)

@@ -1,0 +1,13 @@
+{
+  "file": "EPM-Documentation-CN.zip",
+  "bytes": 7608226,
+  "sha256": "c03f7593ecf65253f9b40e60d88c9c2e08df8ca38e09d0036f72e6ffb442c4d6",
+  "files": 29,
+  "wordDocuments": 3,
+  "pdfDocuments": 3,
+  "pdfPages": 65,
+  "csvAttachments": 3,
+  "zipCrcPassed": true,
+  "allFileHashesPassed": true,
+  "softwareRuntimeIncluded": false
+}

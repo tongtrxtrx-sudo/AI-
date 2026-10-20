@@ -1,0 +1,18 @@
+{
+  "source": "Files actually included in the documentation ZIP",
+  "allPassed": true,
+  "rowCountPerFile": 63,
+  "baseline": {
+    "revenue": 13000,
+    "net": 1720
+  },
+  "changed": {
+    "revenue": 13100,
+    "net": 1820,
+    "assets": 9680,
+    "cash": 2150,
+    "operatingCash": 1550
+  },
+  "unbalancedFileRejectedWithoutRevisionOrAmountChange": true,
+  "runtimeCredentialsIncluded": false
+}

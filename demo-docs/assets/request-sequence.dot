@@ -1,0 +1,15 @@
+digraph Request {
+  graph [rankdir=TB, bgcolor="white", fontname="Noto Sans CJK SC", fontsize=17, pad="0.2", nodesep="0.35", ranksep="0.35", label="一次保存：从用户点击到本机持久化", labelloc=t];
+  node [shape=box, style="rounded,filled", fillcolor="#F2F6FF", color="#8CA5D7", fontcolor="#173454", fontname="Noto Sans CJK SC", fontsize=13, margin="0.18,0.12"];
+  edge [fontname="Noto Sans CJK SC", fontsize=10, color="#5874A0", fontcolor="#40587A", arrowsize=0.8];
+  a [label="① 用户填写并点击保存\n界面显示正在保存，尚不声称成功"];
+  b [label="② 同源 POST /api/action\naction + payload + revision + context\nCookie 与 X-CSRF-Token"];
+  c [label="③ 服务端校验会话与请求\nSQLite BEGIN IMMEDIATE 检查全库版本"];
+  d [label="④ 执行角色授权与领域规则\n金额/字段/状态/签核保护等验证"];
+  e [label="⑤ 同一事务更新\nstate.document + revision + audit → COMMIT", fillcolor="#E8F7F2", color="#60AA9E"];
+  f [label="⑥ 返回最新 bootstrap 视图\n浏览器重绘金额、状态与审计，提示已保存"];
+  err [label="校验失败或并发冲突\n不提交业务变更，返回中文原因\n仅 revision_conflict 提示重新加载", fillcolor="#FFF0EF", color="#CB8C88"];
+  a -> b -> c -> d -> e -> f;
+  c -> err [label="请求/版本不符"];
+  d -> err [label="规则不符，回滚事务"];
+}

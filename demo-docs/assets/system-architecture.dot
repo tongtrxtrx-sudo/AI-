@@ -1,0 +1,21 @@
+digraph Architecture {
+  graph [rankdir=TB, bgcolor="white", fontname="Noto Sans CJK SC", fontsize=17, pad="0.2", nodesep="0.35", ranksep="0.52", splines=polyline, label="天元 EPM｜本机中文演示架构", labelloc=t];
+  node [shape=box, style="rounded,filled", fillcolor="#F2F6FF", color="#8CA5D7", fontcolor="#173454", fontname="Noto Sans CJK SC", fontsize=14, margin="0.18,0.13"];
+  edge [fontname="Noto Sans CJK SC", fontsize=11, color="#5874A0", fontcolor="#40587A", arrowsize=0.8];
+  exe [label="原生 Windows EXE\nUnicode 路径与启动参数"];
+  manager [label="本机进程管理器\n包内解释器 · 身份核对 · 重复打开"];
+  browser [label="中文浏览器工作台\n20 项导航 · 录入/筛选/钻取/反馈", fillcolor="#E8F7F2", color="#60AA9E"];
+  http [label="本机 HTTP 服务\n会话 · 同源与 CSRF · 接口分发"];
+  domain [label="领域命令与财务计算\nDecimal · 校验 · 预算版本 · 签核保护"];
+  store [label="SQLite 事务存储\nstate：版本与 JSON 快照\naudit：操作轨迹", shape=cylinder, fillcolor="#FFF5E7", color="#C7A16B"];
+  disk [label="独立用户数据目录\n数据库 · 实例状态 · 本地日志", fillcolor="#F4F5F8", color="#A4ADBB"];
+  exe -> manager [label="调用包内 Python"];
+  manager -> http [label="启动/核对/安全退出"];
+  manager -> browser [label="打开本机入口"];
+  {rank=same; browser; http;}
+  browser -> http [label="读取与领域动作", dir=both];
+  http -> domain [label="按角色与数据版本校验"];
+  domain -> store [label="提交成功后返回最新视图", dir=both];
+  store -> disk [label="已提交数据跨重启保留"];
+  manager -> disk [style=dashed, label="进程实例与日志", constraint=false];
+}

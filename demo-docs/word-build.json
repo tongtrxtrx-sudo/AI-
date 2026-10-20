@@ -1,0 +1,35 @@
+[
+  {
+    "file": "01_系统研发与交互说明书.docx",
+    "source": "01-系统研发与交互说明书.md",
+    "sourceSha256": "ba67ca627baa56d54dd0a6b7a10cb23e9b1c0d6e1f9572da5e39365ec3fef17a",
+    "sha256": "8d45db508f4ae7be694d75b82d20ace0e0e6c930464c641297479ceafd421a30",
+    "bytes": 576153,
+    "headings": 51,
+    "tables": 17,
+    "figures": 2,
+    "chineseCharacters": 10952
+  },
+  {
+    "file": "02_产品说明书_含演示案例.docx",
+    "source": "02-产品说明书_含演示案例.md",
+    "sourceSha256": "f4eec08b5b963f0d510a912b287717c993d14a589c859ab9153539e089c34637",
+    "sha256": "57e3e7ac739225294e1c922945b5b8b99758f93cdfb79cd4bac3c0741ab2efc0",
+    "bytes": 1174756,
+    "headings": 37,
+    "tables": 16,
+    "figures": 5,
+    "chineseCharacters": 12130
+  },
+  {
+    "file": "03_用户操作手册.docx",
+    "source": "03-用户操作手册.md",
+    "sourceSha256": "ad1e475b08f89b7a60552971091dbfd1bb8957388d9493d4997fd531c60345b7",
+    "sha256": "e186d5a54380a00d1c9eb7c9cffc05647607478285336688f3b66e4e022ecbf7",
+    "bytes": 1178532,
+    "headings": 70,
+    "tables": 19,
+    "figures": 5,
+    "chineseCharacters": 13628
+  }
+]

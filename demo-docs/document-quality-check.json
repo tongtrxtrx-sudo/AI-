@@ -1,0 +1,48 @@
+{
+  "documents": [
+    {
+      "file": "01_系统研发与交互说明书.docx",
+      "wordContainerValid": true,
+      "chineseCompanyPresent": true,
+      "hyperlinkBookmarksValid": true,
+      "pdfPages": 21,
+      "pdfA4": true,
+      "outOfPageText": false,
+      "blankPagesDetected": false,
+      "wordBytes": 576153,
+      "wordSha256": "8d45db508f4ae7be694d75b82d20ace0e0e6c930464c641297479ceafd421a30",
+      "pdfBytes": 1276914,
+      "pdfSha256": "ea263ba9400a50d5a8fc07d4a1cd53780967503376a874f039b790998512d4dc"
+    },
+    {
+      "file": "02_产品说明书_含演示案例.docx",
+      "wordContainerValid": true,
+      "chineseCompanyPresent": true,
+      "hyperlinkBookmarksValid": true,
+      "pdfPages": 20,
+      "pdfA4": true,
+      "outOfPageText": false,
+      "blankPagesDetected": false,
+      "wordBytes": 1174756,
+      "wordSha256": "57e3e7ac739225294e1c922945b5b8b99758f93cdfb79cd4bac3c0741ab2efc0",
+      "pdfBytes": 1568558,
+      "pdfSha256": "4f6f72fc7348fb2cd0edd6a24183f666886e82dbd24693cf37d11ceadc83f0f7"
+    },
+    {
+      "file": "03_用户操作手册.docx",
+      "wordContainerValid": true,
+      "chineseCompanyPresent": true,
+      "hyperlinkBookmarksValid": true,
+      "pdfPages": 24,
+      "pdfA4": true,
+      "outOfPageText": false,
+      "blankPagesDetected": false,
+      "wordBytes": 1178532,
+      "wordSha256": "e186d5a54380a00d1c9eb7c9cffc05647607478285336688f3b66e4e022ecbf7",
+      "pdfBytes": 1641441,
+      "pdfSha256": "f02061365f2a08ad24527f0c7643c9417451fa91f25fc975195ea829521ef2b5"
+    }
+  ],
+  "allPassed": true,
+  "visualReview": "Cover, representative business tables, technical architecture and API pages reviewed; automated bounds checked for all PDF text pages."
+}

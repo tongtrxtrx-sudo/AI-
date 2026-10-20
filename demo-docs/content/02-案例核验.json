@@ -1,0 +1,204 @@
+{
+  "baseline": {
+    "revenue": 13000.0,
+    "cost": 7620.0,
+    "expense": 2920.0,
+    "finance": 170.0,
+    "tax": 570.0,
+    "net": 1720.0,
+    "gross": 5380.0,
+    "operating": 2460.0,
+    "pretax": 2290.0,
+    "grossMargin": 41.38,
+    "netMargin": 13.23,
+    "assets": 9580.0,
+    "liabilities": 4730.0,
+    "equity": 4850.0,
+    "operatingCash": 1450.0,
+    "cash": 2050.0
+  },
+  "baselineCash": {
+    "net": 1720.0,
+    "noncash": 240.0,
+    "receivable": -350.0,
+    "inventory": -300.0,
+    "prepaid": -100.0,
+    "payable": 200.0,
+    "taxpayable": -50.0,
+    "otherliability": 90.0,
+    "operating": 1450.0,
+    "investing": -820.0,
+    "financing": -260.0,
+    "change": 370.0,
+    "openingcash": 1680.0,
+    "cash": 2050.0
+  },
+  "budgetEdited": {
+    "annual": 18523.45,
+    "layers": [
+      {
+        "label": "基础层",
+        "amount": 16123.45
+      },
+      {
+        "label": "挑战层",
+        "amount": 1066.67
+      },
+      {
+        "label": "管理层",
+        "amount": 800
+      },
+      {
+        "label": "董事会层",
+        "amount": 533.33
+      }
+    ]
+  },
+  "budgetAdjusted": {
+    "annual": 18623.45,
+    "layers": [
+      {
+        "label": "基础层",
+        "amount": 16223.45
+      },
+      {
+        "label": "挑战层",
+        "amount": 1066.67
+      },
+      {
+        "label": "管理层",
+        "amount": 800
+      },
+      {
+        "label": "董事会层",
+        "amount": 533.33
+      }
+    ],
+    "status": "已审批"
+  },
+  "originalPreserved": {
+    "annual": 18523.45,
+    "status": "已锁定"
+  },
+  "driver": {
+    "annual": 19000.0,
+    "lastLayer": 1133.33
+  },
+  "expensePlan": [
+    {
+      "id": "CASE-01",
+      "name": "市场活动费",
+      "quantity": 2.0,
+      "price": 3.0,
+      "amount": 6.0,
+      "note": "两场演示活动"
+    }
+  ],
+  "csvSample": {
+    "actual": {
+      "revenue": 13000.0,
+      "cost": 7620.0,
+      "expense": 2920.0,
+      "finance": 170.0,
+      "tax": 570.0,
+      "net": 1720.0,
+      "gross": 5380.0,
+      "operating": 2460.0,
+      "pretax": 2290.0,
+      "grossMargin": 41.38,
+      "netMargin": 13.23,
+      "assets": 9580.0,
+      "liabilities": 4730.0,
+      "equity": 4850.0,
+      "operatingCash": 1450.0,
+      "cash": 2050.0
+    },
+    "rowCount": 63,
+    "allChecksPassed": true
+  },
+  "csvChanged": {
+    "actual": {
+      "revenue": 13100.0,
+      "cost": 7620.0,
+      "expense": 2920.0,
+      "finance": 170.0,
+      "tax": 570.0,
+      "net": 1820.0,
+      "gross": 5480.0,
+      "operating": 2560.0,
+      "pretax": 2390.0,
+      "grossMargin": 41.83,
+      "netMargin": 13.89,
+      "assets": 9680.0,
+      "liabilities": 4730.0,
+      "equity": 4950.0,
+      "operatingCash": 1550.0,
+      "cash": 2150.0
+    },
+    "cash": {
+      "net": 1820.0,
+      "noncash": 240.0,
+      "receivable": -350.0,
+      "inventory": -300.0,
+      "prepaid": -100.0,
+      "payable": 200.0,
+      "taxpayable": -50.0,
+      "otherliability": 90.0,
+      "operating": 1550.0,
+      "investing": -820.0,
+      "financing": -260.0,
+      "change": 470.0,
+      "openingcash": 1680.0,
+      "cash": 2150.0
+    },
+    "allChecksPassed": true
+  },
+  "journalDraftNet": 1720.0,
+  "journalApproved": {
+    "actual": {
+      "revenue": 13000.0,
+      "cost": 7620.0,
+      "expense": 2930.0,
+      "finance": 170.0,
+      "tax": 570.0,
+      "net": 1710.0,
+      "gross": 5380.0,
+      "operating": 2450.0,
+      "pretax": 2280.0,
+      "grossMargin": 41.38,
+      "netMargin": 13.15,
+      "assets": 9570.0,
+      "liabilities": 4730.0,
+      "equity": 4840.0,
+      "operatingCash": 1440.0,
+      "cash": 2040.0
+    },
+    "cash": {
+      "net": 1710.0,
+      "noncash": 240.0,
+      "receivable": -350.0,
+      "inventory": -300.0,
+      "prepaid": -100.0,
+      "payable": 200.0,
+      "taxpayable": -50.0,
+      "otherliability": 90.0,
+      "operating": 1440.0,
+      "investing": -820.0,
+      "financing": -260.0,
+      "change": 360.0,
+      "openingcash": 1680.0,
+      "cash": 2040.0
+    },
+    "allChecksPassed": true
+  },
+  "closing": {
+    "signed": true,
+    "checksRun": true
+  },
+  "reopen": {
+    "signed": false,
+    "checksRun": false,
+    "submissionChecked": false
+  },
+  "evidenceScope": "Fresh isolated local HTTP services, synthetic data, no runtime credentials included"
+}
