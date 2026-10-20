@@ -112,6 +112,6 @@
       "native_word_not_excel": true
     }
   ],
-  "master_sha256_commit_unchanged": "5581c0997311578ac42c5a8c136fdad60e98efcc",
-  "local_master_worktree_clean": true
+  "local_master_worktree_clean": true,
+  "master_commit_unchanged": "5581c0997311578ac42c5a8c136fdad60e98efcc"
 }
