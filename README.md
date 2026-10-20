@@ -2,7 +2,7 @@
 
 本轮交付依据完整产品原型重新实现中文工作台，提供本机数据库和可保存的业务操作。默认公司名称为 **杭州天元宠物用品有限公司**，演示法人、人员、交易和金额均为虚构样例。
 
-**[下载 Windows EXE 运行包](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/TianyuanEPMDemo-Windows-x64.zip)**
+**[下载 Windows EXE 运行包（约16.5 MB）](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/a68390de1e21e857f9db12a903f2718d37d79edc/TianyuanEPMDemo-Windows-x64.zip)**
 
 Windows 10/11 64 位。完整解压 ZIP，双击 **天元EPM Demo.exe**，自动打开本机中文工作台。无需自行安装 Python、Docker、WSL 或虚拟机；首次启动无需下载其他运行环境，也不需要邮箱登录或英语初始化。
 
@@ -27,7 +27,7 @@ Windows 10/11 64 位。完整解压 ZIP，双击 **天元EPM Demo.exe**，自动
 
 ## 中文 Word 手册和源码
 
-- [下载可编辑中文 Word 使用手册](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/demo/天元EPM_Demo中文版使用手册.docx)
+- [下载可编辑中文 Word 使用手册](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/a68390de1e21e857f9db12a903f2718d37d79edc/demo/天元EPM_Demo中文版使用手册.docx)
 - [在线阅读中文版手册](demo/中文版Demo使用手册.md)
 - [查看独立验收报告](demo/独立验收报告.md)
 - 运行 ZIP 内包含完整前后端、原生 C 入口、可替换构建工具参数、接口字段契约、CSV 模板和 Python 原始许可。
@@ -42,9 +42,11 @@ Windows 10/11 64 位。完整解压 ZIP，双击 **天元EPM Demo.exe**，自动
 
 ## 其他已有材料
 
-- [完整产品交互原型](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/EPM-Full-Prototype-CN.zip)
-- [合并与分析交互原型（预算静态预留）](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/EPM-Consolidation-Analysis-Prototype-CN.zip)
+- [完整产品交互原型](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/a68390de1e21e857f9db12a903f2718d37d79edc/EPM-Full-Prototype-CN.zip)
+- [合并与分析交互原型（预算静态预留）](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/a68390de1e21e857f9db12a903f2718d37d79edc/EPM-Consolidation-Analysis-Prototype-CN.zip)
 - [已有四份中文 Word / PRD 研发需求材料](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/a4b2b46120a20d0102abfba5f84e86f8aee9ecf9/EPM-Chinese-Word-Documents.zip)
 - [此前 Konsolidat 运行平台交付记录](HISTORY-Konsolidat-Delivery.md)，含上游来源与旧包说明。
 
 本交付仅更新 `epm-download-20261019` 分支；原仓库 `master` 保持原样。整包 SHA256 见根 `SHA256SUMS.txt`，包内另有逐文件校验清单。当前实际验证结果见 [demo/release-verification.json](demo/release-verification.json)。
+
+公开 ZIP、Word 手册及实际工作台截图已通过 HTTPS 实际下载，全部与本地交付字节一致：[下载验证记录](demo/public-download-verification.json)。

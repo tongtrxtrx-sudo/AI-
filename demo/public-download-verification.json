@@ -1,0 +1,33 @@
+{
+  "checkedUtc": "2026-10-20T08:02:49.669496+00:00",
+  "artifactCommit": "a68390de1e21e857f9db12a903f2718d37d79edc",
+  "downloads": [
+    {
+      "path": "TianyuanEPMDemo-Windows-x64.zip",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/a68390de1e21e857f9db12a903f2718d37d79edc/TianyuanEPMDemo-Windows-x64.zip",
+      "status": 200,
+      "bytes": 16473129,
+      "sha256": "55d6ebe5318055dce47aa03638dff357f2ec46b86e61240b0f3d1541383f5519",
+      "matchesLocalArtifact": true
+    },
+    {
+      "path": "demo/天元EPM_Demo中文版使用手册.docx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/a68390de1e21e857f9db12a903f2718d37d79edc/demo/%E5%A4%A9%E5%85%83EPM_Demo%E4%B8%AD%E6%96%87%E7%89%88%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.docx",
+      "status": 200,
+      "bytes": 43238,
+      "sha256": "9ea91429d8a5729f38dc19d3dea778879d21ae33c4763a6725393f132f0d0d1c",
+      "matchesLocalArtifact": true
+    },
+    {
+      "path": "demo/overview.png",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/a68390de1e21e857f9db12a903f2718d37d79edc/demo/overview.png",
+      "status": 200,
+      "bytes": 228266,
+      "sha256": "fdba5f9df79f7abd7ab397e3265388461129821be6c83e4aa6a6e63e87fb9fe4",
+      "matchesLocalArtifact": true
+    }
+  ],
+  "allPassed": true,
+  "zipCrcPassed": true,
+  "wordContainerConfirmed": true
+}

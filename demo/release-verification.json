@@ -38,5 +38,8 @@
     "workflow-results.json",
     "wine-windows-integration.json",
     "final-package-review.json"
-  ]
+  ],
+  "artifactCommit": "a68390de1e21e857f9db12a903f2718d37d79edc",
+  "publicDownloadsVerified": true,
+  "publicDownloadEvidence": "public-download-verification.json"
 }
