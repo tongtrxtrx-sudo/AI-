@@ -1,0 +1,38 @@
+{
+  "executionEnvironment": "Wine 64-bit compatibility environment on Linux",
+  "physicalWindowsTested": false,
+  "realNativeExeExecuted": true,
+  "bundledWindowsPythonExecuted": true,
+  "unicodeAndSpacePath": true,
+  "oldSoftwareOrOldDataModified": false,
+  "externalPythonInstallRequired": false,
+  "dockerWslVmUsed": false,
+  "checks": [
+    "Native EXE → private Windows Python → Windows HTTP + SQLite + static UI",
+    "Duplicate native launch reuses verified process without a second backend",
+    "Wrong random process identity is rejected; no PID-only reuse",
+    "Windows backend saves budget and balanced approved journal through authenticated API",
+    "Page-style session + CSRF safe shutdown exits native process and preserves healthy SQLite",
+    "Native EXE restart preserves budget, journal, approval and revision; rotates local credentials",
+    "Native CLI safe stop works; stopped status is accurate",
+    "No-argument double-click GUI branch runs private pythonw.exe with isolated default app-data path"
+  ],
+  "exeSha256": "8820253bbcbb1d99b82054f10b62089e5be79237625e4fd700c9d479cea25abc",
+  "launcherPySha256": "a8b6dac992b6e87a5a653ea60d14f2f3c7455a5e70ec118e8215ef0e24b13500",
+  "backendSha256": "9ccfda1fcd987256c6f97204f842a1768517baae1f75a1b5e6cb80b12d29a014",
+  "backendSourceHashes": {
+    "server.py": "9ccfda1fcd987256c6f97204f842a1768517baae1f75a1b5e6cb80b12d29a014",
+    "engine.py": "ecc9fc84cb156183dc2f6b56e25c8ec2409441577b3830c8d107701261d9230f",
+    "finance.py": "31e1fd61f35dc8d68fecb10d0209fd108237e2aded2efa80b2970fbed2019114",
+    "store.py": "75bb39a42af26598981b59994a9690b7865f68d8cc4b57860d665766358d3dfc"
+  },
+  "frontendIndexSha256": "6130c8117ed84a29a45431a4565f4af60c75ee7181380d77ef98b1074970061f",
+  "runtimeProbe": {
+    "os": "nt",
+    "platform": "win32",
+    "pythonVersion": "3.12.10",
+    "sqliteVersion": "3.49.1",
+    "pointerBits": 64
+  },
+  "passed": true
+}

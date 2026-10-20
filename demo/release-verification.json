@@ -1,0 +1,42 @@
+{
+  "release": "20261020-cn-demo1",
+  "createdUtc": "2026-10-20T08:01:55.261435+00:00",
+  "company": "杭州天元宠物用品有限公司",
+  "archive": {
+    "name": "TianyuanEPMDemo-Windows-x64.zip",
+    "bytes": 16473129,
+    "sha256": "55d6ebe5318055dce47aa03638dff357f2ec46b86e61240b0f3d1541383f5519"
+  },
+  "implementation": "Independent Chinese EPM demo matching full prototype, with local SQLite persistence",
+  "prototypeNavigationPages": 20,
+  "independentAcceptanceGroupsPassed": 16,
+  "windowsWineIntegrationChecksPassed": 8,
+  "physicalWindowsTested": false,
+  "runtime": {
+    "os": "Windows x64",
+    "python": "3.12.10 (bundled)",
+    "sqlite": "3.49.1",
+    "requiresExternalPythonDockerWslOrVm": false,
+    "firstStartEnvironmentDownload": false
+  },
+  "defaultDataDirectory": "%LOCALAPPDATA%\\TianyuanEPMDemo",
+  "previousKonsolidatDataMigrated": false,
+  "frontendSha256": "6130c8117ed84a29a45431a4565f4af60c75ee7181380d77ef98b1074970061f",
+  "wordManualSha256": "9ea91429d8a5729f38dc19d3dea778879d21ae33c4763a6725393f132f0d0d1c",
+  "originalMasterCommit": "5581c0997311578ac42c5a8c136fdad60e98efcc",
+  "financialBaselineCnyWan": {
+    "revenue": 13000,
+    "netProfit": 1720,
+    "assets": 9580,
+    "liabilities": 4730,
+    "equity": 4850
+  },
+  "evidence": [
+    "独立验收报告.md",
+    "api-results.json",
+    "browser-results.json",
+    "workflow-results.json",
+    "wine-windows-integration.json",
+    "final-package-review.json"
+  ]
+}

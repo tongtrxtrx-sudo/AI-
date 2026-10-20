@@ -1,0 +1,132 @@
+{
+  "generatedUtc": "2026-10-20T07:57:43Z",
+  "browser": "Chromium HTTP / Playwright",
+  "sourceUnchangedDuringRun": true,
+  "sourceSha256": {
+    "backend/API-CONTRACT.md": "53cad6916a18cf1c3eadd7623da3f5d62d1f8fc024b75c3cd62cecad0a9d6968",
+    "backend/engine.py": "ecc9fc84cb156183dc2f6b56e25c8ec2409441577b3830c8d107701261d9230f",
+    "backend/finance.py": "31e1fd61f35dc8d68fecb10d0209fd108237e2aded2efa80b2970fbed2019114",
+    "backend/server.py": "9ccfda1fcd987256c6f97204f842a1768517baae1f75a1b5e6cb80b12d29a014",
+    "backend/store.py": "75bb39a42af26598981b59994a9690b7865f68d8cc4b57860d665766358d3dfc",
+    "backend/test_engine.py": "c6db97baeb76694f0b82e2db15462a24372a9c4e33b0005704eef74557c3b4fa",
+    "backend/test_finance.py": "8d4b8fd261bf99d9732c5b9a164263bec5b2aff1ca0e6900f73ddb18da949d25",
+    "frontend/src/app.js": "ae35c1d3938090173f2a5ddf4553350eb51d232cc4c8857cf6dc0c2e16b9a69a",
+    "frontend/src/shell.html": "5b3c4c200119b54294da8541ef8e5a1451039ee81fe9013a46128e1fe6b99d5a",
+    "frontend/src/style.css": "7fa86a190e94077ab823f89e5f73260597c6d7ffd1df60155a63e663bac92d09",
+    "frontend/dist/index.html": "6130c8117ed84a29a45431a4565f4af60c75ee7181380d77ef98b1074970061f",
+    "windows/launcher.c": "a5eef8916c46a001e5790d7fd9c4e10299eb47b768a7017407430b80353c614a",
+    "windows/app/demo_launcher.py": "a8b6dac992b6e87a5a653ea60d14f2f3c7455a5e70ec118e8215ef0e24b13500",
+    "frontend-build.py": "6187a26402a06a42f23a3ec3e33cc07777cf6f26e1f89edf8de970a501026da8",
+    "build_windows.py": "105386c4b55678ea9b47e849eea68d8a7c141b35739e7b2011771dabbd39618f",
+    "package_windows.py": "f1420e32d6df5d35113a39398a2d26e71f3e4291f40946fe618b4cbabd0c8d19"
+  },
+  "consoleErrors": [],
+  "results": [
+    {
+      "case": "A01 新中文入口",
+      "result": "通过",
+      "evidence": "真实HTTP，主公司正确，入口无邮箱／语言向导／Frappe。"
+    },
+    {
+      "case": "A01 20项导航与普通中文检查",
+      "result": "通过",
+      "evidence": [
+        {
+          "route": "overview",
+          "title": "集团经营总览"
+        },
+        {
+          "route": "org",
+          "title": "集团组织与持股"
+        },
+        {
+          "route": "master",
+          "title": "科目与管理维度"
+        },
+        {
+          "route": "sources",
+          "title": "数据接入"
+        },
+        {
+          "route": "submissions",
+          "title": "试算平衡报送"
+        },
+        {
+          "route": "rates",
+          "title": "集团汇率"
+        },
+        {
+          "route": "ownership",
+          "title": "持股与企业合并"
+        },
+        {
+          "route": "intercompany",
+          "title": "内部往来核对"
+        },
+        {
+          "route": "journals",
+          "title": "抵销与合并调整凭证"
+        },
+        {
+          "route": "closing",
+          "title": "关账校验与签核"
+        },
+        {
+          "route": "statements",
+          "title": "集团三张报表"
+        },
+        {
+          "route": "budget-cycle",
+          "title": "预算周期与审批"
+        },
+        {
+          "route": "budget-sheet",
+          "title": "预算编制与分摊"
+        },
+        {
+          "route": "budget-adjust",
+          "title": "预算调整与滚动预测"
+        },
+        {
+          "route": "budget-version",
+          "title": "版本与多情景"
+        },
+        {
+          "route": "analysis",
+          "title": "经营差异与钻取"
+        },
+        {
+          "route": "reports",
+          "title": "管理报表中心"
+        },
+        {
+          "route": "permissions",
+          "title": "组织权限与角色"
+        },
+        {
+          "route": "audit",
+          "title": "审计轨迹"
+        },
+        {
+          "route": "settings",
+          "title": "系统配置"
+        }
+      ]
+    },
+    {
+      "case": "A10 现金流应收变动追溯",
+      "result": "通过",
+      "evidence": "现金流量表应收减少追溯为-350.00，不混用资产负债表应收余额2150。"
+    },
+    {
+      "case": "A03 浏览器修改、刷新与完整服务重启",
+      "result": "通过",
+      "evidence": {
+        "原金额": 16000,
+        "保存金额": 16123.45,
+        "刷新后金额": 16123.45,
+        "新进程启动后金额": 16123.45
+      }
+    }
+  ]
+}

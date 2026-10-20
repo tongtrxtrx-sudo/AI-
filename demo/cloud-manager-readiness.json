@@ -1,0 +1,9 @@
+{
+  "scope": "Linux cloud reuse of packaged process manager; separate from Windows/Wine validation",
+  "authenticatedChineseBootstrap": true,
+  "duplicateLaunchReusedVerifiedInstance": true,
+  "statusCheckedLiveProcess": true,
+  "safeStopCompleted": true,
+  "noCredentialsIncluded": true,
+  "physicalWindowsTested": false
+}

@@ -1,0 +1,11 @@
+{
+  "bytes": 16473129,
+  "sha256": "55d6ebe5318055dce47aa03638dff357f2ec46b86e61240b0f3d1541383f5519",
+  "zipCrc": "passed",
+  "fileHashesVerified": 1387,
+  "files": 1388,
+  "frontendSha256": "6130c8117ed84a29a45431a4565f4af60c75ee7181380d77ef98b1074970061f",
+  "actualWordDocument": true,
+  "privateRuntimeFilesAbsent": true,
+  "windowsPeExecutablePresent": true
+}

@@ -1,0 +1,64 @@
+{
+  "generatedUtc": "2026-10-20T07:57:42Z",
+  "sourceUnchangedDuringRun": true,
+  "sourceSha256": {
+    "backend/API-CONTRACT.md": "53cad6916a18cf1c3eadd7623da3f5d62d1f8fc024b75c3cd62cecad0a9d6968",
+    "backend/engine.py": "ecc9fc84cb156183dc2f6b56e25c8ec2409441577b3830c8d107701261d9230f",
+    "backend/finance.py": "31e1fd61f35dc8d68fecb10d0209fd108237e2aded2efa80b2970fbed2019114",
+    "backend/server.py": "9ccfda1fcd987256c6f97204f842a1768517baae1f75a1b5e6cb80b12d29a014",
+    "backend/store.py": "75bb39a42af26598981b59994a9690b7865f68d8cc4b57860d665766358d3dfc",
+    "backend/test_engine.py": "c6db97baeb76694f0b82e2db15462a24372a9c4e33b0005704eef74557c3b4fa",
+    "backend/test_finance.py": "8d4b8fd261bf99d9732c5b9a164263bec5b2aff1ca0e6900f73ddb18da949d25",
+    "frontend/src/app.js": "ae35c1d3938090173f2a5ddf4553350eb51d232cc4c8857cf6dc0c2e16b9a69a",
+    "frontend/src/shell.html": "5b3c4c200119b54294da8541ef8e5a1451039ee81fe9013a46128e1fe6b99d5a",
+    "frontend/src/style.css": "7fa86a190e94077ab823f89e5f73260597c6d7ffd1df60155a63e663bac92d09",
+    "frontend/dist/index.html": "6130c8117ed84a29a45431a4565f4af60c75ee7181380d77ef98b1074970061f",
+    "windows/launcher.c": "a5eef8916c46a001e5790d7fd9c4e10299eb47b768a7017407430b80353c614a",
+    "windows/app/demo_launcher.py": "a8b6dac992b6e87a5a653ea60d14f2f3c7455a5e70ec118e8215ef0e24b13500",
+    "frontend-build.py": "6187a26402a06a42f23a3ec3e33cc07777cf6f26e1f89edf8de970a501026da8",
+    "build_windows.py": "105386c4b55678ea9b47e849eea68d8a7c141b35739e7b2011771dabbd39618f",
+    "package_windows.py": "f1420e32d6df5d35113a39398a2d26e71f3e4291f40946fe618b4cbabd0c8d19"
+  },
+  "consoleErrors": [],
+  "results": [
+    {
+      "case": "B01 浏览器预算审批锁定与调整",
+      "result": "通过",
+      "evidence": {
+        "原版": "V2 年度目标",
+        "调整版": "V3 调整批准",
+        "原基础层": 16000,
+        "新基础层": 16100
+      }
+    },
+    {
+      "case": "B02 浏览器完整关账签核与重新开启",
+      "result": "通过"
+    },
+    {
+      "case": "B03 浏览器凭证草稿与审批实际入表",
+      "result": "通过",
+      "evidence": {
+        "审批前净利润": 1720.0,
+        "审批后净利润": 1710.0
+      }
+    },
+    {
+      "case": "B04 浏览器CSV真实文件导入、坏文件拒绝与模板下载",
+      "result": "通过",
+      "evidence": {
+        "坏文件零写入": true,
+        "成功导入行数": 2
+      }
+    },
+    {
+      "case": "B05 浏览器数据位置和安全退出",
+      "result": "通过",
+      "evidence": {
+        "位置来自真实服务": true,
+        "显示位置无凭据": true,
+        "确认安全退出后进程停止": true
+      }
+    }
+  ]
+}

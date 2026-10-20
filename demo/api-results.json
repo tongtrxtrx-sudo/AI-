@@ -1,0 +1,96 @@
+{
+  "generatedUtc": "2026-10-20T07:57:40Z",
+  "pythonVersion": "3.12.14",
+  "sourceUnchangedDuringRun": true,
+  "sourceSha256": {
+    "backend/API-CONTRACT.md": "53cad6916a18cf1c3eadd7623da3f5d62d1f8fc024b75c3cd62cecad0a9d6968",
+    "backend/engine.py": "ecc9fc84cb156183dc2f6b56e25c8ec2409441577b3830c8d107701261d9230f",
+    "backend/finance.py": "31e1fd61f35dc8d68fecb10d0209fd108237e2aded2efa80b2970fbed2019114",
+    "backend/server.py": "9ccfda1fcd987256c6f97204f842a1768517baae1f75a1b5e6cb80b12d29a014",
+    "backend/store.py": "75bb39a42af26598981b59994a9690b7865f68d8cc4b57860d665766358d3dfc",
+    "backend/test_engine.py": "c6db97baeb76694f0b82e2db15462a24372a9c4e33b0005704eef74557c3b4fa",
+    "backend/test_finance.py": "8d4b8fd261bf99d9732c5b9a164263bec5b2aff1ca0e6900f73ddb18da949d25",
+    "frontend/src/app.js": "ae35c1d3938090173f2a5ddf4553350eb51d232cc4c8857cf6dc0c2e16b9a69a",
+    "frontend/src/shell.html": "5b3c4c200119b54294da8541ef8e5a1451039ee81fe9013a46128e1fe6b99d5a",
+    "frontend/src/style.css": "7fa86a190e94077ab823f89e5f73260597c6d7ffd1df60155a63e663bac92d09",
+    "frontend/dist/index.html": "6130c8117ed84a29a45431a4565f4af60c75ee7181380d77ef98b1074970061f",
+    "windows/launcher.c": "a5eef8916c46a001e5790d7fd9c4e10299eb47b768a7017407430b80353c614a",
+    "windows/app/demo_launcher.py": "a8b6dac992b6e87a5a653ea60d14f2f3c7455a5e70ec118e8215ef0e24b13500",
+    "frontend-build.py": "6187a26402a06a42f23a3ec3e33cc07777cf6f26e1f89edf8de970a501026da8",
+    "build_windows.py": "105386c4b55678ea9b47e849eea68d8a7c141b35739e7b2011771dabbd39618f",
+    "package_windows.py": "f1420e32d6df5d35113a39398a2d26e71f3e4291f40946fe618b4cbabd0c8d19"
+  },
+  "results": [
+    {
+      "case": "A02 默认财务基准",
+      "result": "通过",
+      "evidence": {
+        "收入": 13000.0,
+        "净利润": 1720.0,
+        "资产": 9580.0,
+        "负债": 4730.0,
+        "权益": 4850.0,
+        "经营现金净流入": 1450.0,
+        "期末现金": 2050.0,
+        "勾稽校验数": 18
+      }
+    },
+    {
+      "case": "A06 后端只读权限",
+      "result": "通过",
+      "evidence": {
+        "后端拒绝只读写入": true,
+        "切回负责人可保存": true
+      }
+    },
+    {
+      "case": "A04 预算审批锁定与独立版本",
+      "result": "通过",
+      "evidence": {
+        "原版本": "独立验收锁定版",
+        "调整版本": "V4 调整批准",
+        "原版金额": 16123.45,
+        "版本相互独立": true
+      }
+    },
+    {
+      "case": "A05/A07 导入原子校验与期间隔离",
+      "result": "通过",
+      "evidence": {
+        "有效导入真实落库": true,
+        "拒绝坏批次数": 4,
+        "错误批次零写入": true,
+        "期间状态和报表隔离": true
+      }
+    },
+    {
+      "case": "A08/A09 关账签核和失效",
+      "result": "通过",
+      "evidence": {
+        "签核链完整": true,
+        "凭证真实影响净利润": true,
+        "数据变更使旧校验与确认失效": true
+      }
+    },
+    {
+      "case": "A11 本机请求保护",
+      "result": "通过",
+      "evidence": {
+        "演示年度不可重标": true,
+        "运行位置固定且不含凭据": true,
+        "未登录读取被拒绝": true,
+        "缺少CSRF被拒绝": true,
+        "跨来源写入被拒绝": true
+      }
+    },
+    {
+      "case": "A10 范围期间币种与三表勾稽",
+      "result": "通过",
+      "evidence": {
+        "校验过的集团月份组合数": 24,
+        "月份与范围筛选影响实绩": true,
+        "汇率修改真实影响美元金额": true
+      }
+    }
+  ]
+}
