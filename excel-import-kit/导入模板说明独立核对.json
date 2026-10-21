@@ -1,0 +1,258 @@
+{
+  "passed": true,
+  "guideSha256": "a3bf827e365275755a7db6ab72b89db36a3125dad698336d9a4b17353499a34a",
+  "templateFilesSha256": {
+    "output/Excel模板/01_科目映射_空白模板.xlsx": "cbf6345fefa2e26730a590b0e8ece01ed7367b0968107495891095070ae519e5",
+    "output/Excel模板/02_年初余额_空白模板.xlsx": "f079cbfe92331db09aaadfcf35ba6ec16d5995c65ad23793b6b61bd4561f43af",
+    "output/Excel模板/03_NC65原48列凭证_空白模板.xlsx": "72c272cfa6482c4a913539ac50d1bd529ee8620a417b3705529497514ea66c92",
+    "output/Excel模板/04_NC适配_页面配置准备表.xlsx": "4256af2da14ddc4b6e922869a222a2d0219aba313dbd055c72128566a5d4f804",
+    "output/Excel模板/05_现金流分类_准备表.xlsx": "c4ca815ce5af6b3386a8ff109f82e0e9155ed225361be5fe1676132dd2e1ea80",
+    "output/Excel模板/06_通用凭证_替代方案模板.xlsx": "780891e56b33cfc7d085c29e18fe17920287b10ecb2105ed768fa9cc7673b267",
+    "output/已填示例/01_科目映射_已填示例.xlsx": "02c3667e98f95a52daf9d7685f17061cf47dc54b2ba123f8dfa09d6a9438ba2e",
+    "output/已填示例/02_年初余额_已填示例.xlsx": "d278cc153990b5d8b13fdba0302daa8336aab8b121a6d4dc671d5a465c14dfd0",
+    "output/已填示例/03_NC65原48列凭证_已填示例.xlsx": "c73ea4c24088facce26348ee82dd5325006ae4184ab130df1afc82310f6b9d86",
+    "output/已填示例/06_通用凭证_已填示例.xlsx": "159de71a63cad9f01f2e64a6fc57f780df3194e87d33c7177df97c9bdf9ac258"
+  },
+  "screenshotsSha256": {
+    "screenshots/01_导入入口总览.png": "f08b96f51f039841fbdcbe42935b5894569098d75db5ca4fdc1f13955d4beb21",
+    "screenshots/02A_NC适配_账簿与本位币.png": "56d0c636c71f62fb86285c715d67fba595231c2a147394f666bc534e4f8d8d45",
+    "screenshots/02B_NC适配_辅助列关联号客商.png": "b1e34e4a2d00631afcaedfa068f2d3e1a232776b4b34fa46a012b358e65bb33c",
+    "screenshots/03_科目映射Excel导入.png": "96f0d25f0079cb53b40a90bc34a506af5a0e78e719d7963ad812fa623474c3b3",
+    "screenshots/04_年初余额Excel导入.png": "8216d6c6d44d7b555fa794e29708a7d4700d2f8d7343d9b90458ab48ae0d23cc",
+    "screenshots/05_NC48凭证Excel导入.png": "c22f97cc1ebdd9e40ed00471ea266ed4f60df117d95927ae0222262c3a1b1a74",
+    "screenshots/06_通用凭证替代入口.png": "d2139d8857d08bab41c945f4d72751ad543d0dda1aa1848fccb8ccf02bf9106f",
+    "screenshots/07_导入成功批次与映射.png": "310f2d30a4ce437a777d79972e351a4f87dfa6580726058d58a4eeec2cf57da4",
+    "screenshots/08_生成法人三表效果.png": "6ce1bdbaa35eb90378d07ac30ab38568c03d2bb73435523f99de749cc6b74fa4",
+    "screenshots/09A_停用本层预置抵销.png": "362eba8e3e1833334928bf4e8118162255d21510a2c6676c5d4d4b7ca925e940",
+    "screenshots/09B_内部交易准确匹配.png": "d189c31b38278a3b0c304c63b1b4c1dc327e5e1b174c4694990da44a699f291b",
+    "screenshots/09C_负责人审批自动抵销.png": "0b4a0f6f2bb0a8fe7d40da32ca59d5819b84deecb64f3b6c1b6bc959b42639dc",
+    "screenshots/10A_鸿旺小合并已签核.png": "3b7d564351c710f3eb0429717a6ca728c7b8c7419c06c07dc5bee960803ace4b",
+    "screenshots/10B_鸿旺小合并报表效果.png": "538ebda68bb25d551850c6fd5e35c06ad69b6926560ecb60e219ef8db99774ae",
+    "screenshots/11_集团上卷合并效果.png": "36eb15d4f4ddebe5524b1654dc00f82cae67557e31483ede8aa524cb9d8c8a61",
+    "screenshots/12_现金流分类页面维护.png": "e5bcc58a6fe67b0e303b0ba9e1560b880e6f3f8ea56234b9972d064c65096f0b"
+  },
+  "reviewedUtc": "2026-10-21T07:11:02.598382+00:00",
+  "softwareBaseline": "ERP-20261021",
+  "kitVersion": "IMPORT-KIT-20261021-D1.0",
+  "softwareChanged": false,
+  "sourceMarkdownSha256": {
+    "content/导入模板与操作说明.md": "a3bf827e365275755a7db6ab72b89db36a3125dad698336d9a4b17353499a34a"
+  },
+  "templateManifestSha256": "265d01a7b3a5581c748db849460480fd806586bbe48b70c2a5717dd96cca122c",
+  "templates": [
+    {
+      "id": "mapping",
+      "file": "output/Excel模板/01_科目映射_空白模板.xlsx",
+      "sha256": "cbf6345fefa2e26730a590b0e8ece01ed7367b0968107495891095070ae519e5",
+      "importable": true,
+      "firstSheet": "导入数据",
+      "sheets": [
+        "导入数据",
+        "填写说明",
+        "字段说明",
+        "填写示例_不要直接导入",
+        "法人及字段字典"
+      ],
+      "noCellFormulas": true,
+      "zipCrcPassed": true,
+      "headerCount": 5,
+      "blankInputRows": 1000,
+      "firstSheetContainsNoBusinessRows": true,
+      "example": {
+        "file": "output/已填示例/01_科目映射_已填示例.xlsx",
+        "sha256": "02c3667e98f95a52daf9d7685f17061cf47dc54b2ba123f8dfa09d6a9438ba2e",
+        "rows": 84,
+        "zipCrcPassed": true
+      }
+    },
+    {
+      "id": "opening",
+      "file": "output/Excel模板/02_年初余额_空白模板.xlsx",
+      "sha256": "f079cbfe92331db09aaadfcf35ba6ec16d5995c65ad23793b6b61bd4561f43af",
+      "importable": true,
+      "firstSheet": "导入数据",
+      "sheets": [
+        "导入数据",
+        "填写说明",
+        "字段说明",
+        "填写示例_不要直接导入",
+        "法人及字段字典"
+      ],
+      "noCellFormulas": true,
+      "zipCrcPassed": true,
+      "headerCount": 9,
+      "blankInputRows": 1000,
+      "firstSheetContainsNoBusinessRows": true,
+      "example": {
+        "file": "output/已填示例/02_年初余额_已填示例.xlsx",
+        "sha256": "d278cc153990b5d8b13fdba0302daa8336aab8b121a6d4dc671d5a465c14dfd0",
+        "rows": 14,
+        "zipCrcPassed": true
+      }
+    },
+    {
+      "id": "nc65",
+      "file": "output/Excel模板/03_NC65原48列凭证_空白模板.xlsx",
+      "sha256": "72c272cfa6482c4a913539ac50d1bd529ee8620a417b3705529497514ea66c92",
+      "importable": true,
+      "firstSheet": "导入数据",
+      "sheets": [
+        "导入数据",
+        "填写说明",
+        "字段说明",
+        "填写示例_不要直接导入",
+        "法人及字段字典"
+      ],
+      "noCellFormulas": true,
+      "zipCrcPassed": true,
+      "headerCount": 48,
+      "blankInputRows": 1000,
+      "firstSheetContainsNoBusinessRows": true,
+      "example": {
+        "file": "output/已填示例/03_NC65原48列凭证_已填示例.xlsx",
+        "sha256": "c73ea4c24088facce26348ee82dd5325006ae4184ab130df1afc82310f6b9d86",
+        "rows": 48,
+        "zipCrcPassed": true
+      }
+    },
+    {
+      "id": "config",
+      "file": "output/Excel模板/04_NC适配_页面配置准备表.xlsx",
+      "sha256": "4256af2da14ddc4b6e922869a222a2d0219aba313dbd055c72128566a5d4f804",
+      "importable": false,
+      "firstSheet": "填写说明_本表不直接导入",
+      "sheets": [
+        "填写说明_本表不直接导入",
+        "账簿法人对应",
+        "内部客商对应",
+        "辅助列和关联号",
+        "已填示例_账簿",
+        "已填示例_客商",
+        "已填示例_规则",
+        "法人及字段字典"
+      ],
+      "noCellFormulas": true,
+      "zipCrcPassed": true,
+      "manualPreparationOnly": true
+    },
+    {
+      "id": "cashflow",
+      "file": "output/Excel模板/05_现金流分类_准备表.xlsx",
+      "sha256": "c4ca815ce5af6b3386a8ff109f82e0e9155ed225361be5fe1676132dd2e1ea80",
+      "importable": false,
+      "firstSheet": "填写说明_本表不直接导入",
+      "sheets": [
+        "填写说明_本表不直接导入",
+        "待归类现金行",
+        "填写示例_不要单独导入",
+        "法人及字段字典"
+      ],
+      "noCellFormulas": true,
+      "zipCrcPassed": true,
+      "manualPreparationOnly": true
+    },
+    {
+      "id": "generic",
+      "file": "output/Excel模板/06_通用凭证_替代方案模板.xlsx",
+      "sha256": "780891e56b33cfc7d085c29e18fe17920287b10ecb2105ed768fa9cc7673b267",
+      "importable": true,
+      "firstSheet": "导入数据",
+      "sheets": [
+        "导入数据",
+        "填写说明",
+        "字段说明",
+        "填写示例_不要直接导入",
+        "法人及字段字典"
+      ],
+      "noCellFormulas": true,
+      "zipCrcPassed": true,
+      "headerCount": 15,
+      "blankInputRows": 1000,
+      "firstSheetContainsNoBusinessRows": true,
+      "example": {
+        "file": "output/已填示例/06_通用凭证_已填示例.xlsx",
+        "sha256": "159de71a63cad9f01f2e64a6fc57f780df3194e87d33c7177df97c9bdf9ac258",
+        "rows": 48,
+        "zipCrcPassed": true
+      }
+    }
+  ],
+  "sourceSha256": {
+    "backend/API-CONTRACT.md": "1f95a4e81a18f090d43253e975876f0311792365c1ad43ef631531b607a51b07",
+    "backend/CALCULATION-CONTRACT.md": "0d4efe1dad6b0252ff0db1e2bc8322b5b24a7e938cf63155f43a293b1b010259",
+    "backend/LEDGER-CONTRACT.md": "2dcb5fbcff887043b3baf780f114b7a008709631bd8cfc77480a65f2b113ef84",
+    "backend/consolidation.py": "fc6f2df87fd7feb9c47b6d873bffd33fac032951ed87cdf8382f93cb36460dcf",
+    "backend/engine.py": "7648cba8a69c3ff57781bd91bf5592b0baefd9ffcc9497481b33d8b07642c0e5",
+    "backend/erp_domain.py": "561e4338f94a48aa702b2d4bb6f91ec687b21c725f03dfdfadc18dd06866314f",
+    "backend/finance.py": "31e1fd61f35dc8d68fecb10d0209fd108237e2aded2efa80b2970fbed2019114",
+    "backend/ledger.py": "c6b72fae0754d89782e5c950f4d6b73fa3c9286409732004ef5e770824ccef0e",
+    "backend/ledger_seed.py": "13cc623ea2811bf6a9a45b4f393ed2038d4fa06452079f9b397a29224d45b351",
+    "backend/legacy_engine.py": "ecc9fc84cb156183dc2f6b56e25c8ec2409441577b3830c8d107701261d9230f",
+    "backend/multilevel_domain.py": "fef196c4dfadb66efc2a485dd30bcdb117242e282a79bb38f61ffdf90dc3eb80",
+    "backend/multilevel_seed.py": "425b810becb6e56cb8f579c5ce5f03cad29e2a9dd194f902ec3de5be0e8c12db",
+    "backend/server.py": "a670ab6b1830c756f969b89d2a6439c416b144eec59c6fed939a5d1460455f91",
+    "backend/store.py": "621f5d7624979d53272b95243054113cecabe3b5911866f0a7530fbb61c00fe8",
+    "backend/test_consolidation.py": "bdff9a77433cfb505c2417528f4308d675ae76d68b813864968cc4fa23298c9e",
+    "backend/test_erp_calculation.py": "4c981585feb5daea9d788f743c4c25365263a35a92267dbefeaa7f79e3d626b9",
+    "backend/test_erp_domain.py": "fe702fab6984552ef4f41824bc36c68cac75a8ace7e17ab2bc85fb36eaa73efb",
+    "backend/test_ledger.py": "3a73ec23d1c12c609522261e436ba9a6d96494ce0873a460189ebb6853a45f3c",
+    "backend/test_multilevel_domain.py": "a55dc707e8ec7a6b164991890331fb98433248806bb0d8d044b9e6364a066016",
+    "backend/test_multilevel_http.py": "e24a174f0cd9baebf671fbae23cd84d8fb52f7764212a186697d8c2b7b85eacd",
+    "build_windows.py": "89530418bb63e0e0af7ba48c18fd71d6a8b23b01065724bd445668493e2ece8a",
+    "frontend/dist/index.html": "5c9d9424b600239aec1652d59a043538032cc35a5d449d103a73f33ab0a5d15b",
+    "frontend/src/app.js": "7ec83702526f0801b1c7cd104c47dc0cfb8827aced7ac895293d660857a5c85f",
+    "frontend/src/budget.js": "fe8f17e1973c2611397a7c4986b1931da18edf27985aa98be7a935f946f80a36",
+    "frontend/src/erp-actions.js": "66aa00066098567ec032eec7b61506f1503963e2fef7fa7c518ba5d468c0f7c2",
+    "frontend/src/erp-pages.js": "189ede07bc4a5f9ab4e27d53495dabd2e0297f182e3af4109e32e2257c19d215",
+    "frontend/src/ml-actions.js": "0e4513083b3769045218dd563e2f2c165902adeda27495077d5262f5e63a3ffd",
+    "frontend/src/ml-pages.js": "cf47acd6495f13a3118c6581448715f3bfaaa56bd8e17fcbfef7c4afbb972c30",
+    "frontend/src/shell.html": "238cde93179cee1a2affdda1ed76779471559f19f920a73b46338671ef476388",
+    "frontend/src/style.css": "b058a720e03c8ed1746ac5b6a61da1a01984349914cd906afb67885c73cc48b2",
+    "frontend-build.py": "0ba1bb5e922e97035e531bacb5315fdb5ffded22786e7a38d1a7df4a78986252",
+    "package_windows.py": "6cd3af8cd5703c1b85c1ebf38ac90696edc9ae2042dd2592c87db76dae37eea7",
+    "windows/app/demo_launcher.py": "8cfda89fa687d31583ec81d958e5358a3d81d42d42f7dde991bed39d7cfb5016",
+    "windows/launcher.c": "5ff84aec79f1751d0512be0ab3535d0dd95fb0a9bb295636453478260ede7b95"
+  },
+  "screenshotEvidenceSha256": "0d1684188152f807346ff8d9c64c0fd0cd4bda0880b808f8b1e2b9cbef86e9cd",
+  "screenshotImageSha256": {
+    "screenshots/01_导入入口总览.png": "f08b96f51f039841fbdcbe42935b5894569098d75db5ca4fdc1f13955d4beb21",
+    "screenshots/02A_NC适配_账簿与本位币.png": "56d0c636c71f62fb86285c715d67fba595231c2a147394f666bc534e4f8d8d45",
+    "screenshots/02B_NC适配_辅助列关联号客商.png": "b1e34e4a2d00631afcaedfa068f2d3e1a232776b4b34fa46a012b358e65bb33c",
+    "screenshots/03_科目映射Excel导入.png": "96f0d25f0079cb53b40a90bc34a506af5a0e78e719d7963ad812fa623474c3b3",
+    "screenshots/04_年初余额Excel导入.png": "8216d6c6d44d7b555fa794e29708a7d4700d2f8d7343d9b90458ab48ae0d23cc",
+    "screenshots/05_NC48凭证Excel导入.png": "c22f97cc1ebdd9e40ed00471ea266ed4f60df117d95927ae0222262c3a1b1a74",
+    "screenshots/06_通用凭证替代入口.png": "d2139d8857d08bab41c945f4d72751ad543d0dda1aa1848fccb8ccf02bf9106f",
+    "screenshots/07_导入成功批次与映射.png": "310f2d30a4ce437a777d79972e351a4f87dfa6580726058d58a4eeec2cf57da4",
+    "screenshots/08_生成法人三表效果.png": "6ce1bdbaa35eb90378d07ac30ab38568c03d2bb73435523f99de749cc6b74fa4",
+    "screenshots/09A_停用本层预置抵销.png": "362eba8e3e1833334928bf4e8118162255d21510a2c6676c5d4d4b7ca925e940",
+    "screenshots/09B_内部交易准确匹配.png": "d189c31b38278a3b0c304c63b1b4c1dc327e5e1b174c4694990da44a699f291b",
+    "screenshots/09C_负责人审批自动抵销.png": "0b4a0f6f2bb0a8fe7d40da32ca59d5819b84deecb64f3b6c1b6bc959b42639dc",
+    "screenshots/10A_鸿旺小合并已签核.png": "3b7d564351c710f3eb0429717a6ca728c7b8c7419c06c07dc5bee960803ace4b",
+    "screenshots/10B_鸿旺小合并报表效果.png": "538ebda68bb25d551850c6fd5e35c06ad69b6926560ecb60e219ef8db99774ae",
+    "screenshots/11_集团上卷合并效果.png": "36eb15d4f4ddebe5524b1654dc00f82cae67557e31483ede8aa524cb9d8c8a61",
+    "screenshots/12_现金流分类页面维护.png": "e5bcc58a6fe67b0e303b0ba9e1560b880e6f3f8ea56234b9972d064c65096f0b"
+  },
+  "substantiveChecks": [
+    "独立实读导入说明全文以及6本Excel说明/字段字典，并对照ledger.py、erp_domain.py及前端实际按钮。",
+    "01科目、02期初、03NC48、06通用首表固定表头、数据从第2行粘贴值，说明和示例不随首表入账。",
+    "04配置、05现金分类是手工页面准备清单，明确没有独立上传入口；不把NC配置JSON宣称一键导入。",
+    "NC原48表头完整，法人本币入账与交易原币/集团/全局原值保留分开，单价/数量/汇率不按账务2位擅截。",
+    "编码文本及ISO日期、元两位与报表万元六位、2026年度、整张凭证平衡及去重均说明。",
+    "鸿旺3独立法人且报表不重叠；管理范围与真实天元100%持股分开。",
+    "内部客商按完整原值和选中辅助列映射；外部明确EXTERNAL，不把未知客商或空白默认为外部。",
+    "内部期初AR/AP按对方和共同关联号分拆，逐法人完整期初平衡，不能只用总余额强配。",
+    "角色负责人、已签依赖重开、整7家分别重开HW/OS、预置100/50明确转换且保留投资权益950等步骤齐。",
+    "现金流仅现金行、单行单类别，混合类别需真实业务拆分，不用补差或比例猜分。",
+    "普通导入后仍需生成单体、匹配、草稿、负责人审批、计算、签核；不宣称导入即自动完成全部报表。",
+    "NC48直接文件案例84映射/14期初/48分录与内置396行分别说明，HW3/root1和HW18/root9不混用。",
+    "三体收入1500-内部100=1400；资产670-应收20=650；净利450；集团2650/770/2370/CTA74/现金FX90案例口径明确。",
+    "补注不改原NC金额、停批重导保留历史、旧批只读与新批可补注，以及重扫差异当前性说明正确。",
+    "同ERP-20261021的模板指南补充不冒称软件升级；NC在线未连接与受限会计口径明确。"
+  ],
+  "method": "语义由审阅者逐章/逐说明表对实际源码核对；结构脚本只证明被审阅文件仍为相同字节，不以关键词代替内容审查。",
+  "limitations": [
+    "本报告不替代独立真实HTTP/XLSX业务导入验收。",
+    "Word/PDF排版、公开下载及Windows真机验证由主代理另行登记。",
+    "示例金额与ERP编码为虚构；真实ERP导出完整性及会计政策须业务核对。"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "adapter": "nc65",
+  "bookMappings": [
+    {
+      "bookCode": "TY_BOOK",
+      "entityId": "TY",
+      "functionalCurrency": "CNY"
+    },
+    {
+      "bookCode": "HW_BOOK",
+      "entityId": "HW",
+      "functionalCurrency": "CNY"
+    },
+    {
+      "bookCode": "HW_CAT_BOOK",
+      "entityId": "HW_CAT",
+      "functionalCurrency": "CNY"
+    },
+    {
+      "bookCode": "HW_ELEC_BOOK",
+      "entityId": "HW_ELEC",
+      "functionalCurrency": "CNY"
+    },
+    {
+      "bookCode": "OTHER_BOOK",
+      "entityId": "OTHER",
+      "functionalCurrency": "CNY"
+    },
+    {
+      "bookCode": "OS_A_BOOK",
+      "entityId": "OS_A",
+      "functionalCurrency": "USD"
+    },
+    {
+      "bookCode": "OS_B_BOOK",
+      "entityId": "OS_B",
+      "functionalCurrency": "USD"
+    }
+  ],
+  "counterpartyMappings": [
+    {
+      "code": "NC-TY",
+      "entityId": "TY"
+    },
+    {
+      "code": "NC-HW",
+      "entityId": "HW"
+    },
+    {
+      "code": "NC-HW_CAT",
+      "entityId": "HW_CAT"
+    },
+    {
+      "code": "NC-HW_ELEC",
+      "entityId": "HW_ELEC"
+    },
+    {
+      "code": "NC-OTHER",
+      "entityId": "OTHER"
+    },
+    {
+      "code": "NC-OS_A",
+      "entityId": "OS_A"
+    },
+    {
+      "code": "NC-OS_B",
+      "entityId": "OS_B"
+    },
+    {
+      "code": "NC-EXTERNAL",
+      "entityId": "EXTERNAL"
+    }
+  ],
+  "importOptions": {
+    "auxiliaryColumns": [
+      "辅助核算1"
+    ],
+    "referenceColumn": "结算号"
+  }
+}

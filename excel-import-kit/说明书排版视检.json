@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "pdfSha256": "755c89e3a119050f8e0f331a1af8f804138b3c42d0f84825c16b9da7374c9b13",
+  "pagesInspected": [
+    3,
+    13,
+    20
+  ],
+  "checks": [
+    "中文表格与长文件名换行可读",
+    "NC入账口径及字段表可读",
+    "实际审批截图与配文正常",
+    "页码、页眉、页脚完整"
+  ],
+  "machinePageBounds": {
+    "pages": 24,
+    "outOfPageWords": 0
+  },
+  "scope": "代表页人工视检及24页文字边界机器核验，不冒称逐页人工审阅。"
+}

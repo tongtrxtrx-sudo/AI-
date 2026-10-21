@@ -16,6 +16,12 @@ NC6.5导出CSV/XLSX→账簿与科目/内部客商映射→期初及已记账凭
 
 差异保留双方凭证、原行与原因，不自动倒挤。核实后可补内部客商、关联号或现金流类别，留下前后标注；金额错误需核对ERP、更正后停用旧批次再导入。历史签核结果追溯其当时源、凭证与抵销快照；当前匹配差异清单在重扫时更新，需留存时及时导出。
 
+## Excel模板与带截图导入指南（同软件基线补充）
+
+**[下载6份Excel模板＋已填示例＋24页Word/PDF说明（约9.5MB）](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/TianyuanEPM-NC65-Excel-Import-Kit-D1.0.zip)**。你现有ERP-20261021无需更新EXE。
+
+[单独下载Word图文说明](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/excel-import-kit/EPM-NC65-Excel-Import-Guide-CN.docx) · [单独下载PDF](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/excel-import-kit/EPM-NC65-Excel-Import-Guide-CN.pdf) · [查看6模板分别在哪导入](excel-import-kit/README.md)。四种表可直接导入；NC适配与现金分类两种为页面照填准备表，没有独立上传入口。说明含16张最终文件真实上传、生成与合并截图。
+
 ## 第一次怎么做鸿旺小合并
 
 先看 **[首次测试操作卡](erp-demo/鸿旺小合并_首次测试操作卡.md)**。

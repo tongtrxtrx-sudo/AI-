@@ -1,0 +1,294 @@
+{
+  "passed": true,
+  "softwareBaseline": "ERP-20261021",
+  "supportingDelivery": "Excel导入模板与截图说明补充，不修改软件版本或数据库",
+  "verifiedAt": "2026-10-21T15:07:49.350678+08:00",
+  "method": "全新私有SQLite账套、实际本机HTTP接口上传本次xlsx；不导入产品计算函数。",
+  "sourceUnchangedDuringRun": true,
+  "inputFilesUnchangedDuringRun": true,
+  "inputSha256": {
+    "output/Excel模板/01_科目映射_空白模板.xlsx": "cbf6345fefa2e26730a590b0e8ece01ed7367b0968107495891095070ae519e5",
+    "output/Excel模板/02_年初余额_空白模板.xlsx": "f079cbfe92331db09aaadfcf35ba6ec16d5995c65ad23793b6b61bd4561f43af",
+    "output/Excel模板/03_NC65原48列凭证_空白模板.xlsx": "72c272cfa6482c4a913539ac50d1bd529ee8620a417b3705529497514ea66c92",
+    "output/Excel模板/04_NC适配_页面配置准备表.xlsx": "4256af2da14ddc4b6e922869a222a2d0219aba313dbd055c72128566a5d4f804",
+    "output/Excel模板/05_现金流分类_准备表.xlsx": "c4ca815ce5af6b3386a8ff109f82e0e9155ed225361be5fe1676132dd2e1ea80",
+    "output/Excel模板/06_通用凭证_替代方案模板.xlsx": "780891e56b33cfc7d085c29e18fe17920287b10ecb2105ed768fa9cc7673b267",
+    "output/已填示例/01_科目映射_已填示例.xlsx": "02c3667e98f95a52daf9d7685f17061cf47dc54b2ba123f8dfa09d6a9438ba2e",
+    "output/已填示例/02_年初余额_已填示例.xlsx": "d278cc153990b5d8b13fdba0302daa8336aab8b121a6d4dc671d5a465c14dfd0",
+    "output/已填示例/03_NC65原48列凭证_已填示例.xlsx": "c73ea4c24088facce26348ee82dd5325006ae4184ab130df1afc82310f6b9d86",
+    "output/已填示例/06_通用凭证_已填示例.xlsx": "159de71a63cad9f01f2e64a6fc57f780df3194e87d33c7177df97c9bdf9ac258"
+  },
+  "sourceSha256": {
+    "backend/API-CONTRACT.md": "1f95a4e81a18f090d43253e975876f0311792365c1ad43ef631531b607a51b07",
+    "backend/CALCULATION-CONTRACT.md": "0d4efe1dad6b0252ff0db1e2bc8322b5b24a7e938cf63155f43a293b1b010259",
+    "backend/LEDGER-CONTRACT.md": "2dcb5fbcff887043b3baf780f114b7a008709631bd8cfc77480a65f2b113ef84",
+    "backend/consolidation.py": "fc6f2df87fd7feb9c47b6d873bffd33fac032951ed87cdf8382f93cb36460dcf",
+    "backend/engine.py": "7648cba8a69c3ff57781bd91bf5592b0baefd9ffcc9497481b33d8b07642c0e5",
+    "backend/erp_domain.py": "561e4338f94a48aa702b2d4bb6f91ec687b21c725f03dfdfadc18dd06866314f",
+    "backend/finance.py": "31e1fd61f35dc8d68fecb10d0209fd108237e2aded2efa80b2970fbed2019114",
+    "backend/ledger.py": "c6b72fae0754d89782e5c950f4d6b73fa3c9286409732004ef5e770824ccef0e",
+    "backend/ledger_seed.py": "13cc623ea2811bf6a9a45b4f393ed2038d4fa06452079f9b397a29224d45b351",
+    "backend/legacy_engine.py": "ecc9fc84cb156183dc2f6b56e25c8ec2409441577b3830c8d107701261d9230f",
+    "backend/multilevel_domain.py": "fef196c4dfadb66efc2a485dd30bcdb117242e282a79bb38f61ffdf90dc3eb80",
+    "backend/multilevel_seed.py": "425b810becb6e56cb8f579c5ce5f03cad29e2a9dd194f902ec3de5be0e8c12db",
+    "backend/server.py": "a670ab6b1830c756f969b89d2a6439c416b144eec59c6fed939a5d1460455f91",
+    "backend/store.py": "621f5d7624979d53272b95243054113cecabe3b5911866f0a7530fbb61c00fe8",
+    "backend/test_consolidation.py": "bdff9a77433cfb505c2417528f4308d675ae76d68b813864968cc4fa23298c9e",
+    "backend/test_erp_calculation.py": "4c981585feb5daea9d788f743c4c25365263a35a92267dbefeaa7f79e3d626b9",
+    "backend/test_erp_domain.py": "fe702fab6984552ef4f41824bc36c68cac75a8ace7e17ab2bc85fb36eaa73efb",
+    "backend/test_ledger.py": "3a73ec23d1c12c609522261e436ba9a6d96494ce0873a460189ebb6853a45f3c",
+    "backend/test_multilevel_domain.py": "a55dc707e8ec7a6b164991890331fb98433248806bb0d8d044b9e6364a066016",
+    "backend/test_multilevel_http.py": "e24a174f0cd9baebf671fbae23cd84d8fb52f7764212a186697d8c2b7b85eacd",
+    "build_windows.py": "89530418bb63e0e0af7ba48c18fd71d6a8b23b01065724bd445668493e2ece8a",
+    "frontend/dist/index.html": "5c9d9424b600239aec1652d59a043538032cc35a5d449d103a73f33ab0a5d15b",
+    "frontend/src/app.js": "7ec83702526f0801b1c7cd104c47dc0cfb8827aced7ac895293d660857a5c85f",
+    "frontend/src/budget.js": "fe8f17e1973c2611397a7c4986b1931da18edf27985aa98be7a935f946f80a36",
+    "frontend/src/erp-actions.js": "66aa00066098567ec032eec7b61506f1503963e2fef7fa7c518ba5d468c0f7c2",
+    "frontend/src/erp-pages.js": "189ede07bc4a5f9ab4e27d53495dabd2e0297f182e3af4109e32e2257c19d215",
+    "frontend/src/ml-actions.js": "0e4513083b3769045218dd563e2f2c165902adeda27495077d5262f5e63a3ffd",
+    "frontend/src/ml-pages.js": "cf47acd6495f13a3118c6581448715f3bfaaa56bd8e17fcbfef7c4afbb972c30",
+    "frontend/src/shell.html": "238cde93179cee1a2affdda1ed76779471559f19f920a73b46338671ef476388",
+    "frontend/src/style.css": "b058a720e03c8ed1746ac5b6a61da1a01984349914cd906afb67885c73cc48b2",
+    "frontend-build.py": "0ba1bb5e922e97035e531bacb5315fdb5ffded22786e7a38d1a7df4a78986252",
+    "package_windows.py": "6cd3af8cd5703c1b85c1ebf38ac90696edc9ae2042dd2592c87db76dae37eea7",
+    "windows/app/demo_launcher.py": "8cfda89fa687d31583ec81d958e5358a3d81d42d42f7dde991bed39d7cfb5016",
+    "windows/launcher.c": "5ff84aec79f1751d0512be0ab3535d0dd95fb0a9bb295636453478260ede7b95"
+  },
+  "templateSha256": {
+    "output/Excel模板/01_科目映射_空白模板.xlsx": "cbf6345fefa2e26730a590b0e8ece01ed7367b0968107495891095070ae519e5",
+    "output/Excel模板/02_年初余额_空白模板.xlsx": "f079cbfe92331db09aaadfcf35ba6ec16d5995c65ad23793b6b61bd4561f43af",
+    "output/Excel模板/03_NC65原48列凭证_空白模板.xlsx": "72c272cfa6482c4a913539ac50d1bd529ee8620a417b3705529497514ea66c92",
+    "output/Excel模板/04_NC适配_页面配置准备表.xlsx": "4256af2da14ddc4b6e922869a222a2d0219aba313dbd055c72128566a5d4f804",
+    "output/Excel模板/05_现金流分类_准备表.xlsx": "c4ca815ce5af6b3386a8ff109f82e0e9155ed225361be5fe1676132dd2e1ea80",
+    "output/Excel模板/06_通用凭证_替代方案模板.xlsx": "780891e56b33cfc7d085c29e18fe17920287b10ecb2105ed768fa9cc7673b267"
+  },
+  "harnessSha256": "92a3c990bdea25d10f5c5b8ff5ecf2ee30d9efc7c235cc27a78c284c2f71888b",
+  "cases": [
+    {
+      "case": "结构与首sheet",
+      "passed": true,
+      "detail": {
+        "模板检查": [
+          {
+            "id": "mapping",
+            "file": "output/Excel模板/01_科目映射_空白模板.xlsx",
+            "sheets": [
+              "导入数据",
+              "填写说明",
+              "字段说明",
+              "填写示例_不要直接导入",
+              "法人及字段字典"
+            ],
+            "sha256": "cbf6345fefa2e26730a590b0e8ece01ed7367b0968107495891095070ae519e5",
+            "firstSheetColumns": 5,
+            "firstSheetStyledRows": 1001
+          },
+          {
+            "id": "opening",
+            "file": "output/Excel模板/02_年初余额_空白模板.xlsx",
+            "sheets": [
+              "导入数据",
+              "填写说明",
+              "字段说明",
+              "填写示例_不要直接导入",
+              "法人及字段字典"
+            ],
+            "sha256": "f079cbfe92331db09aaadfcf35ba6ec16d5995c65ad23793b6b61bd4561f43af",
+            "firstSheetColumns": 9,
+            "firstSheetStyledRows": 1001
+          },
+          {
+            "id": "nc65",
+            "file": "output/Excel模板/03_NC65原48列凭证_空白模板.xlsx",
+            "sheets": [
+              "导入数据",
+              "填写说明",
+              "字段说明",
+              "填写示例_不要直接导入",
+              "法人及字段字典"
+            ],
+            "sha256": "72c272cfa6482c4a913539ac50d1bd529ee8620a417b3705529497514ea66c92",
+            "firstSheetColumns": 48,
+            "firstSheetStyledRows": 1001
+          },
+          {
+            "id": "config",
+            "file": "output/Excel模板/04_NC适配_页面配置准备表.xlsx",
+            "sheets": [
+              "填写说明_本表不直接导入",
+              "账簿法人对应",
+              "内部客商对应",
+              "辅助列和关联号",
+              "已填示例_账簿",
+              "已填示例_客商",
+              "已填示例_规则",
+              "法人及字段字典"
+            ],
+            "sha256": "4256af2da14ddc4b6e922869a222a2d0219aba313dbd055c72128566a5d4f804",
+            "firstSheetColumns": 2,
+            "firstSheetStyledRows": 8
+          },
+          {
+            "id": "cashflow",
+            "file": "output/Excel模板/05_现金流分类_准备表.xlsx",
+            "sheets": [
+              "填写说明_本表不直接导入",
+              "待归类现金行",
+              "填写示例_不要单独导入",
+              "法人及字段字典"
+            ],
+            "sha256": "c4ca815ce5af6b3386a8ff109f82e0e9155ed225361be5fe1676132dd2e1ea80",
+            "firstSheetColumns": 2,
+            "firstSheetStyledRows": 8
+          },
+          {
+            "id": "generic",
+            "file": "output/Excel模板/06_通用凭证_替代方案模板.xlsx",
+            "sheets": [
+              "导入数据",
+              "填写说明",
+              "字段说明",
+              "填写示例_不要直接导入",
+              "法人及字段字典"
+            ],
+            "sha256": "780891e56b33cfc7d085c29e18fe17920287b10ecb2105ed768fa9cc7673b267",
+            "firstSheetColumns": 15,
+            "firstSheetStyledRows": 1001
+          }
+        ],
+        "配置与现金准备表": "照页面维护，不伪称拥有独立导入入口。"
+      }
+    },
+    {
+      "case": "空模板不能误导入",
+      "passed": true,
+      "detail": {
+        "空模板拒绝": [
+          {
+            "模板": "mapping",
+            "返回": "未填写不能导入；整批零写入",
+            "提示": "CSV没有数据行。"
+          },
+          {
+            "模板": "opening",
+            "返回": "未填写不能导入；整批零写入",
+            "提示": "CSV没有数据行。"
+          },
+          {
+            "模板": "nc65",
+            "返回": "未填写不能导入；整批零写入",
+            "提示": "CSV没有数据行。"
+          },
+          {
+            "模板": "generic",
+            "返回": "未填写不能导入；整批零写入",
+            "提示": "CSV没有数据行。"
+          }
+        ]
+      }
+    },
+    {
+      "case": "空模板独立填写NC路径",
+      "passed": true,
+      "detail": {
+        "由空白模板手填": {
+          "科目映射": 4,
+          "期初余额": 2,
+          "NC分录": 2
+        },
+        "本币记账收入元": "7.01",
+        "原币美元": "1.00",
+        "集团币核对金额": "999.00",
+        "报表收入万元": 0.000701,
+        "期末现金万元": 0.010701,
+        "前导零保持": [
+          "账簿0000001",
+          "凭证000001",
+          "科目001001/006001"
+        ],
+        "NC48列保留": true,
+        "收入精确追1行": true,
+        "真实拒绝且零写入": {
+          "未知映射字段": "科目CSV第2行：报表字段须为模板内BS/PL技术键，余额方向为借/贷。",
+          "期初不平": "期初CSV法人HW借贷不平衡，差额1.00元。",
+          "未确认已记账": "NC导出没有记账状态列，请确认文件仅包含已记账业务凭证后再导入。",
+          "公式": "xlsx含公式单元格K2，请粘贴为值后再导入。",
+          "凭证不平": "凭证HW|0000001|01|2026-09|000001借贷不平衡，必须整张凭证导入。",
+          "未知科目": "ERP数据校验失败：HW科目999999尚未映射。",
+          "重复凭证": "发现重复凭证分录或期初余额；整批未导入，请先停用错误批次后更正，不能重复入账。"
+        }
+      }
+    },
+    {
+      "case": "空模板独立填写通用路径",
+      "passed": true,
+      "detail": {
+        "通用模板实际导入": true,
+        "替代而非叠加NC": true,
+        "现金行明确经营分类": true,
+        "收入万元": 0.000701,
+        "经营现金流万元": 0.000701
+      }
+    },
+    {
+      "case": "NC现金流两行分别补注",
+      "passed": true,
+      "detail": {
+        "NC不增自定义cashflow列": true,
+        "未分类阻断提示": "凭证HW|0000001|01|2026-09|000001现金分录1存在多种经营/投资/筹资对方科目，须填写现金流类别，不能倒挤。",
+        "分别标注两条原现金分录": true,
+        "经营现金流元": "50.00",
+        "筹资现金流元": "40.00",
+        "原NC48列与金额不改": true,
+        "限制": "单一现金行不支持多类别金额分摊，真实混合行应回ERP按业务依据拆分。"
+      }
+    },
+    {
+      "case": "已填XLSX完整小大合并",
+      "passed": true,
+      "detail": {
+        "输入行数": {
+          "mappings": 84,
+          "openings": 14,
+          "vouchers": 48
+        },
+        "已填案例实际首sheet上传": true,
+        "鸿旺准确匹配数": 3,
+        "集团准确匹配数": 1,
+        "鸿旺小合并": {
+          "revenue": 1400.0,
+          "net": 450.0,
+          "assets": 650.0
+        },
+        "集团合并": {
+          "revenue": 2650.0,
+          "net": 770.0,
+          "assets": 2370.0,
+          "cta": 74.0,
+          "cashFx": 90.0
+        },
+        "NC原48列保留": true,
+        "配置操作": "调用同维护表单的erp_adapter_save；准备表没有独立导入入口。",
+        "NC在线连接": false,
+        "通用已填XLSX替代案例": {
+          "输入行数": {
+            "mappings": 84,
+            "openings": 14,
+            "vouchers": 48
+          },
+          "独立新账套不与NC叠加": true,
+          "鸿旺收入": 1400.0,
+          "集团收入": 2650.0,
+          "净利": 770.0,
+          "CTA": 74.0,
+          "现金汇率影响": 90.0
+        }
+      }
+    }
+  ],
+  "limitations": [
+    "NC在线接口未连接。",
+    "NC适配配置、现金分类准备表无独立Excel导入入口，需页面照填或原现金行补注。",
+    "仅2026/CNY-USD全资普通场景。"
+  ]
+}
