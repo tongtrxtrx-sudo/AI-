@@ -2,18 +2,18 @@
 
 适用ERP-20261021。本次补充模板及操作指南，现有EXE无需升级；原四册全模块文档继续适用。
 
-**[下载模板、已填示例和图文说明整包（约9.5MB）](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/TianyuanEPM-NC65-Excel-Import-Kit-D1.0.zip)** · [下载Word操作说明](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/excel-import-kit/EPM-NC65-Excel-Import-Guide-CN.docx) · [查看PDF](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/excel-import-kit/EPM-NC65-Excel-Import-Guide-CN.pdf)
+**[下载模板、已填示例和图文说明整包（约9.5MB）](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/81bf4545bec24e1a09b714a40c02bc2affbdbff9/TianyuanEPM-NC65-Excel-Import-Kit-D1.0.zip)** · [下载Word操作说明](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/81bf4545bec24e1a09b714a40c02bc2affbdbff9/excel-import-kit/EPM-NC65-Excel-Import-Guide-CN.docx) · [查看PDF](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/81bf4545bec24e1a09b714a40c02bc2affbdbff9/excel-import-kit/EPM-NC65-Excel-Import-Guide-CN.pdf)
 
 说明书24页、16张真实实机截图，逐项解释：填什么、在哪个按钮导入、成功后保存什么、怎样生成单体/自动抵销/小合并及集团上卷、出错如何恢复。
 
 |模板|下载Excel|系统位置与使用方式|
 |---|---|---|
-|01 科目映射|[下载](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/excel-import-kit/templates/01_%E7%A7%91%E7%9B%AE%E6%98%A0%E5%B0%84_%E7%A9%BA%E7%99%BD%E6%A8%A1%E6%9D%BF.xlsx)|ERP凭证与期初→①科目字段映射→选择文件并导入|
-|02 年初余额|[下载](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/excel-import-kit/templates/02_%E5%B9%B4%E5%88%9D%E4%BD%99%E9%A2%9D_%E7%A9%BA%E7%99%BD%E6%A8%A1%E6%9D%BF.xlsx)|ERP凭证与期初→②年初科目余额→选择文件并导入|
-|03 NC原48列凭证|[下载](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/excel-import-kit/templates/03_NC65%E5%8E%9F48%E5%88%97%E5%87%AD%E8%AF%81_%E7%A9%BA%E7%99%BD%E6%A8%A1%E6%9D%BF.xlsx)|下方NC6.5导出适配→导入NC6.5凭证|
-|04 NC适配准备|[下载](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/excel-import-kit/templates/04_NC%E9%80%82%E9%85%8D_%E9%A1%B5%E9%9D%A2%E9%85%8D%E7%BD%AE%E5%87%86%E5%A4%87%E8%A1%A8.xlsx)|没有文件上传入口；对照维护NC6.5适配页面填写|
-|05 现金流分类准备|[下载](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/excel-import-kit/templates/05_%E7%8E%B0%E9%87%91%E6%B5%81%E5%88%86%E7%B1%BB_%E5%87%86%E5%A4%87%E8%A1%A8.xlsx)|没有独立上传入口；对照现金原行补充核对信息|
-|06 通用凭证替代|[下载](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/excel-import-kit/templates/06_%E9%80%9A%E7%94%A8%E5%87%AD%E8%AF%81_%E6%9B%BF%E4%BB%A3%E6%96%B9%E6%A1%88%E6%A8%A1%E6%9D%BF.xlsx)|上方③完整已记账凭证→选择文件并导入；与03二选一|
+|01 科目映射|[下载](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/81bf4545bec24e1a09b714a40c02bc2affbdbff9/excel-import-kit/templates/01_%E7%A7%91%E7%9B%AE%E6%98%A0%E5%B0%84_%E7%A9%BA%E7%99%BD%E6%A8%A1%E6%9D%BF.xlsx)|ERP凭证与期初→①科目字段映射→选择文件并导入|
+|02 年初余额|[下载](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/81bf4545bec24e1a09b714a40c02bc2affbdbff9/excel-import-kit/templates/02_%E5%B9%B4%E5%88%9D%E4%BD%99%E9%A2%9D_%E7%A9%BA%E7%99%BD%E6%A8%A1%E6%9D%BF.xlsx)|ERP凭证与期初→②年初科目余额→选择文件并导入|
+|03 NC原48列凭证|[下载](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/81bf4545bec24e1a09b714a40c02bc2affbdbff9/excel-import-kit/templates/03_NC65%E5%8E%9F48%E5%88%97%E5%87%AD%E8%AF%81_%E7%A9%BA%E7%99%BD%E6%A8%A1%E6%9D%BF.xlsx)|下方NC6.5导出适配→导入NC6.5凭证|
+|04 NC适配准备|[下载](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/81bf4545bec24e1a09b714a40c02bc2affbdbff9/excel-import-kit/templates/04_NC%E9%80%82%E9%85%8D_%E9%A1%B5%E9%9D%A2%E9%85%8D%E7%BD%AE%E5%87%86%E5%A4%87%E8%A1%A8.xlsx)|没有文件上传入口；对照维护NC6.5适配页面填写|
+|05 现金流分类准备|[下载](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/81bf4545bec24e1a09b714a40c02bc2affbdbff9/excel-import-kit/templates/05_%E7%8E%B0%E9%87%91%E6%B5%81%E5%88%86%E7%B1%BB_%E5%87%86%E5%A4%87%E8%A1%A8.xlsx)|没有独立上传入口；对照现金原行补充核对信息|
+|06 通用凭证替代|[下载](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/81bf4545bec24e1a09b714a40c02bc2affbdbff9/excel-import-kit/templates/06_%E9%80%9A%E7%94%A8%E5%87%AD%E8%AF%81_%E6%9B%BF%E4%BB%A3%E6%96%B9%E6%A1%88%E6%A8%A1%E6%9D%BF.xlsx)|上方③完整已记账凭证→选择文件并导入；与03二选一|
 
 可导入模板保留第1行表头，从首sheet“导入数据”的A2开始粘贴值。说明、字典和参考示例在后sheet，默认不会导入；空白首表直接导入应报无数据。保留科目/账簿/凭证号文本前导0，不上传公式。
 
@@ -23,4 +23,4 @@
 
 先备份；已签层级重开。七法人整套先分别重开鸿旺和海外及祖先，并回集团范围生成全部。普通文件模式明确停用本层预置销售抵销，保留投资和用户手工事项。导入成功后仍要生成单体→匹配→草稿→负责人审批→计算签核。金额差异不自动补平，企业NC在线接口尚未配置。
 
-[6组真实XLSX验收](Excel模板真实导入验收.md)及[独立语义核对](导入模板说明独立核对.md)记录实际交付10个Excel的SHA，4可导入/2准备表的界限、元分/前导零/负例和NC/通用分别完整闭环。截图由最终已填Excel真实上传并逐层生成。公开下载校验在public-download-verification.json中记录。
+[6组真实XLSX验收](Excel模板真实导入验收.md)及[独立语义核对](导入模板说明独立核对.md)记录实际交付10个Excel的SHA，4可导入/2准备表的界限、元分/前导零/负例和NC/通用分别完整闭环。截图由最终已填Excel真实上传并逐层生成。公开HTTPS已实际下载13个文件，逐字节、SHA256与真实Excel/Word结构全部核验通过，见[下载验证记录](public-download-verification.json)。链接固定至本次制品提交，软件运行包和master均未改动。
