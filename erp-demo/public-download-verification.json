@@ -1,0 +1,116 @@
+{
+  "passed": true,
+  "verifiedUtc": "2026-10-21T02:57:24.810926+00:00",
+  "artifactCommit": "b06cb10451c81bb537acf4913d332943fcd00c5b",
+  "branch": "epm-download-20261019",
+  "repository": "tongtrxtrx-sudo/AI-",
+  "method": "实际匿名HTTPS GET下载2个ZIP、4份Word和4份PDF，逐字节比本地制品并检查SHA256/ZIP CRC/Word XML/PDF文件头。",
+  "masterUnchanged": true,
+  "masterCommit": "5581c0997311578ac42c5a8c136fdad60e98efcc",
+  "files": [
+    {
+      "file": "TianyuanEPM-ERP-Demo-Windows-x64.zip",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/b06cb10451c81bb537acf4913d332943fcd00c5b/TianyuanEPM-ERP-Demo-Windows-x64.zip",
+      "httpStatus": 200,
+      "bytes": 38042171,
+      "sha256": "fd72b753e937c055ecbfb04cd9e27ff37c0fa5cc85ef2b6fb352be417f38cee1",
+      "matchesLocalArtifact": true,
+      "contentType": "application/zip",
+      "zipCrcPassed": true
+    },
+    {
+      "file": "TianyuanEPM-ERP-20261021-Full-Docs-CN-D1.0.zip",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/b06cb10451c81bb537acf4913d332943fcd00c5b/TianyuanEPM-ERP-20261021-Full-Docs-CN-D1.0.zip",
+      "httpStatus": 200,
+      "bytes": 9568884,
+      "sha256": "35ddd7d0fad1f37e3c7dd9262ee26154d23cc69fff29596d35a01c60acc954c2",
+      "matchesLocalArtifact": true,
+      "contentType": "application/zip",
+      "zipCrcPassed": true
+    },
+    {
+      "file": "erp-docs/EPM-ERP-PRD-CN.docx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/b06cb10451c81bb537acf4913d332943fcd00c5b/erp-docs/EPM-ERP-PRD-CN.docx",
+      "httpStatus": 200,
+      "bytes": 214715,
+      "sha256": "baee583891bfd5f9004e572c65dab23f0d033057442226602843a49338eedd1b",
+      "matchesLocalArtifact": true,
+      "contentType": "application/octet-stream",
+      "zipCrcPassed": true,
+      "trueWordXml": true
+    },
+    {
+      "file": "erp-docs/EPM-ERP-PRD-CN.pdf",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/b06cb10451c81bb537acf4913d332943fcd00c5b/erp-docs/EPM-ERP-PRD-CN.pdf",
+      "httpStatus": 200,
+      "bytes": 4209396,
+      "sha256": "cde6e2c5216f4b8c085eb9ca6db6b5553fcc151e3b86b66eb249ad6a53944db0",
+      "matchesLocalArtifact": true,
+      "contentType": "application/octet-stream",
+      "pdfHeaderPassed": true
+    },
+    {
+      "file": "erp-docs/EPM-ERP-System-CN.docx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/b06cb10451c81bb537acf4913d332943fcd00c5b/erp-docs/EPM-ERP-System-CN.docx",
+      "httpStatus": 200,
+      "bytes": 659454,
+      "sha256": "14ae34e02d2a231a7fe6b48a8920a628826613e7113f5b3e791a66d72038531e",
+      "matchesLocalArtifact": true,
+      "contentType": "application/octet-stream",
+      "zipCrcPassed": true,
+      "trueWordXml": true
+    },
+    {
+      "file": "erp-docs/EPM-ERP-System-CN.pdf",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/b06cb10451c81bb537acf4913d332943fcd00c5b/erp-docs/EPM-ERP-System-CN.pdf",
+      "httpStatus": 200,
+      "bytes": 1788345,
+      "sha256": "7fe6717e484918123187b4f1e9b26a9d135854f1c97674d799a8d3ec1f7b0605",
+      "matchesLocalArtifact": true,
+      "contentType": "application/octet-stream",
+      "pdfHeaderPassed": true
+    },
+    {
+      "file": "erp-docs/EPM-ERP-Product-CN.docx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/b06cb10451c81bb537acf4913d332943fcd00c5b/erp-docs/EPM-ERP-Product-CN.docx",
+      "httpStatus": 200,
+      "bytes": 965614,
+      "sha256": "12035aaf96fe552005a33273a7c3d8f3a96fc35747f75ab74c03964fc4fe0096",
+      "matchesLocalArtifact": true,
+      "contentType": "application/octet-stream",
+      "zipCrcPassed": true,
+      "trueWordXml": true
+    },
+    {
+      "file": "erp-docs/EPM-ERP-Product-CN.pdf",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/b06cb10451c81bb537acf4913d332943fcd00c5b/erp-docs/EPM-ERP-Product-CN.pdf",
+      "httpStatus": 200,
+      "bytes": 1541973,
+      "sha256": "3019604234778413fb39943490b84270b446c796945cfee85c831b7ae8aa67d6",
+      "matchesLocalArtifact": true,
+      "contentType": "application/octet-stream",
+      "pdfHeaderPassed": true
+    },
+    {
+      "file": "erp-docs/EPM-ERP-User-Manual-CN.docx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/b06cb10451c81bb537acf4913d332943fcd00c5b/erp-docs/EPM-ERP-User-Manual-CN.docx",
+      "httpStatus": 200,
+      "bytes": 774532,
+      "sha256": "39c585f663bd2a41e2978173c4567ebc49b8f69ece2f4d8c54b1b104be2bc0f1",
+      "matchesLocalArtifact": true,
+      "contentType": "application/octet-stream",
+      "zipCrcPassed": true,
+      "trueWordXml": true
+    },
+    {
+      "file": "erp-docs/EPM-ERP-User-Manual-CN.pdf",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/b06cb10451c81bb537acf4913d332943fcd00c5b/erp-docs/EPM-ERP-User-Manual-CN.pdf",
+      "httpStatus": 200,
+      "bytes": 1790450,
+      "sha256": "f2998e523fd47f3d248cdc72489b37f69f38154c3c8457f750ce26f49c180ec1",
+      "matchesLocalArtifact": true,
+      "contentType": "application/octet-stream",
+      "pdfHeaderPassed": true
+    }
+  ]
+}

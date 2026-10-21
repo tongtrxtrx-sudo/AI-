@@ -2,7 +2,7 @@
 
 软件基线 **ERP-20261021** · 完整中文文档 **D1.0** · 发布日期2026-10-21。
 
-**[下载新版Windows EXE运行包（约38.0MB）](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/TianyuanEPM-ERP-Demo-Windows-x64.zip)** · **[下载全模块中文Word/PDF文档包](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/TianyuanEPM-ERP-20261021-Full-Docs-CN-D1.0.zip)**
+**[下载新版Windows EXE运行包（约38.0MB）](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/b06cb10451c81bb537acf4913d332943fcd00c5b/TianyuanEPM-ERP-Demo-Windows-x64.zip)** · **[下载全模块中文Word/PDF文档包](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/b06cb10451c81bb537acf4913d332943fcd00c5b/TianyuanEPM-ERP-20261021-Full-Docs-CN-D1.0.zip)**
 
 完整解压运行ZIP，双击 **天元EPM 凭证合并Demo.exe**。适用Windows 10/11 64位，附带运行环境，无需另行安装Python、Docker、WSL或虚拟机，不需要邮箱登录。请使用新EXE打开的地址，旧18480/Frappe页面不属于此新版Demo。不要只取EXE或在压缩包预览内运行。
 
@@ -39,10 +39,10 @@ NC6.5导出CSV/XLSX→账簿与科目/内部客商映射→期初及已记账凭
 
 |文档|Word|PDF|
 |---|---|---|
-|PRD研发需求规格说明书（含字段字典）|[下载Word](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/erp-docs/EPM-ERP-PRD-CN.docx)|[查看PDF](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/erp-docs/EPM-ERP-PRD-CN.pdf)|
-|系统研发与交互说明书|[下载Word](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/erp-docs/EPM-ERP-System-CN.docx)|[查看PDF](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/erp-docs/EPM-ERP-System-CN.pdf)|
-|产品说明书（演示案例）|[下载Word](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/erp-docs/EPM-ERP-Product-CN.docx)|[查看PDF](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/erp-docs/EPM-ERP-Product-CN.pdf)|
-|用户操作手册|[下载Word](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/erp-docs/EPM-ERP-User-Manual-CN.docx)|[查看PDF](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/erp-docs/EPM-ERP-User-Manual-CN.pdf)|
+|PRD研发需求规格说明书（含字段字典）|[下载Word](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/b06cb10451c81bb537acf4913d332943fcd00c5b/erp-docs/EPM-ERP-PRD-CN.docx)|[查看PDF](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/b06cb10451c81bb537acf4913d332943fcd00c5b/erp-docs/EPM-ERP-PRD-CN.pdf)|
+|系统研发与交互说明书|[下载Word](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/b06cb10451c81bb537acf4913d332943fcd00c5b/erp-docs/EPM-ERP-System-CN.docx)|[查看PDF](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/b06cb10451c81bb537acf4913d332943fcd00c5b/erp-docs/EPM-ERP-System-CN.pdf)|
+|产品说明书（演示案例）|[下载Word](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/b06cb10451c81bb537acf4913d332943fcd00c5b/erp-docs/EPM-ERP-Product-CN.docx)|[查看PDF](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/b06cb10451c81bb537acf4913d332943fcd00c5b/erp-docs/EPM-ERP-Product-CN.pdf)|
+|用户操作手册|[下载Word](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/b06cb10451c81bb537acf4913d332943fcd00c5b/erp-docs/EPM-ERP-User-Manual-CN.docx)|[查看PDF](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/b06cb10451c81bb537acf4913d332943fcd00c5b/erp-docs/EPM-ERP-User-Manual-CN.pdf)|
 
 每册均覆盖全部24模块，PRD含NC48列、映射/期初/分录/三表/抵销/追溯字段、状态、接口及验收；独立文档包含可编辑原稿、截图、示例文件、字段契约及变更记录。每次升级完整重发四件套的长期约定见[交付标准](erp-demo/DELIVERY-STANDARD.md)。
 
@@ -60,4 +60,4 @@ NC6.5导出CSV/XLSX→账簿与科目/内部客商映射→期初及已记账凭
 - [此前中文Demo及文档](HISTORY-Chinese-Demo-V1.md)
 - [原型及Konsolidat历史交付](HISTORY-Konsolidat-Delivery.md)
 
-只更新用户已授权的`epm-download-20261019`下载分支；`master`保持原样。公开下载后的字节、SHA256与ZIP完整性结果会记录于`erp-demo/public-download-verification.json`。
+只更新用户已授权的`epm-download-20261019`下载分支；`master`保持原样。公开HTTPS已实际下载2个ZIP、4份Word、4份PDF，10项全部逐字节及SHA256核对通过，ZIP/Word结构完整。见[公开下载验证记录](erp-demo/public-download-verification.json)；下载链接固定至实际制品提交，后续升级不会改变本版文件。
