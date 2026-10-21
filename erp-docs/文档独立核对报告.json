@@ -1,0 +1,1188 @@
+{
+  "passed": true,
+  "reviewScope": "五份Markdown主稿的独立语义审查；不等于外层制品排版或生产认证",
+  "softwareBaseline": "ERP-20261021",
+  "documentationVersion": "D1.0",
+  "reviewedAtUtc": "2026-10-21T02:52:49.514333+00:00",
+  "reviewer": "docs_release_review（独立于四份文档作者）",
+  "sourceMarkdownSha256": {
+    "content/01-PRD研发需求规格说明书.md": "3674fc644f8ee16e533fe742372e817babcd4da97eb34d88540899b966b1ee18",
+    "content/01A-字段与接口数据字典.md": "92a2d3c0feba332d9a9592f7e999530c9254789450e6cebb352dce581f88945c",
+    "content/02-系统研发与交互说明书.md": "81cbf8c754a2c39ffe22e8790adec288c9f4fa77fafd03c445d84c79a8809493",
+    "content/03-产品说明书_含演示案例.md": "313cb4cecc1dba3b9ef2b44c259c59ab4dcb5657673753acc25d7810004543dd",
+    "content/04-用户操作手册.md": "5fab83883440a166f72d7697ed058a295adcecaeb552104ca319164e49e28822"
+  },
+  "reviewedSoftwareSourceSha256": {
+    "backend/API-CONTRACT.md": "1f95a4e81a18f090d43253e975876f0311792365c1ad43ef631531b607a51b07",
+    "backend/CALCULATION-CONTRACT.md": "0d4efe1dad6b0252ff0db1e2bc8322b5b24a7e938cf63155f43a293b1b010259",
+    "backend/LEDGER-CONTRACT.md": "2dcb5fbcff887043b3baf780f114b7a008709631bd8cfc77480a65f2b113ef84",
+    "backend/consolidation.py": "fc6f2df87fd7feb9c47b6d873bffd33fac032951ed87cdf8382f93cb36460dcf",
+    "backend/engine.py": "7648cba8a69c3ff57781bd91bf5592b0baefd9ffcc9497481b33d8b07642c0e5",
+    "backend/erp_domain.py": "561e4338f94a48aa702b2d4bb6f91ec687b21c725f03dfdfadc18dd06866314f",
+    "backend/finance.py": "31e1fd61f35dc8d68fecb10d0209fd108237e2aded2efa80b2970fbed2019114",
+    "backend/ledger.py": "c6b72fae0754d89782e5c950f4d6b73fa3c9286409732004ef5e770824ccef0e",
+    "backend/ledger_seed.py": "13cc623ea2811bf6a9a45b4f393ed2038d4fa06452079f9b397a29224d45b351",
+    "backend/legacy_engine.py": "ecc9fc84cb156183dc2f6b56e25c8ec2409441577b3830c8d107701261d9230f",
+    "backend/multilevel_domain.py": "fef196c4dfadb66efc2a485dd30bcdb117242e282a79bb38f61ffdf90dc3eb80",
+    "backend/multilevel_seed.py": "425b810becb6e56cb8f579c5ce5f03cad29e2a9dd194f902ec3de5be0e8c12db",
+    "backend/server.py": "a670ab6b1830c756f969b89d2a6439c416b144eec59c6fed939a5d1460455f91",
+    "backend/store.py": "621f5d7624979d53272b95243054113cecabe3b5911866f0a7530fbb61c00fe8",
+    "backend/test_consolidation.py": "bdff9a77433cfb505c2417528f4308d675ae76d68b813864968cc4fa23298c9e",
+    "backend/test_erp_calculation.py": "4c981585feb5daea9d788f743c4c25365263a35a92267dbefeaa7f79e3d626b9",
+    "backend/test_erp_domain.py": "fe702fab6984552ef4f41824bc36c68cac75a8ace7e17ab2bc85fb36eaa73efb",
+    "backend/test_ledger.py": "3a73ec23d1c12c609522261e436ba9a6d96494ce0873a460189ebb6853a45f3c",
+    "backend/test_multilevel_domain.py": "a55dc707e8ec7a6b164991890331fb98433248806bb0d8d044b9e6364a066016",
+    "backend/test_multilevel_http.py": "e24a174f0cd9baebf671fbae23cd84d8fb52f7764212a186697d8c2b7b85eacd",
+    "build_windows.py": "89530418bb63e0e0af7ba48c18fd71d6a8b23b01065724bd445668493e2ece8a",
+    "frontend/dist/index.html": "5c9d9424b600239aec1652d59a043538032cc35a5d449d103a73f33ab0a5d15b",
+    "frontend/src/app.js": "7ec83702526f0801b1c7cd104c47dc0cfb8827aced7ac895293d660857a5c85f",
+    "frontend/src/budget.js": "fe8f17e1973c2611397a7c4986b1931da18edf27985aa98be7a935f946f80a36",
+    "frontend/src/erp-actions.js": "66aa00066098567ec032eec7b61506f1503963e2fef7fa7c518ba5d468c0f7c2",
+    "frontend/src/erp-pages.js": "189ede07bc4a5f9ab4e27d53495dabd2e0297f182e3af4109e32e2257c19d215",
+    "frontend/src/ml-actions.js": "0e4513083b3769045218dd563e2f2c165902adeda27495077d5262f5e63a3ffd",
+    "frontend/src/ml-pages.js": "cf47acd6495f13a3118c6581448715f3bfaaa56bd8e17fcbfef7c4afbb972c30",
+    "frontend/src/shell.html": "238cde93179cee1a2affdda1ed76779471559f19f920a73b46338671ef476388",
+    "frontend/src/style.css": "b058a720e03c8ed1746ac5b6a61da1a01984349914cd906afb67885c73cc48b2",
+    "frontend-build.py": "0ba1bb5e922e97035e531bacb5315fdb5ffded22786e7a38d1a7df4a78986252",
+    "package_windows.py": "6cd3af8cd5703c1b85c1ebf38ac90696edc9ae2042dd2592c87db76dae37eea7",
+    "windows/app/demo_launcher.py": "8cfda89fa687d31583ec81d958e5358a3d81d42d42f7dde991bed39d7cfb5016",
+    "windows/launcher.c": "5ff84aec79f1751d0512be0ab3535d0dd95fb0a9bb295636453478260ede7b95"
+  },
+  "softwareSourceManifestMatched": true,
+  "documents": [
+    {
+      "id": "PRD",
+      "source": "content/01-PRD研发需求规格说明书.md",
+      "supplementSources": [
+        "content/01A-字段与接口数据字典.md"
+      ],
+      "moduleCoverageReviewed": 24,
+      "passed": true,
+      "reviewMethod": "逐节实读其字段/交互/前置/输出/异常/边界，并对照实际页面及正式服务端实现；非仅模块关键词存在",
+      "moduleCoverage": [
+        {
+          "route": "overview",
+          "name": "集团经营总览",
+          "sections": "§3.1",
+          "semanticReview": "同一结果的收入/净利/现金/CTA、状态、月发生与直接输入；贡献表不冒充抵销后合计",
+          "passed": true
+        },
+        {
+          "route": "org",
+          "name": "集团组织与持股",
+          "sections": "§3.2",
+          "semanticReview": "法人/管理单元/真实持股区分，成员替换顺序、重复叶子/环/币种限制及跨期配置锁",
+          "passed": true
+        },
+        {
+          "route": "master",
+          "name": "科目与维度",
+          "sections": "§3.3",
+          "semanticReview": "集团科目映射与ERP按法人映射区分；固定字段不冒充动态维度引擎",
+          "passed": true
+        },
+        {
+          "route": "erp-import",
+          "name": "ERP凭证与期初",
+          "sections": "§3.22",
+          "semanticReview": "NC48原列、本币单一入账、账簿/客商/ref、CSV/XLSX、批次整批拒绝/已停用、仅已记账用户确认",
+          "passed": true
+        },
+        {
+          "route": "erp-reports",
+          "name": "法人凭证与三表",
+          "sections": "§3.23",
+          "semanticReview": "年初+完整凭证、合法损益结转整张排除、现金分类、当前指纹、原账元两位与报表万元六位、精确归因",
+          "passed": true
+        },
+        {
+          "route": "erp-matching",
+          "name": "内部交易匹配与差异",
+          "sections": "§3.24",
+          "semanticReview": "LCA/ref/月/本位币、期初期末分别核对、差异不补平、补注白名单、幂等草稿与批审批、预置销售模式转换",
+          "passed": true
+        },
+        {
+          "route": "sources",
+          "name": "数据接入",
+          "sections": "§3.4",
+          "semanticReview": "六列完整源与ERP文件入口区分、全字段/月完整、事务原子性、不可覆盖ERP生成源",
+          "passed": true
+        },
+        {
+          "route": "submissions",
+          "name": "财务三表报送",
+          "sections": "§3.5",
+          "semanticReview": "手工表单六区/权益校验、平衡助手只填表、ERP源只读回账更正、源版本与历史分开",
+          "passed": true
+        },
+        {
+          "route": "rates",
+          "name": "集团分类汇率",
+          "sections": "§3.6",
+          "semanticReview": "1USD=X CNY，期初/期末/统一资本历史/逐月平均与流量率、CTA与现金FX区分、相关转换结果失效",
+          "passed": true
+        },
+        {
+          "route": "consolidation",
+          "name": "分级合并与结果",
+          "sections": "§3.7",
+          "semanticReview": "只引用有效已签核确切子结果、ERP当前来源/匹配/零差异/审批前置、版本/重开及祖先失效",
+          "passed": true
+        },
+        {
+          "route": "ownership",
+          "name": "持股与企业合并",
+          "sections": "§3.8",
+          "semanticReview": "真实100%持股与管理树分开；投资对子资本逐项/母总投资核对，尚无独立原始投资分户台账",
+          "passed": true
+        },
+        {
+          "route": "intercompany",
+          "name": "内部往来核对",
+          "sections": "§3.9",
+          "semanticReview": "原手工事项、P24自动账务匹配区分，唯一来源/LCA、不重复继承，未宣称完整账龄认领平台",
+          "passed": true
+        },
+        {
+          "route": "journals",
+          "name": "抵销与调整凭证",
+          "sections": "§3.10",
+          "semanticReview": "销售/投资手工类型、ERP销售/余额真实借贷、审批/停用，110替代例先停旧以新sourceId新建",
+          "passed": true
+        },
+        {
+          "route": "closing",
+          "name": "关账校验与签核",
+          "sections": "§3.11",
+          "semanticReview": "四勾稽与流程前置同一服务端规则；预算锁和财务锁分开，经营说明不作为旧强制签核门槛",
+          "passed": true
+        },
+        {
+          "route": "statements",
+          "name": "集团三张报表",
+          "sections": "§3.12",
+          "semanticReview": "同结果三表、原币/转换/抵销、CSV抬头与完整结果JSON不同、历史源/凭证副本读取",
+          "passed": true
+        },
+        {
+          "route": "budget-cycle",
+          "name": "预算周期与审批",
+          "sections": "§3.13",
+          "semanticReview": "编制→审核→审批→锁定，无主预算解锁/退回按钮；集团CNY独立预算",
+          "passed": true
+        },
+        {
+          "route": "budget-sheet",
+          "name": "预算编制与分摊",
+          "sections": "§3.14",
+          "semanticReview": "四层3400/300/200/100、整数销量×单价、12月累计分分摊、七类数量×单价独立明细、预算万元两位",
+          "passed": true
+        },
+        {
+          "route": "budget-adjust",
+          "name": "预算调整与滚动预测",
+          "sections": "§3.15",
+          "semanticReview": "来源完整快照、批准新版本保留原版、申请退回、人工预测情景复制；非自动预测/完整预算三表",
+          "passed": true
+        },
+        {
+          "route": "budget-version",
+          "name": "版本与多情景",
+          "sections": "§3.16",
+          "semanticReview": "完整版本复制/切换/持久化、锁定原版保护、仅目标/状态比较而非全维度模拟",
+          "passed": true
+        },
+        {
+          "route": "analysis",
+          "name": "经营差异与钻取",
+          "sections": "§3.17",
+          "semanticReview": "仅集团CNY预实、收入方案累计/成本费用月比例、实际减预算、说明不改财务数字",
+          "passed": true
+        },
+        {
+          "route": "reports",
+          "name": "管理报表中心",
+          "sections": "§3.18",
+          "semanticReview": "跳转三表/血缘/分析/源；全部证据按钮为选定结果，不声称全库跨期批量或自动恢复",
+          "passed": true
+        },
+        {
+          "route": "permissions",
+          "name": "组织权限",
+          "sections": "§3.19",
+          "semanticReview": "服务端角色矩阵与本机可切角色边界；无生产实名身份、组织数据隔离及真实职责分离",
+          "passed": true
+        },
+        {
+          "route": "audit",
+          "name": "审计轨迹",
+          "sections": "§3.20",
+          "semanticReview": "state/audit同事务、成功revision、页面最近200条及当前加载导出，无不可篡改生产审计承诺",
+          "passed": true
+        },
+        {
+          "route": "settings",
+          "name": "系统配置",
+          "sections": "§3.21",
+          "semanticReview": "公司抬头、固定2026/中文、独立目录/旧库拒写、备份先退出、包内解释器无另装Python/Docker/WSL",
+          "passed": true
+        }
+      ],
+      "findings": [
+        "DR01",
+        "DR02",
+        "DR03",
+        "DR04",
+        "DR05",
+        "DR06",
+        "DR08"
+      ]
+    },
+    {
+      "id": "SYS",
+      "source": "content/02-系统研发与交互说明书.md",
+      "supplementSources": [],
+      "moduleCoverageReviewed": 24,
+      "passed": true,
+      "reviewMethod": "逐节实读其字段/交互/前置/输出/异常/边界，并对照实际页面及正式服务端实现；非仅模块关键词存在",
+      "moduleCoverage": [
+        {
+          "route": "overview",
+          "name": "集团经营总览",
+          "sections": "§3、6.5、13",
+          "semanticReview": "同一结果的收入/净利/现金/CTA、状态、月发生与直接输入；贡献表不冒充抵销后合计",
+          "passed": true
+        },
+        {
+          "route": "org",
+          "name": "集团组织与持股",
+          "sections": "§4、8.2",
+          "semanticReview": "法人/管理单元/真实持股区分，成员替换顺序、重复叶子/环/币种限制及跨期配置锁",
+          "passed": true
+        },
+        {
+          "route": "master",
+          "name": "科目与维度",
+          "sections": "§3、8.2、9",
+          "semanticReview": "集团科目映射与ERP按法人映射区分；固定字段不冒充动态维度引擎",
+          "passed": true
+        },
+        {
+          "route": "erp-import",
+          "name": "ERP凭证与期初",
+          "sections": "§19.2—19.6、19.14—19.16",
+          "semanticReview": "NC48原列、本币单一入账、账簿/客商/ref、CSV/XLSX、批次整批拒绝/已停用、仅已记账用户确认",
+          "passed": true
+        },
+        {
+          "route": "erp-reports",
+          "name": "法人凭证与三表",
+          "sections": "§19.7—19.8、19.13",
+          "semanticReview": "年初+完整凭证、合法损益结转整张排除、现金分类、当前指纹、原账元两位与报表万元六位、精确归因",
+          "passed": true
+        },
+        {
+          "route": "erp-matching",
+          "name": "内部交易匹配与差异",
+          "sections": "§19.9—19.12、19.14—19.15",
+          "semanticReview": "LCA/ref/月/本位币、期初期末分别核对、差异不补平、补注白名单、幂等草稿与批审批、预置销售模式转换",
+          "passed": true
+        },
+        {
+          "route": "sources",
+          "name": "数据接入",
+          "sections": "§9.4、19.12",
+          "semanticReview": "六列完整源与ERP文件入口区分、全字段/月完整、事务原子性、不可覆盖ERP生成源",
+          "passed": true
+        },
+        {
+          "route": "submissions",
+          "name": "财务三表报送",
+          "sections": "§9、19.7、19.12",
+          "semanticReview": "手工表单六区/权益校验、平衡助手只填表、ERP源只读回账更正、源版本与历史分开",
+          "passed": true
+        },
+        {
+          "route": "rates",
+          "name": "集团分类汇率",
+          "sections": "§12",
+          "semanticReview": "1USD=X CNY，期初/期末/统一资本历史/逐月平均与流量率、CTA与现金FX区分、相关转换结果失效",
+          "passed": true
+        },
+        {
+          "route": "consolidation",
+          "name": "分级合并与结果",
+          "sections": "§10、19.12",
+          "semanticReview": "只引用有效已签核确切子结果、ERP当前来源/匹配/零差异/审批前置、版本/重开及祖先失效",
+          "passed": true
+        },
+        {
+          "route": "ownership",
+          "name": "持股与企业合并",
+          "sections": "§4、11.3",
+          "semanticReview": "真实100%持股与管理树分开；投资对子资本逐项/母总投资核对，尚无独立原始投资分户台账",
+          "passed": true
+        },
+        {
+          "route": "intercompany",
+          "name": "内部往来核对",
+          "sections": "§11、19.9",
+          "semanticReview": "原手工事项、P24自动账务匹配区分，唯一来源/LCA、不重复继承，未宣称完整账龄认领平台",
+          "passed": true
+        },
+        {
+          "route": "journals",
+          "name": "抵销与调整凭证",
+          "sections": "§11、19.11",
+          "semanticReview": "销售/投资手工类型、ERP销售/余额真实借贷、审批/停用，110替代例先停旧以新sourceId新建",
+          "passed": true
+        },
+        {
+          "route": "closing",
+          "name": "关账校验与签核",
+          "sections": "§10.4、13.1、19.12",
+          "semanticReview": "四勾稽与流程前置同一服务端规则；预算锁和财务锁分开，经营说明不作为旧强制签核门槛",
+          "passed": true
+        },
+        {
+          "route": "statements",
+          "name": "集团三张报表",
+          "sections": "§12—13、19.13",
+          "semanticReview": "同结果三表、原币/转换/抵销、CSV抬头与完整结果JSON不同、历史源/凭证副本读取",
+          "passed": true
+        },
+        {
+          "route": "budget-cycle",
+          "name": "预算周期与审批",
+          "sections": "§14.1、14.4—14.5",
+          "semanticReview": "编制→审核→审批→锁定，无主预算解锁/退回按钮；集团CNY独立预算",
+          "passed": true
+        },
+        {
+          "route": "budget-sheet",
+          "name": "预算编制与分摊",
+          "sections": "§14.2—14.3",
+          "semanticReview": "四层3400/300/200/100、整数销量×单价、12月累计分分摊、七类数量×单价独立明细、预算万元两位",
+          "passed": true
+        },
+        {
+          "route": "budget-adjust",
+          "name": "预算调整与滚动预测",
+          "sections": "§14.4—14.5",
+          "semanticReview": "来源完整快照、批准新版本保留原版、申请退回、人工预测情景复制；非自动预测/完整预算三表",
+          "passed": true
+        },
+        {
+          "route": "budget-version",
+          "name": "版本与多情景",
+          "sections": "§14.4—14.5",
+          "semanticReview": "完整版本复制/切换/持久化、锁定原版保护、仅目标/状态比较而非全维度模拟",
+          "passed": true
+        },
+        {
+          "route": "analysis",
+          "name": "经营差异与钻取",
+          "sections": "§13.2—13.3、15.3",
+          "semanticReview": "仅集团CNY预实、收入方案累计/成本费用月比例、实际减预算、说明不改财务数字",
+          "passed": true
+        },
+        {
+          "route": "reports",
+          "name": "管理报表中心",
+          "sections": "§13、15.3",
+          "semanticReview": "跳转三表/血缘/分析/源；全部证据按钮为选定结果，不声称全库跨期批量或自动恢复",
+          "passed": true
+        },
+        {
+          "route": "permissions",
+          "name": "组织权限",
+          "sections": "§15.1",
+          "semanticReview": "服务端角色矩阵与本机可切角色边界；无生产实名身份、组织数据隔离及真实职责分离",
+          "passed": true
+        },
+        {
+          "route": "audit",
+          "name": "审计轨迹",
+          "sections": "§7.3、8.1、15",
+          "semanticReview": "state/audit同事务、成功revision、页面最近200条及当前加载导出，无不可篡改生产审计承诺",
+          "passed": true
+        },
+        {
+          "route": "settings",
+          "name": "系统配置",
+          "sections": "§15.3—17",
+          "semanticReview": "公司抬头、固定2026/中文、独立目录/旧库拒写、备份先退出、包内解释器无另装Python/Docker/WSL",
+          "passed": true
+        }
+      ],
+      "findings": [
+        "DR06",
+        "DR08"
+      ]
+    },
+    {
+      "id": "PROD",
+      "source": "content/03-产品说明书_含演示案例.md",
+      "supplementSources": [],
+      "moduleCoverageReviewed": 24,
+      "passed": true,
+      "reviewMethod": "逐节实读其字段/交互/前置/输出/异常/边界，并对照实际页面及正式服务端实现；非仅模块关键词存在",
+      "moduleCoverage": [
+        {
+          "route": "overview",
+          "name": "集团经营总览",
+          "sections": "§4.1、5.3",
+          "semanticReview": "同一结果的收入/净利/现金/CTA、状态、月发生与直接输入；贡献表不冒充抵销后合计",
+          "passed": true
+        },
+        {
+          "route": "org",
+          "name": "集团组织与持股",
+          "sections": "§3、4.2、P06",
+          "semanticReview": "法人/管理单元/真实持股区分，成员替换顺序、重复叶子/环/币种限制及跨期配置锁",
+          "passed": true
+        },
+        {
+          "route": "master",
+          "name": "科目与维度",
+          "sections": "§4.3",
+          "semanticReview": "集团科目映射与ERP按法人映射区分；固定字段不冒充动态维度引擎",
+          "passed": true
+        },
+        {
+          "route": "erp-import",
+          "name": "ERP凭证与期初",
+          "sections": "§4.4、P12—P14",
+          "semanticReview": "NC48原列、本币单一入账、账簿/客商/ref、CSV/XLSX、批次整批拒绝/已停用、仅已记账用户确认",
+          "passed": true
+        },
+        {
+          "route": "erp-reports",
+          "name": "法人凭证与三表",
+          "sections": "§4.5、P12",
+          "semanticReview": "年初+完整凭证、合法损益结转整张排除、现金分类、当前指纹、原账元两位与报表万元六位、精确归因",
+          "passed": true
+        },
+        {
+          "route": "erp-matching",
+          "name": "内部交易匹配与差异",
+          "sections": "§4.6、P12—P14",
+          "semanticReview": "LCA/ref/月/本位币、期初期末分别核对、差异不补平、补注白名单、幂等草稿与批审批、预置销售模式转换",
+          "passed": true
+        },
+        {
+          "route": "sources",
+          "name": "数据接入",
+          "sections": "§4.7、P04、P09",
+          "semanticReview": "六列完整源与ERP文件入口区分、全字段/月完整、事务原子性、不可覆盖ERP生成源",
+          "passed": true
+        },
+        {
+          "route": "submissions",
+          "name": "财务三表报送",
+          "sections": "§4.7、P02",
+          "semanticReview": "手工表单六区/权益校验、平衡助手只填表、ERP源只读回账更正、源版本与历史分开",
+          "passed": true
+        },
+        {
+          "route": "rates",
+          "name": "集团分类汇率",
+          "sections": "§4.8、P03",
+          "semanticReview": "1USD=X CNY，期初/期末/统一资本历史/逐月平均与流量率、CTA与现金FX区分、相关转换结果失效",
+          "passed": true
+        },
+        {
+          "route": "consolidation",
+          "name": "分级合并与结果",
+          "sections": "§4.9、P01—P06、P10、P12",
+          "semanticReview": "只引用有效已签核确切子结果、ERP当前来源/匹配/零差异/审批前置、版本/重开及祖先失效",
+          "passed": true
+        },
+        {
+          "route": "ownership",
+          "name": "持股与企业合并",
+          "sections": "§3.1、4.2",
+          "semanticReview": "真实100%持股与管理树分开；投资对子资本逐项/母总投资核对，尚无独立原始投资分户台账",
+          "passed": true
+        },
+        {
+          "route": "intercompany",
+          "name": "内部往来核对",
+          "sections": "§4.6、4.9、P05",
+          "semanticReview": "原手工事项、P24自动账务匹配区分，唯一来源/LCA、不重复继承，未宣称完整账龄认领平台",
+          "passed": true
+        },
+        {
+          "route": "journals",
+          "name": "抵销与调整凭证",
+          "sections": "§4.9、P05、P12",
+          "semanticReview": "销售/投资手工类型、ERP销售/余额真实借贷、审批/停用，110替代例先停旧以新sourceId新建",
+          "passed": true
+        },
+        {
+          "route": "closing",
+          "name": "关账校验与签核",
+          "sections": "§4.9、P10",
+          "semanticReview": "四勾稽与流程前置同一服务端规则；预算锁和财务锁分开，经营说明不作为旧强制签核门槛",
+          "passed": true
+        },
+        {
+          "route": "statements",
+          "name": "集团三张报表",
+          "sections": "§4.10、P01、P12",
+          "semanticReview": "同结果三表、原币/转换/抵销、CSV抬头与完整结果JSON不同、历史源/凭证副本读取",
+          "passed": true
+        },
+        {
+          "route": "budget-cycle",
+          "name": "预算周期与审批",
+          "sections": "§4.11、P07",
+          "semanticReview": "编制→审核→审批→锁定，无主预算解锁/退回按钮；集团CNY独立预算",
+          "passed": true
+        },
+        {
+          "route": "budget-sheet",
+          "name": "预算编制与分摊",
+          "sections": "§4.12、P07",
+          "semanticReview": "四层3400/300/200/100、整数销量×单价、12月累计分分摊、七类数量×单价独立明细、预算万元两位",
+          "passed": true
+        },
+        {
+          "route": "budget-adjust",
+          "name": "预算调整与滚动预测",
+          "sections": "§4.13、P07",
+          "semanticReview": "来源完整快照、批准新版本保留原版、申请退回、人工预测情景复制；非自动预测/完整预算三表",
+          "passed": true
+        },
+        {
+          "route": "budget-version",
+          "name": "版本与多情景",
+          "sections": "§4.14、P07",
+          "semanticReview": "完整版本复制/切换/持久化、锁定原版保护、仅目标/状态比较而非全维度模拟",
+          "passed": true
+        },
+        {
+          "route": "analysis",
+          "name": "经营差异与钻取",
+          "sections": "§4.15、P08",
+          "semanticReview": "仅集团CNY预实、收入方案累计/成本费用月比例、实际减预算、说明不改财务数字",
+          "passed": true
+        },
+        {
+          "route": "reports",
+          "name": "管理报表中心",
+          "sections": "§4.16、6.1",
+          "semanticReview": "跳转三表/血缘/分析/源；全部证据按钮为选定结果，不声称全库跨期批量或自动恢复",
+          "passed": true
+        },
+        {
+          "route": "permissions",
+          "name": "组织权限",
+          "sections": "§2、4.16、P09",
+          "semanticReview": "服务端角色矩阵与本机可切角色边界；无生产实名身份、组织数据隔离及真实职责分离",
+          "passed": true
+        },
+        {
+          "route": "audit",
+          "name": "审计轨迹",
+          "sections": "§4.16、P09",
+          "semanticReview": "state/audit同事务、成功revision、页面最近200条及当前加载导出，无不可篡改生产审计承诺",
+          "passed": true
+        },
+        {
+          "route": "settings",
+          "name": "系统配置",
+          "sections": "§4.16、7",
+          "semanticReview": "公司抬头、固定2026/中文、独立目录/旧库拒写、备份先退出、包内解释器无另装Python/Docker/WSL",
+          "passed": true
+        }
+      ],
+      "findings": [
+        "DR04"
+      ]
+    },
+    {
+      "id": "USER",
+      "source": "content/04-用户操作手册.md",
+      "supplementSources": [],
+      "moduleCoverageReviewed": 24,
+      "passed": true,
+      "reviewMethod": "逐节实读其字段/交互/前置/输出/异常/边界，并对照实际页面及正式服务端实现；非仅模块关键词存在",
+      "moduleCoverage": [
+        {
+          "route": "overview",
+          "name": "集团经营总览",
+          "sections": "§2、5",
+          "semanticReview": "同一结果的收入/净利/现金/CTA、状态、月发生与直接输入；贡献表不冒充抵销后合计",
+          "passed": true
+        },
+        {
+          "route": "org",
+          "name": "集团组织与持股",
+          "sections": "§3.1—3.4",
+          "semanticReview": "法人/管理单元/真实持股区分，成员替换顺序、重复叶子/环/币种限制及跨期配置锁",
+          "passed": true
+        },
+        {
+          "route": "master",
+          "name": "科目与维度",
+          "sections": "§4",
+          "semanticReview": "集团科目映射与ERP按法人映射区分；固定字段不冒充动态维度引擎",
+          "passed": true
+        },
+        {
+          "route": "erp-import",
+          "name": "ERP凭证与期初",
+          "sections": "§6.2—6.9、6.15",
+          "semanticReview": "NC48原列、本币单一入账、账簿/客商/ref、CSV/XLSX、批次整批拒绝/已停用、仅已记账用户确认",
+          "passed": true
+        },
+        {
+          "route": "erp-reports",
+          "name": "法人凭证与三表",
+          "sections": "§6.10—6.11、6.16",
+          "semanticReview": "年初+完整凭证、合法损益结转整张排除、现金分类、当前指纹、原账元两位与报表万元六位、精确归因",
+          "passed": true
+        },
+        {
+          "route": "erp-matching",
+          "name": "内部交易匹配与差异",
+          "sections": "§6.12—6.14、6.17",
+          "semanticReview": "LCA/ref/月/本位币、期初期末分别核对、差异不补平、补注白名单、幂等草稿与批审批、预置销售模式转换",
+          "passed": true
+        },
+        {
+          "route": "sources",
+          "name": "数据接入",
+          "sections": "§7.1、7.5—7.6",
+          "semanticReview": "六列完整源与ERP文件入口区分、全字段/月完整、事务原子性、不可覆盖ERP生成源",
+          "passed": true
+        },
+        {
+          "route": "submissions",
+          "name": "财务三表报送",
+          "sections": "§7.2—7.4",
+          "semanticReview": "手工表单六区/权益校验、平衡助手只填表、ERP源只读回账更正、源版本与历史分开",
+          "passed": true
+        },
+        {
+          "route": "rates",
+          "name": "集团分类汇率",
+          "sections": "§8",
+          "semanticReview": "1USD=X CNY，期初/期末/统一资本历史/逐月平均与流量率、CTA与现金FX区分、相关转换结果失效",
+          "passed": true
+        },
+        {
+          "route": "consolidation",
+          "name": "分级合并与结果",
+          "sections": "§10",
+          "semanticReview": "只引用有效已签核确切子结果、ERP当前来源/匹配/零差异/审批前置、版本/重开及祖先失效",
+          "passed": true
+        },
+        {
+          "route": "ownership",
+          "name": "持股与企业合并",
+          "sections": "§3.5、9.4",
+          "semanticReview": "真实100%持股与管理树分开；投资对子资本逐项/母总投资核对，尚无独立原始投资分户台账",
+          "passed": true
+        },
+        {
+          "route": "intercompany",
+          "name": "内部往来核对",
+          "sections": "§9",
+          "semanticReview": "原手工事项、P24自动账务匹配区分，唯一来源/LCA、不重复继承，未宣称完整账龄认领平台",
+          "passed": true
+        },
+        {
+          "route": "journals",
+          "name": "抵销与调整凭证",
+          "sections": "§9.2—9.4",
+          "semanticReview": "销售/投资手工类型、ERP销售/余额真实借贷、审批/停用，110替代例先停旧以新sourceId新建",
+          "passed": true
+        },
+        {
+          "route": "closing",
+          "name": "关账校验与签核",
+          "sections": "§10.1、10.3—10.4",
+          "semanticReview": "四勾稽与流程前置同一服务端规则；预算锁和财务锁分开，经营说明不作为旧强制签核门槛",
+          "passed": true
+        },
+        {
+          "route": "statements",
+          "name": "集团三张报表",
+          "sections": "§11",
+          "semanticReview": "同结果三表、原币/转换/抵销、CSV抬头与完整结果JSON不同、历史源/凭证副本读取",
+          "passed": true
+        },
+        {
+          "route": "budget-cycle",
+          "name": "预算周期与审批",
+          "sections": "§12",
+          "semanticReview": "编制→审核→审批→锁定，无主预算解锁/退回按钮；集团CNY独立预算",
+          "passed": true
+        },
+        {
+          "route": "budget-sheet",
+          "name": "预算编制与分摊",
+          "sections": "§13",
+          "semanticReview": "四层3400/300/200/100、整数销量×单价、12月累计分分摊、七类数量×单价独立明细、预算万元两位",
+          "passed": true
+        },
+        {
+          "route": "budget-adjust",
+          "name": "预算调整与滚动预测",
+          "sections": "§14.1—14.3",
+          "semanticReview": "来源完整快照、批准新版本保留原版、申请退回、人工预测情景复制；非自动预测/完整预算三表",
+          "passed": true
+        },
+        {
+          "route": "budget-version",
+          "name": "版本与多情景",
+          "sections": "§14.4",
+          "semanticReview": "完整版本复制/切换/持久化、锁定原版保护、仅目标/状态比较而非全维度模拟",
+          "passed": true
+        },
+        {
+          "route": "analysis",
+          "name": "经营差异与钻取",
+          "sections": "§15.1—15.2",
+          "semanticReview": "仅集团CNY预实、收入方案累计/成本费用月比例、实际减预算、说明不改财务数字",
+          "passed": true
+        },
+        {
+          "route": "reports",
+          "name": "管理报表中心",
+          "sections": "§15.3",
+          "semanticReview": "跳转三表/血缘/分析/源；全部证据按钮为选定结果，不声称全库跨期批量或自动恢复",
+          "passed": true
+        },
+        {
+          "route": "permissions",
+          "name": "组织权限",
+          "sections": "§16.1",
+          "semanticReview": "服务端角色矩阵与本机可切角色边界；无生产实名身份、组织数据隔离及真实职责分离",
+          "passed": true
+        },
+        {
+          "route": "audit",
+          "name": "审计轨迹",
+          "sections": "§16.2",
+          "semanticReview": "state/audit同事务、成功revision、页面最近200条及当前加载导出，无不可篡改生产审计承诺",
+          "passed": true
+        },
+        {
+          "route": "settings",
+          "name": "系统配置",
+          "sections": "§16.3—16.4、18—19",
+          "semanticReview": "公司抬头、固定2026/中文、独立目录/旧库拒写、备份先退出、包内解释器无另装Python/Docker/WSL",
+          "passed": true
+        }
+      ],
+      "findings": []
+    }
+  ],
+  "supplementaryFieldAppendix": {
+    "source": "content/01A-字段与接口数据字典.md",
+    "sectionsReviewed": "A.1—A.21全部；NC48原列逐字段、ERP12动作、原29动作、预算字段与生命周期、真实SQLite和历史路径",
+    "passed": true
+  },
+  "moduleCoverage": [
+    {
+      "route": "overview",
+      "name": "集团经营总览",
+      "PRD": "§3.1",
+      "SYS": "§3、6.5、13",
+      "PROD": "§4.1、5.3",
+      "USER": "§2、5",
+      "semanticReview": "同一结果的收入/净利/现金/CTA、状态、月发生与直接输入；贡献表不冒充抵销后合计",
+      "passed": true
+    },
+    {
+      "route": "org",
+      "name": "集团组织与持股",
+      "PRD": "§3.2",
+      "SYS": "§4、8.2",
+      "PROD": "§3、4.2、P06",
+      "USER": "§3.1—3.4",
+      "semanticReview": "法人/管理单元/真实持股区分，成员替换顺序、重复叶子/环/币种限制及跨期配置锁",
+      "passed": true
+    },
+    {
+      "route": "master",
+      "name": "科目与维度",
+      "PRD": "§3.3",
+      "SYS": "§3、8.2、9",
+      "PROD": "§4.3",
+      "USER": "§4",
+      "semanticReview": "集团科目映射与ERP按法人映射区分；固定字段不冒充动态维度引擎",
+      "passed": true
+    },
+    {
+      "route": "erp-import",
+      "name": "ERP凭证与期初",
+      "PRD": "§3.22",
+      "SYS": "§19.2—19.6、19.14—19.16",
+      "PROD": "§4.4、P12—P14",
+      "USER": "§6.2—6.9、6.15",
+      "semanticReview": "NC48原列、本币单一入账、账簿/客商/ref、CSV/XLSX、批次整批拒绝/已停用、仅已记账用户确认",
+      "passed": true
+    },
+    {
+      "route": "erp-reports",
+      "name": "法人凭证与三表",
+      "PRD": "§3.23",
+      "SYS": "§19.7—19.8、19.13",
+      "PROD": "§4.5、P12",
+      "USER": "§6.10—6.11、6.16",
+      "semanticReview": "年初+完整凭证、合法损益结转整张排除、现金分类、当前指纹、原账元两位与报表万元六位、精确归因",
+      "passed": true
+    },
+    {
+      "route": "erp-matching",
+      "name": "内部交易匹配与差异",
+      "PRD": "§3.24",
+      "SYS": "§19.9—19.12、19.14—19.15",
+      "PROD": "§4.6、P12—P14",
+      "USER": "§6.12—6.14、6.17",
+      "semanticReview": "LCA/ref/月/本位币、期初期末分别核对、差异不补平、补注白名单、幂等草稿与批审批、预置销售模式转换",
+      "passed": true
+    },
+    {
+      "route": "sources",
+      "name": "数据接入",
+      "PRD": "§3.4",
+      "SYS": "§9.4、19.12",
+      "PROD": "§4.7、P04、P09",
+      "USER": "§7.1、7.5—7.6",
+      "semanticReview": "六列完整源与ERP文件入口区分、全字段/月完整、事务原子性、不可覆盖ERP生成源",
+      "passed": true
+    },
+    {
+      "route": "submissions",
+      "name": "财务三表报送",
+      "PRD": "§3.5",
+      "SYS": "§9、19.7、19.12",
+      "PROD": "§4.7、P02",
+      "USER": "§7.2—7.4",
+      "semanticReview": "手工表单六区/权益校验、平衡助手只填表、ERP源只读回账更正、源版本与历史分开",
+      "passed": true
+    },
+    {
+      "route": "rates",
+      "name": "集团分类汇率",
+      "PRD": "§3.6",
+      "SYS": "§12",
+      "PROD": "§4.8、P03",
+      "USER": "§8",
+      "semanticReview": "1USD=X CNY，期初/期末/统一资本历史/逐月平均与流量率、CTA与现金FX区分、相关转换结果失效",
+      "passed": true
+    },
+    {
+      "route": "consolidation",
+      "name": "分级合并与结果",
+      "PRD": "§3.7",
+      "SYS": "§10、19.12",
+      "PROD": "§4.9、P01—P06、P10、P12",
+      "USER": "§10",
+      "semanticReview": "只引用有效已签核确切子结果、ERP当前来源/匹配/零差异/审批前置、版本/重开及祖先失效",
+      "passed": true
+    },
+    {
+      "route": "ownership",
+      "name": "持股与企业合并",
+      "PRD": "§3.8",
+      "SYS": "§4、11.3",
+      "PROD": "§3.1、4.2",
+      "USER": "§3.5、9.4",
+      "semanticReview": "真实100%持股与管理树分开；投资对子资本逐项/母总投资核对，尚无独立原始投资分户台账",
+      "passed": true
+    },
+    {
+      "route": "intercompany",
+      "name": "内部往来核对",
+      "PRD": "§3.9",
+      "SYS": "§11、19.9",
+      "PROD": "§4.6、4.9、P05",
+      "USER": "§9",
+      "semanticReview": "原手工事项、P24自动账务匹配区分，唯一来源/LCA、不重复继承，未宣称完整账龄认领平台",
+      "passed": true
+    },
+    {
+      "route": "journals",
+      "name": "抵销与调整凭证",
+      "PRD": "§3.10",
+      "SYS": "§11、19.11",
+      "PROD": "§4.9、P05、P12",
+      "USER": "§9.2—9.4",
+      "semanticReview": "销售/投资手工类型、ERP销售/余额真实借贷、审批/停用，110替代例先停旧以新sourceId新建",
+      "passed": true
+    },
+    {
+      "route": "closing",
+      "name": "关账校验与签核",
+      "PRD": "§3.11",
+      "SYS": "§10.4、13.1、19.12",
+      "PROD": "§4.9、P10",
+      "USER": "§10.1、10.3—10.4",
+      "semanticReview": "四勾稽与流程前置同一服务端规则；预算锁和财务锁分开，经营说明不作为旧强制签核门槛",
+      "passed": true
+    },
+    {
+      "route": "statements",
+      "name": "集团三张报表",
+      "PRD": "§3.12",
+      "SYS": "§12—13、19.13",
+      "PROD": "§4.10、P01、P12",
+      "USER": "§11",
+      "semanticReview": "同结果三表、原币/转换/抵销、CSV抬头与完整结果JSON不同、历史源/凭证副本读取",
+      "passed": true
+    },
+    {
+      "route": "budget-cycle",
+      "name": "预算周期与审批",
+      "PRD": "§3.13",
+      "SYS": "§14.1、14.4—14.5",
+      "PROD": "§4.11、P07",
+      "USER": "§12",
+      "semanticReview": "编制→审核→审批→锁定，无主预算解锁/退回按钮；集团CNY独立预算",
+      "passed": true
+    },
+    {
+      "route": "budget-sheet",
+      "name": "预算编制与分摊",
+      "PRD": "§3.14",
+      "SYS": "§14.2—14.3",
+      "PROD": "§4.12、P07",
+      "USER": "§13",
+      "semanticReview": "四层3400/300/200/100、整数销量×单价、12月累计分分摊、七类数量×单价独立明细、预算万元两位",
+      "passed": true
+    },
+    {
+      "route": "budget-adjust",
+      "name": "预算调整与滚动预测",
+      "PRD": "§3.15",
+      "SYS": "§14.4—14.5",
+      "PROD": "§4.13、P07",
+      "USER": "§14.1—14.3",
+      "semanticReview": "来源完整快照、批准新版本保留原版、申请退回、人工预测情景复制；非自动预测/完整预算三表",
+      "passed": true
+    },
+    {
+      "route": "budget-version",
+      "name": "版本与多情景",
+      "PRD": "§3.16",
+      "SYS": "§14.4—14.5",
+      "PROD": "§4.14、P07",
+      "USER": "§14.4",
+      "semanticReview": "完整版本复制/切换/持久化、锁定原版保护、仅目标/状态比较而非全维度模拟",
+      "passed": true
+    },
+    {
+      "route": "analysis",
+      "name": "经营差异与钻取",
+      "PRD": "§3.17",
+      "SYS": "§13.2—13.3、15.3",
+      "PROD": "§4.15、P08",
+      "USER": "§15.1—15.2",
+      "semanticReview": "仅集团CNY预实、收入方案累计/成本费用月比例、实际减预算、说明不改财务数字",
+      "passed": true
+    },
+    {
+      "route": "reports",
+      "name": "管理报表中心",
+      "PRD": "§3.18",
+      "SYS": "§13、15.3",
+      "PROD": "§4.16、6.1",
+      "USER": "§15.3",
+      "semanticReview": "跳转三表/血缘/分析/源；全部证据按钮为选定结果，不声称全库跨期批量或自动恢复",
+      "passed": true
+    },
+    {
+      "route": "permissions",
+      "name": "组织权限",
+      "PRD": "§3.19",
+      "SYS": "§15.1",
+      "PROD": "§2、4.16、P09",
+      "USER": "§16.1",
+      "semanticReview": "服务端角色矩阵与本机可切角色边界；无生产实名身份、组织数据隔离及真实职责分离",
+      "passed": true
+    },
+    {
+      "route": "audit",
+      "name": "审计轨迹",
+      "PRD": "§3.20",
+      "SYS": "§7.3、8.1、15",
+      "PROD": "§4.16、P09",
+      "USER": "§16.2",
+      "semanticReview": "state/audit同事务、成功revision、页面最近200条及当前加载导出，无不可篡改生产审计承诺",
+      "passed": true
+    },
+    {
+      "route": "settings",
+      "name": "系统配置",
+      "PRD": "§3.21",
+      "SYS": "§15.3—17",
+      "PROD": "§4.16、7",
+      "USER": "§16.3—16.4、18—19",
+      "semanticReview": "公司抬头、固定2026/中文、独立目录/旧库拒写、备份先退出、包内解释器无另装Python/Docker/WSL",
+      "passed": true
+    }
+  ],
+  "closedFindings": [
+    {
+      "id": "DR01",
+      "severity": "事实更正",
+      "status": "已修正",
+      "sources": [
+        "content/01-PRD研发需求规格说明书.md"
+      ],
+      "location": "§4.8批次状态表",
+      "issue": "将界面取消批次与存储状态已取消混同",
+      "resolution": "明确active=false、status=已停用；原行/历史快照保留",
+      "codeEvidence": "backend/erp_domain.py erp_batch_cancel"
+    },
+    {
+      "id": "DR02",
+      "severity": "能力边界更正",
+      "status": "已修正",
+      "sources": [
+        "content/01-PRD研发需求规格说明书.md"
+      ],
+      "location": "§4.9差异处理",
+      "issue": "曾声称历史diff随结果快照完整保留",
+      "resolution": "明确matchingByScope同层同月重跑替换，仅当前run；批次/原行及已保存结果源/抵销快照仍留存",
+      "codeEvidence": "backend/erp_domain.py erp_match_run；backend/ledger.py match_ic"
+    },
+    {
+      "id": "DR03",
+      "severity": "旧基线残留",
+      "status": "已修正",
+      "sources": [
+        "content/01A-字段与接口数据字典.md"
+      ],
+      "location": "A.4.2 payable",
+      "issue": "旧ML仅已结销售样例被写成本ERP全部样例",
+      "resolution": "区分手工初始化、ERP396行未结AR/AP100与独立NC48行AR/AP20",
+      "codeEvidence": "backend/ledger_seed.py sample_bundle；产品案例NC65文件"
+    },
+    {
+      "id": "DR04",
+      "severity": "入口限制补全",
+      "status": "已修正",
+      "sources": [
+        "content/03-产品说明书_含演示案例.md",
+        "content/01A-字段与接口数据字典.md"
+      ],
+      "location": "产品§4.7；字段FD03",
+      "issue": "产品手工表单段落未显式写ERP源不可手改；字段加10例可能误引导用核对补注改金额",
+      "resolution": "补明ERP生成源只读、手工CSV不能覆盖，金额须回源账更正停旧重导；补注不能改金额",
+      "codeEvidence": "backend/erp_domain.py reserved/source protection；annotations payload白名单"
+    },
+    {
+      "id": "DR05",
+      "severity": "可复现性更正",
+      "status": "已修正",
+      "sources": [
+        "content/01-PRD研发需求规格说明书.md"
+      ],
+      "location": "AC-P10、AC15",
+      "issue": "已审批100改110路径不够明确",
+      "resolution": "明确停旧100、新sourceId建立110草稿再审批/重算；保留旧事项",
+      "codeEvidence": "frontend/src/ml-actions.js；本版P05真实HTTP证据"
+    },
+    {
+      "id": "DR06",
+      "severity": "案例前置与证据修正",
+      "status": "已修正",
+      "sources": [
+        "content/01-PRD研发需求规格说明书.md",
+        "content/01A-字段与接口数据字典.md",
+        "content/02-系统研发与交互说明书.md"
+      ],
+      "location": "AC-P10/AC16、FD05、SYS11.2",
+      "issue": "155.56两月特例省略源中先包含额外4/5内部销售及对应成本，且字段引用旧专项HTTP证据",
+      "resolution": "补全独立源前提、月后收入11.12/11.10，当前纯函数复核155.56；明确不冒称本版重跑旧ML专项HTTP/浏览器",
+      "evidence": "evidence/两月抵销文档金样复核.json"
+    },
+    {
+      "id": "DR07",
+      "severity": "操作卡金额更正",
+      "status": "已修正",
+      "sources": [
+        "鸿旺小合并_首次测试操作卡.md"
+      ],
+      "location": "路径A步骤3/6及差异留档",
+      "issue": "9项合计100/50曾误写成每项100/50；未指明差异留档方式",
+      "resolution": "明确9项销售合计100+9项余额合计100、集团9项销售合计50；截图并导出来源，未交付独立差异清单导出按钮",
+      "codeEvidence": "backend/ledger_seed.py；frontend/src/erp-actions.js导出入口"
+    },
+    {
+      "id": "DR08",
+      "severity": "术语边界补全",
+      "status": "已修正",
+      "sources": [
+        "content/01-PRD研发需求规格说明书.md",
+        "content/02-系统研发与交互说明书.md"
+      ],
+      "location": "PRD FR-P04；SYS16.2",
+      "issue": "P03完整维度规划与已实现内部客商编码映射需区别，开发示例目录沿用ml命名",
+      "resolution": "明确P22已实现核对映射，完整经营维度后续；开发目录改erp-dev"
+    }
+  ],
+  "unresolvedBlockingFindings": [],
+  "evidenceReviewed": [
+    {
+      "file": "evidence/产品案例核验.json",
+      "sha256": "bcae68202316985e41f30961231669e577809464f63e9f772ecbb01793829278",
+      "method": "文档审查员读取实际金额、用例前置及原运行源码摘要；HTTP由产品案例作者独立执行",
+      "cases": 11,
+      "passed": true,
+      "currentSourceManifestMatched": true
+    },
+    {
+      "file": "evidence/ERP产品案例核验.json",
+      "sha256": "41e04d87854ea242e4317764d684a6cd29bc1aabbebaefbf457621ee38992500",
+      "method": "文档审查员读取实际金额、用例前置及原运行源码摘要；HTTP由产品案例作者独立执行",
+      "cases": 3,
+      "passed": true,
+      "currentSourceManifestMatched": true
+    },
+    {
+      "file": "evidence/两月抵销文档金样复核.json",
+      "sha256": "09c8a3e080c890b3d0a7000523684e73a05367b9e7e93ce383733498817ead37",
+      "method": "本审查员当前纯函数只读执行",
+      "passed": true
+    }
+  ],
+  "referencedAssetsSha256": {
+    "assets/系统架构与交互.png": "c5de973f23518240ac9dc599d368183a402cf020be0fa3ca71b31801c042eec6",
+    "assets/NC凭证到鸿旺合并流程.png": "5e2f6258c14a69f221aa09258f4546d7b064d9294635137f7ab1dceb2313b537",
+    "assets/产品ERP-01集团经营总览.png": "e6e839f83dca2e2aac17199c282c0696307cc82f46a8fba94d6e0a6232b15cce",
+    "assets/产品ERP-02凭证期初工作台.png": "76a81a2c805b4f73fc43dd28bbe8d76277de60a780373003aebaa3c6e832a8d1",
+    "assets/产品ERP-03补注后鸿旺小合并.png": "d3ae944ad087695202220b7277d1004f85c1a0b4d7746bf057b45ddfb25d76e2",
+    "assets/产品ERP-04金额差异原凭证.png": "fae537007b4d029e6ad0952f5b58aebbba2a626ba2800d4b777c9f50eefd295d",
+    "assets/02-NC65凭证与期初工作台.png": "76a81a2c805b4f73fc43dd28bbe8d76277de60a780373003aebaa3c6e832a8d1",
+    "assets/03-凭证生成法人三表.png": "6ebd9c61ffd06d1b56de03547678cc769b17cdfcd9da6bdf54ee4eaab4ad66ac",
+    "assets/06-NC缺共同号差异与待核对.png": "5df770f4cc2e179dfb7c4bbe7b6f20755780e57eeee93b8901f12c1ab7d1186c"
+  },
+  "selectedScreenshotVisualReview": [
+    "assets/产品ERP-02凭证期初工作台.png",
+    "assets/产品ERP-03补注后鸿旺小合并.png",
+    "assets/产品ERP-04金额差异原凭证.png"
+  ],
+  "supplementaryOperationCard": {
+    "file": "鸿旺小合并_首次测试操作卡.md",
+    "sha256": "a71f433898b3b2e571eefe19e3b4994cbef7ee9b3b56a20ebe1e118dd7b196d7",
+    "passed": true
+  },
+  "limitations": [
+    "本报告为独立文档语义审查，已实读四主稿及字段附录，并对照当前源码、API/账务/计算契约与实际产品案例证据。它不代替Word/PDF生成后逐页排版、XML/PDF合法性和ZIP公开下载门禁。",
+    "产品14组HTTP复核由产品案例作者执行；本审查读取其原始结果并逐项核对当前34项来源摘要，未由审查员另行重跑全部HTTP/浏览器/Windows用例。审查员仅补充执行一组当前纯函数两月抵销金样。",
+    "当前为单机中文Demo：100%全资、CNY/USD及USD转CNY、固定2026、无本期资本增减/分红/少数股东。NC在线API未配置，不读取或回写企业NC数据库。",
+    "当前匹配清单按单元及月份保存当前run，重扫会替换；无全版本差异运行档案。历史合并结果保留当时源、凭证、抵销、分类率与下级结果引用，不应将未核清差异声称为已签结果归档。",
+    "原始投资分户台账、复杂收购/商誉/未实现利润/税项准则、多币种跨本位币自动抵销、完整业务预算到三表联动、自动预测、真实多用户身份与法人隔离、正式备份恢复仍待研发。",
+    "原生EXE/包内Windows解释器的Wine链路可核验，不能代替客户真实Windows电脑、单位终端策略与容量验收。"
+  ],
+  "invalidatedBy": "四主稿/字段附录任一字节变化须重核SHA并复核变化；运行源码变化须评估并重验相关语义与案例。"
+}

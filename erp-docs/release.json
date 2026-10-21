@@ -1,0 +1,199 @@
+{
+  "releaseId": "ERP-20261021-DOC-D1.0",
+  "softwareBaseline": "ERP-20261021",
+  "documentationVersion": "D1.0",
+  "releaseDate": "2026-10-21",
+  "companyName": "杭州天元宠物用品有限公司",
+  "softwareArtifactCommit": null,
+  "softwareZip": "TianyuanEPM-ERP-Demo-Windows-x64.zip",
+  "softwareZipSha256": null,
+  "softwareChanged": true,
+  "sourceSha256": {
+    "backend/API-CONTRACT.md": "1f95a4e81a18f090d43253e975876f0311792365c1ad43ef631531b607a51b07",
+    "backend/CALCULATION-CONTRACT.md": "0d4efe1dad6b0252ff0db1e2bc8322b5b24a7e938cf63155f43a293b1b010259",
+    "backend/LEDGER-CONTRACT.md": "2dcb5fbcff887043b3baf780f114b7a008709631bd8cfc77480a65f2b113ef84",
+    "backend/consolidation.py": "fc6f2df87fd7feb9c47b6d873bffd33fac032951ed87cdf8382f93cb36460dcf",
+    "backend/engine.py": "7648cba8a69c3ff57781bd91bf5592b0baefd9ffcc9497481b33d8b07642c0e5",
+    "backend/erp_domain.py": "561e4338f94a48aa702b2d4bb6f91ec687b21c725f03dfdfadc18dd06866314f",
+    "backend/finance.py": "31e1fd61f35dc8d68fecb10d0209fd108237e2aded2efa80b2970fbed2019114",
+    "backend/ledger.py": "c6b72fae0754d89782e5c950f4d6b73fa3c9286409732004ef5e770824ccef0e",
+    "backend/ledger_seed.py": "13cc623ea2811bf6a9a45b4f393ed2038d4fa06452079f9b397a29224d45b351",
+    "backend/legacy_engine.py": "ecc9fc84cb156183dc2f6b56e25c8ec2409441577b3830c8d107701261d9230f",
+    "backend/multilevel_domain.py": "fef196c4dfadb66efc2a485dd30bcdb117242e282a79bb38f61ffdf90dc3eb80",
+    "backend/multilevel_seed.py": "425b810becb6e56cb8f579c5ce5f03cad29e2a9dd194f902ec3de5be0e8c12db",
+    "backend/server.py": "a670ab6b1830c756f969b89d2a6439c416b144eec59c6fed939a5d1460455f91",
+    "backend/store.py": "621f5d7624979d53272b95243054113cecabe3b5911866f0a7530fbb61c00fe8",
+    "backend/test_consolidation.py": "bdff9a77433cfb505c2417528f4308d675ae76d68b813864968cc4fa23298c9e",
+    "backend/test_erp_calculation.py": "4c981585feb5daea9d788f743c4c25365263a35a92267dbefeaa7f79e3d626b9",
+    "backend/test_erp_domain.py": "fe702fab6984552ef4f41824bc36c68cac75a8ace7e17ab2bc85fb36eaa73efb",
+    "backend/test_ledger.py": "3a73ec23d1c12c609522261e436ba9a6d96494ce0873a460189ebb6853a45f3c",
+    "backend/test_multilevel_domain.py": "a55dc707e8ec7a6b164991890331fb98433248806bb0d8d044b9e6364a066016",
+    "backend/test_multilevel_http.py": "e24a174f0cd9baebf671fbae23cd84d8fb52f7764212a186697d8c2b7b85eacd",
+    "build_windows.py": "89530418bb63e0e0af7ba48c18fd71d6a8b23b01065724bd445668493e2ece8a",
+    "frontend/dist/index.html": "5c9d9424b600239aec1652d59a043538032cc35a5d449d103a73f33ab0a5d15b",
+    "frontend/src/app.js": "7ec83702526f0801b1c7cd104c47dc0cfb8827aced7ac895293d660857a5c85f",
+    "frontend/src/budget.js": "fe8f17e1973c2611397a7c4986b1931da18edf27985aa98be7a935f946f80a36",
+    "frontend/src/erp-actions.js": "66aa00066098567ec032eec7b61506f1503963e2fef7fa7c518ba5d468c0f7c2",
+    "frontend/src/erp-pages.js": "189ede07bc4a5f9ab4e27d53495dabd2e0297f182e3af4109e32e2257c19d215",
+    "frontend/src/ml-actions.js": "0e4513083b3769045218dd563e2f2c165902adeda27495077d5262f5e63a3ffd",
+    "frontend/src/ml-pages.js": "cf47acd6495f13a3118c6581448715f3bfaaa56bd8e17fcbfef7c4afbb972c30",
+    "frontend/src/shell.html": "238cde93179cee1a2affdda1ed76779471559f19f920a73b46338671ef476388",
+    "frontend/src/style.css": "b058a720e03c8ed1746ac5b6a61da1a01984349914cd906afb67885c73cc48b2",
+    "frontend-build.py": "0ba1bb5e922e97035e531bacb5315fdb5ffded22786e7a38d1a7df4a78986252",
+    "package_windows.py": "6cd3af8cd5703c1b85c1ebf38ac90696edc9ae2042dd2592c87db76dae37eea7",
+    "windows/app/demo_launcher.py": "8cfda89fa687d31583ec81d958e5358a3d81d42d42f7dde991bed39d7cfb5016",
+    "windows/launcher.c": "5ff84aec79f1751d0512be0ab3535d0dd95fb0a9bb295636453478260ede7b95"
+  },
+  "modules": [
+    {
+      "id": "overview",
+      "name": "集团经营总览",
+      "group": "工作空间"
+    },
+    {
+      "id": "org",
+      "name": "集团组织与持股",
+      "group": "集团主数据"
+    },
+    {
+      "id": "master",
+      "name": "科目与维度",
+      "group": "集团主数据"
+    },
+    {
+      "id": "erp-import",
+      "name": "ERP凭证与期初",
+      "group": "ERP凭证工作台"
+    },
+    {
+      "id": "erp-reports",
+      "name": "法人凭证与三表",
+      "group": "ERP凭证工作台"
+    },
+    {
+      "id": "erp-matching",
+      "name": "内部交易匹配与差异",
+      "group": "ERP凭证工作台"
+    },
+    {
+      "id": "sources",
+      "name": "数据接入",
+      "group": "数据与报送"
+    },
+    {
+      "id": "submissions",
+      "name": "财务三表报送",
+      "group": "数据与报送"
+    },
+    {
+      "id": "rates",
+      "name": "集团分类汇率",
+      "group": "数据与报送"
+    },
+    {
+      "id": "consolidation",
+      "name": "分级合并与结果",
+      "group": "合并与关账"
+    },
+    {
+      "id": "ownership",
+      "name": "持股与企业合并",
+      "group": "合并与关账"
+    },
+    {
+      "id": "intercompany",
+      "name": "内部往来核对",
+      "group": "合并与关账"
+    },
+    {
+      "id": "journals",
+      "name": "抵销与调整凭证",
+      "group": "合并与关账"
+    },
+    {
+      "id": "closing",
+      "name": "关账校验与签核",
+      "group": "合并与关账"
+    },
+    {
+      "id": "statements",
+      "name": "集团三张报表",
+      "group": "合并与关账"
+    },
+    {
+      "id": "budget-cycle",
+      "name": "预算周期与审批",
+      "group": "全面预算"
+    },
+    {
+      "id": "budget-sheet",
+      "name": "预算编制与分摊",
+      "group": "全面预算"
+    },
+    {
+      "id": "budget-adjust",
+      "name": "预算调整与滚动预测",
+      "group": "全面预算"
+    },
+    {
+      "id": "budget-version",
+      "name": "版本与多情景",
+      "group": "全面预算"
+    },
+    {
+      "id": "analysis",
+      "name": "经营差异与钻取",
+      "group": "经营分析"
+    },
+    {
+      "id": "reports",
+      "name": "管理报表中心",
+      "group": "经营分析"
+    },
+    {
+      "id": "permissions",
+      "name": "组织权限",
+      "group": "治理后台"
+    },
+    {
+      "id": "audit",
+      "name": "审计轨迹",
+      "group": "治理后台"
+    },
+    {
+      "id": "settings",
+      "name": "系统配置",
+      "group": "治理后台"
+    }
+  ],
+  "documents": [
+    {
+      "id": "PRD",
+      "source": "01-PRD研发需求规格说明书.md",
+      "stem": "01_PRD研发需求规格说明书",
+      "title": "PRD研发需求规格说明书"
+    },
+    {
+      "id": "SYS",
+      "source": "02-系统研发与交互说明书.md",
+      "stem": "02_系统研发与交互说明书",
+      "title": "系统研发与交互说明书"
+    },
+    {
+      "id": "PROD",
+      "source": "03-产品说明书_含演示案例.md",
+      "stem": "03_产品说明书_含演示案例",
+      "title": "产品说明书（含演示案例）"
+    },
+    {
+      "id": "USER",
+      "source": "04-用户操作手册.md",
+      "stem": "04_用户操作手册",
+      "title": "用户操作手册"
+    }
+  ],
+  "previousSoftwareBaseline": "ML-20261020",
+  "status": "已终验待发布",
+  "outerZipHashRecord": "软件ZIP的SHA256在包外交付版本与校验.json记录，避免自引用；本套文档绑定运行源码哈希。",
+  "runtimeVerification": "最终原生Windows EXE在Wine兼容环境运行，实际客户Windows真机仍需验收；无企业NC在线连接。"
+}

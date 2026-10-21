@@ -1,0 +1,3713 @@
+{
+  "product": "天元EPM凭证合并Demo",
+  "company": "杭州天元宠物用品有限公司",
+  "unitName": "杭州天元集团合并",
+  "sourceUnit": "万元人民币",
+  "period": "2026年09期",
+  "result": {
+    "unitId": "TY_GROUP",
+    "unitName": "杭州天元集团合并",
+    "month": 9,
+    "currency": "CNY",
+    "preview": false,
+    "report": {
+      "opening": {
+        "cash": 950,
+        "receivable": 0,
+        "inventory": 0,
+        "prepaid": 0,
+        "investment": 0,
+        "fixed": 0,
+        "intangible": 0,
+        "deferred_asset": 0,
+        "payable": 0,
+        "shortloan": 0,
+        "taxpayable": 0,
+        "otherliability": 0,
+        "longloan": 0,
+        "deferred_liability": 0,
+        "capital": 950,
+        "retained": 0,
+        "nci": 0,
+        "cta": 0
+      },
+      "closing": {
+        "cash": 2380,
+        "receivable": 0,
+        "inventory": 0,
+        "prepaid": 0,
+        "investment": 0,
+        "fixed": 0,
+        "intangible": 0,
+        "deferred_asset": 0,
+        "payable": 0,
+        "shortloan": 0,
+        "taxpayable": 0,
+        "otherliability": 0,
+        "longloan": 576,
+        "deferred_liability": 0,
+        "capital": 950,
+        "retained": 780,
+        "nci": 0,
+        "cta": 74
+      },
+      "profit": {
+        "revenue": 2660,
+        "cost": 1110,
+        "expense": 770,
+        "finance": 0,
+        "tax": 0
+      },
+      "cashflow": {
+        "operating": 780,
+        "investing": 0,
+        "financing": 560,
+        "fx": 90
+      },
+      "monthlyProfit": {
+        "1": {
+          "revenue": 294.5,
+          "cost": 123.33,
+          "expense": 85.49,
+          "finance": 0,
+          "tax": 0
+        },
+        "2": {
+          "revenue": 294.37,
+          "cost": 123.34,
+          "expense": 85.63,
+          "finance": 0,
+          "tax": 0
+        },
+        "3": {
+          "revenue": 294.51,
+          "cost": 123.33,
+          "expense": 85.5,
+          "finance": 0,
+          "tax": 0
+        },
+        "4": {
+          "revenue": 294.37,
+          "cost": 123.34,
+          "expense": 85.63,
+          "finance": 0,
+          "tax": 0
+        },
+        "5": {
+          "revenue": 294.5,
+          "cost": 123.32,
+          "expense": 85.5,
+          "finance": 0,
+          "tax": 0
+        },
+        "6": {
+          "revenue": 294.37,
+          "cost": 123.34,
+          "expense": 85.63,
+          "finance": 0,
+          "tax": 0
+        },
+        "7": {
+          "revenue": 294.51,
+          "cost": 123.33,
+          "expense": 85.5,
+          "finance": 0,
+          "tax": 0
+        },
+        "8": {
+          "revenue": 294.37,
+          "cost": 123.34,
+          "expense": 85.63,
+          "finance": 0,
+          "tax": 0
+        },
+        "9": {
+          "revenue": 304.5,
+          "cost": 123.33,
+          "expense": 85.49,
+          "finance": 0,
+          "tax": 0
+        }
+      },
+      "monthlyCashflow": {
+        "1": {
+          "operating": 85.68,
+          "investing": 0,
+          "financing": 62.16,
+          "fx": 0
+        },
+        "2": {
+          "operating": 85.4,
+          "investing": 0,
+          "financing": 62.3,
+          "fx": 0
+        },
+        "3": {
+          "operating": 85.68,
+          "investing": 0,
+          "financing": 62.16,
+          "fx": 0
+        },
+        "4": {
+          "operating": 85.4,
+          "investing": 0,
+          "financing": 62.3,
+          "fx": 0
+        },
+        "5": {
+          "operating": 85.68,
+          "investing": 0,
+          "financing": 62.16,
+          "fx": 0
+        },
+        "6": {
+          "operating": 85.4,
+          "investing": 0,
+          "financing": 62.3,
+          "fx": 0
+        },
+        "7": {
+          "operating": 85.68,
+          "investing": 0,
+          "financing": 62.16,
+          "fx": 0
+        },
+        "8": {
+          "operating": 85.4,
+          "investing": 0,
+          "financing": 62.3,
+          "fx": 0
+        },
+        "9": {
+          "operating": 95.68,
+          "investing": 0,
+          "financing": 62.16,
+          "fx": 90
+        }
+      },
+      "capitalMovement": 0,
+      "equityHistory": {
+        "capitalByEntity": {
+          "TY": 950
+        },
+        "openingRetainedCny": 0,
+        "dividendsByMonth": {}
+      }
+    },
+    "checks": [
+      {
+        "code": "opening_balance",
+        "label": "杭州天元集团合并 · 期初资产＝负债＋权益",
+        "passed": true,
+        "difference": 0
+      },
+      {
+        "code": "closing_balance",
+        "label": "杭州天元集团合并 · 期末资产＝负债＋权益",
+        "passed": true,
+        "difference": 0
+      },
+      {
+        "code": "cash_reconciliation",
+        "label": "杭州天元集团合并 · 期末现金＝期初现金＋经营/投资/筹资＋现金汇率影响",
+        "passed": true,
+        "difference": 0
+      },
+      {
+        "code": "equity_reconciliation",
+        "label": "杭州天元集团合并 · 权益变动＝净利润＋资本变动＋折算差额变动",
+        "passed": true,
+        "difference": 0
+      }
+    ],
+    "passed": true,
+    "leafIds": [
+      "TY",
+      "HW",
+      "HW_CAT",
+      "HW_ELEC",
+      "OS_A",
+      "OS_B",
+      "OTHER"
+    ],
+    "eliminationIds": [
+      "IC-HW-SALES-2026-09",
+      "IC-GROUP-SALES-2026-09",
+      "INVESTMENT-TY-2026-09"
+    ],
+    "inputs": [
+      {
+        "type": "entity",
+        "id": "TY",
+        "name": "杭州天元宠物用品有限公司",
+        "currency": "CNY",
+        "sourceVersion": 1,
+        "leafIds": [
+          "TY"
+        ]
+      },
+      {
+        "type": "unit",
+        "id": "HW_GROUP",
+        "name": "鸿旺小合并",
+        "currency": "CNY",
+        "resultId": "RES-HW_GROUP-202609-V2",
+        "resultVersion": 2,
+        "approvalStatus": "已签核",
+        "leafIds": [
+          "HW",
+          "HW_CAT",
+          "HW_ELEC"
+        ]
+      },
+      {
+        "type": "unit",
+        "id": "OS_GROUP",
+        "name": "海外小合并",
+        "currency": "USD",
+        "resultId": "RES-OS_GROUP-202609-V1",
+        "resultVersion": 1,
+        "approvalStatus": "已签核",
+        "leafIds": [
+          "OS_A",
+          "OS_B"
+        ]
+      },
+      {
+        "type": "entity",
+        "id": "OTHER",
+        "name": "集团其他境内公司（演示）",
+        "currency": "CNY",
+        "sourceVersion": 1,
+        "leafIds": [
+          "OTHER"
+        ]
+      }
+    ],
+    "dependencies": {
+      "sources": {
+        "TY": 1,
+        "HW": 1,
+        "HW_CAT": 2,
+        "HW_ELEC": 1,
+        "OS_A": 1,
+        "OS_B": 1,
+        "OTHER": 1
+      },
+      "units": {
+        "TY_GROUP": 1,
+        "HW_GROUP": 1,
+        "OS_GROUP": 1
+      },
+      "rates": {
+        "FX-USD-CNY-2026-09": 1
+      },
+      "eliminations": {
+        "HW-SALES-09": 1,
+        "GROUP-SALES-09": 1,
+        "GROUP-INVESTMENT-09": 1
+      },
+      "childResults": {
+        "HW_GROUP": {
+          "id": "RES-HW_GROUP-202609-V2",
+          "version": 2
+        },
+        "OS_GROUP": {
+          "id": "RES-OS_GROUP-202609-V1",
+          "version": 1
+        }
+      }
+    },
+    "trace": {
+      "entities": [
+        {
+          "entityId": "TY",
+          "name": "杭州天元宠物用品有限公司",
+          "sourceVersion": 1,
+          "currency": "CNY"
+        },
+        {
+          "entityId": "HW",
+          "name": "鸿旺单体",
+          "sourceVersion": 1,
+          "currency": "CNY"
+        },
+        {
+          "entityId": "HW_CAT",
+          "name": "鸿旺猫爬架生产事业部",
+          "sourceVersion": 2,
+          "currency": "CNY"
+        },
+        {
+          "entityId": "HW_ELEC",
+          "name": "杭州鸿旺宠物用品有限公司电子工厂",
+          "sourceVersion": 1,
+          "currency": "CNY"
+        },
+        {
+          "entityId": "OS_A",
+          "name": "海外公司甲（演示）",
+          "sourceVersion": 1,
+          "currency": "USD"
+        },
+        {
+          "entityId": "OS_B",
+          "name": "海外公司乙（演示）",
+          "sourceVersion": 1,
+          "currency": "USD"
+        },
+        {
+          "entityId": "OTHER",
+          "name": "集团其他境内公司（演示）",
+          "sourceVersion": 1,
+          "currency": "CNY"
+        }
+      ],
+      "eliminations": [
+        {
+          "id": "HW-SALES-09",
+          "sourceId": "IC-HW-SALES-2026-09",
+          "unitId": "HW_GROUP",
+          "title": "鸿旺内部销售抵销",
+          "kind": "sales",
+          "inherited": true,
+          "effects": {
+            "revenue": -100,
+            "cost": -100
+          },
+          "openingEffects": {},
+          "monthlyEffects": {
+            "1": {
+              "revenue": -11.11,
+              "cost": -11.11,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "2": {
+              "revenue": -11.11,
+              "cost": -11.11,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "3": {
+              "revenue": -11.11,
+              "cost": -11.11,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "4": {
+              "revenue": -11.11,
+              "cost": -11.11,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "5": {
+              "revenue": -11.12,
+              "cost": -11.12,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "6": {
+              "revenue": -11.11,
+              "cost": -11.11,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "7": {
+              "revenue": -11.11,
+              "cost": -11.11,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "8": {
+              "revenue": -11.11,
+              "cost": -11.11,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "9": {
+              "revenue": -11.11,
+              "cost": -11.11,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            }
+          },
+          "investmentPairs": []
+        },
+        {
+          "id": "GROUP-SALES-09",
+          "sourceId": "IC-GROUP-SALES-2026-09",
+          "unitId": "TY_GROUP",
+          "title": "集团跨小合并范围销售抵销",
+          "kind": "sales",
+          "inherited": false,
+          "effects": {
+            "revenue": -50,
+            "cost": -50
+          },
+          "openingEffects": {},
+          "monthlyEffects": {
+            "1": {
+              "revenue": -5.56,
+              "cost": -5.56,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "2": {
+              "revenue": -5.55,
+              "cost": -5.55,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "3": {
+              "revenue": -5.56,
+              "cost": -5.56,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "4": {
+              "revenue": -5.55,
+              "cost": -5.55,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "5": {
+              "revenue": -5.56,
+              "cost": -5.56,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "6": {
+              "revenue": -5.55,
+              "cost": -5.55,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "7": {
+              "revenue": -5.56,
+              "cost": -5.56,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "8": {
+              "revenue": -5.55,
+              "cost": -5.55,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "9": {
+              "revenue": -5.56,
+              "cost": -5.56,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            }
+          },
+          "investmentPairs": []
+        },
+        {
+          "id": "GROUP-INVESTMENT-09",
+          "sourceId": "INVESTMENT-TY-2026-09",
+          "unitId": "TY_GROUP",
+          "title": "天元本部对子公司投资与期初资本抵销",
+          "kind": "investment",
+          "inherited": false,
+          "effects": {
+            "investment": -950,
+            "capital": -950
+          },
+          "openingEffects": {
+            "investment": -950,
+            "capital": -950
+          },
+          "monthlyEffects": {
+            "1": {
+              "revenue": 0,
+              "cost": 0,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "2": {
+              "revenue": 0,
+              "cost": 0,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "3": {
+              "revenue": 0,
+              "cost": 0,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "4": {
+              "revenue": 0,
+              "cost": 0,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "5": {
+              "revenue": 0,
+              "cost": 0,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "6": {
+              "revenue": 0,
+              "cost": 0,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "7": {
+              "revenue": 0,
+              "cost": 0,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "8": {
+              "revenue": 0,
+              "cost": 0,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "9": {
+              "revenue": 0,
+              "cost": 0,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            }
+          },
+          "investmentPairs": [
+            {
+              "parentId": "TY",
+              "childId": "HW",
+              "investment": 100,
+              "capital": 100,
+              "currency": "CNY"
+            },
+            {
+              "parentId": "TY",
+              "childId": "HW_CAT",
+              "investment": 50,
+              "capital": 50,
+              "currency": "CNY"
+            },
+            {
+              "parentId": "TY",
+              "childId": "HW_ELEC",
+              "investment": 50,
+              "capital": 50,
+              "currency": "CNY"
+            },
+            {
+              "parentId": "TY",
+              "childId": "OTHER",
+              "investment": 100,
+              "capital": 100,
+              "currency": "CNY"
+            },
+            {
+              "parentId": "TY",
+              "childId": "OS_A",
+              "investment": 325,
+              "capital": 50,
+              "currency": "USD"
+            },
+            {
+              "parentId": "TY",
+              "childId": "OS_B",
+              "investment": 325,
+              "capital": 50,
+              "currency": "USD"
+            }
+          ]
+        }
+      ],
+      "fx": [
+        {
+          "sourceId": "RES-OS_GROUP-202609-V1",
+          "sourceUnitId": "OS_GROUP",
+          "rateId": "FX-USD-CNY-2026-09",
+          "rateVersion": 1,
+          "sourceCurrency": "USD",
+          "targetCurrency": "CNY",
+          "quote": "1 USD = rate CNY",
+          "openingRate": 6.5,
+          "closingRate": 7.2,
+          "historicalCapitalRate": 6.5,
+          "monthlyAverageRates": {
+            "1": 7,
+            "2": 7,
+            "3": 7,
+            "4": 7,
+            "5": 7,
+            "6": 7,
+            "7": 7,
+            "8": 7,
+            "9": 7
+          },
+          "monthlyFlowRates": {
+            "1": 7,
+            "2": 7,
+            "3": 7,
+            "4": 7,
+            "5": 7,
+            "6": 7,
+            "7": 7,
+            "8": 7,
+            "9": 7
+          },
+          "sourceReport": {
+            "opening": {
+              "cash": 100,
+              "receivable": 0,
+              "inventory": 0,
+              "prepaid": 0,
+              "investment": 0,
+              "fixed": 0,
+              "intangible": 0,
+              "deferred_asset": 0,
+              "payable": 0,
+              "shortloan": 0,
+              "taxpayable": 0,
+              "otherliability": 0,
+              "longloan": 0,
+              "deferred_liability": 0,
+              "capital": 100,
+              "retained": 0,
+              "nci": 0,
+              "cta": 0
+            },
+            "closing": {
+              "cash": 200,
+              "receivable": 0,
+              "inventory": 0,
+              "prepaid": 0,
+              "investment": 0,
+              "fixed": 0,
+              "intangible": 0,
+              "deferred_asset": 0,
+              "payable": 0,
+              "shortloan": 0,
+              "taxpayable": 0,
+              "otherliability": 0,
+              "longloan": 80,
+              "deferred_liability": 0,
+              "capital": 100,
+              "retained": 20,
+              "nci": 0,
+              "cta": 0
+            },
+            "profit": {
+              "revenue": 100,
+              "cost": 0,
+              "expense": 80,
+              "finance": 0,
+              "tax": 0
+            },
+            "cashflow": {
+              "operating": 20,
+              "investing": 0,
+              "financing": 80,
+              "fx": 0
+            },
+            "monthlyProfit": {
+              "1": {
+                "revenue": 11.12,
+                "cost": 0,
+                "expense": 8.88,
+                "finance": 0,
+                "tax": 0
+              },
+              "2": {
+                "revenue": 11.1,
+                "cost": 0,
+                "expense": 8.9,
+                "finance": 0,
+                "tax": 0
+              },
+              "3": {
+                "revenue": 11.12,
+                "cost": 0,
+                "expense": 8.88,
+                "finance": 0,
+                "tax": 0
+              },
+              "4": {
+                "revenue": 11.1,
+                "cost": 0,
+                "expense": 8.9,
+                "finance": 0,
+                "tax": 0
+              },
+              "5": {
+                "revenue": 11.12,
+                "cost": 0,
+                "expense": 8.88,
+                "finance": 0,
+                "tax": 0
+              },
+              "6": {
+                "revenue": 11.1,
+                "cost": 0,
+                "expense": 8.9,
+                "finance": 0,
+                "tax": 0
+              },
+              "7": {
+                "revenue": 11.12,
+                "cost": 0,
+                "expense": 8.88,
+                "finance": 0,
+                "tax": 0
+              },
+              "8": {
+                "revenue": 11.1,
+                "cost": 0,
+                "expense": 8.9,
+                "finance": 0,
+                "tax": 0
+              },
+              "9": {
+                "revenue": 11.12,
+                "cost": 0,
+                "expense": 8.88,
+                "finance": 0,
+                "tax": 0
+              }
+            },
+            "monthlyCashflow": {
+              "1": {
+                "operating": 2.24,
+                "investing": 0,
+                "financing": 8.88,
+                "fx": 0
+              },
+              "2": {
+                "operating": 2.2,
+                "investing": 0,
+                "financing": 8.9,
+                "fx": 0
+              },
+              "3": {
+                "operating": 2.24,
+                "investing": 0,
+                "financing": 8.88,
+                "fx": 0
+              },
+              "4": {
+                "operating": 2.2,
+                "investing": 0,
+                "financing": 8.9,
+                "fx": 0
+              },
+              "5": {
+                "operating": 2.24,
+                "investing": 0,
+                "financing": 8.88,
+                "fx": 0
+              },
+              "6": {
+                "operating": 2.2,
+                "investing": 0,
+                "financing": 8.9,
+                "fx": 0
+              },
+              "7": {
+                "operating": 2.24,
+                "investing": 0,
+                "financing": 8.88,
+                "fx": 0
+              },
+              "8": {
+                "operating": 2.2,
+                "investing": 0,
+                "financing": 8.9,
+                "fx": 0
+              },
+              "9": {
+                "operating": 2.24,
+                "investing": 0,
+                "financing": 8.88,
+                "fx": 0
+              }
+            },
+            "capitalMovement": 0,
+            "equityHistory": {
+              "capitalByEntity": {
+                "OS_A": 50,
+                "OS_B": 50
+              },
+              "openingRetainedCny": 0,
+              "dividendsByMonth": {}
+            }
+          },
+          "translatedReport": {
+            "opening": {
+              "cash": 650,
+              "receivable": 0,
+              "inventory": 0,
+              "prepaid": 0,
+              "investment": 0,
+              "fixed": 0,
+              "intangible": 0,
+              "deferred_asset": 0,
+              "payable": 0,
+              "shortloan": 0,
+              "taxpayable": 0,
+              "otherliability": 0,
+              "longloan": 0,
+              "deferred_liability": 0,
+              "capital": 650,
+              "retained": 0,
+              "nci": 0,
+              "cta": 0
+            },
+            "closing": {
+              "cash": 1440,
+              "receivable": 0,
+              "inventory": 0,
+              "prepaid": 0,
+              "investment": 0,
+              "fixed": 0,
+              "intangible": 0,
+              "deferred_asset": 0,
+              "payable": 0,
+              "shortloan": 0,
+              "taxpayable": 0,
+              "otherliability": 0,
+              "longloan": 576,
+              "deferred_liability": 0,
+              "capital": 650,
+              "retained": 140,
+              "nci": 0,
+              "cta": 74
+            },
+            "profit": {
+              "revenue": 700,
+              "cost": 0,
+              "expense": 560,
+              "finance": 0,
+              "tax": 0
+            },
+            "cashflow": {
+              "operating": 140,
+              "investing": 0,
+              "financing": 560,
+              "fx": 90
+            },
+            "monthlyProfit": {
+              "1": {
+                "revenue": 77.84,
+                "cost": 0,
+                "expense": 62.16,
+                "finance": 0,
+                "tax": 0
+              },
+              "2": {
+                "revenue": 77.7,
+                "cost": 0,
+                "expense": 62.3,
+                "finance": 0,
+                "tax": 0
+              },
+              "3": {
+                "revenue": 77.84,
+                "cost": 0,
+                "expense": 62.16,
+                "finance": 0,
+                "tax": 0
+              },
+              "4": {
+                "revenue": 77.7,
+                "cost": 0,
+                "expense": 62.3,
+                "finance": 0,
+                "tax": 0
+              },
+              "5": {
+                "revenue": 77.84,
+                "cost": 0,
+                "expense": 62.16,
+                "finance": 0,
+                "tax": 0
+              },
+              "6": {
+                "revenue": 77.7,
+                "cost": 0,
+                "expense": 62.3,
+                "finance": 0,
+                "tax": 0
+              },
+              "7": {
+                "revenue": 77.84,
+                "cost": 0,
+                "expense": 62.16,
+                "finance": 0,
+                "tax": 0
+              },
+              "8": {
+                "revenue": 77.7,
+                "cost": 0,
+                "expense": 62.3,
+                "finance": 0,
+                "tax": 0
+              },
+              "9": {
+                "revenue": 77.84,
+                "cost": 0,
+                "expense": 62.16,
+                "finance": 0,
+                "tax": 0
+              }
+            },
+            "monthlyCashflow": {
+              "1": {
+                "operating": 15.68,
+                "investing": 0,
+                "financing": 62.16,
+                "fx": 0
+              },
+              "2": {
+                "operating": 15.4,
+                "investing": 0,
+                "financing": 62.3,
+                "fx": 0
+              },
+              "3": {
+                "operating": 15.68,
+                "investing": 0,
+                "financing": 62.16,
+                "fx": 0
+              },
+              "4": {
+                "operating": 15.4,
+                "investing": 0,
+                "financing": 62.3,
+                "fx": 0
+              },
+              "5": {
+                "operating": 15.68,
+                "investing": 0,
+                "financing": 62.16,
+                "fx": 0
+              },
+              "6": {
+                "operating": 15.4,
+                "investing": 0,
+                "financing": 62.3,
+                "fx": 0
+              },
+              "7": {
+                "operating": 15.68,
+                "investing": 0,
+                "financing": 62.16,
+                "fx": 0
+              },
+              "8": {
+                "operating": 15.4,
+                "investing": 0,
+                "financing": 62.3,
+                "fx": 0
+              },
+              "9": {
+                "operating": 15.68,
+                "investing": 0,
+                "financing": 62.16,
+                "fx": 90
+              }
+            },
+            "capitalMovement": 0,
+            "equityHistory": {
+              "capitalByEntity": {
+                "OS_A": 325,
+                "OS_B": 325
+              },
+              "openingRetainedCny": 0,
+              "dividendsByMonth": {}
+            }
+          },
+          "cta": 74,
+          "cashFx": 90,
+          "rows": [
+            {
+              "field": "cash",
+              "sourceValue": 200,
+              "rateType": "期末",
+              "rate": 7.2,
+              "targetValue": 1440
+            },
+            {
+              "field": "receivable",
+              "sourceValue": 0,
+              "rateType": "期末",
+              "rate": 7.2,
+              "targetValue": 0
+            },
+            {
+              "field": "inventory",
+              "sourceValue": 0,
+              "rateType": "期末",
+              "rate": 7.2,
+              "targetValue": 0
+            },
+            {
+              "field": "prepaid",
+              "sourceValue": 0,
+              "rateType": "期末",
+              "rate": 7.2,
+              "targetValue": 0
+            },
+            {
+              "field": "investment",
+              "sourceValue": 0,
+              "rateType": "期末",
+              "rate": 7.2,
+              "targetValue": 0
+            },
+            {
+              "field": "fixed",
+              "sourceValue": 0,
+              "rateType": "期末",
+              "rate": 7.2,
+              "targetValue": 0
+            },
+            {
+              "field": "intangible",
+              "sourceValue": 0,
+              "rateType": "期末",
+              "rate": 7.2,
+              "targetValue": 0
+            },
+            {
+              "field": "deferred_asset",
+              "sourceValue": 0,
+              "rateType": "期末",
+              "rate": 7.2,
+              "targetValue": 0
+            },
+            {
+              "field": "payable",
+              "sourceValue": 0,
+              "rateType": "期末",
+              "rate": 7.2,
+              "targetValue": 0
+            },
+            {
+              "field": "shortloan",
+              "sourceValue": 0,
+              "rateType": "期末",
+              "rate": 7.2,
+              "targetValue": 0
+            },
+            {
+              "field": "taxpayable",
+              "sourceValue": 0,
+              "rateType": "期末",
+              "rate": 7.2,
+              "targetValue": 0
+            },
+            {
+              "field": "otherliability",
+              "sourceValue": 0,
+              "rateType": "期末",
+              "rate": 7.2,
+              "targetValue": 0
+            },
+            {
+              "field": "longloan",
+              "sourceValue": 80,
+              "rateType": "期末",
+              "rate": 7.2,
+              "targetValue": 576
+            },
+            {
+              "field": "deferred_liability",
+              "sourceValue": 0,
+              "rateType": "期末",
+              "rate": 7.2,
+              "targetValue": 0
+            },
+            {
+              "field": "capital",
+              "sourceValue": 100,
+              "rateType": "历史资本",
+              "rate": 6.5,
+              "targetValue": 650
+            },
+            {
+              "field": "retained",
+              "sourceValue": 20,
+              "rateType": "期初留存＋逐月折算利润",
+              "targetValue": 140
+            },
+            {
+              "field": "cta",
+              "rateType": "资产负债与历史权益勾稽",
+              "targetValue": 74
+            }
+          ],
+          "capitalRateDetails": [
+            {
+              "entityId": "OS_A",
+              "sourceValue": 50,
+              "rate": 6.5,
+              "targetValue": 325
+            },
+            {
+              "entityId": "OS_B",
+              "sourceValue": 50,
+              "rate": 6.5,
+              "targetValue": 325
+            }
+          ]
+        }
+      ]
+    },
+    "fingerprint": "aa9d0a44a0050f35ddc520db23fce066f7e36e90e76656fb6039526c3530bc8f",
+    "statement": {
+      "actual": {
+        "revenue": 2660,
+        "cost": 1110,
+        "expense": 770,
+        "finance": 0,
+        "tax": 0,
+        "net": 780,
+        "gross": 1550,
+        "operating": 780,
+        "pretax": 780,
+        "assets": 2380,
+        "liabilities": 576,
+        "equity": 1804,
+        "cash": 2380,
+        "operatingCash": 780,
+        "cta": 74,
+        "cashFx": 90,
+        "grossMargin": 58.270677,
+        "netMargin": 29.323308
+      },
+      "profit": [
+        {
+          "key": "revenue",
+          "label": "营业收入",
+          "value": 2660,
+          "total": false
+        },
+        {
+          "key": "cost",
+          "label": "营业成本",
+          "value": 1110,
+          "total": false
+        },
+        {
+          "key": "gross",
+          "label": "毛利",
+          "value": 1550,
+          "total": true
+        },
+        {
+          "key": "expense",
+          "label": "期间费用",
+          "value": 770,
+          "total": false
+        },
+        {
+          "key": "operating",
+          "label": "营业利润（财务费用前）",
+          "value": 780,
+          "total": true
+        },
+        {
+          "key": "finance",
+          "label": "财务费用",
+          "value": 0,
+          "total": false
+        },
+        {
+          "key": "pretax",
+          "label": "利润总额",
+          "value": 780,
+          "total": true
+        },
+        {
+          "key": "tax",
+          "label": "所得税费用",
+          "value": 0,
+          "total": false
+        },
+        {
+          "key": "net",
+          "label": "净利润",
+          "value": 780,
+          "total": true
+        }
+      ],
+      "balance": [
+        [
+          "货币资金",
+          2380,
+          "cash"
+        ],
+        [
+          "应收账款",
+          0,
+          "receivable"
+        ],
+        [
+          "存货",
+          0,
+          "inventory"
+        ],
+        [
+          "预付款及其他流动资产",
+          0,
+          "prepaid"
+        ],
+        [
+          "长期股权投资",
+          0,
+          "investment"
+        ],
+        [
+          "固定资产净额",
+          0,
+          "fixed"
+        ],
+        [
+          "无形及其他资产",
+          0,
+          "intangible"
+        ],
+        [
+          "递延所得税资产",
+          0,
+          "deferred_asset"
+        ],
+        [
+          "资产总计",
+          2380,
+          "assets"
+        ],
+        [
+          "应付账款",
+          0,
+          "payable"
+        ],
+        [
+          "短期借款",
+          0,
+          "shortloan"
+        ],
+        [
+          "应交税费",
+          0,
+          "taxpayable"
+        ],
+        [
+          "其他流动负债",
+          0,
+          "otherliability"
+        ],
+        [
+          "长期借款",
+          576,
+          "longloan"
+        ],
+        [
+          "递延所得税负债",
+          0,
+          "deferred_liability"
+        ],
+        [
+          "负债合计",
+          576,
+          "liabilities"
+        ],
+        [
+          "实收资本",
+          950,
+          "capital"
+        ],
+        [
+          "未分配利润",
+          780,
+          "retained"
+        ],
+        [
+          "少数股东权益",
+          0,
+          "nci"
+        ],
+        [
+          "其他综合收益—外币报表折算差额",
+          74,
+          "cta"
+        ],
+        [
+          "所有者权益合计",
+          1804,
+          "equity"
+        ],
+        [
+          "负债及所有者权益总计",
+          2380,
+          "balance"
+        ]
+      ],
+      "cash": [
+        [
+          "经营活动产生的现金流量净额",
+          780,
+          "operating"
+        ],
+        [
+          "投资活动产生的现金流量净额",
+          0,
+          "investing"
+        ],
+        [
+          "筹资活动产生的现金流量净额",
+          560,
+          "financing"
+        ],
+        [
+          "汇率变动对现金及现金等价物的影响",
+          90,
+          "fx"
+        ],
+        [
+          "现金及现金等价物净增加额",
+          1430,
+          "change"
+        ],
+        [
+          "期初现金及现金等价物余额",
+          950,
+          "openingcash"
+        ],
+        [
+          "期末现金及现金等价物余额",
+          2380,
+          "cash"
+        ]
+      ],
+      "financial_checks": [
+        {
+          "code": "opening_balance",
+          "label": "杭州天元集团合并 · 期初资产＝负债＋权益",
+          "passed": true,
+          "difference": 0
+        },
+        {
+          "code": "closing_balance",
+          "label": "杭州天元集团合并 · 期末资产＝负债＋权益",
+          "passed": true,
+          "difference": 0
+        },
+        {
+          "code": "cash_reconciliation",
+          "label": "杭州天元集团合并 · 期末现金＝期初现金＋经营/投资/筹资＋现金汇率影响",
+          "passed": true,
+          "difference": 0
+        },
+        {
+          "code": "equity_reconciliation",
+          "label": "杭州天元集团合并 · 权益变动＝净利润＋资本变动＋折算差额变动",
+          "passed": true,
+          "difference": 0
+        }
+      ],
+      "checks": [
+        {
+          "code": "opening_balance",
+          "label": "杭州天元集团合并 · 期初资产＝负债＋权益",
+          "passed": true,
+          "difference": 0
+        },
+        {
+          "code": "closing_balance",
+          "label": "杭州天元集团合并 · 期末资产＝负债＋权益",
+          "passed": true,
+          "difference": 0
+        },
+        {
+          "code": "cash_reconciliation",
+          "label": "杭州天元集团合并 · 期末现金＝期初现金＋经营/投资/筹资＋现金汇率影响",
+          "passed": true,
+          "difference": 0
+        },
+        {
+          "code": "equity_reconciliation",
+          "label": "杭州天元集团合并 · 权益变动＝净利润＋资本变动＋折算差额变动",
+          "passed": true,
+          "difference": 0
+        }
+      ],
+      "passed": true,
+      "currency": "CNY",
+      "unit": "人民币万元",
+      "period": "2026年1—9月",
+      "month": 9,
+      "scope": "杭州天元集团合并",
+      "source_entities": [
+        {
+          "entityId": "TY",
+          "name": "杭州天元宠物用品有限公司",
+          "sourceVersion": 1,
+          "currency": "CNY"
+        },
+        {
+          "entityId": "HW",
+          "name": "鸿旺单体",
+          "sourceVersion": 1,
+          "currency": "CNY"
+        },
+        {
+          "entityId": "HW_CAT",
+          "name": "鸿旺猫爬架生产事业部",
+          "sourceVersion": 2,
+          "currency": "CNY"
+        },
+        {
+          "entityId": "HW_ELEC",
+          "name": "杭州鸿旺宠物用品有限公司电子工厂",
+          "sourceVersion": 1,
+          "currency": "CNY"
+        },
+        {
+          "entityId": "OS_A",
+          "name": "海外公司甲（演示）",
+          "sourceVersion": 1,
+          "currency": "USD"
+        },
+        {
+          "entityId": "OS_B",
+          "name": "海外公司乙（演示）",
+          "sourceVersion": 1,
+          "currency": "USD"
+        },
+        {
+          "entityId": "OTHER",
+          "name": "集团其他境内公司（演示）",
+          "sourceVersion": 1,
+          "currency": "CNY"
+        }
+      ],
+      "approved_journals": [
+        {
+          "id": "HW-SALES-09",
+          "sourceId": "IC-HW-SALES-2026-09",
+          "unitId": "HW_GROUP",
+          "title": "鸿旺内部销售抵销",
+          "kind": "sales",
+          "inherited": true,
+          "effects": {
+            "revenue": -100,
+            "cost": -100
+          },
+          "openingEffects": {},
+          "monthlyEffects": {
+            "1": {
+              "revenue": -11.11,
+              "cost": -11.11,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "2": {
+              "revenue": -11.11,
+              "cost": -11.11,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "3": {
+              "revenue": -11.11,
+              "cost": -11.11,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "4": {
+              "revenue": -11.11,
+              "cost": -11.11,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "5": {
+              "revenue": -11.12,
+              "cost": -11.12,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "6": {
+              "revenue": -11.11,
+              "cost": -11.11,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "7": {
+              "revenue": -11.11,
+              "cost": -11.11,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "8": {
+              "revenue": -11.11,
+              "cost": -11.11,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "9": {
+              "revenue": -11.11,
+              "cost": -11.11,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            }
+          },
+          "investmentPairs": []
+        },
+        {
+          "id": "GROUP-SALES-09",
+          "sourceId": "IC-GROUP-SALES-2026-09",
+          "unitId": "TY_GROUP",
+          "title": "集团跨小合并范围销售抵销",
+          "kind": "sales",
+          "inherited": false,
+          "effects": {
+            "revenue": -50,
+            "cost": -50
+          },
+          "openingEffects": {},
+          "monthlyEffects": {
+            "1": {
+              "revenue": -5.56,
+              "cost": -5.56,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "2": {
+              "revenue": -5.55,
+              "cost": -5.55,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "3": {
+              "revenue": -5.56,
+              "cost": -5.56,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "4": {
+              "revenue": -5.55,
+              "cost": -5.55,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "5": {
+              "revenue": -5.56,
+              "cost": -5.56,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "6": {
+              "revenue": -5.55,
+              "cost": -5.55,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "7": {
+              "revenue": -5.56,
+              "cost": -5.56,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "8": {
+              "revenue": -5.55,
+              "cost": -5.55,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "9": {
+              "revenue": -5.56,
+              "cost": -5.56,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            }
+          },
+          "investmentPairs": []
+        },
+        {
+          "id": "GROUP-INVESTMENT-09",
+          "sourceId": "INVESTMENT-TY-2026-09",
+          "unitId": "TY_GROUP",
+          "title": "天元本部对子公司投资与期初资本抵销",
+          "kind": "investment",
+          "inherited": false,
+          "effects": {
+            "investment": -950,
+            "capital": -950
+          },
+          "openingEffects": {
+            "investment": -950,
+            "capital": -950
+          },
+          "monthlyEffects": {
+            "1": {
+              "revenue": 0,
+              "cost": 0,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "2": {
+              "revenue": 0,
+              "cost": 0,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "3": {
+              "revenue": 0,
+              "cost": 0,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "4": {
+              "revenue": 0,
+              "cost": 0,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "5": {
+              "revenue": 0,
+              "cost": 0,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "6": {
+              "revenue": 0,
+              "cost": 0,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "7": {
+              "revenue": 0,
+              "cost": 0,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "8": {
+              "revenue": 0,
+              "cost": 0,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            },
+            "9": {
+              "revenue": 0,
+              "cost": 0,
+              "expense": 0,
+              "finance": 0,
+              "tax": 0,
+              "operating": 0,
+              "investing": 0,
+              "financing": 0,
+              "fx": 0
+            }
+          },
+          "investmentPairs": [
+            {
+              "parentId": "TY",
+              "childId": "HW",
+              "investment": 100,
+              "capital": 100,
+              "currency": "CNY"
+            },
+            {
+              "parentId": "TY",
+              "childId": "HW_CAT",
+              "investment": 50,
+              "capital": 50,
+              "currency": "CNY"
+            },
+            {
+              "parentId": "TY",
+              "childId": "HW_ELEC",
+              "investment": 50,
+              "capital": 50,
+              "currency": "CNY"
+            },
+            {
+              "parentId": "TY",
+              "childId": "OTHER",
+              "investment": 100,
+              "capital": 100,
+              "currency": "CNY"
+            },
+            {
+              "parentId": "TY",
+              "childId": "OS_A",
+              "investment": 325,
+              "capital": 50,
+              "currency": "USD"
+            },
+            {
+              "parentId": "TY",
+              "childId": "OS_B",
+              "investment": 325,
+              "capital": 50,
+              "currency": "USD"
+            }
+          ]
+        }
+      ],
+      "policyNote": "本机全资分级合并演示；输入与下级签核结果留痕，USD→CNY按月损益/期末余额/历史权益分别折算；初始实际截至9期。"
+    },
+    "sourceSnapshots": {
+      "TY": {
+        "version": 1,
+        "currency": "CNY",
+        "status": "已报送",
+        "sourceName": "系统初始化虚构演示报送",
+        "opening": {
+          "cash": 0,
+          "receivable": 0,
+          "inventory": 0,
+          "prepaid": 0,
+          "investment": 950,
+          "fixed": 0,
+          "intangible": 0,
+          "deferred_asset": 0,
+          "payable": 0,
+          "shortloan": 0,
+          "taxpayable": 0,
+          "otherliability": 0,
+          "longloan": 0,
+          "deferred_liability": 0,
+          "capital": 950,
+          "retained": 0,
+          "nci": 0,
+          "cta": 0
+        },
+        "closing": {
+          "cash": 0,
+          "receivable": 0,
+          "inventory": 0,
+          "prepaid": 0,
+          "investment": 950,
+          "fixed": 0,
+          "intangible": 0,
+          "deferred_asset": 0,
+          "payable": 0,
+          "shortloan": 0,
+          "taxpayable": 0,
+          "otherliability": 0,
+          "longloan": 0,
+          "deferred_liability": 0,
+          "capital": 950,
+          "retained": 0,
+          "nci": 0,
+          "cta": 0
+        },
+        "profit": {
+          "revenue": 0,
+          "cost": 0,
+          "expense": 0,
+          "finance": 0,
+          "tax": 0
+        },
+        "cashflow": {
+          "operating": 0,
+          "investing": 0,
+          "financing": 0,
+          "fx": 0
+        },
+        "monthlyProfit": {
+          "1": {
+            "revenue": 0,
+            "cost": 0,
+            "expense": 0,
+            "finance": 0,
+            "tax": 0
+          },
+          "2": {
+            "revenue": 0,
+            "cost": 0,
+            "expense": 0,
+            "finance": 0,
+            "tax": 0
+          },
+          "3": {
+            "revenue": 0,
+            "cost": 0,
+            "expense": 0,
+            "finance": 0,
+            "tax": 0
+          },
+          "4": {
+            "revenue": 0,
+            "cost": 0,
+            "expense": 0,
+            "finance": 0,
+            "tax": 0
+          },
+          "5": {
+            "revenue": 0,
+            "cost": 0,
+            "expense": 0,
+            "finance": 0,
+            "tax": 0
+          },
+          "6": {
+            "revenue": 0,
+            "cost": 0,
+            "expense": 0,
+            "finance": 0,
+            "tax": 0
+          },
+          "7": {
+            "revenue": 0,
+            "cost": 0,
+            "expense": 0,
+            "finance": 0,
+            "tax": 0
+          },
+          "8": {
+            "revenue": 0,
+            "cost": 0,
+            "expense": 0,
+            "finance": 0,
+            "tax": 0
+          },
+          "9": {
+            "revenue": 0,
+            "cost": 0,
+            "expense": 0,
+            "finance": 0,
+            "tax": 0
+          }
+        },
+        "monthlyCashflow": {
+          "1": {
+            "operating": 0,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          },
+          "2": {
+            "operating": 0,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          },
+          "3": {
+            "operating": 0,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          },
+          "4": {
+            "operating": 0,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          },
+          "5": {
+            "operating": 0,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          },
+          "6": {
+            "operating": 0,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          },
+          "7": {
+            "operating": 0,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          },
+          "8": {
+            "operating": 0,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          },
+          "9": {
+            "operating": 0,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          }
+        },
+        "capitalMovement": 0,
+        "equityHistory": {
+          "capitalByEntity": {
+            "TY": 950
+          },
+          "openingRetainedCny": 0,
+          "dividendsByMonth": {}
+        }
+      },
+      "HW": {
+        "version": 1,
+        "currency": "CNY",
+        "status": "已报送",
+        "sourceName": "系统初始化虚构演示报送",
+        "opening": {
+          "cash": 100,
+          "receivable": 0,
+          "inventory": 0,
+          "prepaid": 0,
+          "investment": 0,
+          "fixed": 0,
+          "intangible": 0,
+          "deferred_asset": 0,
+          "payable": 0,
+          "shortloan": 0,
+          "taxpayable": 0,
+          "otherliability": 0,
+          "longloan": 0,
+          "deferred_liability": 0,
+          "capital": 100,
+          "retained": 0,
+          "nci": 0,
+          "cta": 0
+        },
+        "closing": {
+          "cash": 400,
+          "receivable": 0,
+          "inventory": 0,
+          "prepaid": 0,
+          "investment": 0,
+          "fixed": 0,
+          "intangible": 0,
+          "deferred_asset": 0,
+          "payable": 0,
+          "shortloan": 0,
+          "taxpayable": 0,
+          "otherliability": 0,
+          "longloan": 0,
+          "deferred_liability": 0,
+          "capital": 100,
+          "retained": 300,
+          "nci": 0,
+          "cta": 0
+        },
+        "profit": {
+          "revenue": 1000,
+          "cost": 600,
+          "expense": 100,
+          "finance": 0,
+          "tax": 0
+        },
+        "cashflow": {
+          "operating": 300,
+          "investing": 0,
+          "financing": 0,
+          "fx": 0
+        },
+        "monthlyProfit": {
+          "1": {
+            "revenue": 111.11,
+            "cost": 66.67,
+            "expense": 11.11,
+            "finance": 0,
+            "tax": 0
+          },
+          "2": {
+            "revenue": 111.11,
+            "cost": 66.66,
+            "expense": 11.11,
+            "finance": 0,
+            "tax": 0
+          },
+          "3": {
+            "revenue": 111.11,
+            "cost": 66.67,
+            "expense": 11.11,
+            "finance": 0,
+            "tax": 0
+          },
+          "4": {
+            "revenue": 111.11,
+            "cost": 66.67,
+            "expense": 11.11,
+            "finance": 0,
+            "tax": 0
+          },
+          "5": {
+            "revenue": 111.12,
+            "cost": 66.66,
+            "expense": 11.12,
+            "finance": 0,
+            "tax": 0
+          },
+          "6": {
+            "revenue": 111.11,
+            "cost": 66.67,
+            "expense": 11.11,
+            "finance": 0,
+            "tax": 0
+          },
+          "7": {
+            "revenue": 111.11,
+            "cost": 66.67,
+            "expense": 11.11,
+            "finance": 0,
+            "tax": 0
+          },
+          "8": {
+            "revenue": 111.11,
+            "cost": 66.66,
+            "expense": 11.11,
+            "finance": 0,
+            "tax": 0
+          },
+          "9": {
+            "revenue": 111.11,
+            "cost": 66.67,
+            "expense": 11.11,
+            "finance": 0,
+            "tax": 0
+          }
+        },
+        "monthlyCashflow": {
+          "1": {
+            "operating": 33.33,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          },
+          "2": {
+            "operating": 33.34,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          },
+          "3": {
+            "operating": 33.33,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          },
+          "4": {
+            "operating": 33.33,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          },
+          "5": {
+            "operating": 33.34,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          },
+          "6": {
+            "operating": 33.33,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          },
+          "7": {
+            "operating": 33.33,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          },
+          "8": {
+            "operating": 33.34,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          },
+          "9": {
+            "operating": 33.33,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          }
+        },
+        "capitalMovement": 0,
+        "equityHistory": {
+          "capitalByEntity": {
+            "HW": 100
+          },
+          "openingRetainedCny": 0,
+          "dividendsByMonth": {}
+        }
+      },
+      "HW_CAT": {
+        "currency": "CNY",
+        "version": 2,
+        "status": "已报送",
+        "sourceName": "系统初始化虚构演示报送",
+        "opening": {
+          "cash": 50,
+          "receivable": 0,
+          "inventory": 0,
+          "prepaid": 0,
+          "investment": 0,
+          "fixed": 0,
+          "intangible": 0,
+          "deferred_asset": 0,
+          "payable": 0,
+          "shortloan": 0,
+          "taxpayable": 0,
+          "otherliability": 0,
+          "longloan": 0,
+          "deferred_liability": 0,
+          "capital": 50,
+          "retained": 0,
+          "nci": 0,
+          "cta": 0
+        },
+        "closing": {
+          "cash": 150,
+          "receivable": 0,
+          "inventory": 0,
+          "prepaid": 0,
+          "investment": 0,
+          "fixed": 0,
+          "intangible": 0,
+          "deferred_asset": 0,
+          "payable": 0,
+          "shortloan": 0,
+          "taxpayable": 0,
+          "otherliability": 0,
+          "longloan": 0,
+          "deferred_liability": 0,
+          "capital": 50,
+          "retained": 100,
+          "nci": 0,
+          "cta": 0
+        },
+        "profit": {
+          "revenue": 310,
+          "cost": 180,
+          "expense": 30,
+          "finance": 0,
+          "tax": 0
+        },
+        "cashflow": {
+          "operating": 100,
+          "investing": 0,
+          "financing": 0,
+          "fx": 0
+        },
+        "monthlyProfit": {
+          "1": {
+            "revenue": 33.33,
+            "cost": 20,
+            "expense": 3.33,
+            "finance": 0,
+            "tax": 0
+          },
+          "2": {
+            "revenue": 33.34,
+            "cost": 20,
+            "expense": 3.34,
+            "finance": 0,
+            "tax": 0
+          },
+          "3": {
+            "revenue": 33.33,
+            "cost": 20,
+            "expense": 3.33,
+            "finance": 0,
+            "tax": 0
+          },
+          "4": {
+            "revenue": 33.33,
+            "cost": 20,
+            "expense": 3.33,
+            "finance": 0,
+            "tax": 0
+          },
+          "5": {
+            "revenue": 33.34,
+            "cost": 20,
+            "expense": 3.34,
+            "finance": 0,
+            "tax": 0
+          },
+          "6": {
+            "revenue": 33.33,
+            "cost": 20,
+            "expense": 3.33,
+            "finance": 0,
+            "tax": 0
+          },
+          "7": {
+            "revenue": 33.33,
+            "cost": 20,
+            "expense": 3.33,
+            "finance": 0,
+            "tax": 0
+          },
+          "8": {
+            "revenue": 33.34,
+            "cost": 20,
+            "expense": 3.34,
+            "finance": 0,
+            "tax": 0
+          },
+          "9": {
+            "revenue": 43.33,
+            "cost": 20,
+            "expense": 3.33,
+            "finance": 0,
+            "tax": 0
+          }
+        },
+        "monthlyCashflow": {
+          "1": {
+            "operating": 10,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          },
+          "2": {
+            "operating": 10,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          },
+          "3": {
+            "operating": 10,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          },
+          "4": {
+            "operating": 10,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          },
+          "5": {
+            "operating": 10,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          },
+          "6": {
+            "operating": 10,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          },
+          "7": {
+            "operating": 10,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          },
+          "8": {
+            "operating": 10,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          },
+          "9": {
+            "operating": 20,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          }
+        },
+        "capitalMovement": 0,
+        "equityHistory": {
+          "capitalByEntity": {
+            "HW_CAT": 50
+          },
+          "openingRetainedCny": 0,
+          "dividendsByMonth": {}
+        }
+      },
+      "HW_ELEC": {
+        "version": 1,
+        "currency": "CNY",
+        "status": "已报送",
+        "sourceName": "系统初始化虚构演示报送",
+        "opening": {
+          "cash": 50,
+          "receivable": 0,
+          "inventory": 0,
+          "prepaid": 0,
+          "investment": 0,
+          "fixed": 0,
+          "intangible": 0,
+          "deferred_asset": 0,
+          "payable": 0,
+          "shortloan": 0,
+          "taxpayable": 0,
+          "otherliability": 0,
+          "longloan": 0,
+          "deferred_liability": 0,
+          "capital": 50,
+          "retained": 0,
+          "nci": 0,
+          "cta": 0
+        },
+        "closing": {
+          "cash": 110,
+          "receivable": 0,
+          "inventory": 0,
+          "prepaid": 0,
+          "investment": 0,
+          "fixed": 0,
+          "intangible": 0,
+          "deferred_asset": 0,
+          "payable": 0,
+          "shortloan": 0,
+          "taxpayable": 0,
+          "otherliability": 0,
+          "longloan": 0,
+          "deferred_liability": 0,
+          "capital": 50,
+          "retained": 60,
+          "nci": 0,
+          "cta": 0
+        },
+        "profit": {
+          "revenue": 200,
+          "cost": 120,
+          "expense": 20,
+          "finance": 0,
+          "tax": 0
+        },
+        "cashflow": {
+          "operating": 60,
+          "investing": 0,
+          "financing": 0,
+          "fx": 0
+        },
+        "monthlyProfit": {
+          "1": {
+            "revenue": 22.22,
+            "cost": 13.33,
+            "expense": 2.22,
+            "finance": 0,
+            "tax": 0
+          },
+          "2": {
+            "revenue": 22.22,
+            "cost": 13.34,
+            "expense": 2.22,
+            "finance": 0,
+            "tax": 0
+          },
+          "3": {
+            "revenue": 22.23,
+            "cost": 13.33,
+            "expense": 2.23,
+            "finance": 0,
+            "tax": 0
+          },
+          "4": {
+            "revenue": 22.22,
+            "cost": 13.33,
+            "expense": 2.22,
+            "finance": 0,
+            "tax": 0
+          },
+          "5": {
+            "revenue": 22.22,
+            "cost": 13.34,
+            "expense": 2.22,
+            "finance": 0,
+            "tax": 0
+          },
+          "6": {
+            "revenue": 22.22,
+            "cost": 13.33,
+            "expense": 2.22,
+            "finance": 0,
+            "tax": 0
+          },
+          "7": {
+            "revenue": 22.23,
+            "cost": 13.33,
+            "expense": 2.23,
+            "finance": 0,
+            "tax": 0
+          },
+          "8": {
+            "revenue": 22.22,
+            "cost": 13.34,
+            "expense": 2.22,
+            "finance": 0,
+            "tax": 0
+          },
+          "9": {
+            "revenue": 22.22,
+            "cost": 13.33,
+            "expense": 2.22,
+            "finance": 0,
+            "tax": 0
+          }
+        },
+        "monthlyCashflow": {
+          "1": {
+            "operating": 6.67,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          },
+          "2": {
+            "operating": 6.66,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          },
+          "3": {
+            "operating": 6.67,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          },
+          "4": {
+            "operating": 6.67,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          },
+          "5": {
+            "operating": 6.66,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          },
+          "6": {
+            "operating": 6.67,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          },
+          "7": {
+            "operating": 6.67,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          },
+          "8": {
+            "operating": 6.66,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          },
+          "9": {
+            "operating": 6.67,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          }
+        },
+        "capitalMovement": 0,
+        "equityHistory": {
+          "capitalByEntity": {
+            "HW_ELEC": 50
+          },
+          "openingRetainedCny": 0,
+          "dividendsByMonth": {}
+        }
+      },
+      "OS_A": {
+        "version": 1,
+        "currency": "USD",
+        "status": "已报送",
+        "sourceName": "系统初始化虚构演示报送",
+        "opening": {
+          "cash": 50,
+          "receivable": 0,
+          "inventory": 0,
+          "prepaid": 0,
+          "investment": 0,
+          "fixed": 0,
+          "intangible": 0,
+          "deferred_asset": 0,
+          "payable": 0,
+          "shortloan": 0,
+          "taxpayable": 0,
+          "otherliability": 0,
+          "longloan": 0,
+          "deferred_liability": 0,
+          "capital": 50,
+          "retained": 0,
+          "nci": 0,
+          "cta": 0
+        },
+        "closing": {
+          "cash": 100,
+          "receivable": 0,
+          "inventory": 0,
+          "prepaid": 0,
+          "investment": 0,
+          "fixed": 0,
+          "intangible": 0,
+          "deferred_asset": 0,
+          "payable": 0,
+          "shortloan": 0,
+          "taxpayable": 0,
+          "otherliability": 0,
+          "longloan": 40,
+          "deferred_liability": 0,
+          "capital": 50,
+          "retained": 10,
+          "nci": 0,
+          "cta": 0
+        },
+        "profit": {
+          "revenue": 50,
+          "cost": 0,
+          "expense": 40,
+          "finance": 0,
+          "tax": 0
+        },
+        "cashflow": {
+          "operating": 10,
+          "investing": 0,
+          "financing": 40,
+          "fx": 0
+        },
+        "monthlyProfit": {
+          "1": {
+            "revenue": 5.56,
+            "cost": 0,
+            "expense": 4.44,
+            "finance": 0,
+            "tax": 0
+          },
+          "2": {
+            "revenue": 5.55,
+            "cost": 0,
+            "expense": 4.45,
+            "finance": 0,
+            "tax": 0
+          },
+          "3": {
+            "revenue": 5.56,
+            "cost": 0,
+            "expense": 4.44,
+            "finance": 0,
+            "tax": 0
+          },
+          "4": {
+            "revenue": 5.55,
+            "cost": 0,
+            "expense": 4.45,
+            "finance": 0,
+            "tax": 0
+          },
+          "5": {
+            "revenue": 5.56,
+            "cost": 0,
+            "expense": 4.44,
+            "finance": 0,
+            "tax": 0
+          },
+          "6": {
+            "revenue": 5.55,
+            "cost": 0,
+            "expense": 4.45,
+            "finance": 0,
+            "tax": 0
+          },
+          "7": {
+            "revenue": 5.56,
+            "cost": 0,
+            "expense": 4.44,
+            "finance": 0,
+            "tax": 0
+          },
+          "8": {
+            "revenue": 5.55,
+            "cost": 0,
+            "expense": 4.45,
+            "finance": 0,
+            "tax": 0
+          },
+          "9": {
+            "revenue": 5.56,
+            "cost": 0,
+            "expense": 4.44,
+            "finance": 0,
+            "tax": 0
+          }
+        },
+        "monthlyCashflow": {
+          "1": {
+            "operating": 1.12,
+            "investing": 0,
+            "financing": 4.44,
+            "fx": 0
+          },
+          "2": {
+            "operating": 1.1,
+            "investing": 0,
+            "financing": 4.45,
+            "fx": 0
+          },
+          "3": {
+            "operating": 1.12,
+            "investing": 0,
+            "financing": 4.44,
+            "fx": 0
+          },
+          "4": {
+            "operating": 1.1,
+            "investing": 0,
+            "financing": 4.45,
+            "fx": 0
+          },
+          "5": {
+            "operating": 1.12,
+            "investing": 0,
+            "financing": 4.44,
+            "fx": 0
+          },
+          "6": {
+            "operating": 1.1,
+            "investing": 0,
+            "financing": 4.45,
+            "fx": 0
+          },
+          "7": {
+            "operating": 1.12,
+            "investing": 0,
+            "financing": 4.44,
+            "fx": 0
+          },
+          "8": {
+            "operating": 1.1,
+            "investing": 0,
+            "financing": 4.45,
+            "fx": 0
+          },
+          "9": {
+            "operating": 1.12,
+            "investing": 0,
+            "financing": 4.44,
+            "fx": 0
+          }
+        },
+        "capitalMovement": 0,
+        "equityHistory": {
+          "capitalByEntity": {
+            "OS_A": 50
+          },
+          "openingRetainedCny": 0,
+          "dividendsByMonth": {}
+        }
+      },
+      "OS_B": {
+        "version": 1,
+        "currency": "USD",
+        "status": "已报送",
+        "sourceName": "系统初始化虚构演示报送",
+        "opening": {
+          "cash": 50,
+          "receivable": 0,
+          "inventory": 0,
+          "prepaid": 0,
+          "investment": 0,
+          "fixed": 0,
+          "intangible": 0,
+          "deferred_asset": 0,
+          "payable": 0,
+          "shortloan": 0,
+          "taxpayable": 0,
+          "otherliability": 0,
+          "longloan": 0,
+          "deferred_liability": 0,
+          "capital": 50,
+          "retained": 0,
+          "nci": 0,
+          "cta": 0
+        },
+        "closing": {
+          "cash": 100,
+          "receivable": 0,
+          "inventory": 0,
+          "prepaid": 0,
+          "investment": 0,
+          "fixed": 0,
+          "intangible": 0,
+          "deferred_asset": 0,
+          "payable": 0,
+          "shortloan": 0,
+          "taxpayable": 0,
+          "otherliability": 0,
+          "longloan": 40,
+          "deferred_liability": 0,
+          "capital": 50,
+          "retained": 10,
+          "nci": 0,
+          "cta": 0
+        },
+        "profit": {
+          "revenue": 50,
+          "cost": 0,
+          "expense": 40,
+          "finance": 0,
+          "tax": 0
+        },
+        "cashflow": {
+          "operating": 10,
+          "investing": 0,
+          "financing": 40,
+          "fx": 0
+        },
+        "monthlyProfit": {
+          "1": {
+            "revenue": 5.56,
+            "cost": 0,
+            "expense": 4.44,
+            "finance": 0,
+            "tax": 0
+          },
+          "2": {
+            "revenue": 5.55,
+            "cost": 0,
+            "expense": 4.45,
+            "finance": 0,
+            "tax": 0
+          },
+          "3": {
+            "revenue": 5.56,
+            "cost": 0,
+            "expense": 4.44,
+            "finance": 0,
+            "tax": 0
+          },
+          "4": {
+            "revenue": 5.55,
+            "cost": 0,
+            "expense": 4.45,
+            "finance": 0,
+            "tax": 0
+          },
+          "5": {
+            "revenue": 5.56,
+            "cost": 0,
+            "expense": 4.44,
+            "finance": 0,
+            "tax": 0
+          },
+          "6": {
+            "revenue": 5.55,
+            "cost": 0,
+            "expense": 4.45,
+            "finance": 0,
+            "tax": 0
+          },
+          "7": {
+            "revenue": 5.56,
+            "cost": 0,
+            "expense": 4.44,
+            "finance": 0,
+            "tax": 0
+          },
+          "8": {
+            "revenue": 5.55,
+            "cost": 0,
+            "expense": 4.45,
+            "finance": 0,
+            "tax": 0
+          },
+          "9": {
+            "revenue": 5.56,
+            "cost": 0,
+            "expense": 4.44,
+            "finance": 0,
+            "tax": 0
+          }
+        },
+        "monthlyCashflow": {
+          "1": {
+            "operating": 1.12,
+            "investing": 0,
+            "financing": 4.44,
+            "fx": 0
+          },
+          "2": {
+            "operating": 1.1,
+            "investing": 0,
+            "financing": 4.45,
+            "fx": 0
+          },
+          "3": {
+            "operating": 1.12,
+            "investing": 0,
+            "financing": 4.44,
+            "fx": 0
+          },
+          "4": {
+            "operating": 1.1,
+            "investing": 0,
+            "financing": 4.45,
+            "fx": 0
+          },
+          "5": {
+            "operating": 1.12,
+            "investing": 0,
+            "financing": 4.44,
+            "fx": 0
+          },
+          "6": {
+            "operating": 1.1,
+            "investing": 0,
+            "financing": 4.45,
+            "fx": 0
+          },
+          "7": {
+            "operating": 1.12,
+            "investing": 0,
+            "financing": 4.44,
+            "fx": 0
+          },
+          "8": {
+            "operating": 1.1,
+            "investing": 0,
+            "financing": 4.45,
+            "fx": 0
+          },
+          "9": {
+            "operating": 1.12,
+            "investing": 0,
+            "financing": 4.44,
+            "fx": 0
+          }
+        },
+        "capitalMovement": 0,
+        "equityHistory": {
+          "capitalByEntity": {
+            "OS_B": 50
+          },
+          "openingRetainedCny": 0,
+          "dividendsByMonth": {}
+        }
+      },
+      "OTHER": {
+        "version": 1,
+        "currency": "CNY",
+        "status": "已报送",
+        "sourceName": "系统初始化虚构演示报送",
+        "opening": {
+          "cash": 100,
+          "receivable": 0,
+          "inventory": 0,
+          "prepaid": 0,
+          "investment": 0,
+          "fixed": 0,
+          "intangible": 0,
+          "deferred_asset": 0,
+          "payable": 0,
+          "shortloan": 0,
+          "taxpayable": 0,
+          "otherliability": 0,
+          "longloan": 0,
+          "deferred_liability": 0,
+          "capital": 100,
+          "retained": 0,
+          "nci": 0,
+          "cta": 0
+        },
+        "closing": {
+          "cash": 280,
+          "receivable": 0,
+          "inventory": 0,
+          "prepaid": 0,
+          "investment": 0,
+          "fixed": 0,
+          "intangible": 0,
+          "deferred_asset": 0,
+          "payable": 0,
+          "shortloan": 0,
+          "taxpayable": 0,
+          "otherliability": 0,
+          "longloan": 0,
+          "deferred_liability": 0,
+          "capital": 100,
+          "retained": 180,
+          "nci": 0,
+          "cta": 0
+        },
+        "profit": {
+          "revenue": 600,
+          "cost": 360,
+          "expense": 60,
+          "finance": 0,
+          "tax": 0
+        },
+        "cashflow": {
+          "operating": 180,
+          "investing": 0,
+          "financing": 0,
+          "fx": 0
+        },
+        "monthlyProfit": {
+          "1": {
+            "revenue": 66.67,
+            "cost": 40,
+            "expense": 6.67,
+            "finance": 0,
+            "tax": 0
+          },
+          "2": {
+            "revenue": 66.66,
+            "cost": 40,
+            "expense": 6.66,
+            "finance": 0,
+            "tax": 0
+          },
+          "3": {
+            "revenue": 66.67,
+            "cost": 40,
+            "expense": 6.67,
+            "finance": 0,
+            "tax": 0
+          },
+          "4": {
+            "revenue": 66.67,
+            "cost": 40,
+            "expense": 6.67,
+            "finance": 0,
+            "tax": 0
+          },
+          "5": {
+            "revenue": 66.66,
+            "cost": 40,
+            "expense": 6.66,
+            "finance": 0,
+            "tax": 0
+          },
+          "6": {
+            "revenue": 66.67,
+            "cost": 40,
+            "expense": 6.67,
+            "finance": 0,
+            "tax": 0
+          },
+          "7": {
+            "revenue": 66.67,
+            "cost": 40,
+            "expense": 6.67,
+            "finance": 0,
+            "tax": 0
+          },
+          "8": {
+            "revenue": 66.66,
+            "cost": 40,
+            "expense": 6.66,
+            "finance": 0,
+            "tax": 0
+          },
+          "9": {
+            "revenue": 66.67,
+            "cost": 40,
+            "expense": 6.67,
+            "finance": 0,
+            "tax": 0
+          }
+        },
+        "monthlyCashflow": {
+          "1": {
+            "operating": 20,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          },
+          "2": {
+            "operating": 20,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          },
+          "3": {
+            "operating": 20,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          },
+          "4": {
+            "operating": 20,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          },
+          "5": {
+            "operating": 20,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          },
+          "6": {
+            "operating": 20,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          },
+          "7": {
+            "operating": 20,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          },
+          "8": {
+            "operating": 20,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          },
+          "9": {
+            "operating": 20,
+            "investing": 0,
+            "financing": 0,
+            "fx": 0
+          }
+        },
+        "capitalMovement": 0,
+        "equityHistory": {
+          "capitalByEntity": {
+            "OTHER": 100
+          },
+          "openingRetainedCny": 0,
+          "dividendsByMonth": {}
+        }
+      }
+    },
+    "rateSnapshots": [
+      {
+        "id": "FX-USD-CNY-2026-09",
+        "month": 9,
+        "version": 1,
+        "sourceCurrency": "USD",
+        "targetCurrency": "CNY",
+        "opening": 6.5,
+        "closing": 7.2,
+        "historicalCapital": 6.5,
+        "averages": {
+          "1": 7,
+          "2": 7,
+          "3": 7,
+          "4": 7,
+          "5": 7,
+          "6": 7,
+          "7": 7,
+          "8": 7,
+          "9": 7
+        },
+        "flowRates": {
+          "1": 7,
+          "2": 7,
+          "3": 7,
+          "4": 7,
+          "5": 7,
+          "6": 7,
+          "7": 7,
+          "8": 7,
+          "9": 7
+        },
+        "status": "已审批",
+        "note": "报价1美元=若干人民币；本年度无资本变动、分红或少数股东。",
+        "active": true
+      }
+    ],
+    "unitSnapshots": [
+      {
+        "id": "HW_GROUP",
+        "name": "鸿旺小合并",
+        "currency": "CNY",
+        "version": 1,
+        "members": [
+          {
+            "type": "entity",
+            "id": "HW"
+          },
+          {
+            "type": "entity",
+            "id": "HW_CAT"
+          },
+          {
+            "type": "entity",
+            "id": "HW_ELEC"
+          }
+        ]
+      },
+      {
+        "id": "OS_GROUP",
+        "name": "海外小合并",
+        "currency": "USD",
+        "version": 1,
+        "members": [
+          {
+            "type": "entity",
+            "id": "OS_A"
+          },
+          {
+            "type": "entity",
+            "id": "OS_B"
+          }
+        ]
+      },
+      {
+        "id": "TY_GROUP",
+        "name": "杭州天元集团合并",
+        "currency": "CNY",
+        "version": 1,
+        "members": [
+          {
+            "type": "entity",
+            "id": "TY"
+          },
+          {
+            "type": "unit",
+            "id": "HW_GROUP"
+          },
+          {
+            "type": "unit",
+            "id": "OS_GROUP"
+          },
+          {
+            "type": "entity",
+            "id": "OTHER"
+          }
+        ]
+      }
+    ],
+    "eliminationSnapshots": [
+      {
+        "id": "HW-SALES-09",
+        "sourceId": "IC-HW-SALES-2026-09",
+        "unitId": "HW_GROUP",
+        "month": 9,
+        "kind": "sales",
+        "status": "已审批",
+        "version": 1,
+        "currency": "CNY",
+        "amount": 100,
+        "sellerId": "HW",
+        "buyerId": "HW_CAT",
+        "title": "鸿旺内部销售抵销",
+        "reason": "虚构已结算内部交易，收入与成本同时抵销，净利润及现金流影响为零。",
+        "effects": {
+          "revenue": -100,
+          "cost": -100
+        },
+        "openingEffects": {},
+        "monthlyAmounts": {
+          "1": 11.11,
+          "2": 11.11,
+          "3": 11.11,
+          "4": 11.11,
+          "5": 11.12,
+          "6": 11.11,
+          "7": 11.11,
+          "8": 11.11,
+          "9": 11.11
+        },
+        "monthlyEffects": {
+          "1": {
+            "revenue": -11.11,
+            "cost": -11.11
+          },
+          "2": {
+            "revenue": -11.11,
+            "cost": -11.11
+          },
+          "3": {
+            "revenue": -11.11,
+            "cost": -11.11
+          },
+          "4": {
+            "revenue": -11.11,
+            "cost": -11.11
+          },
+          "5": {
+            "revenue": -11.12,
+            "cost": -11.12
+          },
+          "6": {
+            "revenue": -11.11,
+            "cost": -11.11
+          },
+          "7": {
+            "revenue": -11.11,
+            "cost": -11.11
+          },
+          "8": {
+            "revenue": -11.11,
+            "cost": -11.11
+          },
+          "9": {
+            "revenue": -11.11,
+            "cost": -11.11
+          }
+        },
+        "seedOrigin": "ML初始化示例"
+      },
+      {
+        "id": "GROUP-SALES-09",
+        "sourceId": "IC-GROUP-SALES-2026-09",
+        "unitId": "TY_GROUP",
+        "month": 9,
+        "kind": "sales",
+        "status": "已审批",
+        "version": 1,
+        "currency": "CNY",
+        "amount": 50,
+        "sellerId": "HW",
+        "buyerId": "OTHER",
+        "title": "集团跨小合并范围销售抵销",
+        "reason": "虚构已结算内部交易，收入与成本同时抵销，净利润及现金流影响为零。",
+        "effects": {
+          "revenue": -50,
+          "cost": -50
+        },
+        "openingEffects": {},
+        "monthlyAmounts": {
+          "1": 5.56,
+          "2": 5.55,
+          "3": 5.56,
+          "4": 5.55,
+          "5": 5.56,
+          "6": 5.55,
+          "7": 5.56,
+          "8": 5.55,
+          "9": 5.56
+        },
+        "monthlyEffects": {
+          "1": {
+            "revenue": -5.56,
+            "cost": -5.56
+          },
+          "2": {
+            "revenue": -5.55,
+            "cost": -5.55
+          },
+          "3": {
+            "revenue": -5.56,
+            "cost": -5.56
+          },
+          "4": {
+            "revenue": -5.55,
+            "cost": -5.55
+          },
+          "5": {
+            "revenue": -5.56,
+            "cost": -5.56
+          },
+          "6": {
+            "revenue": -5.55,
+            "cost": -5.55
+          },
+          "7": {
+            "revenue": -5.56,
+            "cost": -5.56
+          },
+          "8": {
+            "revenue": -5.55,
+            "cost": -5.55
+          },
+          "9": {
+            "revenue": -5.56,
+            "cost": -5.56
+          }
+        },
+        "seedOrigin": "ML初始化示例"
+      },
+      {
+        "id": "GROUP-INVESTMENT-09",
+        "sourceId": "INVESTMENT-TY-2026-09",
+        "unitId": "TY_GROUP",
+        "month": 9,
+        "kind": "investment",
+        "status": "已审批",
+        "version": 1,
+        "currency": "CNY",
+        "amount": 950,
+        "title": "天元本部对子公司投资与期初资本抵销",
+        "reason": "真实持股按天元100%示例。管理归属不产生鸿旺对子公司的虚构投资；950=境内资本300+海外历史资本650。",
+        "effects": {
+          "investment": -950,
+          "capital": -950
+        },
+        "openingEffects": {
+          "investment": -950,
+          "capital": -950
+        },
+        "investmentPairs": [
+          {
+            "parentId": "TY",
+            "childId": "HW",
+            "investment": 100,
+            "capital": 100,
+            "currency": "CNY"
+          },
+          {
+            "parentId": "TY",
+            "childId": "HW_CAT",
+            "investment": 50,
+            "capital": 50,
+            "currency": "CNY"
+          },
+          {
+            "parentId": "TY",
+            "childId": "HW_ELEC",
+            "investment": 50,
+            "capital": 50,
+            "currency": "CNY"
+          },
+          {
+            "parentId": "TY",
+            "childId": "OTHER",
+            "investment": 100,
+            "capital": 100,
+            "currency": "CNY"
+          },
+          {
+            "parentId": "TY",
+            "childId": "OS_A",
+            "investment": 325,
+            "capital": 50,
+            "currency": "USD"
+          },
+          {
+            "parentId": "TY",
+            "childId": "OS_B",
+            "investment": 325,
+            "capital": 50,
+            "currency": "USD"
+          }
+        ]
+      }
+    ],
+    "ownershipSnapshot": [
+      {
+        "parent": "TY",
+        "child": "HW",
+        "percent": 100,
+        "method": "全额合并",
+        "effectiveFrom": "2026-01-01"
+      },
+      {
+        "parent": "TY",
+        "child": "HW_CAT",
+        "percent": 100,
+        "method": "全额合并",
+        "effectiveFrom": "2026-01-01"
+      },
+      {
+        "parent": "TY",
+        "child": "HW_ELEC",
+        "percent": 100,
+        "method": "全额合并",
+        "effectiveFrom": "2026-01-01"
+      },
+      {
+        "parent": "TY",
+        "child": "OTHER",
+        "percent": 100,
+        "method": "全额合并",
+        "effectiveFrom": "2026-01-01"
+      },
+      {
+        "parent": "TY",
+        "child": "OS_A",
+        "percent": 100,
+        "method": "全额合并",
+        "effectiveFrom": "2026-01-01"
+      },
+      {
+        "parent": "TY",
+        "child": "OS_B",
+        "percent": 100,
+        "method": "全额合并",
+        "effectiveFrom": "2026-01-01"
+      }
+    ],
+    "sourceInfo": {
+      "product": "SelfDevelopedEPM-ERP-Demo",
+      "schemaVersion": 3,
+      "engineVersion": "ERP-20261021",
+      "modelPolicyVersion": "ERP-20261021",
+      "codeDigest": "864b737570585f502eedb20d4f5a412c1b69278bab410b6baa8b996b9db0389d"
+    },
+    "id": "RES-TY_GROUP-202609-V2",
+    "version": 2,
+    "createdAt": "2026-10-21T02:52:23+00:00",
+    "origin": "用户计算",
+    "approvalStatus": "已签核",
+    "approvedAt": "2026-10-21T02:52:24+00:00",
+    "approvedBy": "集团财务负责人",
+    "inputFingerprint": "b011a25ade1962b2d1052097285faf31d668a5094b4510bcb913f31da060786a",
+    "snapshotHash": "d9c435cc9e523252fcea6c7c7754e217c47a1dfc089adb2938fd2662fb7d1fd6",
+    "valid": true,
+    "staleReason": "",
+    "resultVersion": 2,
+    "status": "已签核"
+  }
+}

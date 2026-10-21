@@ -1,0 +1,224 @@
+{
+  "executionEnvironment": "Wine 64-bit compatibility environment on Linux",
+  "candidate": false,
+  "softwareBaseline": "ERP-20261021",
+  "physicalWindowsTested": false,
+  "realNativeExeExecuted": true,
+  "bundledWindowsPythonExecuted": true,
+  "unicodeAndSpacePath": true,
+  "oldSoftwareOrOldDataModified": false,
+  "externalPythonInstallRequired": false,
+  "dockerWslVmUsed": false,
+  "checks": [
+    "Native EXE → private Windows Python → Windows HTTP + SQLite + static UI",
+    "Duplicate native launch reuses verified process without a second backend",
+    "Wrong random process identity is rejected; no PID-only reuse",
+    "Old product health identity is rejected even with valid PID creation and random identity",
+    "Windows native API reopens both subgroups, calculates/signs HW CNY and OS USD, and consolidates/signs group CNY from exact child result versions",
+    "Root revenue 2650, net 770, CTA 74 and cash FX 90 reconcile; seven unique leaf entities and unique inherited eliminations",
+    "Reopen preserves prior approved report values while marking historical results invalid and dependent ancestors stale",
+    "NC6.5 48-column Windows import retains 0.01 yuan as 0.000001 wan; book currency and local debit/credit override transaction and group amount columns",
+    "One-sided internal NC transaction becomes a traceable difference with original voucher line and source row, without balancing plug",
+    "Windows saves auditable reference annotations on both NC rows while preserving original NC fields, account, date, local debit/credit and batch/source-line identity",
+    "Windows generates seven complete entity statements, matches sales and AR/AP, generates and approves sourced drafts once, and signs subgroup then group results",
+    "Signed group report drills to frozen original voucher rows; cancelled penny batch is preserved as history and excluded from reported source",
+    "Windows backend saves budget edit independently of signed financial results through authenticated API",
+    "Page-style session + CSRF safe shutdown exits native process and preserves healthy SQLite",
+    "Native EXE restart preserves budget, all calculation versions, signoff, immutable historical values and revision; rotates local credentials",
+    "Native CLI safe stop works; stopped status is accurate",
+    "No-argument double-click GUI branch runs private pythonw.exe with isolated default app-data path",
+    "Fresh default data directory never reads or modifies either previous product directory",
+    "Explicit old-format private database fixture is rejected before DB/WAL mutation; no automatic migration",
+    "Original released ZIP, native EXE, launcher source and private Python input retain their exact baseline SHA256"
+  ],
+  "exeSha256": "2fb20e6055aa0da148611f15c3dc06a9e4c23021b2b7bff5e5591514aa043fd7",
+  "launcherPySha256": "8cfda89fa687d31583ec81d958e5358a3d81d42d42f7dde991bed39d7cfb5016",
+  "backendSha256": "a670ab6b1830c756f969b89d2a6439c416b144eec59c6fed939a5d1460455f91",
+  "backendSourceHashes": {
+    "consolidation.py": "fc6f2df87fd7feb9c47b6d873bffd33fac032951ed87cdf8382f93cb36460dcf",
+    "engine.py": "7648cba8a69c3ff57781bd91bf5592b0baefd9ffcc9497481b33d8b07642c0e5",
+    "erp_domain.py": "561e4338f94a48aa702b2d4bb6f91ec687b21c725f03dfdfadc18dd06866314f",
+    "finance.py": "31e1fd61f35dc8d68fecb10d0209fd108237e2aded2efa80b2970fbed2019114",
+    "ledger.py": "c6b72fae0754d89782e5c950f4d6b73fa3c9286409732004ef5e770824ccef0e",
+    "ledger_seed.py": "13cc623ea2811bf6a9a45b4f393ed2038d4fa06452079f9b397a29224d45b351",
+    "legacy_engine.py": "ecc9fc84cb156183dc2f6b56e25c8ec2409441577b3830c8d107701261d9230f",
+    "multilevel_domain.py": "fef196c4dfadb66efc2a485dd30bcdb117242e282a79bb38f61ffdf90dc3eb80",
+    "multilevel_seed.py": "425b810becb6e56cb8f579c5ce5f03cad29e2a9dd194f902ec3de5be0e8c12db",
+    "server.py": "a670ab6b1830c756f969b89d2a6439c416b144eec59c6fed939a5d1460455f91",
+    "store.py": "621f5d7624979d53272b95243054113cecabe3b5911866f0a7530fbb61c00fe8",
+    "test_consolidation.py": "bdff9a77433cfb505c2417528f4308d675ae76d68b813864968cc4fa23298c9e",
+    "test_erp_calculation.py": "4c981585feb5daea9d788f743c4c25365263a35a92267dbefeaa7f79e3d626b9",
+    "test_erp_domain.py": "fe702fab6984552ef4f41824bc36c68cac75a8ace7e17ab2bc85fb36eaa73efb",
+    "test_ledger.py": "3a73ec23d1c12c609522261e436ba9a6d96494ce0873a460189ebb6853a45f3c",
+    "test_multilevel_domain.py": "a55dc707e8ec7a6b164991890331fb98433248806bb0d8d044b9e6364a066016",
+    "test_multilevel_http.py": "e24a174f0cd9baebf671fbae23cd84d8fb52f7764212a186697d8c2b7b85eacd"
+  },
+  "runtimeAssetHashes": {
+    "research-erp/NC65-HEADERS.json": "50d7a87ef059325be3cec01aae8a1f679310b479d09d22b163dc799a693738a3",
+    "research-erp/NC65-HEADERS.md": "cae1bf264a2fae981d8afd68ad806103ba4a9b9dcee012d74810266f3a8822e0"
+  },
+  "productSourceHashes": {
+    "backend/API-CONTRACT.md": "1f95a4e81a18f090d43253e975876f0311792365c1ad43ef631531b607a51b07",
+    "backend/CALCULATION-CONTRACT.md": "0d4efe1dad6b0252ff0db1e2bc8322b5b24a7e938cf63155f43a293b1b010259",
+    "backend/LEDGER-CONTRACT.md": "2dcb5fbcff887043b3baf780f114b7a008709631bd8cfc77480a65f2b113ef84",
+    "backend/README.md": "4337570f937e6d596e4e22884f1948614f44e8ad8c67767145967d1544b6caef",
+    "backend/consolidation.py": "fc6f2df87fd7feb9c47b6d873bffd33fac032951ed87cdf8382f93cb36460dcf",
+    "backend/engine.py": "7648cba8a69c3ff57781bd91bf5592b0baefd9ffcc9497481b33d8b07642c0e5",
+    "backend/erp_domain.py": "561e4338f94a48aa702b2d4bb6f91ec687b21c725f03dfdfadc18dd06866314f",
+    "backend/examples/试算余额_2026年09月_示例.csv": "2bba7694bf0f00c19acda175eaef98e2e51e2d837029e92e871d90976f4aeab4",
+    "backend/examples/试算余额_空白模板.csv": "d31044c7f41ec56722455eea2974d13caf844051d6fe9d55adb46e0d12de88a9",
+    "backend/finance.py": "31e1fd61f35dc8d68fecb10d0209fd108237e2aded2efa80b2970fbed2019114",
+    "backend/ledger.py": "c6b72fae0754d89782e5c950f4d6b73fa3c9286409732004ef5e770824ccef0e",
+    "backend/ledger_seed.py": "13cc623ea2811bf6a9a45b4f393ed2038d4fa06452079f9b397a29224d45b351",
+    "backend/legacy_engine.py": "ecc9fc84cb156183dc2f6b56e25c8ec2409441577b3830c8d107701261d9230f",
+    "backend/legacy_tests/README.md": "8d8ed722f6fab00eea71bdc8bceda4461e782a0046d5d26505e108107e801d4a",
+    "backend/legacy_tests/test_legacy_engine_reference.py": "c6db97baeb76694f0b82e2db15462a24372a9c4e33b0005704eef74557c3b4fa",
+    "backend/legacy_tests/test_legacy_finance_reference.py": "8d4b8fd261bf99d9732c5b9a164263bec5b2aff1ca0e6900f73ddb18da949d25",
+    "backend/multilevel_domain.py": "fef196c4dfadb66efc2a485dd30bcdb117242e282a79bb38f61ffdf90dc3eb80",
+    "backend/multilevel_seed.py": "425b810becb6e56cb8f579c5ce5f03cad29e2a9dd194f902ec3de5be0e8c12db",
+    "backend/server.py": "a670ab6b1830c756f969b89d2a6439c416b144eec59c6fed939a5d1460455f91",
+    "backend/store.py": "621f5d7624979d53272b95243054113cecabe3b5911866f0a7530fbb61c00fe8",
+    "backend/test_consolidation.py": "bdff9a77433cfb505c2417528f4308d675ae76d68b813864968cc4fa23298c9e",
+    "backend/test_erp_calculation.py": "4c981585feb5daea9d788f743c4c25365263a35a92267dbefeaa7f79e3d626b9",
+    "backend/test_erp_domain.py": "fe702fab6984552ef4f41824bc36c68cac75a8ace7e17ab2bc85fb36eaa73efb",
+    "backend/test_ledger.py": "3a73ec23d1c12c609522261e436ba9a6d96494ce0873a460189ebb6853a45f3c",
+    "backend/test_multilevel_domain.py": "a55dc707e8ec7a6b164991890331fb98433248806bb0d8d044b9e6364a066016",
+    "backend/test_multilevel_http.py": "e24a174f0cd9baebf671fbae23cd84d8fb52f7764212a186697d8c2b7b85eacd",
+    "build_windows.py": "89530418bb63e0e0af7ba48c18fd71d6a8b23b01065724bd445668493e2ece8a",
+    "frontend/dist/index.html": "5c9d9424b600239aec1652d59a043538032cc35a5d449d103a73f33ab0a5d15b",
+    "frontend/src/app.js": "7ec83702526f0801b1c7cd104c47dc0cfb8827aced7ac895293d660857a5c85f",
+    "frontend/src/budget.js": "fe8f17e1973c2611397a7c4986b1931da18edf27985aa98be7a935f946f80a36",
+    "frontend/src/erp-actions.js": "66aa00066098567ec032eec7b61506f1503963e2fef7fa7c518ba5d468c0f7c2",
+    "frontend/src/erp-pages.js": "189ede07bc4a5f9ab4e27d53495dabd2e0297f182e3af4109e32e2257c19d215",
+    "frontend/src/ml-actions.js": "0e4513083b3769045218dd563e2f2c165902adeda27495077d5262f5e63a3ffd",
+    "frontend/src/ml-pages.js": "cf47acd6495f13a3118c6581448715f3bfaaa56bd8e17fcbfef7c4afbb972c30",
+    "frontend/src/shell.html": "238cde93179cee1a2affdda1ed76779471559f19f920a73b46338671ef476388",
+    "frontend/src/style.css": "b058a720e03c8ed1746ac5b6a61da1a01984349914cd906afb67885c73cc48b2",
+    "frontend-build.py": "0ba1bb5e922e97035e531bacb5315fdb5ffded22786e7a38d1a7df4a78986252",
+    "package_windows.py": "6cd3af8cd5703c1b85c1ebf38ac90696edc9ae2042dd2592c87db76dae37eea7",
+    "research-erp/NC65-HEADERS.json": "50d7a87ef059325be3cec01aae8a1f679310b479d09d22b163dc799a693738a3",
+    "research-erp/NC65-HEADERS.md": "cae1bf264a2fae981d8afd68ad806103ba4a9b9dcee012d74810266f3a8822e0",
+    "windows/app/demo_launcher.py": "8cfda89fa687d31583ec81d958e5358a3d81d42d42f7dde991bed39d7cfb5016",
+    "windows/launcher.c": "5ff84aec79f1751d0512be0ab3535d0dd95fb0a9bb295636453478260ede7b95",
+    "windows/test_windows_integration.py": "595b312dfd48aee0c2cae1267d7aefc0a134692c94fcceca4fd5bc038b626d4b"
+  },
+  "frontendIndexSha256": "5c9d9424b600239aec1652d59a043538032cc35a5d449d103a73f33ab0a5d15b",
+  "previousVersionUnchangedBefore": {
+    "previousV1SoftwareZip": {
+      "path": "/workspace/epm-demo/dist/TianyuanEPMDemo-Windows-x64.zip",
+      "bytes": 16473129,
+      "sha256": "55d6ebe5318055dce47aa03638dff357f2ec46b86e61240b0f3d1541383f5519"
+    },
+    "previousV1Exe": {
+      "path": "/workspace/epm-demo/dist/TianyuanEPMDemo/天元EPM Demo.exe",
+      "bytes": 180736,
+      "sha256": "8820253bbcbb1d99b82054f10b62089e5be79237625e4fd700c9d479cea25abc"
+    },
+    "previousMLSoftwareZip": {
+      "path": "/workspace/epm-demo-multilevel/dist/TianyuanEPM-Multilevel-Demo-Windows-x64.zip",
+      "bytes": 18902004,
+      "sha256": "d91c3ffceb030081bf58fe88d1beb03b4e9e2495cbfccf068a2e3ef6d0bc22cc"
+    },
+    "previousMLExe": {
+      "path": "/workspace/epm-demo-multilevel/dist/TianyuanEPMGroupDemo/天元EPM 多层合并Demo.exe",
+      "bytes": 180736,
+      "sha256": "e546e6e1c52975fd177f1203bdba2c3fe6b820f4a9e7815f971d1b71030e9338"
+    },
+    "previousMLLauncher": {
+      "path": "/workspace/epm-demo-multilevel/windows/app/demo_launcher.py",
+      "bytes": 14425,
+      "sha256": "d5eb079b953c066e5eb0717c61a38b1fe811c4f6b928a880f107bd3703542f2a"
+    },
+    "privatePythonExecutable": {
+      "path": "/workspace/epm-no-docker/python/python.exe",
+      "bytes": 104952,
+      "sha256": "4d6f5f81a4bca11191c4c7c6b43632694d0a4ce74e068619d8fdc161d469859a"
+    }
+  },
+  "runtimeProbe": {
+    "os": "nt",
+    "platform": "win32",
+    "pythonVersion": "3.12.10",
+    "sqliteVersion": "3.49.1",
+    "pointerBits": 64,
+    "windowsVersion": [
+      6,
+      2,
+      9200,
+      2,
+      ""
+    ],
+    "windowsPlatformVersion": [
+      10,
+      0,
+      18362
+    ]
+  },
+  "goldenResult": {
+    "unitId": "TY_GROUP",
+    "version": 3,
+    "revenue": 2650,
+    "net": 770,
+    "cta": 74,
+    "cashFx": 90,
+    "leafCount": 7,
+    "eliminationCount": 3
+  },
+  "erpVoucherFlow": {
+    "passed": true,
+    "ncHeaderColumns": 48,
+    "sampleVoucherRows": 396,
+    "separateEntityReports": 7,
+    "pennyAmountYuan": "0.01",
+    "generatedWanRevenue": "1000.000001",
+    "transactionCurrency": "USD",
+    "bookFunctionalCurrency": "CNY",
+    "usedLocalCurrencyInsteadOfOriginalOrGroupAmounts": true,
+    "oneSidedDifferenceTraceRows": 2,
+    "differenceNotAutomaticallyBalanced": true,
+    "annotationActionExecuted": "erp_voucher_annotations_save",
+    "annotatedRows": 2,
+    "annotationPreservedOriginalNCFieldsAndAmounts": true,
+    "generatedDraftsByScope": {
+      "HW_GROUP": 18,
+      "TY_GROUP": 9
+    },
+    "repeatGenerationDidNotDuplicate": true,
+    "approvedResultId": "RES-TY_GROUP-202609-V3",
+    "reportSourceVoucherTraceRows": 27
+  },
+  "previousVersionUnchangedAfter": {
+    "previousV1SoftwareZip": {
+      "path": "/workspace/epm-demo/dist/TianyuanEPMDemo-Windows-x64.zip",
+      "bytes": 16473129,
+      "sha256": "55d6ebe5318055dce47aa03638dff357f2ec46b86e61240b0f3d1541383f5519"
+    },
+    "previousV1Exe": {
+      "path": "/workspace/epm-demo/dist/TianyuanEPMDemo/天元EPM Demo.exe",
+      "bytes": 180736,
+      "sha256": "8820253bbcbb1d99b82054f10b62089e5be79237625e4fd700c9d479cea25abc"
+    },
+    "previousMLSoftwareZip": {
+      "path": "/workspace/epm-demo-multilevel/dist/TianyuanEPM-Multilevel-Demo-Windows-x64.zip",
+      "bytes": 18902004,
+      "sha256": "d91c3ffceb030081bf58fe88d1beb03b4e9e2495cbfccf068a2e3ef6d0bc22cc"
+    },
+    "previousMLExe": {
+      "path": "/workspace/epm-demo-multilevel/dist/TianyuanEPMGroupDemo/天元EPM 多层合并Demo.exe",
+      "bytes": 180736,
+      "sha256": "e546e6e1c52975fd177f1203bdba2c3fe6b820f4a9e7815f971d1b71030e9338"
+    },
+    "previousMLLauncher": {
+      "path": "/workspace/epm-demo-multilevel/windows/app/demo_launcher.py",
+      "bytes": 14425,
+      "sha256": "d5eb079b953c066e5eb0717c61a38b1fe811c4f6b928a880f107bd3703542f2a"
+    },
+    "privatePythonExecutable": {
+      "path": "/workspace/epm-no-docker/python/python.exe",
+      "bytes": 104952,
+      "sha256": "4d6f5f81a4bca11191c4c7c6b43632694d0a4ce74e068619d8fdc161d469859a"
+    }
+  },
+  "sourceUnchangedDuringRun": true,
+  "passed": true
+}

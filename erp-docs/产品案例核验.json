@@ -1,0 +1,198 @@
+{
+  "softwareBaseline": "ERP-20261021",
+  "documentVersion": "D1.0",
+  "verifiedAtUtc": "2026-10-21T02:51:59.665560+00:00",
+  "verificationMethod": "真实本机HTTP服务，逐案例新私有临时账套；非导入计算函数替代API。",
+  "sourceUnchangedDuringRun": true,
+  "sourceSha256": {
+    "backend/API-CONTRACT.md": "1f95a4e81a18f090d43253e975876f0311792365c1ad43ef631531b607a51b07",
+    "backend/CALCULATION-CONTRACT.md": "0d4efe1dad6b0252ff0db1e2bc8322b5b24a7e938cf63155f43a293b1b010259",
+    "backend/LEDGER-CONTRACT.md": "2dcb5fbcff887043b3baf780f114b7a008709631bd8cfc77480a65f2b113ef84",
+    "backend/consolidation.py": "fc6f2df87fd7feb9c47b6d873bffd33fac032951ed87cdf8382f93cb36460dcf",
+    "backend/engine.py": "7648cba8a69c3ff57781bd91bf5592b0baefd9ffcc9497481b33d8b07642c0e5",
+    "backend/erp_domain.py": "561e4338f94a48aa702b2d4bb6f91ec687b21c725f03dfdfadc18dd06866314f",
+    "backend/finance.py": "31e1fd61f35dc8d68fecb10d0209fd108237e2aded2efa80b2970fbed2019114",
+    "backend/ledger.py": "c6b72fae0754d89782e5c950f4d6b73fa3c9286409732004ef5e770824ccef0e",
+    "backend/ledger_seed.py": "13cc623ea2811bf6a9a45b4f393ed2038d4fa06452079f9b397a29224d45b351",
+    "backend/legacy_engine.py": "ecc9fc84cb156183dc2f6b56e25c8ec2409441577b3830c8d107701261d9230f",
+    "backend/multilevel_domain.py": "fef196c4dfadb66efc2a485dd30bcdb117242e282a79bb38f61ffdf90dc3eb80",
+    "backend/multilevel_seed.py": "425b810becb6e56cb8f579c5ce5f03cad29e2a9dd194f902ec3de5be0e8c12db",
+    "backend/server.py": "a670ab6b1830c756f969b89d2a6439c416b144eec59c6fed939a5d1460455f91",
+    "backend/store.py": "621f5d7624979d53272b95243054113cecabe3b5911866f0a7530fbb61c00fe8",
+    "backend/test_consolidation.py": "bdff9a77433cfb505c2417528f4308d675ae76d68b813864968cc4fa23298c9e",
+    "backend/test_erp_calculation.py": "4c981585feb5daea9d788f743c4c25365263a35a92267dbefeaa7f79e3d626b9",
+    "backend/test_erp_domain.py": "fe702fab6984552ef4f41824bc36c68cac75a8ace7e17ab2bc85fb36eaa73efb",
+    "backend/test_ledger.py": "3a73ec23d1c12c609522261e436ba9a6d96494ce0873a460189ebb6853a45f3c",
+    "backend/test_multilevel_domain.py": "a55dc707e8ec7a6b164991890331fb98433248806bb0d8d044b9e6364a066016",
+    "backend/test_multilevel_http.py": "e24a174f0cd9baebf671fbae23cd84d8fb52f7764212a186697d8c2b7b85eacd",
+    "build_windows.py": "89530418bb63e0e0af7ba48c18fd71d6a8b23b01065724bd445668493e2ece8a",
+    "frontend/dist/index.html": "5c9d9424b600239aec1652d59a043538032cc35a5d449d103a73f33ab0a5d15b",
+    "frontend/src/app.js": "7ec83702526f0801b1c7cd104c47dc0cfb8827aced7ac895293d660857a5c85f",
+    "frontend/src/budget.js": "fe8f17e1973c2611397a7c4986b1931da18edf27985aa98be7a935f946f80a36",
+    "frontend/src/erp-actions.js": "66aa00066098567ec032eec7b61506f1503963e2fef7fa7c518ba5d468c0f7c2",
+    "frontend/src/erp-pages.js": "189ede07bc4a5f9ab4e27d53495dabd2e0297f182e3af4109e32e2257c19d215",
+    "frontend/src/ml-actions.js": "0e4513083b3769045218dd563e2f2c165902adeda27495077d5262f5e63a3ffd",
+    "frontend/src/ml-pages.js": "cf47acd6495f13a3118c6581448715f3bfaaa56bd8e17fcbfef7c4afbb972c30",
+    "frontend/src/shell.html": "238cde93179cee1a2affdda1ed76779471559f19f920a73b46338671ef476388",
+    "frontend/src/style.css": "b058a720e03c8ed1746ac5b6a61da1a01984349914cd906afb67885c73cc48b2",
+    "frontend-build.py": "0ba1bb5e922e97035e531bacb5315fdb5ffded22786e7a38d1a7df4a78986252",
+    "package_windows.py": "6cd3af8cd5703c1b85c1ebf38ac90696edc9ae2042dd2592c87db76dae37eea7",
+    "windows/app/demo_launcher.py": "8cfda89fa687d31583ec81d958e5358a3d81d42d42f7dde991bed39d7cfb5016",
+    "windows/launcher.c": "5ff84aec79f1751d0512be0ab3535d0dd95fb0a9bb295636453478260ede7b95"
+  },
+  "cases": [
+    {
+      "case": "P01 初始三层",
+      "passed": true,
+      "actual": {
+        "集团收入": 2650,
+        "集团净利": 770,
+        "集团资产": 2370,
+        "鸿旺收入": 1400,
+        "海外美元收入": 100,
+        "海外美元净利": 20,
+        "集团CTA": 74,
+        "集团现金汇率影响": 90
+      }
+    },
+    {
+      "case": "P02 境内源收入+10",
+      "passed": true,
+      "actual": {
+        "源收入及现金增加": 10,
+        "鸿旺收入": 1410,
+        "集团收入": 2660,
+        "集团利润": 780,
+        "不相关海外结果保持": true
+      }
+    },
+    {
+      "case": "P03 期末汇率7.3",
+      "passed": true,
+      "actual": {
+        "只改期末汇率": "7.2→7.3",
+        "集团利润不变": 770,
+        "海外利润不变": 140,
+        "CTA": 86,
+        "现金汇率影响": 110,
+        "原结果CTA保持": 74,
+        "海外USD结果保持": true
+      }
+    },
+    {
+      "case": "P04 美元完整CSV销售+1",
+      "passed": true,
+      "actual": {
+        "USD完整六列CSV真实改数": 1,
+        "海外USD收入": 101,
+        "海外USD净利": 21,
+        "集团CNY收入": 2657,
+        "集团CNY净利": 777,
+        "集团CTA": 74.2,
+        "集团现金汇率影响": 90.2,
+        "三表校验全部通过": true
+      }
+    },
+    {
+      "case": "P05 鸿旺停用100并新建110抵销",
+      "passed": true,
+      "actual": {
+        "操作路径": "当前UI已有按钮：停用旧100→以新sourceId保存110草稿→审批→逐层计算签核",
+        "旧事项保留已停用": true,
+        "新的月度明细合计": 110.0,
+        "草稿阻止计算": true,
+        "鸿旺收入": 1390,
+        "集团收入": 2640,
+        "集团净利": 770,
+        "原集团历史报表保持": true,
+        "旧抵销不再纳入": true,
+        "新抵销仅纳入一次": true
+      }
+    },
+    {
+      "case": "P06 动态OTHER小合并与完整重启",
+      "passed": true,
+      "actual": {
+        "新增真实合并节点及成员上卷": true,
+        "整个服务进程重启": true,
+        "结果版本保留": true,
+        "配置保留": true,
+        "预算金额及锁定保留": true
+      }
+    },
+    {
+      "case": "P07 预算量价分摊明细审批调整与滚动",
+      "passed": true,
+      "actual": {
+        "原年度目标": 4000,
+        "首次董事会层调整后": 4100,
+        "销量": 1000,
+        "单价": 4.2,
+        "量价后目标": 4200,
+        "量价后董事会层": 300,
+        "业务预算数量": 20,
+        "业务预算单价": 3,
+        "独立明细金额": 60,
+        "错误金额61被拒且revision不变": true,
+        "锁定预算禁止直接修改": true,
+        "调整增量": 120,
+        "独立批准版本": "V4 调整批准",
+        "独立批准后年度目标": 4320,
+        "原版本年度目标保持": 4200,
+        "滚动预测复制年度目标": 4200,
+        "财务实际收入仍为": 2650,
+        "注": "业务明细不自动联动成本比较基准，不形成生产指令。"
+      }
+    },
+    {
+      "case": "P08 范围币种防混用",
+      "passed": true,
+      "actual": {
+        "海外小合并": {
+          "币种": "USD",
+          "收入": 100,
+          "不与集团人民币预算比较": true
+        },
+        "错传CNY被服务端拒绝": true,
+        "鸿旺人民币范围亦不与集团范围直接比较": true,
+        "集团人民币允许预实比较": true
+      }
+    },
+    {
+      "case": "P09 权限CSV请求与revision",
+      "passed": true,
+      "actual": {
+        "完整源CSV实际导入": true,
+        "错误批次整批零写入": true,
+        "审计只读接口拒绝": true,
+        "未登录CSRF跨站拒绝": true,
+        "过期revision拒绝": true
+      }
+    },
+    {
+      "case": "P10 下级前置与历史版本",
+      "passed": true,
+      "actual": {
+        "失效下级禁止上卷": true,
+        "拒绝动作零写入": true,
+        "海外不相关结果保持": true,
+        "新子结果被根引用": true,
+        "历史金额保持": true
+      }
+    },
+    {
+      "case": "P11 树错误原子拒绝",
+      "passed": true,
+      "actual": {
+        "重复叶子循环未知重复成员拒绝数": 4,
+        "配置保持原值": true
+      }
+    }
+  ],
+  "passed": true,
+  "notes": [
+    "没有修改产品运行源码、原有验收报告或既有数据库；P01—P11在本次ERP最终基线上重新执行。",
+    "新执行的11组为产品文档案例HTTP复核；不声称新增Windows真机验证。",
+    "记录只含虚构业务金额、源文件哈希和结论，不保存token/Cookie/数据库路径。"
+  ]
+}

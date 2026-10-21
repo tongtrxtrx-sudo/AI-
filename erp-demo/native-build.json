@@ -1,0 +1,16 @@
+{
+  "compiler": "Zig 0.14.1",
+  "compilerPython": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+  "privatePythonSource": "/workspace/epm-no-docker/python",
+  "target": "Windows x64",
+  "subsystem": "GUI",
+  "unicode": true,
+  "entry": "wWinMain",
+  "bundledInterpreter": "python/pythonw.exe",
+  "isolationFlag": "-I",
+  "exeBytes": 180736,
+  "exeSha256": "2fb20e6055aa0da148611f15c3dc06a9e4c23021b2b7bff5e5591514aa043fd7",
+  "launcherSourceSha256": "5ff84aec79f1751d0512be0ab3535d0dd95fb0a9bb295636453478260ede7b95",
+  "authenticodeSigned": false,
+  "physicalWindowsTested": false
+}

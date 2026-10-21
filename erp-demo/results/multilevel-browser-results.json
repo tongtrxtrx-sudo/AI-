@@ -1,0 +1,161 @@
+{
+  "passed": true,
+  "caseCount": 8,
+  "generatedUtc": "2026-10-21T02:52:54.445705+00:00",
+  "environment": {
+    "python": "3.12.14",
+    "os": "Linux",
+    "architecture": "x86_64",
+    "privateFreshTemporaryDataDirectories": true
+  },
+  "sourceUnchangedDuringRun": true,
+  "sourceSha256": {
+    "backend/API-CONTRACT.md": "1f95a4e81a18f090d43253e975876f0311792365c1ad43ef631531b607a51b07",
+    "backend/CALCULATION-CONTRACT.md": "0d4efe1dad6b0252ff0db1e2bc8322b5b24a7e938cf63155f43a293b1b010259",
+    "backend/LEDGER-CONTRACT.md": "2dcb5fbcff887043b3baf780f114b7a008709631bd8cfc77480a65f2b113ef84",
+    "backend/consolidation.py": "fc6f2df87fd7feb9c47b6d873bffd33fac032951ed87cdf8382f93cb36460dcf",
+    "backend/engine.py": "7648cba8a69c3ff57781bd91bf5592b0baefd9ffcc9497481b33d8b07642c0e5",
+    "backend/erp_domain.py": "561e4338f94a48aa702b2d4bb6f91ec687b21c725f03dfdfadc18dd06866314f",
+    "backend/finance.py": "31e1fd61f35dc8d68fecb10d0209fd108237e2aded2efa80b2970fbed2019114",
+    "backend/ledger.py": "c6b72fae0754d89782e5c950f4d6b73fa3c9286409732004ef5e770824ccef0e",
+    "backend/ledger_seed.py": "13cc623ea2811bf6a9a45b4f393ed2038d4fa06452079f9b397a29224d45b351",
+    "backend/legacy_engine.py": "ecc9fc84cb156183dc2f6b56e25c8ec2409441577b3830c8d107701261d9230f",
+    "backend/multilevel_domain.py": "fef196c4dfadb66efc2a485dd30bcdb117242e282a79bb38f61ffdf90dc3eb80",
+    "backend/multilevel_seed.py": "425b810becb6e56cb8f579c5ce5f03cad29e2a9dd194f902ec3de5be0e8c12db",
+    "backend/server.py": "a670ab6b1830c756f969b89d2a6439c416b144eec59c6fed939a5d1460455f91",
+    "backend/store.py": "621f5d7624979d53272b95243054113cecabe3b5911866f0a7530fbb61c00fe8",
+    "backend/test_consolidation.py": "bdff9a77433cfb505c2417528f4308d675ae76d68b813864968cc4fa23298c9e",
+    "backend/test_erp_calculation.py": "4c981585feb5daea9d788f743c4c25365263a35a92267dbefeaa7f79e3d626b9",
+    "backend/test_erp_domain.py": "fe702fab6984552ef4f41824bc36c68cac75a8ace7e17ab2bc85fb36eaa73efb",
+    "backend/test_ledger.py": "3a73ec23d1c12c609522261e436ba9a6d96494ce0873a460189ebb6853a45f3c",
+    "backend/test_multilevel_domain.py": "a55dc707e8ec7a6b164991890331fb98433248806bb0d8d044b9e6364a066016",
+    "backend/test_multilevel_http.py": "e24a174f0cd9baebf671fbae23cd84d8fb52f7764212a186697d8c2b7b85eacd",
+    "build_windows.py": "89530418bb63e0e0af7ba48c18fd71d6a8b23b01065724bd445668493e2ece8a",
+    "frontend/dist/index.html": "5c9d9424b600239aec1652d59a043538032cc35a5d449d103a73f33ab0a5d15b",
+    "frontend/src/app.js": "7ec83702526f0801b1c7cd104c47dc0cfb8827aced7ac895293d660857a5c85f",
+    "frontend/src/budget.js": "fe8f17e1973c2611397a7c4986b1931da18edf27985aa98be7a935f946f80a36",
+    "frontend/src/erp-actions.js": "66aa00066098567ec032eec7b61506f1503963e2fef7fa7c518ba5d468c0f7c2",
+    "frontend/src/erp-pages.js": "189ede07bc4a5f9ab4e27d53495dabd2e0297f182e3af4109e32e2257c19d215",
+    "frontend/src/ml-actions.js": "0e4513083b3769045218dd563e2f2c165902adeda27495077d5262f5e63a3ffd",
+    "frontend/src/ml-pages.js": "cf47acd6495f13a3118c6581448715f3bfaaa56bd8e17fcbfef7c4afbb972c30",
+    "frontend/src/shell.html": "238cde93179cee1a2affdda1ed76779471559f19f920a73b46338671ef476388",
+    "frontend/src/style.css": "b058a720e03c8ed1746ac5b6a61da1a01984349914cd906afb67885c73cc48b2",
+    "frontend-build.py": "0ba1bb5e922e97035e531bacb5315fdb5ffded22786e7a38d1a7df4a78986252",
+    "package_windows.py": "6cd3af8cd5703c1b85c1ebf38ac90696edc9ae2042dd2592c87db76dae37eea7",
+    "windows/app/demo_launcher.py": "8cfda89fa687d31583ec81d958e5358a3d81d42d42f7dde991bed39d7cfb5016",
+    "windows/launcher.c": "5ff84aec79f1751d0512be0ab3535d0dd95fb0a9bb295636453478260ede7b95"
+  },
+  "acceptanceHarnessSha256": {
+    "support.py": "cb453ba48f328278a43d08bd169d640d1709a7da3d859f0c2b4dbfde56b41fe8",
+    "生成最终验收报告.py": "c1dbfc42cf27a2f63dc768a3edc6bd556a1252bd3d7274a1918a264b9bfae42e",
+    "run_multilevel_api.py": "38e3783643a446df4114e67771afe45947c48baf1705695775fc45b6eb64bf1c",
+    "nc65_fixtures.py": "5415d57b917e7bac8bb611db7b68ee58d780e1861de5aa6a39a80a56cebc03ed",
+    "run_erp_browser.py": "9ee2077a41eb6bdf4dc63fd182703ccae2c18f836ff6907f51b5e8e813cba443",
+    "run_erp_api.py": "b7f00a41e38de3d4a120751f9d59d7cabab10cbf33e961dee1359b636ee4ca2e",
+    "run_multilevel_browser.py": "31ee020acfeee461dae7b49038a460951389623414f5b9ac5274731a691446be"
+  },
+  "cases": [
+    {
+      "case": "B01 真实HTTP入口与24项中文菜单",
+      "passed": true,
+      "evidence": {
+        "导航标题": [
+          "集团经营总览",
+          "集团组织与持股",
+          "科目与维度",
+          "ERP凭证与期初",
+          "法人凭证与三表",
+          "内部交易匹配与差异",
+          "数据接入",
+          "财务三表报送",
+          "集团分类汇率",
+          "分级合并与结果",
+          "持股与企业合并",
+          "内部往来核对",
+          "抵销与调整凭证",
+          "关账校验与签核",
+          "集团三张报表",
+          "预算周期与审批",
+          "预算编制与分摊",
+          "预算调整与滚动预测",
+          "版本与多情景",
+          "经营差异与钻取",
+          "管理报表中心",
+          "组织权限与角色",
+          "审计轨迹",
+          "系统配置"
+        ],
+        "集团收入": 2650
+      }
+    },
+    {
+      "case": "B02 UI重开、平衡改数、下级签核和集团上卷",
+      "passed": true,
+      "evidence": {
+        "鸿旺收入": 1410,
+        "集团收入": 2660,
+        "集团净利": 780,
+        "历史版本数": 2
+      }
+    },
+    {
+      "case": "B03 子结果、法人、抵销与汇率钻取及真实下载",
+      "passed": true,
+      "evidence": {
+        "导出当前结果ID": "RES-TY_GROUP-202609-V2",
+        "海外原币收入": 100,
+        "继承抵销可见": true
+      }
+    },
+    {
+      "case": "B04 UI发布7.3并重开重算签核",
+      "passed": true,
+      "evidence": {
+        "期末率": 7.3,
+        "海外折算利润保持": 140,
+        "CTA": 86,
+        "现金汇率影响": 110,
+        "原快照CTA": 74
+      }
+    },
+    {
+      "case": "B05 UI上传真实六列CSV文件，坏批次零写入后成功导入",
+      "passed": true,
+      "evidence": {
+        "不平衡拒绝": true,
+        "拒绝后revision不变": true,
+        "完整源行数": 126,
+        "文件导入已保存": true
+      }
+    },
+    {
+      "case": "B06 原币显示、UI重叠拒绝及新节点保存",
+      "passed": true,
+      "evidence": {
+        "海外收入": 100,
+        "原币": "USD",
+        "重叠叶子拒绝": true,
+        "新单元已保存": "BROWSER_SCOPE"
+      }
+    },
+    {
+      "case": "B07 UI预算审批锁定和独立调整",
+      "passed": true,
+      "evidence": {
+        "原版": "V2 年度目标",
+        "新版本": "V3 调整批准"
+      }
+    },
+    {
+      "case": "B08 UI环境位置、安全退出及整个服务重启",
+      "passed": true,
+      "evidence": {
+        "真实目录已核对": true,
+        "安全退出响应": 200,
+        "新节点预算与源报送保留": true
+      }
+    }
+  ],
+  "consoleErrors": [],
+  "browser": "Chromium / real HTTP / 1600x1000 / zh-CN"
+}
