@@ -2,7 +2,7 @@
 
 软件 **FOUNDATION-20261028** · 完整中文文档 **D1.0** · 2026年10月28日。
 
-**[下载新版空框架EXE运行包，约50MB](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/foundation-20261028/TianyuanEPM-Foundation-Demo-Windows-x64.zip)** · **[下载31页从零图文指南Word](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/foundation-20261028/EPM-Foundation-From-Zero-Guide-CN.docx)** · **[下载完整四册＋专项指南＋模板，约20MB](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/foundation-20261028/TianyuanEPM-Foundation-Docs-CN-D1.0.zip)**
+**[下载新版空框架EXE运行包，约50MB](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/TianyuanEPM-Foundation-Demo-Windows-x64.zip)** · **[下载31页从零图文指南Word](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/EPM-Foundation-From-Zero-Guide-CN.docx)** · **[下载完整四册＋专项指南＋模板，约20MB](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/TianyuanEPM-Foundation-Docs-CN-D1.0.zip)**
 
 完整解压运行ZIP，双击 **天元EPM 从零配置Demo.exe**。适用Windows 10/11 64位；私有运行环境已附带，无需用户安装Python、Docker、WSL或虚拟机，不用邮箱登录。新目录`%LOCALAPPDATA%\TianyuanEPMFoundationDemo`，原版本和数据保留。
 
@@ -27,11 +27,11 @@ Foundation正式合并须每个叶子具备当前ERP来源、余额核对、匹�
 
 |文档|Word|PDF|
 |---|---|---|
-|从零建档到凭证合并，31页／23张实机图|[下载](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/foundation-20261028/EPM-Foundation-From-Zero-Guide-CN.docx)|[查看](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/foundation-20261028/EPM-Foundation-From-Zero-Guide-CN.pdf)|
-|PRD含字段附录，76页|[下载](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/foundation-20261028/EPM-Foundation-PRD-CN.docx)|[查看](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/foundation-20261028/EPM-Foundation-PRD-CN.pdf)|
-|系统研发与交互说明，14页|[下载](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/foundation-20261028/EPM-Foundation-System-CN.docx)|[查看](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/foundation-20261028/EPM-Foundation-System-CN.pdf)|
-|产品说明及案例，16页|[下载](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/foundation-20261028/EPM-Foundation-Product-CN.docx)|[查看](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/foundation-20261028/EPM-Foundation-Product-CN.pdf)|
-|全模块用户手册，18页|[下载](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/foundation-20261028/EPM-Foundation-User-Manual-CN.docx)|[查看](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/foundation-20261028/EPM-Foundation-User-Manual-CN.pdf)|
+|从零建档到凭证合并，31页／23张实机图|[下载](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/EPM-Foundation-From-Zero-Guide-CN.docx)|[查看](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/EPM-Foundation-From-Zero-Guide-CN.pdf)|
+|PRD含字段附录，76页|[下载](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/EPM-Foundation-PRD-CN.docx)|[查看](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/EPM-Foundation-PRD-CN.pdf)|
+|系统研发与交互说明，14页|[下载](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/EPM-Foundation-System-CN.docx)|[查看](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/EPM-Foundation-System-CN.pdf)|
+|产品说明及案例，16页|[下载](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/EPM-Foundation-Product-CN.docx)|[查看](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/EPM-Foundation-Product-CN.pdf)|
+|全模块用户手册，18页|[下载](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/EPM-Foundation-User-Manual-CN.docx)|[查看](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/EPM-Foundation-User-Manual-CN.pdf)|
 
 四册覆盖24模块，另有专项31页逐步指南，总155页。运行包`docs`也包含这5份Word和5份PDF。`templates`含5类可导入空白／已填Excel、4份基础档案页面准备表、对应CSV及NC配置参照；页面准备表按页面照填，不冒充有Excel导入按钮。NC与通用凭证同一业务二选一。
 
@@ -51,4 +51,4 @@ HW向CAT已结销售40，向ELEC未结20及AR/AP20，共3项准确匹配。鸿�
 
 NC当前为CSV/XLSX文件导入，企业在线接口未配置，不写回NC。当前为2026、100%全资全额、CNY/USD普通主体的本机研发Demo，复杂权益／商誉／少数股东／未实现存货利润／生产身份等不冒称已完成。角色切换不是企业生产登录。
 
-结束通过本机环境安全退出；备份前停止服务并复制整个数据目录。旧／未知schema数据库拒绝改写。每次软件升级完整交付四册的约定保留，master不修改，只更新已授权下载分支。公开HTTPS下载记录将写入public-download-verification.json。
+结束通过本机环境安全退出；备份前停止服务并复制整个数据目录。旧／未知schema数据库拒绝改写。每次软件升级完整交付四册的约定保留，master不修改，只更新已授权下载分支。公开HTTPS已实际下载38个文件，逐字节、SHA256及真实Office/ZIP结构全部核验通过，见[公开下载验证](public-download-verification.json)。

@@ -1,0 +1,371 @@
+{
+  "passed": true,
+  "verifiedUtc": "2026-10-28T11:09:28.201821+00:00",
+  "artifactCommit": "c0608919821f47686371476e2a80fbaef5955fa1",
+  "softwareBaseline": "FOUNDATION-20261028",
+  "branch": "epm-download-20261019",
+  "masterUnchanged": true,
+  "masterCommit": "5581c0997311578ac42c5a8c136fdad60e98efcc",
+  "previousSoftwarePreserved": true,
+  "method": "实际匿名HTTPS GET下载运行ZIP、完整文档ZIP、5Word/5PDF、正常模板和独立异常练习资料，逐字节/SHA256/ZIPCRC/真实OfficeXML检查。",
+  "files": [
+    {
+      "file": "foundation-20261028/TianyuanEPM-Foundation-Demo-Windows-x64.zip",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/TianyuanEPM-Foundation-Demo-Windows-x64.zip",
+      "httpStatus": 200,
+      "bytes": 50065207,
+      "sha256": "480eadaacdef059cb2ba5b404f8a5c14fe81634c9cd8b6b5a2a90a5a936a69d6",
+      "matchesLocalArtifact": true,
+      "zipCrcPassed": true
+    },
+    {
+      "file": "foundation-20261028/TianyuanEPM-Foundation-Docs-CN-D1.0.zip",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/TianyuanEPM-Foundation-Docs-CN-D1.0.zip",
+      "httpStatus": 200,
+      "bytes": 20083051,
+      "sha256": "64b0c17802ca65ab0a29a18bc1d8ba8f84750518e3df66284a28931e2ebeb12e",
+      "matchesLocalArtifact": true,
+      "zipCrcPassed": true
+    },
+    {
+      "file": "foundation-20261028/EPM-Foundation-From-Zero-Guide-CN.docx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/EPM-Foundation-From-Zero-Guide-CN.docx",
+      "httpStatus": 200,
+      "bytes": 4911821,
+      "sha256": "d4a5ae8d354c02075318132fd0070eeac30e08e08341eeaff7bba54220ae96e1",
+      "matchesLocalArtifact": true,
+      "zipCrcPassed": true,
+      "trueWordXml": true
+    },
+    {
+      "file": "foundation-20261028/EPM-Foundation-PRD-CN.docx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/EPM-Foundation-PRD-CN.docx",
+      "httpStatus": 200,
+      "bytes": 164732,
+      "sha256": "baa2165a04a99caa3e43eb379966243d1059b2de3aafe1670a974a4a7b32c8b7",
+      "matchesLocalArtifact": true,
+      "zipCrcPassed": true,
+      "trueWordXml": true
+    },
+    {
+      "file": "foundation-20261028/EPM-Foundation-Product-CN.docx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/EPM-Foundation-Product-CN.docx",
+      "httpStatus": 200,
+      "bytes": 911832,
+      "sha256": "e641d5be07b539a57c8aaa83d36484f985c691117275b4504aadc65cce39f1dd",
+      "matchesLocalArtifact": true,
+      "zipCrcPassed": true,
+      "trueWordXml": true
+    },
+    {
+      "file": "foundation-20261028/EPM-Foundation-System-CN.docx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/EPM-Foundation-System-CN.docx",
+      "httpStatus": 200,
+      "bytes": 198946,
+      "sha256": "de7b3000cf08bb62d0f3d269b2ac99699b469afbd23c0720d52cf283ba0d817c",
+      "matchesLocalArtifact": true,
+      "zipCrcPassed": true,
+      "trueWordXml": true
+    },
+    {
+      "file": "foundation-20261028/EPM-Foundation-User-Manual-CN.docx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/EPM-Foundation-User-Manual-CN.docx",
+      "httpStatus": 200,
+      "bytes": 865041,
+      "sha256": "0aa7773e059f0a309c2f2f7850f90dc8afc2402d1e0ec0fb048f24e0852f0fdb",
+      "matchesLocalArtifact": true,
+      "zipCrcPassed": true,
+      "trueWordXml": true
+    },
+    {
+      "file": "foundation-20261028/EPM-Foundation-From-Zero-Guide-CN.pdf",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/EPM-Foundation-From-Zero-Guide-CN.pdf",
+      "httpStatus": 200,
+      "bytes": 3629366,
+      "sha256": "ae2bb1fd5be57f598a1639579df8d9c7d06a193bd978367e1a3b067c1807780d",
+      "matchesLocalArtifact": true,
+      "pdfHeaderPassed": true
+    },
+    {
+      "file": "foundation-20261028/EPM-Foundation-PRD-CN.pdf",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/EPM-Foundation-PRD-CN.pdf",
+      "httpStatus": 200,
+      "bytes": 3157068,
+      "sha256": "a67734f76c5423651378a3e0e65679b4ed8c59d66d6f69f72b6802dcc3ae90e4",
+      "matchesLocalArtifact": true,
+      "pdfHeaderPassed": true
+    },
+    {
+      "file": "foundation-20261028/EPM-Foundation-Product-CN.pdf",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/EPM-Foundation-Product-CN.pdf",
+      "httpStatus": 200,
+      "bytes": 1093154,
+      "sha256": "2666ef80a722e1730e6ea0f1e682910e037c7b70c2fd835f165091044e18c372",
+      "matchesLocalArtifact": true,
+      "pdfHeaderPassed": true
+    },
+    {
+      "file": "foundation-20261028/EPM-Foundation-System-CN.pdf",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/EPM-Foundation-System-CN.pdf",
+      "httpStatus": 200,
+      "bytes": 679230,
+      "sha256": "8ffc4de0abf26abf8554041874c5edb05837325b36254e542e0414c74cc8e6a4",
+      "matchesLocalArtifact": true,
+      "pdfHeaderPassed": true
+    },
+    {
+      "file": "foundation-20261028/EPM-Foundation-User-Manual-CN.pdf",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/EPM-Foundation-User-Manual-CN.pdf",
+      "httpStatus": 200,
+      "bytes": 1150359,
+      "sha256": "4789396e455023d9e33878114c91d8afb4d5b6eb6155ffd52ddba19df7d44730",
+      "matchesLocalArtifact": true,
+      "pdfHeaderPassed": true
+    },
+    {
+      "file": "foundation-20261028/templates/06_法人持股合并范围_页面准备表.xlsx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/templates/06_%E6%B3%95%E4%BA%BA%E6%8C%81%E8%82%A1%E5%90%88%E5%B9%B6%E8%8C%83%E5%9B%B4_%E9%A1%B5%E9%9D%A2%E5%87%86%E5%A4%87%E8%A1%A8.xlsx",
+      "httpStatus": 200,
+      "bytes": 10699,
+      "sha256": "21917a65deef2a32ec33d028823d27836298f7725f0eea37b48b749335990e5e",
+      "matchesLocalArtifact": true,
+      "zipCrcPassed": true,
+      "trueExcelXml": true
+    },
+    {
+      "file": "foundation-20261028/templates/07_NC账簿客商_页面准备表.xlsx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/templates/07_NC%E8%B4%A6%E7%B0%BF%E5%AE%A2%E5%95%86_%E9%A1%B5%E9%9D%A2%E5%87%86%E5%A4%87%E8%A1%A8.xlsx",
+      "httpStatus": 200,
+      "bytes": 9077,
+      "sha256": "d81f3622fff9be9bd3883586a6596b3b87c79f068ab974de964191e0446f1211",
+      "matchesLocalArtifact": true,
+      "zipCrcPassed": true,
+      "trueExcelXml": true
+    },
+    {
+      "file": "foundation-20261028/templates/08_异常修复核对_页面准备表.xlsx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/templates/08_%E5%BC%82%E5%B8%B8%E4%BF%AE%E5%A4%8D%E6%A0%B8%E5%AF%B9_%E9%A1%B5%E9%9D%A2%E5%87%86%E5%A4%87%E8%A1%A8.xlsx",
+      "httpStatus": 200,
+      "bytes": 9398,
+      "sha256": "ac28a6f2e72cfcdce82d838cdfaa8c01e52131ef89c6bd4faf3762e44f46ccd7",
+      "matchesLocalArtifact": true,
+      "zipCrcPassed": true,
+      "trueExcelXml": true
+    },
+    {
+      "file": "foundation-20261028/templates/09_集团投资权益抵销_页面准备表.xlsx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/templates/09_%E9%9B%86%E5%9B%A2%E6%8A%95%E8%B5%84%E6%9D%83%E7%9B%8A%E6%8A%B5%E9%94%80_%E9%A1%B5%E9%9D%A2%E5%87%86%E5%A4%87%E8%A1%A8.xlsx",
+      "httpStatus": 200,
+      "bytes": 8473,
+      "sha256": "18cb8020638cb4ef55054f975d1361fe78442f6105ff3eeffac510c5f555a3e3",
+      "matchesLocalArtifact": true,
+      "zipCrcPassed": true,
+      "trueExcelXml": true
+    },
+    {
+      "file": "foundation-20261028/templates/资料文件与入口清单.json",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/templates/%E8%B5%84%E6%96%99%E6%96%87%E4%BB%B6%E4%B8%8E%E5%85%A5%E5%8F%A3%E6%B8%85%E5%8D%95.json",
+      "httpStatus": 200,
+      "bytes": 9696,
+      "sha256": "244f5b223aca9d3d0446d0cf16f3863f18ca3e4d27f8e62dfe5ec0f6f78fe9c6",
+      "matchesLocalArtifact": true,
+      "jsonParsed": true
+    },
+    {
+      "file": "foundation-20261028/templates/空白模板/01_法人科目映射_空白模板.xlsx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/templates/%E7%A9%BA%E7%99%BD%E6%A8%A1%E6%9D%BF/01_%E6%B3%95%E4%BA%BA%E7%A7%91%E7%9B%AE%E6%98%A0%E5%B0%84_%E7%A9%BA%E7%99%BD%E6%A8%A1%E6%9D%BF.xlsx",
+      "httpStatus": 200,
+      "bytes": 18216,
+      "sha256": "9a978b194574c8c18d6e3e1b5305505f8ffcf9f42de82a2d7a5600d9a5933484",
+      "matchesLocalArtifact": true,
+      "zipCrcPassed": true,
+      "trueExcelXml": true
+    },
+    {
+      "file": "foundation-20261028/templates/空白模板/02_年初科目余额_空白模板.xlsx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/templates/%E7%A9%BA%E7%99%BD%E6%A8%A1%E6%9D%BF/02_%E5%B9%B4%E5%88%9D%E7%A7%91%E7%9B%AE%E4%BD%99%E9%A2%9D_%E7%A9%BA%E7%99%BD%E6%A8%A1%E6%9D%BF.xlsx",
+      "httpStatus": 200,
+      "bytes": 21989,
+      "sha256": "317773be45c851d2d51f4115e4e6065e384e0bfa34045ab00c1774fc6abff1e9",
+      "matchesLocalArtifact": true,
+      "zipCrcPassed": true,
+      "trueExcelXml": true
+    },
+    {
+      "file": "foundation-20261028/templates/空白模板/03_NC65财务凭证_空白模板.xlsx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/templates/%E7%A9%BA%E7%99%BD%E6%A8%A1%E6%9D%BF/03_NC65%E8%B4%A2%E5%8A%A1%E5%87%AD%E8%AF%81_%E7%A9%BA%E7%99%BD%E6%A8%A1%E6%9D%BF.xlsx",
+      "httpStatus": 200,
+      "bytes": 64742,
+      "sha256": "2a820e19c395bd74e34156c5aec9ba435002873a8b30a6bdf1ab81bc0dbacfeb",
+      "matchesLocalArtifact": true,
+      "zipCrcPassed": true,
+      "trueExcelXml": true
+    },
+    {
+      "file": "foundation-20261028/templates/空白模板/04_通用凭证_空白模板.xlsx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/templates/%E7%A9%BA%E7%99%BD%E6%A8%A1%E6%9D%BF/04_%E9%80%9A%E7%94%A8%E5%87%AD%E8%AF%81_%E7%A9%BA%E7%99%BD%E6%A8%A1%E6%9D%BF.xlsx",
+      "httpStatus": 200,
+      "bytes": 28678,
+      "sha256": "10653bafd0c83328b7dc8ded7aafe81aa9a0d03b2658e99bd8ba36f7688d97cd",
+      "matchesLocalArtifact": true,
+      "zipCrcPassed": true,
+      "trueExcelXml": true
+    },
+    {
+      "file": "foundation-20261028/templates/空白模板/05_六月科目余额核对表_空白模板.xlsx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/templates/%E7%A9%BA%E7%99%BD%E6%A8%A1%E6%9D%BF/05_%E5%85%AD%E6%9C%88%E7%A7%91%E7%9B%AE%E4%BD%99%E9%A2%9D%E6%A0%B8%E5%AF%B9%E8%A1%A8_%E7%A9%BA%E7%99%BD%E6%A8%A1%E6%9D%BF.xlsx",
+      "httpStatus": 200,
+      "bytes": 22869,
+      "sha256": "7e7579a1e2be59ddd91ecbe6c4ff10b89cc331ab32a5d13f675a625954b4bd8b",
+      "matchesLocalArtifact": true,
+      "zipCrcPassed": true,
+      "trueExcelXml": true
+    },
+    {
+      "file": "foundation-20261028/templates/已填示例/01_法人科目映射_已填示例.xlsx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/templates/%E5%B7%B2%E5%A1%AB%E7%A4%BA%E4%BE%8B/01_%E6%B3%95%E4%BA%BA%E7%A7%91%E7%9B%AE%E6%98%A0%E5%B0%84_%E5%B7%B2%E5%A1%AB%E7%A4%BA%E4%BE%8B.xlsx",
+      "httpStatus": 200,
+      "bytes": 12970,
+      "sha256": "e6ed4ab5ede8490a033fe3692f2c7fe431a368276668a3b8e9999ad3f518a507",
+      "matchesLocalArtifact": true,
+      "zipCrcPassed": true,
+      "trueExcelXml": true
+    },
+    {
+      "file": "foundation-20261028/templates/已填示例/02_年初科目余额_已填示例.xlsx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/templates/%E5%B7%B2%E5%A1%AB%E7%A4%BA%E4%BE%8B/02_%E5%B9%B4%E5%88%9D%E7%A7%91%E7%9B%AE%E4%BD%99%E9%A2%9D_%E5%B7%B2%E5%A1%AB%E7%A4%BA%E4%BE%8B.xlsx",
+      "httpStatus": 200,
+      "bytes": 12097,
+      "sha256": "d659acaaeeabaca114aaf696dd55b316798fe50b6e49c1b02551bc8f6d64f9f5",
+      "matchesLocalArtifact": true,
+      "zipCrcPassed": true,
+      "trueExcelXml": true
+    },
+    {
+      "file": "foundation-20261028/templates/已填示例/03_NC65财务凭证_已填示例.xlsx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/templates/%E5%B7%B2%E5%A1%AB%E7%A4%BA%E4%BE%8B/03_NC65%E8%B4%A2%E5%8A%A1%E5%87%AD%E8%AF%81_%E5%B7%B2%E5%A1%AB%E7%A4%BA%E4%BE%8B.xlsx",
+      "httpStatus": 200,
+      "bytes": 20561,
+      "sha256": "502148c66004aea08d5ac53570a4341fbbeb36040502b2ec16b4228dba210654",
+      "matchesLocalArtifact": true,
+      "zipCrcPassed": true,
+      "trueExcelXml": true
+    },
+    {
+      "file": "foundation-20261028/templates/已填示例/04_通用凭证_已填示例_与NC二选一.xlsx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/templates/%E5%B7%B2%E5%A1%AB%E7%A4%BA%E4%BE%8B/04_%E9%80%9A%E7%94%A8%E5%87%AD%E8%AF%81_%E5%B7%B2%E5%A1%AB%E7%A4%BA%E4%BE%8B_%E4%B8%8ENC%E4%BA%8C%E9%80%89%E4%B8%80.xlsx",
+      "httpStatus": 200,
+      "bytes": 14793,
+      "sha256": "faf217862b11849bb685d8710e791a765a4473cf4c03779f7a996f1ecf754043",
+      "matchesLocalArtifact": true,
+      "zipCrcPassed": true,
+      "trueExcelXml": true
+    },
+    {
+      "file": "foundation-20261028/templates/已填示例/05_六月科目余额核对表_已填示例.xlsx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/templates/%E5%B7%B2%E5%A1%AB%E7%A4%BA%E4%BE%8B/05_%E5%85%AD%E6%9C%88%E7%A7%91%E7%9B%AE%E4%BD%99%E9%A2%9D%E6%A0%B8%E5%AF%B9%E8%A1%A8_%E5%B7%B2%E5%A1%AB%E7%A4%BA%E4%BE%8B.xlsx",
+      "httpStatus": 200,
+      "bytes": 13603,
+      "sha256": "d7c31406013898f435b56925071b4932610764823c84e7c8ad602f00799415a6",
+      "matchesLocalArtifact": true,
+      "zipCrcPassed": true,
+      "trueExcelXml": true
+    },
+    {
+      "file": "foundation-20261028/templates/已填示例/NC适配配置_仅页面照填.json",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/templates/%E5%B7%B2%E5%A1%AB%E7%A4%BA%E4%BE%8B/NC%E9%80%82%E9%85%8D%E9%85%8D%E7%BD%AE_%E4%BB%85%E9%A1%B5%E9%9D%A2%E7%85%A7%E5%A1%AB.json",
+      "httpStatus": 200,
+      "bytes": 1144,
+      "sha256": "1380566af11fb40ba5b50e5db8890b10f83bf9dd432ba240edf4a7cdc066cd2b",
+      "matchesLocalArtifact": true,
+      "jsonParsed": true
+    },
+    {
+      "file": "foundation-20261028/templates/CSV示例/01_法人科目映射_已填示例.csv",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/templates/CSV%E7%A4%BA%E4%BE%8B/01_%E6%B3%95%E4%BA%BA%E7%A7%91%E7%9B%AE%E6%98%A0%E5%B0%84_%E5%B7%B2%E5%A1%AB%E7%A4%BA%E4%BE%8B.csv",
+      "httpStatus": 200,
+      "bytes": 1884,
+      "sha256": "bfbf9ac481b9e4db7380ab1fffb5ccc6e89e444b587a09f99421262cbee8368a",
+      "matchesLocalArtifact": true
+    },
+    {
+      "file": "foundation-20261028/templates/CSV示例/02_年初科目余额_已填示例.csv",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/templates/CSV%E7%A4%BA%E4%BE%8B/02_%E5%B9%B4%E5%88%9D%E7%A7%91%E7%9B%AE%E4%BD%99%E9%A2%9D_%E5%B7%B2%E5%A1%AB%E7%A4%BA%E4%BE%8B.csv",
+      "httpStatus": 200,
+      "bytes": 484,
+      "sha256": "edc762153c5ecd09dca68055991a80d88b9b042ed0ab0e6d55c66820b9ebcc5c",
+      "matchesLocalArtifact": true
+    },
+    {
+      "file": "foundation-20261028/templates/CSV示例/03_NC65财务凭证_已填示例.csv",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/templates/CSV%E7%A4%BA%E4%BE%8B/03_NC65%E8%B4%A2%E5%8A%A1%E5%87%AD%E8%AF%81_%E5%B7%B2%E5%A1%AB%E7%A4%BA%E4%BE%8B.csv",
+      "httpStatus": 200,
+      "bytes": 6555,
+      "sha256": "a6a6a3658ac5a216ce4ea04e6ecdee641ab6a41abab1aa5d8f72737685dedc5a",
+      "matchesLocalArtifact": true
+    },
+    {
+      "file": "foundation-20261028/templates/CSV示例/04_通用凭证_已填示例.csv",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/templates/CSV%E7%A4%BA%E4%BE%8B/04_%E9%80%9A%E7%94%A8%E5%87%AD%E8%AF%81_%E5%B7%B2%E5%A1%AB%E7%A4%BA%E4%BE%8B.csv",
+      "httpStatus": 200,
+      "bytes": 3239,
+      "sha256": "3ab91313f0ae68afcfe0eed19598c45e92ba4528a93d847a0dd45b027d063e7a",
+      "matchesLocalArtifact": true
+    },
+    {
+      "file": "foundation-20261028/templates/CSV示例/05_六月科目余额核对表_已填示例.csv",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/templates/CSV%E7%A4%BA%E4%BE%8B/05_%E5%85%AD%E6%9C%88%E7%A7%91%E7%9B%AE%E4%BD%99%E9%A2%9D%E6%A0%B8%E5%AF%B9%E8%A1%A8_%E5%B7%B2%E5%A1%AB%E7%A4%BA%E4%BE%8B.csv",
+      "httpStatus": 200,
+      "bytes": 2928,
+      "sha256": "d57715f3657b0810d39220751e8f1b0eb0438479b6a32d7dd5933f15574cf682",
+      "matchesLocalArtifact": true
+    },
+    {
+      "file": "foundation-20261028/异常演示数据/03_NC65_内部40与39_仅异常演示.xlsx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/%E5%BC%82%E5%B8%B8%E6%BC%94%E7%A4%BA%E6%95%B0%E6%8D%AE/03_NC65_%E5%86%85%E9%83%A840%E4%B8%8E39_%E4%BB%85%E5%BC%82%E5%B8%B8%E6%BC%94%E7%A4%BA.xlsx",
+      "httpStatus": 200,
+      "bytes": 10148,
+      "sha256": "5f4831576c6f55d8e7661c2dbd02316fdac5ebb0521584e884a3913ee3fc53ea",
+      "matchesLocalArtifact": true,
+      "zipCrcPassed": true,
+      "trueExcelXml": true
+    },
+    {
+      "file": "foundation-20261028/异常演示数据/05_余额表_与39错账相符_仅异常演示.xlsx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/%E5%BC%82%E5%B8%B8%E6%BC%94%E7%A4%BA%E6%95%B0%E6%8D%AE/05_%E4%BD%99%E9%A2%9D%E8%A1%A8_%E4%B8%8E39%E9%94%99%E8%B4%A6%E7%9B%B8%E7%AC%A6_%E4%BB%85%E5%BC%82%E5%B8%B8%E6%BC%94%E7%A4%BA.xlsx",
+      "httpStatus": 200,
+      "bytes": 6848,
+      "sha256": "177674568386c18731a3d333fd2dce1e05aaf608cf72f8bb7a5adffa4d6f6dba",
+      "matchesLocalArtifact": true,
+      "zipCrcPassed": true,
+      "trueExcelXml": true
+    },
+    {
+      "file": "foundation-20261028/异常演示数据/05_余额表_多一分_仅异常演示.xlsx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/%E5%BC%82%E5%B8%B8%E6%BC%94%E7%A4%BA%E6%95%B0%E6%8D%AE/05_%E4%BD%99%E9%A2%9D%E8%A1%A8_%E5%A4%9A%E4%B8%80%E5%88%86_%E4%BB%85%E5%BC%82%E5%B8%B8%E6%BC%94%E7%A4%BA.xlsx",
+      "httpStatus": 200,
+      "bytes": 6850,
+      "sha256": "040c0d583fd3ef6e32afb0e20ff870e9f03cb1d78fb736eea439255f92a28803",
+      "matchesLocalArtifact": true,
+      "zipCrcPassed": true,
+      "trueExcelXml": true
+    },
+    {
+      "file": "foundation-20261028/异常演示数据/先读我_仅异常演示.md",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/%E5%BC%82%E5%B8%B8%E6%BC%94%E7%A4%BA%E6%95%B0%E6%8D%AE/%E5%85%88%E8%AF%BB%E6%88%91_%E4%BB%85%E5%BC%82%E5%B8%B8%E6%BC%94%E7%A4%BA.md",
+      "httpStatus": 200,
+      "bytes": 631,
+      "sha256": "0100beac7525485652cd11ad0cd41ab82c2a6f162234b98772449f65b586f679",
+      "matchesLocalArtifact": true
+    },
+    {
+      "file": "foundation-20261028/异常演示数据/异常文件清单.json",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/c0608919821f47686371476e2a80fbaef5955fa1/foundation-20261028/%E5%BC%82%E5%B8%B8%E6%BC%94%E7%A4%BA%E6%95%B0%E6%8D%AE/%E5%BC%82%E5%B8%B8%E6%96%87%E4%BB%B6%E6%B8%85%E5%8D%95.json",
+      "httpStatus": 200,
+      "bytes": 1304,
+      "sha256": "befb6194c35bae073953b8749ada47cbada7e5acf1f4376240023d58b297f9a7",
+      "matchesLocalArtifact": true,
+      "jsonParsed": true
+    }
+  ]
+}
