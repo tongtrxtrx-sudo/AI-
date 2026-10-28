@@ -1,73 +1,58 @@
-# 杭州天元宠物用品有限公司 · NC6.5凭证与集团EPM Demo
+# 杭州天元宠物用品有限公司 · 从零配置与凭证合并版
 
-软件基线 **ERP-20261021** · 完整中文文档 **D1.0** · 发布日期2026-10-21。
+软件 **FOUNDATION-20261028** · 完整中文文档 **D1.0** · 2026年10月28日。
 
-**[下载新版Windows EXE运行包（约38.0MB）](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/b06cb10451c81bb537acf4913d332943fcd00c5b/TianyuanEPM-ERP-Demo-Windows-x64.zip)** · **[下载全模块中文Word/PDF文档包](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/b06cb10451c81bb537acf4913d332943fcd00c5b/TianyuanEPM-ERP-20261021-Full-Docs-CN-D1.0.zip)**
+**[下载新版空框架EXE运行包，约50MB](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/foundation-20261028/TianyuanEPM-Foundation-Demo-Windows-x64.zip)** · **[下载31页从零图文指南Word](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/foundation-20261028/EPM-Foundation-From-Zero-Guide-CN.docx)** · **[下载完整四册＋专项指南＋模板，约20MB](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/foundation-20261028/TianyuanEPM-Foundation-Docs-CN-D1.0.zip)**
 
-完整解压运行ZIP，双击 **天元EPM 凭证合并Demo.exe**。适用Windows 10/11 64位，附带运行环境，无需另行安装Python、Docker、WSL或虚拟机，不需要邮箱登录。请使用新EXE打开的地址，旧18480/Frappe页面不属于此新版Demo。不要只取EXE或在压缩包预览内运行。
+完整解压运行ZIP，双击 **天元EPM 从零配置Demo.exe**。适用Windows 10/11 64位；私有运行环境已附带，无需用户安装Python、Docker、WSL或虚拟机，不用邮箱登录。新目录`%LOCALAPPDATA%\TianyuanEPMFoundationDemo`，原版本和数据保留。
 
-![本版中文NC工作台](erp-demo/screenshots/02-NC65凭证与期初工作台.png)
+首次只有框架：没有法人、持股、科目、期初、凭证、余额报表、抵销、合并结果或预算业务样例。空TY_GROUP只是导航容器，不能空算或签核。你按指南自己建档并导入模板；示例资料独立，不会自动载入。
 
-## 本次可操作的流程
+![首次真正空业务工作台](foundation-20261028/screenshots/01_真正空框架首次打开.png)
 
-NC6.5导出CSV/XLSX→账簿与科目/内部客商映射→期初及已记账凭证入账→法人三表→内部销售与应收应付匹配→自动抵销草稿→负责人审批→鸿旺小合并签核→海外美元小合并→集团人民币合并。原预算、经营分析和治理模块保留，24项中文菜单。
+## 从基础档案到合并
 
-只使用NC“本币借方金额/本币贷方金额”记法人账；交易币、集团/全局币及原48列保存核对，不重复入账。原金额为元两位，财务报表万元六位。**本版提供文件导入，企业NC在线接口尚未配置，界面明确显示“未连接”，不写回NC。**
+1. 创建集团本部、鸿旺单体、猫爬架法人、电子工厂法人，维护本币及真实天元100%持股。
+2. 创建鸿旺三法人的管理小合并；集团成员只选本部和鸿旺子结果，避免再次平铺三家。
+3. 维护集团科目、各法人ERP科目映射、NC账簿与内部客商和共同交易号。
+4. 导入年初科目余额和年初至测试月完整已记账凭证，生成单体三表。
+5. 导入期间科目余额核对表，逐法人核对；该表只核对，不把余额再次记账。
+6. 从余额／内部交易差异查原凭证、批次和源行；核实识别信息可以补注，金额错误须回ERP更正、停用旧批重导。
+7. 重新生成、核对与匹配，准确项生成自动抵销草稿，负责人审批，计算签核鸿旺。
+8. 集团本层扫描，即使0匹配也需当前核对版本；按真实资本及投资维护投资权益草稿并审批，再引用鸿旺计算签核集团。
 
-差异保留双方凭证、原行与原因，不自动倒挤。核实后可补内部客商、关联号或现金流类别，留下前后标注；金额错误需核对ERP、更正后停用旧批次再导入。历史签核结果追溯其当时源、凭证与抵销快照；当前匹配差异清单在重扫时更新，需留存时及时导出。
+Foundation正式合并须每个叶子具备当前ERP来源、余额核对、匹配与审批；手工汇总报表和手工销售不能绕过凭证。实际原账核对包含合法损益结转，管理利润表保留本期损益并留下处理依据。
 
-## 鸿旺2026年6月单体报表导入与小合并图文指南
-
-**[下载Word：22页、16张实机步骤截图](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/7c41718787d3bb4ea5869e1d3e9497ffd4066da9/hongwang-june-2026/EPM-Hongwang-202606-Statements-Guide-CN.docx)** · [下载PDF](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/7c41718787d3bb4ea5869e1d3e9497ffd4066da9/hongwang-june-2026/EPM-Hongwang-202606-Statements-Guide-CN.pdf) · [下载三主体示例CSV及全套资料](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/7c41718787d3bb4ea5869e1d3e9497ffd4066da9/hongwang-june-2026/EPM-Hongwang-202606-Statements-Kit.zip)。适用于原Demo，无需升级；本次走“财务三表报送”的CSV万元口径，不是NC凭证模板。示例1—6月累计收入840、净利270，6月当月收入160、净利54，6月末资产470，详细条件和真实资料处理见指南及[本期说明](hongwang-june-2026/README.md)。
-
-## Excel模板与带截图导入指南（同软件基线补充）
-
-**[下载6份Excel模板＋已填示例＋24页Word/PDF说明（约9.5MB）](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/81bf4545bec24e1a09b714a40c02bc2affbdbff9/TianyuanEPM-NC65-Excel-Import-Kit-D1.0.zip)**。你现有ERP-20261021无需更新EXE。
-
-[单独下载Word图文说明](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/81bf4545bec24e1a09b714a40c02bc2affbdbff9/excel-import-kit/EPM-NC65-Excel-Import-Guide-CN.docx) · [单独下载PDF](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/81bf4545bec24e1a09b714a40c02bc2affbdbff9/excel-import-kit/EPM-NC65-Excel-Import-Guide-CN.pdf) · [查看6模板分别在哪导入](excel-import-kit/README.md)。四种表可直接导入；NC适配与现金分类两种为页面照填准备表，没有独立上传入口。说明含16张最终文件真实上传、生成与合并截图。
-
-## 第一次怎么做鸿旺小合并
-
-先看 **[首次测试操作卡](erp-demo/鸿旺小合并_首次测试操作卡.md)**。
-
-1. 在“ERP凭证与期初”载入完整虚构样例，确认替换范围；已有真实测试数据先备份。
-2. “法人凭证与三表”生成全部已导入法人。
-3. 选择“鸿旺小合并”，扫描本层内部交易，准确项生成草稿，财务负责人审批。
-4. 计算并签核鸿旺；再签核海外美元小合并，匹配及审批集团本层抵销，计算并签核集团。
-
-鸿旺三家为独立法人且报表不重叠：鸿旺单体、鸿旺猫爬架生产事业部、杭州鸿旺宠物用品有限公司电子工厂；真实持股维护为天元100%，管理合并树不表示鸿旺持有另两家。
-
-|核对项目（2026年1—9月，人民币万元）|预期|
-|---|---:|
-|鸿旺收入 / 净利 / 资产|1400 / 450 / 650|
-|集团收入 / 净利 / 资产|2650 / 770 / 2370|
-|集团累计折算差额 / 现金汇率影响|74 / 90|
-
-运行包内“示例数据_NC65”另提供直接文件案例：84条映射、14行期初、NC48列共48行分录；鸿旺80已结算+20未结算及20往来余额，共3项匹配，集团1项。内置396行案例为鸿旺18项、集团9项，前者内部销售与往来各合计100万元、后者销售合计50万元；不同案例不要混导或混用计数。详细输入与恢复见产品说明书及用户手册第六章。
-
-## 四份全模块中文Word与PDF
+## 图文指南与全模块四册
 
 |文档|Word|PDF|
 |---|---|---|
-|PRD研发需求规格说明书（含字段字典）|[下载Word](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/b06cb10451c81bb537acf4913d332943fcd00c5b/erp-docs/EPM-ERP-PRD-CN.docx)|[查看PDF](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/b06cb10451c81bb537acf4913d332943fcd00c5b/erp-docs/EPM-ERP-PRD-CN.pdf)|
-|系统研发与交互说明书|[下载Word](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/b06cb10451c81bb537acf4913d332943fcd00c5b/erp-docs/EPM-ERP-System-CN.docx)|[查看PDF](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/b06cb10451c81bb537acf4913d332943fcd00c5b/erp-docs/EPM-ERP-System-CN.pdf)|
-|产品说明书（演示案例）|[下载Word](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/b06cb10451c81bb537acf4913d332943fcd00c5b/erp-docs/EPM-ERP-Product-CN.docx)|[查看PDF](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/b06cb10451c81bb537acf4913d332943fcd00c5b/erp-docs/EPM-ERP-Product-CN.pdf)|
-|用户操作手册|[下载Word](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/b06cb10451c81bb537acf4913d332943fcd00c5b/erp-docs/EPM-ERP-User-Manual-CN.docx)|[查看PDF](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/b06cb10451c81bb537acf4913d332943fcd00c5b/erp-docs/EPM-ERP-User-Manual-CN.pdf)|
+|从零建档到凭证合并，31页／23张实机图|[下载](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/foundation-20261028/EPM-Foundation-From-Zero-Guide-CN.docx)|[查看](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/foundation-20261028/EPM-Foundation-From-Zero-Guide-CN.pdf)|
+|PRD含字段附录，76页|[下载](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/foundation-20261028/EPM-Foundation-PRD-CN.docx)|[查看](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/foundation-20261028/EPM-Foundation-PRD-CN.pdf)|
+|系统研发与交互说明，14页|[下载](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/foundation-20261028/EPM-Foundation-System-CN.docx)|[查看](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/foundation-20261028/EPM-Foundation-System-CN.pdf)|
+|产品说明及案例，16页|[下载](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/foundation-20261028/EPM-Foundation-Product-CN.docx)|[查看](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/foundation-20261028/EPM-Foundation-Product-CN.pdf)|
+|全模块用户手册，18页|[下载](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/foundation-20261028/EPM-Foundation-User-Manual-CN.docx)|[查看](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/foundation-20261028/EPM-Foundation-User-Manual-CN.pdf)|
 
-每册均覆盖全部24模块，PRD含NC48列、映射/期初/分录/三表/抵销/追溯字段、状态、接口及验收；独立文档包含可编辑原稿、截图、示例文件、字段契约及变更记录。每次升级完整重发四件套的长期约定见[交付标准](erp-demo/DELIVERY-STANDARD.md)。
+四册覆盖24模块，另有专项31页逐步指南，总155页。运行包`docs`也包含这5份Word和5份PDF。`templates`含5类可导入空白／已填Excel、4份基础档案页面准备表、对应CSV及NC配置参照；页面准备表按页面照填，不冒充有Excel导入按钮。NC与通用凭证同一业务二选一。
 
-## 保存、退出、验证与范围
+## 可核对的虚构案例与异常练习
 
-新数据目录为`%LOCALAPPDATA%\TianyuanEPMVoucherDemo`；旧版账套保留，不自动迁入，不覆盖旧/未知数据库。关闭浏览器不会停止服务；通过“本机环境”安全退出，备份前停止并复制整个数据目录。
+从空创建4法人，维护12集团科目，48映射、8年初、26 NC分录、48余额核对行。业务全部发生2026年6月，示例假设1—5月无发生；真实资料仍须年初至测试月完整提供。
 
-[独立验收报告](erp-demo/NC65凭证合并独立验收报告.md)记录当前源码4套37组真实HTTP/Chromium回归；产品另有14组真实案例。原生EXE→包内Windows Python→HTTP/SQLite在Wine兼容环境重新通过20项，**尚未代替实体Windows真机验收**，EXE未签名。四Word四PDF另经语义核对、真实XML/CRC和排版检查；[版本和校验](erp-demo/交付版本与校验.json)记录实际摘要。
+HW向CAT已结销售40，向ELEC未结20及AR/AP20，共3项准确匹配。鸿旺与集团均累计收入840、成本480、费用90、净利270、资产现金470、负债0、资本200、留存270，单位人民币万元。母本部投资200与子期初资本200在集团层抵销，集团资产仍470。
 
-本版为2026、100%全资全额、CNY/USD普通主体的本机研发Demo。自动匹配支持内部销售/成本及应收/应付；复杂存货未实现利润、商誉、少数股东、复杂权益事件及生产多用户身份隔离等需后续研发。预算为独立集团人民币口径，不把业务预算自动驱动财务三表宣传为已完成。
+异常文件单独放“异常演示数据”，不能与正常示例叠加导入。余额一分差、内部40／39差异均有真实原行与凭证来源，不自动补差；停用更正后重算，旧签核和原凭证快照不变。
+
+![原凭证层查看金额异常](foundation-20261028/screenshots/24_金额异常追NC原字段.png)
+
+## 验收与边界
+
+[独立验收报告](foundation-20261028/Foundation空框架独立验收报告.md)记录10组真实HTTP＋2组真实浏览器全链，26张实际截图，另84领域回归通过。Windows原生EXE→包内Windows Python→HTTP/SQLite在Wine兼容环境16项通过；**不能代替目标Windows真机验收**。源码、Word/PDF、模板、运行ZIP与[交付校验](foundation-20261028/交付版本与校验.json)逐项绑定。
+
+NC当前为CSV/XLSX文件导入，企业在线接口未配置，不写回NC。当前为2026、100%全资全额、CNY/USD普通主体的本机研发Demo，复杂权益／商誉／少数股东／未实现存货利润／生产身份等不冒称已完成。角色切换不是企业生产登录。
+
+结束通过本机环境安全退出；备份前停止服务并复制整个数据目录。旧／未知schema数据库拒绝改写。每次软件升级完整交付四册的约定保留，master不修改，只更新已授权下载分支。公开HTTPS下载记录将写入public-download-verification.json。
 
 ## 历史交付
 
-- [此前多层合并Demo（ML-20261020）](HISTORY-Multilevel-Demo-ML-20261020.md)
-- [此前中文Demo及文档](HISTORY-Chinese-Demo-V1.md)
-- [原型及Konsolidat历史交付](HISTORY-Konsolidat-Delivery.md)
-
-只更新用户已授权的`epm-download-20261019`下载分支；`master`保持原样。公开HTTPS已实际下载2个ZIP、4份Word、4份PDF，10项全部逐字节及SHA256核对通过，ZIP/Word结构完整。见[公开下载验证记录](erp-demo/public-download-verification.json)；下载链接固定至实际制品提交，后续升级不会改变本版文件。
+[此前ERP凭证Demo、六月报表图示及模板](HISTORY-ERP-20261021-Delivery.md)。原版本全部保留；本版从零凭证指南不与旧手工汇总报表路径混用。

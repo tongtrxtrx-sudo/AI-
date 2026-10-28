@@ -1,0 +1,465 @@
+{
+  "passed": true,
+  "candidate": false,
+  "softwareBaseline": "FOUNDATION-20261028",
+  "capturedUtc": "2026-10-28T10:54:48.454231+00:00",
+  "method": "Fresh empty data; real Chromium UI master creation, actual XLSX uploads, all button actions and server-backed persisted GET checks.",
+  "sourceSha256": {
+    "backend/API-CONTRACT.md": "10a910d21ee34eaa8ee7d8d2b77bc1cab70eb15939148e762be59f66994f2961",
+    "backend/CALCULATION-CONTRACT.md": "0d4efe1dad6b0252ff0db1e2bc8322b5b24a7e938cf63155f43a293b1b010259",
+    "backend/FOUNDATION-CONTRACT.md": "e0f045d7ea9f6fec0404cf13363fca50fc196ba11b1918e2c8bfab8a6c03b10e",
+    "backend/LEDGER-CONTRACT.md": "c7749e2aea83d3cfdeb47ab29bdb0d335de4d10eb72708cf30f8781012fff2c5",
+    "backend/balance_domain.py": "76f7b4d7e7f945607858bb2c6f2bd498c17287ad92fe907cebdc1c63c737a8e5",
+    "backend/consolidation.py": "bf59624876203d442bbd36705774bf3338d8638b3b8a31cc6ebebe2493a462cf",
+    "backend/engine.py": "cdea2d2319771e6ab4a855f7a665ec7fd04cdc7d8b7b005c407062e3a8523741",
+    "backend/erp_domain.py": "83437930d98c80153d239c4581d4020d68c7048a0f302bd7b1abdb96b9dcfcfa",
+    "backend/finance.py": "31e1fd61f35dc8d68fecb10d0209fd108237e2aded2efa80b2970fbed2019114",
+    "backend/ledger.py": "c6b72fae0754d89782e5c950f4d6b73fa3c9286409732004ef5e770824ccef0e",
+    "backend/ledger_seed.py": "13cc623ea2811bf6a9a45b4f393ed2038d4fa06452079f9b397a29224d45b351",
+    "backend/legacy_engine.py": "ecc9fc84cb156183dc2f6b56e25c8ec2409441577b3830c8d107701261d9230f",
+    "backend/multilevel_domain.py": "e4ce5b1e51fe0199932a1c0c87c817cdb598f1a083c59a4270c961ae6c69a9d5",
+    "backend/multilevel_seed.py": "425b810becb6e56cb8f579c5ce5f03cad29e2a9dd194f902ec3de5be0e8c12db",
+    "backend/server.py": "d5778fd6a83f295a4bccd848c3c26d4210f09975feddbbcf1b6f4249890c2801",
+    "backend/store.py": "54efa83d9fca55edffde8ffad575ded9f1f3dd90d909ee69604eff9f04674249",
+    "backend/test_consolidation.py": "bdff9a77433cfb505c2417528f4308d675ae76d68b813864968cc4fa23298c9e",
+    "backend/test_erp_calculation.py": "4c981585feb5daea9d788f743c4c25365263a35a92267dbefeaa7f79e3d626b9",
+    "backend/test_erp_domain.py": "c81e6739ba664aaf20025007a557beff7fc424b88012e7507ca571fab7d37926",
+    "backend/test_foundation.py": "9e715a47ab4727788d16b16e441a9925f33cf03a92cfc19d3af8aabade952664",
+    "backend/test_ledger.py": "3a73ec23d1c12c609522261e436ba9a6d96494ce0873a460189ebb6853a45f3c",
+    "backend/test_multilevel_domain.py": "242fbf647f125426c1af86f655ce7b2bfdf8a0559d2f6f44bf8e13946476691b",
+    "backend/test_multilevel_http.py": "2a00733ba0ec69c48951abf723859c20d557dfcfb518dfe44fbf4c590c13640b",
+    "build_windows.py": "d967d1875c0e77ea678d678908534d0032811fe0d03a94efea91d3c9ccd5085b",
+    "frontend/dist/index.html": "07dd3bbfaae9dedde01118cf3548de7f5ad35308369e646598d898beabc2800e",
+    "frontend/src/app.js": "31d4dc149a340b654a147190e29634cccecf66af21062391d18702becc588be1",
+    "frontend/src/budget.js": "cb2f22953f95d4409b4749c82f38eabdc4834f337de9738c75099e016cea8062",
+    "frontend/src/erp-actions.js": "2bb45ba75a8a2b734334a747679b6ff5ea47103a274b6e61d81aa88a2cc1a943",
+    "frontend/src/erp-pages.js": "653c545724b87b33225dcc8f03a7c58c40903d302bc7efb995118b7895fa1699",
+    "frontend/src/foundation.js": "08d8ef5c4e8d4e56bf270dfe1cc81be0a1f3465bba20518d4a53403c840ffce5",
+    "frontend/src/ml-actions.js": "81758e156a3f5a2fe702eebdb20f7d8ff6695d7d0143312f2f2ab3b4e2687c16",
+    "frontend/src/ml-pages.js": "b6ba99a86c0627ec5163fbdebde070b9ec01cfe5103cdb0cb39c4f28dbbb5160",
+    "frontend/src/shell.html": "f6cfc0be61c4e0875ac3e00c052cb252c3eba725c7cb7e26753f9560f4191a71",
+    "frontend/src/style.css": "1e3b3132d911f9b082152d160792ab7711eaba93ae10e97750c00a51d3715027",
+    "frontend-build.py": "fc96158360084d129ddd767499d54bf03659a0c51920a89bae2a4e1bd0ebc41f",
+    "package_windows.py": "267a624fbdc0e0fe47e50a7b433f8117ac9145549b184b53a3fe88f0f4410f40",
+    "windows/app/demo_launcher.py": "efb298c984a0dc631fc434e197d6164134ae7793101dec060f7b1c3f8820d7ee",
+    "windows/launcher.c": "e1057562511205ef2d20fee4462673f1724121bb159c9b6fb1e9eb5e99c9839b"
+  },
+  "sourceUnchangedDuringRun": true,
+  "inputSha256": {
+    "guide-assets/templates/已填示例/05_六月科目余额核对表_已填示例.xlsx": "d7c31406013898f435b56925071b4932610764823c84e7c8ad602f00799415a6",
+    "guide-assets/templates/已填示例/04_通用凭证_已填示例_与NC二选一.xlsx": "faf217862b11849bb685d8710e791a765a4473cf4c03779f7a996f1ecf754043",
+    "guide-assets/templates/已填示例/03_NC65财务凭证_已填示例.xlsx": "502148c66004aea08d5ac53570a4341fbbeb36040502b2ec16b4228dba210654",
+    "guide-assets/templates/已填示例/02_年初科目余额_已填示例.xlsx": "d659acaaeeabaca114aaf696dd55b316798fe50b6e49c1b02551bc8f6d64f9f5",
+    "guide-assets/templates/已填示例/01_法人科目映射_已填示例.xlsx": "e6ed4ab5ede8490a033fe3692f2c7fe431a368276668a3b8e9999ad3f518a507"
+  },
+  "inputFilesUnchangedDuringRun": true,
+  "javascriptErrors": [],
+  "cases": [
+    {
+      "case": "BU01 非固定TY的从零法人及真实持股",
+      "passed": true,
+      "evidence": {
+        "首集团ID可自定义非TY": true,
+        "集团本部可无母公司": true,
+        "子公司实际母公司可选刚建集团": true
+      }
+    },
+    {
+      "case": "BU02 空框架24菜单到真实建档/四XLSX/核对/两层签核/差异凭证/修复",
+      "passed": true,
+      "evidence": {
+        "主数据全部真实UI创建": true,
+        "空菜单数": 24,
+        "法人": 4,
+        "集团科目": 12,
+        "ERP映射": 48,
+        "年初": 8,
+        "NC凭证行": 26,
+        "余额行": 48,
+        "准确匹配": 3,
+        "鸿旺": {
+          "revenue": 840,
+          "net": 270,
+          "assets": 470
+        },
+        "集团": {
+          "revenue": 840,
+          "net": 270,
+          "assets": 470
+        },
+        "结果ID": "RES-TY_GROUP-202606-V1"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "01_真正空框架首次打开.png",
+      "title": "真正空业务的首次打开画面",
+      "menu": "集团经营总览",
+      "button": "从基础档案开始",
+      "purpose": "没有预置法人、科目、凭证、余额或财务结果。",
+      "context": {
+        "group": "TY_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "sha256": "11c13ff5a64bc48670b4a88f80a2629609966b4c615ea5de21d9c09b9894561a"
+    },
+    {
+      "file": "02_创建集团本部.png",
+      "title": "从空创建集团本部法人",
+      "menu": "集团组织与持股",
+      "button": "新增法人→保存独立法人",
+      "purpose": "此时仅填写档案，不生成资金、凭证或财报。",
+      "context": {
+        "group": "TY_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "sha256": "02198fdcf64ce3d33d0bb647d461ffbdb86afbaaf11662ab80bcecb2bacc3348"
+    },
+    {
+      "file": "03_四家法人档案.png",
+      "title": "集团本部及三家独立法人保存完成",
+      "menu": "集团组织与持股",
+      "button": "新增法人",
+      "purpose": "每个主体独立本位币和账簿，不自动带业务。",
+      "context": {
+        "group": "TY_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "sha256": "294568c4a2c58a4428cdcdc8a7c514d357bb75d260ec12fae64225aa9850a425"
+    },
+    {
+      "file": "04_维护三子真实持股.png",
+      "title": "维护真实母公司天元100%持股",
+      "menu": "持股与企业合并",
+      "button": "维护真实持股→保存真实持股",
+      "purpose": "管理小合并并不表示鸿旺持有另外两家。",
+      "context": {
+        "group": "TY_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "sha256": "ca91c8c92e9bff96d246e06a61c9e040c77ee4d10e09ab912bb851199a1cd858"
+    },
+    {
+      "file": "05_创建鸿旺管理合并范围.png",
+      "title": "创建鸿旺管理小合并并只纳三家法人",
+      "menu": "集团组织与持股",
+      "button": "新增管理合并单元",
+      "purpose": "成员与真实持股分开，不重复叶子。",
+      "context": {
+        "group": "TY_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "sha256": "473fb38e52837d81bde6f9bdf1781f3acd16b93045491780f21b6f1b9e180dc4"
+    },
+    {
+      "file": "06_集团只引用本部与鸿旺.png",
+      "title": "集团只以本部和鸿旺结果为直接输入",
+      "menu": "集团组织与持股",
+      "button": "集团维护成员",
+      "purpose": "上级不再重复纳入小合并的三家底层法人。",
+      "context": {
+        "group": "TY_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "sha256": "24c9fb26a86f7cbf8ff15aff10a62ab149c60a11f95395c97b70619ab78c1346"
+    },
+    {
+      "file": "07_维护集团科目.png",
+      "title": "从首个科目维护编码、类型、方向和报表口径",
+      "menu": "科目与维度",
+      "button": "新增集团科目→保存科目",
+      "purpose": "集团标准科目档案与各法人ERP映射分开维护。",
+      "context": {
+        "group": "TY_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "sha256": "97838a3873daae717989a52ca6b0644213157ce88f932e9de5c6dfc409a68a7c"
+    },
+    {
+      "file": "08A_NC账簿法人本币.png",
+      "title": "NC核算账簿到法人及本位币",
+      "menu": "ERP凭证与期初",
+      "button": "维护NC6.5适配",
+      "purpose": "真实NC币种为交易币，账簿决定记账本位币。",
+      "context": {
+        "group": "TY_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "sha256": "bbe42f5d085444d696e376a64c2b1d11b9a22020a00b5f7ba32d6ffdef7987f1"
+    },
+    {
+      "file": "08B_NC客商与共同号.png",
+      "title": "内部及明确外部客商和共同业务号",
+      "menu": "ERP凭证与期初",
+      "button": "维护NC6.5适配",
+      "purpose": "复制辅助列完整原值，双方共用结算号，不根据金额猜测。",
+      "context": {
+        "group": "TY_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "sha256": "e77b20bca29039f81324b569b14a15aa030ac3ed7ffd0adc073a17545a47d3c1"
+    },
+    {
+      "file": "09_法人科目映射XLSX导入.png",
+      "title": "按法人导入ERP科目映射48行",
+      "menu": "ERP凭证与期初",
+      "button": "①科目字段映射→选择文件并导入",
+      "purpose": "输入数据首表，不导说明页。",
+      "context": {
+        "group": "TY_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "sha256": "bcb991316140d1accb9ed35ff37831d462bc69cfe09572179f8c94666a4c7730"
+    },
+    {
+      "file": "10_年初科目余额XLSX导入.png",
+      "title": "导入2026年年初完整科目余额8行",
+      "menu": "ERP凭证与期初",
+      "button": "②年初科目余额→选择文件并导入",
+      "purpose": "期初不是6月月初，借贷逐法人平衡。",
+      "context": {
+        "group": "TY_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "sha256": "e3fd394e79cb7e46324b41e5d126ac5f21ff08a4440538dd4fcea78cc5d543e3"
+    },
+    {
+      "file": "11_NC48财务凭证XLSX导入.png",
+      "title": "导入用友NC6.5原48列已记账凭证26行",
+      "menu": "ERP凭证与期初",
+      "button": "下方导入NC6.5凭证",
+      "purpose": "本币借贷入账、原字段保留，勾选已记账确认。",
+      "context": {
+        "group": "TY_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "sha256": "acdf0826d08f1b450c7cf0c5e9d8a2460b0d47e7e3098a8d6663e9b1f11e68a3"
+    },
+    {
+      "file": "12_六月余额表仅核对导入.png",
+      "title": "导入截至六月累计外部科目余额48行",
+      "menu": "ERP凭证与期初",
+      "button": "④科目余额核对基准→选择文件并导入",
+      "purpose": "只核对，不再产生凭证或重复记账。",
+      "context": {
+        "group": "TY_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "sha256": "909c133bc9adc4f69ae34c3aecbbd3f3b604fae407447cdd31854a8b37b299f5"
+    },
+    {
+      "file": "13_凭证生成单体三表.png",
+      "title": "从真实期初和凭证生成法人三表",
+      "menu": "法人凭证与三表",
+      "button": "生成全部已导入法人",
+      "purpose": "鸿旺单体收入600/净180/现金260/应收20，不是合并结果。",
+      "context": {
+        "group": "TY_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "sha256": "bc9677180b25cf6f22ef6bd687be0f6d82e19e43919337d2842872f5f5536e0f"
+    },
+    {
+      "file": "14_四法人余额核对结果.png",
+      "title": "逐法人执行外部科目余额与凭证试算核对",
+      "menu": "法人凭证与三表",
+      "button": "执行当前法人余额核对",
+      "purpose": "必须各法人当前核对通过，外部表不重复入账。",
+      "context": {
+        "group": "TY_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "sha256": "54658c06a2fdb0c863f71c35d404469dd330fcb1a713d4e05bac92c62c61732f"
+    },
+    {
+      "file": "15_科目余额与原始凭证明细.png",
+      "title": "科目级余额核对依据及原始凭证来源",
+      "menu": "法人凭证与三表",
+      "button": "查看余额及凭证",
+      "purpose": "比较金额为元，保留余额源行和凭证批次/行号。",
+      "context": {
+        "group": "TY_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "sha256": "e27b4cedfffd8f6d7689f53841f05afc6bf497bb89a02b667f4fb17f11215684"
+    },
+    {
+      "file": "16_内部销售及应收应付三项匹配.png",
+      "title": "销售40+销售20+应收应付20三项匹配",
+      "menu": "内部交易匹配与差异",
+      "button": "扫描本层内部交易",
+      "purpose": "仅准确匹配可生成，余额抵销不重复影响损益。",
+      "context": {
+        "group": "HW_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "sha256": "7df11fbd82a87ecf38a83a475f3f8b080847bd0186d1ae42ee7063df67cecbf6"
+    },
+    {
+      "file": "17_负责人审批自动抵销.png",
+      "title": "负责人逐项核对本层自动抵销草稿",
+      "menu": "内部交易匹配与差异",
+      "button": "审批本层自动抵销草稿",
+      "purpose": "草稿并非已审批，审批后仍须计算签核。",
+      "context": {
+        "group": "HW_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "sha256": "6e62da7aaa40a8b7e98ab3a265ae1ad98205e71a7247947337cfc87af307f87b"
+    },
+    {
+      "file": "18_鸿旺小合并已签核.png",
+      "title": "鸿旺小合并由凭证和余额核对生成并签核",
+      "menu": "分级合并与结果",
+      "button": "计算本层新版本→签核当前结果",
+      "purpose": "三家完整源、余额核对和自动抵销审批均须有效。",
+      "context": {
+        "group": "HW_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "sha256": "ff8f479d5e06aee5f50c2d8abc1e6c2f890dbc4f1aff7e5fd26b12403974cbee"
+    },
+    {
+      "file": "19_集团投资权益200审批.png",
+      "title": "集团本部投资与三个实际全资子资本抵销200",
+      "menu": "抵销与调整凭证",
+      "button": "新增投资权益抵销草稿→审批",
+      "purpose": "管理小合并不是法定母公司，按TY真实持股与期初投资依据抵销。",
+      "context": {
+        "group": "TY_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "sha256": "2654f6345099f089006159977918fe74fa97ab11e92c959b4709ef701ca1235b"
+    },
+    {
+      "file": "20_集团引用鸿旺上卷.png",
+      "title": "集团本部加已签鸿旺小合并的上卷结果",
+      "menu": "分级合并与结果",
+      "button": "计算并签核集团",
+      "purpose": "下级抵销继承一次，集团投资与资本200只抵一次。",
+      "context": {
+        "group": "TY_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "sha256": "4260f5d7603a277a742970731b588cc5830e1c12434def8016ad1741306c6ff1"
+    },
+    {
+      "file": "21_签核结果钻取原凭证.png",
+      "title": "从签核集团穿透到法人收入原始凭证",
+      "menu": "结果来源→法人源→追到原始凭证",
+      "button": "追到原始凭证",
+      "purpose": "读取当时ledgerSnapshot，不替换为最新导入。",
+      "context": {
+        "group": "TY_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "sha256": "57e1b313566ada4b1d728ba436b4248f73cf54d2f50c491f0b70fb75671db107"
+    },
+    {
+      "file": "22_余额一分差原行凭证.png",
+      "title": "外部余额多一分时逐科目定位原行及凭证",
+      "menu": "法人凭证与三表",
+      "button": "查看余额及凭证",
+      "purpose": "差异不自动补，外部表行与原凭证分开显示。",
+      "context": {
+        "group": "TY_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "sha256": "27eef9fd95672c67dcfd8d5e9456914fe7b115a3fdbeba3f35ce96c137b06d37"
+    },
+    {
+      "file": "23_内部40与39差异阻断.png",
+      "title": "两边余额各自通过仍有内部销售40与39差异",
+      "menu": "内部交易匹配与差异",
+      "button": "扫描本层内部交易",
+      "purpose": "不能因单体借贷平衡就认为内部交易对齐。",
+      "context": {
+        "group": "HW_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "sha256": "d9e90d095225e942ff15fb31622a3ffbb6f1e72c017f2ee41945ff73e0854f0d"
+    },
+    {
+      "file": "24_金额异常追NC原字段.png",
+      "title": "由差异进入有效原分录核对及NC原字段",
+      "menu": "内部交易差异→原凭证",
+      "button": "补充核对信息／原始NC导出字段",
+      "purpose": "只允许识别和现金分类补注，金额必须回ERP更正。",
+      "context": {
+        "group": "HW_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "sha256": "e670c4a6248c9d16b759baa02a7fde121b1fc82336758d70f038fe193dbb4876"
+    },
+    {
+      "file": "25_停用错批更正重导.png",
+      "title": "停用错误凭证批次并保留历史记录",
+      "menu": "ERP凭证与期初",
+      "button": "取消批次并填写原因",
+      "purpose": "同凭证key可更正重导；旧行只读，历史结果使用旧快照。",
+      "context": {
+        "group": "TY_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "sha256": "abb85f3e75fa2d6b548f112a8b0a18b082720255cbf724943d808aa862dc7b9f"
+    }
+  ],
+  "harnessSha256": {
+    "run_foundation_browser.py": "8fc398c44a3ca8d896693e75948318d6ac32fa53c475056c85d3efcfebe6aa30",
+    "support.py": "07b445171fdec7de1c09841fb042dae74dae9b4dd2d97c42880f7dd8479ff18d",
+    "foundation_fixtures.py": "e81f66db55c7a0f9d5d09bc8685505d80b54ad697d79a7c191a6da1270c76d3a"
+  }
+}

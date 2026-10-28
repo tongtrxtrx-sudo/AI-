@@ -1,0 +1,142 @@
+{
+  "passed": true,
+  "softwareBaseline": "FOUNDATION-20261028",
+  "reviewMethod": "独立新SQLite真实HTTP；只引用输入夹具和HTTP客户端，不导入产品计算函数；结转输入余额由独立Decimal合计。",
+  "sourceUnchangedDuringRun": true,
+  "sourceSha256": {
+    "backend/API-CONTRACT.md": "10a910d21ee34eaa8ee7d8d2b77bc1cab70eb15939148e762be59f66994f2961",
+    "backend/CALCULATION-CONTRACT.md": "0d4efe1dad6b0252ff0db1e2bc8322b5b24a7e938cf63155f43a293b1b010259",
+    "backend/FOUNDATION-CONTRACT.md": "e0f045d7ea9f6fec0404cf13363fca50fc196ba11b1918e2c8bfab8a6c03b10e",
+    "backend/LEDGER-CONTRACT.md": "c7749e2aea83d3cfdeb47ab29bdb0d335de4d10eb72708cf30f8781012fff2c5",
+    "backend/balance_domain.py": "76f7b4d7e7f945607858bb2c6f2bd498c17287ad92fe907cebdc1c63c737a8e5",
+    "backend/consolidation.py": "bf59624876203d442bbd36705774bf3338d8638b3b8a31cc6ebebe2493a462cf",
+    "backend/engine.py": "cdea2d2319771e6ab4a855f7a665ec7fd04cdc7d8b7b005c407062e3a8523741",
+    "backend/erp_domain.py": "83437930d98c80153d239c4581d4020d68c7048a0f302bd7b1abdb96b9dcfcfa",
+    "backend/finance.py": "31e1fd61f35dc8d68fecb10d0209fd108237e2aded2efa80b2970fbed2019114",
+    "backend/ledger.py": "c6b72fae0754d89782e5c950f4d6b73fa3c9286409732004ef5e770824ccef0e",
+    "backend/ledger_seed.py": "13cc623ea2811bf6a9a45b4f393ed2038d4fa06452079f9b397a29224d45b351",
+    "backend/legacy_engine.py": "ecc9fc84cb156183dc2f6b56e25c8ec2409441577b3830c8d107701261d9230f",
+    "backend/multilevel_domain.py": "e4ce5b1e51fe0199932a1c0c87c817cdb598f1a083c59a4270c961ae6c69a9d5",
+    "backend/multilevel_seed.py": "425b810becb6e56cb8f579c5ce5f03cad29e2a9dd194f902ec3de5be0e8c12db",
+    "backend/server.py": "d5778fd6a83f295a4bccd848c3c26d4210f09975feddbbcf1b6f4249890c2801",
+    "backend/store.py": "54efa83d9fca55edffde8ffad575ded9f1f3dd90d909ee69604eff9f04674249",
+    "backend/test_consolidation.py": "bdff9a77433cfb505c2417528f4308d675ae76d68b813864968cc4fa23298c9e",
+    "backend/test_erp_calculation.py": "4c981585feb5daea9d788f743c4c25365263a35a92267dbefeaa7f79e3d626b9",
+    "backend/test_erp_domain.py": "c81e6739ba664aaf20025007a557beff7fc424b88012e7507ca571fab7d37926",
+    "backend/test_foundation.py": "9e715a47ab4727788d16b16e441a9925f33cf03a92cfc19d3af8aabade952664",
+    "backend/test_ledger.py": "3a73ec23d1c12c609522261e436ba9a6d96494ce0873a460189ebb6853a45f3c",
+    "backend/test_multilevel_domain.py": "242fbf647f125426c1af86f655ce7b2bfdf8a0559d2f6f44bf8e13946476691b",
+    "backend/test_multilevel_http.py": "2a00733ba0ec69c48951abf723859c20d557dfcfb518dfe44fbf4c590c13640b",
+    "build_windows.py": "d967d1875c0e77ea678d678908534d0032811fe0d03a94efea91d3c9ccd5085b",
+    "frontend/dist/index.html": "07dd3bbfaae9dedde01118cf3548de7f5ad35308369e646598d898beabc2800e",
+    "frontend/src/app.js": "31d4dc149a340b654a147190e29634cccecf66af21062391d18702becc588be1",
+    "frontend/src/budget.js": "cb2f22953f95d4409b4749c82f38eabdc4834f337de9738c75099e016cea8062",
+    "frontend/src/erp-actions.js": "2bb45ba75a8a2b734334a747679b6ff5ea47103a274b6e61d81aa88a2cc1a943",
+    "frontend/src/erp-pages.js": "653c545724b87b33225dcc8f03a7c58c40903d302bc7efb995118b7895fa1699",
+    "frontend/src/foundation.js": "08d8ef5c4e8d4e56bf270dfe1cc81be0a1f3465bba20518d4a53403c840ffce5",
+    "frontend/src/ml-actions.js": "81758e156a3f5a2fe702eebdb20f7d8ff6695d7d0143312f2f2ab3b4e2687c16",
+    "frontend/src/ml-pages.js": "b6ba99a86c0627ec5163fbdebde070b9ec01cfe5103cdb0cb39c4f28dbbb5160",
+    "frontend/src/shell.html": "f6cfc0be61c4e0875ac3e00c052cb252c3eba725c7cb7e26753f9560f4191a71",
+    "frontend/src/style.css": "1e3b3132d911f9b082152d160792ab7711eaba93ae10e97750c00a51d3715027",
+    "frontend-build.py": "fc96158360084d129ddd767499d54bf03659a0c51920a89bae2a4e1bd0ebc41f",
+    "package_windows.py": "267a624fbdc0e0fe47e50a7b433f8117ac9145549b184b53a3fe88f0f4410f40",
+    "windows/app/demo_launcher.py": "efb298c984a0dc631fc434e197d6164134ae7793101dec060f7b1c3f8820d7ee",
+    "windows/launcher.c": "e1057562511205ef2d20fee4462673f1724121bb159c9b6fb1e9eb5e99c9839b"
+  },
+  "cases": [
+    {
+      "id": "EMPTY-AND-BOUNDARY",
+      "passed": true,
+      "refusals": [
+        {
+          "action": "source_save",
+          "code": "voucher_source_required",
+          "http": 403
+        },
+        {
+          "action": "source_import",
+          "code": "voucher_source_required",
+          "http": 403
+        },
+        {
+          "action": "tb_import",
+          "code": "voucher_source_required",
+          "http": 403
+        },
+        {
+          "action": "elimination_save",
+          "code": "voucher_elimination_required",
+          "http": 403
+        },
+        {
+          "action": "elimination_save",
+          "code": "voucher_elimination_required",
+          "http": 403
+        }
+      ],
+      "revisionUnchanged": true
+    },
+    {
+      "id": "CLOSING-RAW-LEDGER",
+      "passed": true,
+      "voucherLineCount": 38,
+      "allFourReconciliationsCurrentAndPassed": true,
+      "entities": [
+        {
+          "entityId": "HW",
+          "profitAccountsEndZero": true,
+          "closingOriginalVoucherReferencesRetained": true
+        },
+        {
+          "entityId": "HW_CAT",
+          "profitAccountsEndZero": true,
+          "closingOriginalVoucherReferencesRetained": true
+        },
+        {
+          "entityId": "HW_ELEC",
+          "profitAccountsEndZero": true,
+          "closingOriginalVoucherReferencesRetained": true
+        }
+      ]
+    },
+    {
+      "id": "BALANCE-CANCEL-EXACT-PERIOD",
+      "passed": true,
+      "differentMonthHttp": 400,
+      "revisionUnchanged": true,
+      "originalBatchStillActive": true
+    },
+    {
+      "id": "CLOSING-MANAGEMENT-CONSOLIDATION",
+      "passed": true,
+      "results": [
+        {
+          "unitId": "HW_GROUP",
+          "revenueWan": 840.0,
+          "netWan": 270.0,
+          "assetsWan": 470.0,
+          "balanceSnapshotEntityIds": [
+            "HW",
+            "HW_CAT",
+            "HW_ELEC"
+          ],
+          "snapshotHash": "8e759c15bf388211f484f0cc4432b90d2a97787ec19f90b3486e9fc74d46573b"
+        },
+        {
+          "unitId": "TY_GROUP",
+          "revenueWan": 840.0,
+          "netWan": 270.0,
+          "assetsWan": 470.0,
+          "balanceSnapshotEntityIds": [
+            "HW",
+            "HW_CAT",
+            "HW_ELEC",
+            "TY"
+          ],
+          "snapshotHash": "48456fa9d6c8716e1d255d05521a2aa78b809a1e54c6d566e5c54888792c83b0"
+        }
+      ],
+      "balanceEvidenceFrozenInResults": true
+    }
+  ]
+}

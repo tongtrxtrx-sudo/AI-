@@ -1,0 +1,59 @@
+{
+  "adapter": "nc65",
+  "bookMappings": [
+    {
+      "bookCode": "TY_BOOK",
+      "entityId": "TY",
+      "functionalCurrency": "CNY"
+    },
+    {
+      "bookCode": "HW_BOOK",
+      "entityId": "HW",
+      "functionalCurrency": "CNY"
+    },
+    {
+      "bookCode": "HW_CAT_BOOK",
+      "entityId": "HW_CAT",
+      "functionalCurrency": "CNY"
+    },
+    {
+      "bookCode": "HW_ELEC_BOOK",
+      "entityId": "HW_ELEC",
+      "functionalCurrency": "CNY"
+    }
+  ],
+  "counterpartyMappings": [
+    {
+      "code": "NC-TY",
+      "entityId": "TY",
+      "column": "辅助核算1"
+    },
+    {
+      "code": "NC-HW",
+      "entityId": "HW",
+      "column": "辅助核算1"
+    },
+    {
+      "code": "NC-HW_CAT",
+      "entityId": "HW_CAT",
+      "column": "辅助核算1"
+    },
+    {
+      "code": "NC-HW_ELEC",
+      "entityId": "HW_ELEC",
+      "column": "辅助核算1"
+    },
+    {
+      "code": "NC-EXTERNAL",
+      "entityId": "EXTERNAL",
+      "column": "辅助核算1"
+    }
+  ],
+  "importOptions": {
+    "auxiliaryColumn": "辅助核算1",
+    "auxiliaryColumns": [
+      "辅助核算1"
+    ],
+    "referenceColumn": "结算号"
+  }
+}

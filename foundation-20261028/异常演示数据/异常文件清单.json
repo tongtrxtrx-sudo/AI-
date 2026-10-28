@@ -1,0 +1,24 @@
+{
+  "softwareBaseline": "FOUNDATION-20261028",
+  "files": [
+    {
+      "file": "guide-assets/异常演示数据/03_NC65_内部40与39_仅异常演示.xlsx",
+      "sha256": "5f4831576c6f55d8e7661c2dbd02316fdac5ebb0521584e884a3913ee3fc53ea",
+      "purpose": "仅独立异常演示，不与正确NC/余额文件叠加。",
+      "generatedAndUploadedBy": "acceptance/run_foundation_browser.py"
+    },
+    {
+      "file": "guide-assets/异常演示数据/05_余额表_与39错账相符_仅异常演示.xlsx",
+      "sha256": "177674568386c18731a3d333fd2dce1e05aaf608cf72f8bb7a5adffa4d6f6dba",
+      "purpose": "仅独立异常演示，不与正确NC/余额文件叠加。",
+      "generatedAndUploadedBy": "acceptance/run_foundation_browser.py"
+    },
+    {
+      "file": "guide-assets/异常演示数据/05_余额表_多一分_仅异常演示.xlsx",
+      "sha256": "040c0d583fd3ef6e32afb0e20ff870e9f03cb1d78fb736eea439255f92a28803",
+      "purpose": "仅独立异常演示，不与正确NC/余额文件叠加。",
+      "generatedAndUploadedBy": "acceptance/run_foundation_browser.py"
+    }
+  ],
+  "inputScope": "此清单绑定实际browser runner生成并上传的异常文件；主报告inputSha256的前后不变断言针对正常交付5个已填XLSX，异常由同哈希脚本内独立构造。"
+}

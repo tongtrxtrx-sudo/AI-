@@ -1,0 +1,766 @@
+{
+  "passed": true,
+  "reviewScope": "五份Markdown的全模块独立语义审查及从零专项图文指南，绑定实际插图；不等同最终Word/PDF排版或客户Windows真机验收。",
+  "softwareBaseline": "FOUNDATION-20261028",
+  "documentationVersion": "D1.0",
+  "reviewedAtUtc": "2026-10-28T10:57:11.405779+00:00",
+  "reviewer": "foundation_review，独立于实现和初稿作者；发现问题后只精修文档，不修改运行源码",
+  "sourceMarkdownSha256": {
+    "content/01-PRD研发需求规格说明书.md": "a005b9ea9f42d11a3bddbeb36091cb9a8b6121f923a94a77432afbdbe9369c4d",
+    "content/01A-字段与接口数据字典.md": "1d143c08fa2b0a5b8dd2581e9f2a0f0d17a1a6b126c1ed9cfcc81ee369f9d50c",
+    "content/02-系统研发与交互说明书.md": "aca912c55151bc62d2e9f8f8ba6755f04674f86df127f3b0cf3cea539a7feda6",
+    "content/03-产品说明书_含演示案例.md": "5dab3e329b711abf62638ccd1452101079fe15a6de7e8530928289f2098b02ea",
+    "content/04-用户操作手册.md": "90853e58d607c3b329f1d11c3c725b7ae971442c0b9512057ffe28dd7d67a7be"
+  },
+  "reviewedSoftwareSourceSha256": {
+    "backend/API-CONTRACT.md": "10a910d21ee34eaa8ee7d8d2b77bc1cab70eb15939148e762be59f66994f2961",
+    "backend/CALCULATION-CONTRACT.md": "0d4efe1dad6b0252ff0db1e2bc8322b5b24a7e938cf63155f43a293b1b010259",
+    "backend/FOUNDATION-CONTRACT.md": "e0f045d7ea9f6fec0404cf13363fca50fc196ba11b1918e2c8bfab8a6c03b10e",
+    "backend/LEDGER-CONTRACT.md": "c7749e2aea83d3cfdeb47ab29bdb0d335de4d10eb72708cf30f8781012fff2c5",
+    "backend/balance_domain.py": "76f7b4d7e7f945607858bb2c6f2bd498c17287ad92fe907cebdc1c63c737a8e5",
+    "backend/consolidation.py": "bf59624876203d442bbd36705774bf3338d8638b3b8a31cc6ebebe2493a462cf",
+    "backend/engine.py": "cdea2d2319771e6ab4a855f7a665ec7fd04cdc7d8b7b005c407062e3a8523741",
+    "backend/erp_domain.py": "83437930d98c80153d239c4581d4020d68c7048a0f302bd7b1abdb96b9dcfcfa",
+    "backend/finance.py": "31e1fd61f35dc8d68fecb10d0209fd108237e2aded2efa80b2970fbed2019114",
+    "backend/ledger.py": "c6b72fae0754d89782e5c950f4d6b73fa3c9286409732004ef5e770824ccef0e",
+    "backend/ledger_seed.py": "13cc623ea2811bf6a9a45b4f393ed2038d4fa06452079f9b397a29224d45b351",
+    "backend/legacy_engine.py": "ecc9fc84cb156183dc2f6b56e25c8ec2409441577b3830c8d107701261d9230f",
+    "backend/multilevel_domain.py": "e4ce5b1e51fe0199932a1c0c87c817cdb598f1a083c59a4270c961ae6c69a9d5",
+    "backend/multilevel_seed.py": "425b810becb6e56cb8f579c5ce5f03cad29e2a9dd194f902ec3de5be0e8c12db",
+    "backend/server.py": "d5778fd6a83f295a4bccd848c3c26d4210f09975feddbbcf1b6f4249890c2801",
+    "backend/store.py": "54efa83d9fca55edffde8ffad575ded9f1f3dd90d909ee69604eff9f04674249",
+    "backend/test_consolidation.py": "bdff9a77433cfb505c2417528f4308d675ae76d68b813864968cc4fa23298c9e",
+    "backend/test_erp_calculation.py": "4c981585feb5daea9d788f743c4c25365263a35a92267dbefeaa7f79e3d626b9",
+    "backend/test_erp_domain.py": "c81e6739ba664aaf20025007a557beff7fc424b88012e7507ca571fab7d37926",
+    "backend/test_foundation.py": "9e715a47ab4727788d16b16e441a9925f33cf03a92cfc19d3af8aabade952664",
+    "backend/test_ledger.py": "3a73ec23d1c12c609522261e436ba9a6d96494ce0873a460189ebb6853a45f3c",
+    "backend/test_multilevel_domain.py": "242fbf647f125426c1af86f655ce7b2bfdf8a0559d2f6f44bf8e13946476691b",
+    "backend/test_multilevel_http.py": "2a00733ba0ec69c48951abf723859c20d557dfcfb518dfe44fbf4c590c13640b",
+    "build_windows.py": "d967d1875c0e77ea678d678908534d0032811fe0d03a94efea91d3c9ccd5085b",
+    "frontend/dist/index.html": "07dd3bbfaae9dedde01118cf3548de7f5ad35308369e646598d898beabc2800e",
+    "frontend/src/app.js": "31d4dc149a340b654a147190e29634cccecf66af21062391d18702becc588be1",
+    "frontend/src/budget.js": "cb2f22953f95d4409b4749c82f38eabdc4834f337de9738c75099e016cea8062",
+    "frontend/src/erp-actions.js": "2bb45ba75a8a2b734334a747679b6ff5ea47103a274b6e61d81aa88a2cc1a943",
+    "frontend/src/erp-pages.js": "653c545724b87b33225dcc8f03a7c58c40903d302bc7efb995118b7895fa1699",
+    "frontend/src/foundation.js": "08d8ef5c4e8d4e56bf270dfe1cc81be0a1f3465bba20518d4a53403c840ffce5",
+    "frontend/src/ml-actions.js": "81758e156a3f5a2fe702eebdb20f7d8ff6695d7d0143312f2f2ab3b4e2687c16",
+    "frontend/src/ml-pages.js": "b6ba99a86c0627ec5163fbdebde070b9ec01cfe5103cdb0cb39c4f28dbbb5160",
+    "frontend/src/shell.html": "f6cfc0be61c4e0875ac3e00c052cb252c3eba725c7cb7e26753f9560f4191a71",
+    "frontend/src/style.css": "1e3b3132d911f9b082152d160792ab7711eaba93ae10e97750c00a51d3715027",
+    "frontend-build.py": "fc96158360084d129ddd767499d54bf03659a0c51920a89bae2a4e1bd0ebc41f",
+    "package_windows.py": "267a624fbdc0e0fe47e50a7b433f8117ac9145549b184b53a3fe88f0f4410f40",
+    "windows/app/demo_launcher.py": "efb298c984a0dc631fc434e197d6164134ae7793101dec060f7b1c3f8820d7ee",
+    "windows/launcher.c": "e1057562511205ef2d20fee4462673f1724121bb159c9b6fb1e9eb5e99c9839b"
+  },
+  "softwareSourceManifestMatched": true,
+  "documents": [
+    {
+      "id": "PRD",
+      "source": "content/01-PRD研发需求规格说明书.md",
+      "supplementSources": [
+        "content/01A-字段与接口数据字典.md"
+      ],
+      "moduleCoverageReviewed": 24,
+      "passed": true,
+      "reviewMethod": "逐章实读正文/表格，核对当前有效frontend/foundation.js覆盖函数及后端合同；独立真实HTTP复核结转、非预设法人ID、原账余额及禁止旁路。并非仅凭关键词出现。",
+      "sections": "全篇24模块及A1—A23字段附录",
+      "moduleCoverage": [
+        {
+          "route": "overview",
+          "name": "集团经营总览",
+          "semanticReview": "同范围当前保存结果；空初始没有已计算数字，月度趋势来自结果月发生而非累计造趋势。",
+          "passed": true
+        },
+        {
+          "route": "org",
+          "name": "集团组织与持股",
+          "semanticReview": "由用户创建独立法人/本部及管理树；技术TY_GROUP非企业，真实股权与成员分开，非TY ID全链已独立HTTP验证。",
+          "passed": true
+        },
+        {
+          "route": "master",
+          "name": "科目与维度",
+          "semanticReview": "内置BS/PL字典支持第一科目；集团档案不替代各法人ERP科目映射。",
+          "passed": true
+        },
+        {
+          "route": "erp-import",
+          "name": "ERP凭证与期初",
+          "semanticReview": "NC48与通用15二选一，年初/凭证/十列余额用途分离；账簿/客商/共同号照表维护，非配置文件一键导入。",
+          "passed": true
+        },
+        {
+          "route": "erp-reports",
+          "name": "法人凭证与三表",
+          "semanticReview": "完整期初加凭证先生成源；原账含合法结转进行余额六金额对账，管理PL另排结转，保持原行和元分精度。",
+          "passed": true
+        },
+        {
+          "route": "erp-matching",
+          "name": "内部交易匹配与差异",
+          "semanticReview": "LCA/双方/ref/月/本币与金额匹配；差异保原凭证，补注白名单不改金额，准确项幂等草稿及负责人批审。",
+          "passed": true
+        },
+        {
+          "route": "sources",
+          "name": "数据接入",
+          "semanticReview": "Foundation只读凭证源并引导ERP；source_save/source_import/tb_import外部403，伪来源不放行。",
+          "passed": true
+        },
+        {
+          "route": "submissions",
+          "name": "财务三表报送",
+          "semanticReview": "查看凭证派生六区源；无手工汇总来源替代正式凭证链，改账后重生重核。",
+          "passed": true
+        },
+        {
+          "route": "rates",
+          "name": "集团分类汇率",
+          "semanticReview": "无预置汇率；CNY/USD分类率与逐月损益/现金流率、历史资本、CTA和现金FX区分，非一般多币种会计。",
+          "passed": true
+        },
+        {
+          "route": "consolidation",
+          "name": "分级合并与结果",
+          "semanticReview": "空容器拒算；所有叶子ERP源和余额当前通过、当前匹配及审批、直接下级有效已签；新版本与历史分离。",
+          "passed": true
+        },
+        {
+          "route": "ownership",
+          "name": "持股与企业合并",
+          "semanticReview": "真实本部100%持股与鸿旺管理小合并区分；投资资本受实际原账与历史资本约束，不虚构股东。",
+          "passed": true
+        },
+        {
+          "route": "intercompany",
+          "name": "内部往来核对",
+          "semanticReview": "范围内原账对方/共同号及匹配来源；无凭证不能靠汇总报表猜对方，下层已抵上层不重复。",
+          "passed": true
+        },
+        {
+          "route": "journals",
+          "name": "抵销与调整凭证",
+          "semanticReview": "自动sales/balances仅来自当前匹配；外部手工sales和伪erpMatchId403；受限investment可按真实来源建草稿审批。",
+          "passed": true
+        },
+        {
+          "route": "closing",
+          "name": "关账校验与签核",
+          "semanticReview": "财务勾稽与ERP/余额/匹配前置共同约束；签核锁与预算锁不同，重开本层和祖先并保历史。",
+          "passed": true
+        },
+        {
+          "route": "statements",
+          "name": "集团三张报表",
+          "semanticReview": "菜单服从顶部范围，三表万元六位；HW和根收入840/净270/资产470来自独立输入而非默认业务。",
+          "passed": true
+        },
+        {
+          "route": "budget-cycle",
+          "name": "预算周期与审批",
+          "semanticReview": "空编制技术结构非已录预算；用户复制命名、提交/批准/锁定，角色状态由后端约束。",
+          "passed": true
+        },
+        {
+          "route": "budget-sheet",
+          "name": "预算编制与分摊",
+          "semanticReview": "四层收入/量价、固定均匀或季节性月份方案及七类业务明细；无自定义法人比例/权重入口，不伪称完整财报预算。",
+          "passed": true
+        },
+        {
+          "route": "budget-adjust",
+          "name": "预算调整与滚动预测",
+          "semanticReview": "独立调整记录申请时完整快照、批准新版本/退回；滚动预测为独立情景复制。",
+          "passed": true
+        },
+        {
+          "route": "budget-version",
+          "name": "版本与多情景",
+          "semanticReview": "完整预算复制与切换，名称唯一，原锁定/批准版本不覆盖，比较当前实际实现指标。",
+          "passed": true
+        },
+        {
+          "route": "analysis",
+          "name": "经营差异与钻取",
+          "semanticReview": "同范围同币种结果与已编收入预算；法人贡献抵销前，成本费用比较技术0不能当已编利润预算。",
+          "passed": true
+        },
+        {
+          "route": "reports",
+          "name": "管理报表中心",
+          "semanticReview": "仅当前或指定历史保存结果，导出带期间币种版本；无结果不导假正式报表。",
+          "passed": true
+        },
+        {
+          "route": "permissions",
+          "name": "组织权限",
+          "semanticReview": "本机会话演示职责，WR/MGR/只读服务端校验；余额核对可WR执行，不虚构余额独立批准动作。",
+          "passed": true
+        },
+        {
+          "route": "audit",
+          "name": "审计轨迹",
+          "semanticReview": "成功事务与revision同提交，失败零写；最近200条投影非完整不可篡改审计平台。",
+          "passed": true
+        },
+        {
+          "route": "settings",
+          "name": "系统配置",
+          "semanticReview": "显示公司名不创建本部，固定2026；新product/schema/目录隔离，安全退出后备份整个目录。",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "SYS",
+      "source": "content/02-系统研发与交互说明书.md",
+      "supplementSources": [],
+      "moduleCoverageReviewed": 24,
+      "passed": true,
+      "reviewMethod": "逐章实读正文/表格，核对当前有效frontend/foundation.js覆盖函数及后端合同；独立真实HTTP复核结转、非预设法人ID、原账余额及禁止旁路。并非仅凭关键词出现。",
+      "sections": "§一—十五，尤其§四—九及十一24模块调用矩阵",
+      "moduleCoverage": [
+        {
+          "route": "overview",
+          "name": "集团经营总览",
+          "semanticReview": "同范围当前保存结果；空初始没有已计算数字，月度趋势来自结果月发生而非累计造趋势。",
+          "passed": true
+        },
+        {
+          "route": "org",
+          "name": "集团组织与持股",
+          "semanticReview": "由用户创建独立法人/本部及管理树；技术TY_GROUP非企业，真实股权与成员分开，非TY ID全链已独立HTTP验证。",
+          "passed": true
+        },
+        {
+          "route": "master",
+          "name": "科目与维度",
+          "semanticReview": "内置BS/PL字典支持第一科目；集团档案不替代各法人ERP科目映射。",
+          "passed": true
+        },
+        {
+          "route": "erp-import",
+          "name": "ERP凭证与期初",
+          "semanticReview": "NC48与通用15二选一，年初/凭证/十列余额用途分离；账簿/客商/共同号照表维护，非配置文件一键导入。",
+          "passed": true
+        },
+        {
+          "route": "erp-reports",
+          "name": "法人凭证与三表",
+          "semanticReview": "完整期初加凭证先生成源；原账含合法结转进行余额六金额对账，管理PL另排结转，保持原行和元分精度。",
+          "passed": true
+        },
+        {
+          "route": "erp-matching",
+          "name": "内部交易匹配与差异",
+          "semanticReview": "LCA/双方/ref/月/本币与金额匹配；差异保原凭证，补注白名单不改金额，准确项幂等草稿及负责人批审。",
+          "passed": true
+        },
+        {
+          "route": "sources",
+          "name": "数据接入",
+          "semanticReview": "Foundation只读凭证源并引导ERP；source_save/source_import/tb_import外部403，伪来源不放行。",
+          "passed": true
+        },
+        {
+          "route": "submissions",
+          "name": "财务三表报送",
+          "semanticReview": "查看凭证派生六区源；无手工汇总来源替代正式凭证链，改账后重生重核。",
+          "passed": true
+        },
+        {
+          "route": "rates",
+          "name": "集团分类汇率",
+          "semanticReview": "无预置汇率；CNY/USD分类率与逐月损益/现金流率、历史资本、CTA和现金FX区分，非一般多币种会计。",
+          "passed": true
+        },
+        {
+          "route": "consolidation",
+          "name": "分级合并与结果",
+          "semanticReview": "空容器拒算；所有叶子ERP源和余额当前通过、当前匹配及审批、直接下级有效已签；新版本与历史分离。",
+          "passed": true
+        },
+        {
+          "route": "ownership",
+          "name": "持股与企业合并",
+          "semanticReview": "真实本部100%持股与鸿旺管理小合并区分；投资资本受实际原账与历史资本约束，不虚构股东。",
+          "passed": true
+        },
+        {
+          "route": "intercompany",
+          "name": "内部往来核对",
+          "semanticReview": "范围内原账对方/共同号及匹配来源；无凭证不能靠汇总报表猜对方，下层已抵上层不重复。",
+          "passed": true
+        },
+        {
+          "route": "journals",
+          "name": "抵销与调整凭证",
+          "semanticReview": "自动sales/balances仅来自当前匹配；外部手工sales和伪erpMatchId403；受限investment可按真实来源建草稿审批。",
+          "passed": true
+        },
+        {
+          "route": "closing",
+          "name": "关账校验与签核",
+          "semanticReview": "财务勾稽与ERP/余额/匹配前置共同约束；签核锁与预算锁不同，重开本层和祖先并保历史。",
+          "passed": true
+        },
+        {
+          "route": "statements",
+          "name": "集团三张报表",
+          "semanticReview": "菜单服从顶部范围，三表万元六位；HW和根收入840/净270/资产470来自独立输入而非默认业务。",
+          "passed": true
+        },
+        {
+          "route": "budget-cycle",
+          "name": "预算周期与审批",
+          "semanticReview": "空编制技术结构非已录预算；用户复制命名、提交/批准/锁定，角色状态由后端约束。",
+          "passed": true
+        },
+        {
+          "route": "budget-sheet",
+          "name": "预算编制与分摊",
+          "semanticReview": "四层收入/量价、固定均匀或季节性月份方案及七类业务明细；无自定义法人比例/权重入口，不伪称完整财报预算。",
+          "passed": true
+        },
+        {
+          "route": "budget-adjust",
+          "name": "预算调整与滚动预测",
+          "semanticReview": "独立调整记录申请时完整快照、批准新版本/退回；滚动预测为独立情景复制。",
+          "passed": true
+        },
+        {
+          "route": "budget-version",
+          "name": "版本与多情景",
+          "semanticReview": "完整预算复制与切换，名称唯一，原锁定/批准版本不覆盖，比较当前实际实现指标。",
+          "passed": true
+        },
+        {
+          "route": "analysis",
+          "name": "经营差异与钻取",
+          "semanticReview": "同范围同币种结果与已编收入预算；法人贡献抵销前，成本费用比较技术0不能当已编利润预算。",
+          "passed": true
+        },
+        {
+          "route": "reports",
+          "name": "管理报表中心",
+          "semanticReview": "仅当前或指定历史保存结果，导出带期间币种版本；无结果不导假正式报表。",
+          "passed": true
+        },
+        {
+          "route": "permissions",
+          "name": "组织权限",
+          "semanticReview": "本机会话演示职责，WR/MGR/只读服务端校验；余额核对可WR执行，不虚构余额独立批准动作。",
+          "passed": true
+        },
+        {
+          "route": "audit",
+          "name": "审计轨迹",
+          "semanticReview": "成功事务与revision同提交，失败零写；最近200条投影非完整不可篡改审计平台。",
+          "passed": true
+        },
+        {
+          "route": "settings",
+          "name": "系统配置",
+          "semanticReview": "显示公司名不创建本部，固定2026；新product/schema/目录隔离，安全退出后备份整个目录。",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "PROD",
+      "source": "content/03-产品说明书_含演示案例.md",
+      "supplementSources": [],
+      "moduleCoverageReviewed": 24,
+      "passed": true,
+      "reviewMethod": "逐章实读正文/表格，核对当前有效frontend/foundation.js覆盖函数及后端合同；独立真实HTTP复核结转、非预设法人ID、原账余额及禁止旁路。并非仅凭关键词出现。",
+      "sections": "P01—P24及完整建档/账务/异常/预算演示",
+      "moduleCoverage": [
+        {
+          "route": "overview",
+          "name": "集团经营总览",
+          "semanticReview": "同范围当前保存结果；空初始没有已计算数字，月度趋势来自结果月发生而非累计造趋势。",
+          "passed": true
+        },
+        {
+          "route": "org",
+          "name": "集团组织与持股",
+          "semanticReview": "由用户创建独立法人/本部及管理树；技术TY_GROUP非企业，真实股权与成员分开，非TY ID全链已独立HTTP验证。",
+          "passed": true
+        },
+        {
+          "route": "master",
+          "name": "科目与维度",
+          "semanticReview": "内置BS/PL字典支持第一科目；集团档案不替代各法人ERP科目映射。",
+          "passed": true
+        },
+        {
+          "route": "erp-import",
+          "name": "ERP凭证与期初",
+          "semanticReview": "NC48与通用15二选一，年初/凭证/十列余额用途分离；账簿/客商/共同号照表维护，非配置文件一键导入。",
+          "passed": true
+        },
+        {
+          "route": "erp-reports",
+          "name": "法人凭证与三表",
+          "semanticReview": "完整期初加凭证先生成源；原账含合法结转进行余额六金额对账，管理PL另排结转，保持原行和元分精度。",
+          "passed": true
+        },
+        {
+          "route": "erp-matching",
+          "name": "内部交易匹配与差异",
+          "semanticReview": "LCA/双方/ref/月/本币与金额匹配；差异保原凭证，补注白名单不改金额，准确项幂等草稿及负责人批审。",
+          "passed": true
+        },
+        {
+          "route": "sources",
+          "name": "数据接入",
+          "semanticReview": "Foundation只读凭证源并引导ERP；source_save/source_import/tb_import外部403，伪来源不放行。",
+          "passed": true
+        },
+        {
+          "route": "submissions",
+          "name": "财务三表报送",
+          "semanticReview": "查看凭证派生六区源；无手工汇总来源替代正式凭证链，改账后重生重核。",
+          "passed": true
+        },
+        {
+          "route": "rates",
+          "name": "集团分类汇率",
+          "semanticReview": "无预置汇率；CNY/USD分类率与逐月损益/现金流率、历史资本、CTA和现金FX区分，非一般多币种会计。",
+          "passed": true
+        },
+        {
+          "route": "consolidation",
+          "name": "分级合并与结果",
+          "semanticReview": "空容器拒算；所有叶子ERP源和余额当前通过、当前匹配及审批、直接下级有效已签；新版本与历史分离。",
+          "passed": true
+        },
+        {
+          "route": "ownership",
+          "name": "持股与企业合并",
+          "semanticReview": "真实本部100%持股与鸿旺管理小合并区分；投资资本受实际原账与历史资本约束，不虚构股东。",
+          "passed": true
+        },
+        {
+          "route": "intercompany",
+          "name": "内部往来核对",
+          "semanticReview": "范围内原账对方/共同号及匹配来源；无凭证不能靠汇总报表猜对方，下层已抵上层不重复。",
+          "passed": true
+        },
+        {
+          "route": "journals",
+          "name": "抵销与调整凭证",
+          "semanticReview": "自动sales/balances仅来自当前匹配；外部手工sales和伪erpMatchId403；受限investment可按真实来源建草稿审批。",
+          "passed": true
+        },
+        {
+          "route": "closing",
+          "name": "关账校验与签核",
+          "semanticReview": "财务勾稽与ERP/余额/匹配前置共同约束；签核锁与预算锁不同，重开本层和祖先并保历史。",
+          "passed": true
+        },
+        {
+          "route": "statements",
+          "name": "集团三张报表",
+          "semanticReview": "菜单服从顶部范围，三表万元六位；HW和根收入840/净270/资产470来自独立输入而非默认业务。",
+          "passed": true
+        },
+        {
+          "route": "budget-cycle",
+          "name": "预算周期与审批",
+          "semanticReview": "空编制技术结构非已录预算；用户复制命名、提交/批准/锁定，角色状态由后端约束。",
+          "passed": true
+        },
+        {
+          "route": "budget-sheet",
+          "name": "预算编制与分摊",
+          "semanticReview": "四层收入/量价、固定均匀或季节性月份方案及七类业务明细；无自定义法人比例/权重入口，不伪称完整财报预算。",
+          "passed": true
+        },
+        {
+          "route": "budget-adjust",
+          "name": "预算调整与滚动预测",
+          "semanticReview": "独立调整记录申请时完整快照、批准新版本/退回；滚动预测为独立情景复制。",
+          "passed": true
+        },
+        {
+          "route": "budget-version",
+          "name": "版本与多情景",
+          "semanticReview": "完整预算复制与切换，名称唯一，原锁定/批准版本不覆盖，比较当前实际实现指标。",
+          "passed": true
+        },
+        {
+          "route": "analysis",
+          "name": "经营差异与钻取",
+          "semanticReview": "同范围同币种结果与已编收入预算；法人贡献抵销前，成本费用比较技术0不能当已编利润预算。",
+          "passed": true
+        },
+        {
+          "route": "reports",
+          "name": "管理报表中心",
+          "semanticReview": "仅当前或指定历史保存结果，导出带期间币种版本；无结果不导假正式报表。",
+          "passed": true
+        },
+        {
+          "route": "permissions",
+          "name": "组织权限",
+          "semanticReview": "本机会话演示职责，WR/MGR/只读服务端校验；余额核对可WR执行，不虚构余额独立批准动作。",
+          "passed": true
+        },
+        {
+          "route": "audit",
+          "name": "审计轨迹",
+          "semanticReview": "成功事务与revision同提交，失败零写；最近200条投影非完整不可篡改审计平台。",
+          "passed": true
+        },
+        {
+          "route": "settings",
+          "name": "系统配置",
+          "semanticReview": "显示公司名不创建本部，固定2026；新product/schema/目录隔离，安全退出后备份整个目录。",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "USER",
+      "source": "content/04-用户操作手册.md",
+      "supplementSources": [],
+      "moduleCoverageReviewed": 24,
+      "passed": true,
+      "reviewMethod": "逐章实读正文/表格，核对当前有效frontend/foundation.js覆盖函数及后端合同；独立真实HTTP复核结转、非预设法人ID、原账余额及禁止旁路。并非仅凭关键词出现。",
+      "sections": "§一—十九，基础/财务全链、§十五模块表、§十六预算、§十七—十八分析治理",
+      "moduleCoverage": [
+        {
+          "route": "overview",
+          "name": "集团经营总览",
+          "semanticReview": "同范围当前保存结果；空初始没有已计算数字，月度趋势来自结果月发生而非累计造趋势。",
+          "passed": true
+        },
+        {
+          "route": "org",
+          "name": "集团组织与持股",
+          "semanticReview": "由用户创建独立法人/本部及管理树；技术TY_GROUP非企业，真实股权与成员分开，非TY ID全链已独立HTTP验证。",
+          "passed": true
+        },
+        {
+          "route": "master",
+          "name": "科目与维度",
+          "semanticReview": "内置BS/PL字典支持第一科目；集团档案不替代各法人ERP科目映射。",
+          "passed": true
+        },
+        {
+          "route": "erp-import",
+          "name": "ERP凭证与期初",
+          "semanticReview": "NC48与通用15二选一，年初/凭证/十列余额用途分离；账簿/客商/共同号照表维护，非配置文件一键导入。",
+          "passed": true
+        },
+        {
+          "route": "erp-reports",
+          "name": "法人凭证与三表",
+          "semanticReview": "完整期初加凭证先生成源；原账含合法结转进行余额六金额对账，管理PL另排结转，保持原行和元分精度。",
+          "passed": true
+        },
+        {
+          "route": "erp-matching",
+          "name": "内部交易匹配与差异",
+          "semanticReview": "LCA/双方/ref/月/本币与金额匹配；差异保原凭证，补注白名单不改金额，准确项幂等草稿及负责人批审。",
+          "passed": true
+        },
+        {
+          "route": "sources",
+          "name": "数据接入",
+          "semanticReview": "Foundation只读凭证源并引导ERP；source_save/source_import/tb_import外部403，伪来源不放行。",
+          "passed": true
+        },
+        {
+          "route": "submissions",
+          "name": "财务三表报送",
+          "semanticReview": "查看凭证派生六区源；无手工汇总来源替代正式凭证链，改账后重生重核。",
+          "passed": true
+        },
+        {
+          "route": "rates",
+          "name": "集团分类汇率",
+          "semanticReview": "无预置汇率；CNY/USD分类率与逐月损益/现金流率、历史资本、CTA和现金FX区分，非一般多币种会计。",
+          "passed": true
+        },
+        {
+          "route": "consolidation",
+          "name": "分级合并与结果",
+          "semanticReview": "空容器拒算；所有叶子ERP源和余额当前通过、当前匹配及审批、直接下级有效已签；新版本与历史分离。",
+          "passed": true
+        },
+        {
+          "route": "ownership",
+          "name": "持股与企业合并",
+          "semanticReview": "真实本部100%持股与鸿旺管理小合并区分；投资资本受实际原账与历史资本约束，不虚构股东。",
+          "passed": true
+        },
+        {
+          "route": "intercompany",
+          "name": "内部往来核对",
+          "semanticReview": "范围内原账对方/共同号及匹配来源；无凭证不能靠汇总报表猜对方，下层已抵上层不重复。",
+          "passed": true
+        },
+        {
+          "route": "journals",
+          "name": "抵销与调整凭证",
+          "semanticReview": "自动sales/balances仅来自当前匹配；外部手工sales和伪erpMatchId403；受限investment可按真实来源建草稿审批。",
+          "passed": true
+        },
+        {
+          "route": "closing",
+          "name": "关账校验与签核",
+          "semanticReview": "财务勾稽与ERP/余额/匹配前置共同约束；签核锁与预算锁不同，重开本层和祖先并保历史。",
+          "passed": true
+        },
+        {
+          "route": "statements",
+          "name": "集团三张报表",
+          "semanticReview": "菜单服从顶部范围，三表万元六位；HW和根收入840/净270/资产470来自独立输入而非默认业务。",
+          "passed": true
+        },
+        {
+          "route": "budget-cycle",
+          "name": "预算周期与审批",
+          "semanticReview": "空编制技术结构非已录预算；用户复制命名、提交/批准/锁定，角色状态由后端约束。",
+          "passed": true
+        },
+        {
+          "route": "budget-sheet",
+          "name": "预算编制与分摊",
+          "semanticReview": "四层收入/量价、固定均匀或季节性月份方案及七类业务明细；无自定义法人比例/权重入口，不伪称完整财报预算。",
+          "passed": true
+        },
+        {
+          "route": "budget-adjust",
+          "name": "预算调整与滚动预测",
+          "semanticReview": "独立调整记录申请时完整快照、批准新版本/退回；滚动预测为独立情景复制。",
+          "passed": true
+        },
+        {
+          "route": "budget-version",
+          "name": "版本与多情景",
+          "semanticReview": "完整预算复制与切换，名称唯一，原锁定/批准版本不覆盖，比较当前实际实现指标。",
+          "passed": true
+        },
+        {
+          "route": "analysis",
+          "name": "经营差异与钻取",
+          "semanticReview": "同范围同币种结果与已编收入预算；法人贡献抵销前，成本费用比较技术0不能当已编利润预算。",
+          "passed": true
+        },
+        {
+          "route": "reports",
+          "name": "管理报表中心",
+          "semanticReview": "仅当前或指定历史保存结果，导出带期间币种版本；无结果不导假正式报表。",
+          "passed": true
+        },
+        {
+          "route": "permissions",
+          "name": "组织权限",
+          "semanticReview": "本机会话演示职责，WR/MGR/只读服务端校验；余额核对可WR执行，不虚构余额独立批准动作。",
+          "passed": true
+        },
+        {
+          "route": "audit",
+          "name": "审计轨迹",
+          "semanticReview": "成功事务与revision同提交，失败零写；最近200条投影非完整不可篡改审计平台。",
+          "passed": true
+        },
+        {
+          "route": "settings",
+          "name": "系统配置",
+          "semanticReview": "显示公司名不创建本部，固定2026；新product/schema/目录隔离，安全退出后备份整个目录。",
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "supplementalGuide": {
+    "file": "guide-assets/content/从零建档到凭证合并图文指南.md",
+    "sha256": "136c12b99af37e674c428c43caee3adeee7a7a49479ca4ef452e8e0f8263b32b",
+    "passed": true,
+    "scope": "从空新建4法人、真实持股、范围、12集团科目/48法人映射、NC识别、8期初/26凭证/48余额、异常到凭证、3自动草稿审批、HW签核、集团本层扫描和投资200后上卷；非一键加载旧样例。",
+    "imageReferences": 23
+  },
+  "reviewedIllustrationsSha256": {
+    "documentation-set/assets/从零建账系统架构.png": "a8c19024f60edaa72ef98dd3236248c8e1cefdae84d40756dd6fa9d50a020dfc",
+    "documentation-set/assets/Foundation_01_真正空框架首次打开.png": "11c13ff5a64bc48670b4a88f80a2629609966b4c615ea5de21d9c09b9894561a",
+    "documentation-set/assets/Foundation_02_创建集团本部.png": "02198fdcf64ce3d33d0bb647d461ffbdb86afbaaf11662ab80bcecb2bacc3348",
+    "documentation-set/assets/Foundation_14_四法人余额核对结果.png": "54658c06a2fdb0c863f71c35d404469dd330fcb1a713d4e05bac92c62c61732f",
+    "documentation-set/assets/Foundation_24_金额异常追NC原字段.png": "e670c4a6248c9d16b759baa02a7fde121b1fc82336758d70f038fe193dbb4876",
+    "documentation-set/assets/Foundation_08A_NC账簿法人本币.png": "bbe42f5d085444d696e376a64c2b1d11b9a22020a00b5f7ba32d6ffdef7987f1",
+    "documentation-set/assets/Foundation_12_六月余额表仅核对导入.png": "909c133bc9adc4f69ae34c3aecbbd3f3b604fae407447cdd31854a8b37b299f5",
+    "guide-assets/screenshots/01_真正空框架首次打开.png": "11c13ff5a64bc48670b4a88f80a2629609966b4c615ea5de21d9c09b9894561a",
+    "guide-assets/screenshots/02_创建集团本部.png": "02198fdcf64ce3d33d0bb647d461ffbdb86afbaaf11662ab80bcecb2bacc3348",
+    "guide-assets/screenshots/04_维护三子真实持股.png": "ca91c8c92e9bff96d246e06a61c9e040c77ee4d10e09ab912bb851199a1cd858",
+    "guide-assets/screenshots/05_创建鸿旺管理合并范围.png": "473fb38e52837d81bde6f9bdf1781f3acd16b93045491780f21b6f1b9e180dc4",
+    "guide-assets/screenshots/06_集团只引用本部与鸿旺.png": "24c9fb26a86f7cbf8ff15aff10a62ab149c60a11f95395c97b70619ab78c1346",
+    "guide-assets/screenshots/07_维护集团科目.png": "97838a3873daae717989a52ca6b0644213157ce88f932e9de5c6dfc409a68a7c",
+    "guide-assets/screenshots/08A_NC账簿法人本币.png": "bbe42f5d085444d696e376a64c2b1d11b9a22020a00b5f7ba32d6ffdef7987f1",
+    "guide-assets/screenshots/08B_NC客商与共同号.png": "e77b20bca29039f81324b569b14a15aa030ac3ed7ffd0adc073a17545a47d3c1",
+    "guide-assets/screenshots/09_法人科目映射XLSX导入.png": "bcb991316140d1accb9ed35ff37831d462bc69cfe09572179f8c94666a4c7730",
+    "guide-assets/screenshots/10_年初科目余额XLSX导入.png": "e3fd394e79cb7e46324b41e5d126ac5f21ff08a4440538dd4fcea78cc5d543e3",
+    "guide-assets/screenshots/11_NC48财务凭证XLSX导入.png": "acdf0826d08f1b450c7cf0c5e9d8a2460b0d47e7e3098a8d6663e9b1f11e68a3",
+    "guide-assets/screenshots/13_凭证生成单体三表.png": "bc9677180b25cf6f22ef6bd687be0f6d82e19e43919337d2842872f5f5536e0f",
+    "guide-assets/screenshots/12_六月余额表仅核对导入.png": "909c133bc9adc4f69ae34c3aecbbd3f3b604fae407447cdd31854a8b37b299f5",
+    "guide-assets/screenshots/14_四法人余额核对结果.png": "54658c06a2fdb0c863f71c35d404469dd330fcb1a713d4e05bac92c62c61732f",
+    "guide-assets/screenshots/22_余额一分差原行凭证.png": "27eef9fd95672c67dcfd8d5e9456914fe7b115a3fdbeba3f35ce96c137b06d37",
+    "guide-assets/screenshots/16_内部销售及应收应付三项匹配.png": "7df11fbd82a87ecf38a83a475f3f8b080847bd0186d1ae42ee7063df67cecbf6",
+    "guide-assets/screenshots/23_内部40与39差异阻断.png": "d9e90d095225e942ff15fb31622a3ffbb6f1e72c017f2ee41945ff73e0854f0d",
+    "guide-assets/screenshots/24_金额异常追NC原字段.png": "e670c4a6248c9d16b759baa02a7fde121b1fc82336758d70f038fe193dbb4876",
+    "guide-assets/screenshots/17_负责人审批自动抵销.png": "6e62da7aaa40a8b7e98ab3a265ae1ad98205e71a7247947337cfc87af307f87b",
+    "guide-assets/screenshots/18_鸿旺小合并已签核.png": "ff8f479d5e06aee5f50c2d8abc1e6c2f890dbc4f1aff7e5fd26b12403974cbee",
+    "guide-assets/screenshots/19_集团投资权益200审批.png": "2654f6345099f089006159977918fe74fa97ab11e92c959b4709ef701ca1235b",
+    "guide-assets/screenshots/20_集团引用鸿旺上卷.png": "4260f5d7603a277a742970731b588cc5830e1c12434def8016ad1741306c6ff1",
+    "guide-assets/screenshots/21_签核结果钻取原凭证.png": "57e1b313566ada4b1d728ba436b4248f73cf54d2f50c491f0b70fb75671db107"
+  },
+  "representativeRawScreenshotsVisuallyReviewed": {
+    "directory": "guide-assets/screenshots",
+    "files": {
+      "01_真正空框架首次打开.png": "11c13ff5a64bc48670b4a88f80a2629609966b4c615ea5de21d9c09b9894561a",
+      "04_维护三子真实持股.png": "ca91c8c92e9bff96d246e06a61c9e040c77ee4d10e09ab912bb851199a1cd858",
+      "08A_NC账簿法人本币.png": "bbe42f5d085444d696e376a64c2b1d11b9a22020a00b5f7ba32d6ffdef7987f1",
+      "08B_NC客商与共同号.png": "e77b20bca29039f81324b569b14a15aa030ac3ed7ffd0adc073a17545a47d3c1",
+      "12_六月余额表仅核对导入.png": "909c133bc9adc4f69ae34c3aecbbd3f3b604fae407447cdd31854a8b37b299f5",
+      "14_四法人余额核对结果.png": "54658c06a2fdb0c863f71c35d404469dd330fcb1a713d4e05bac92c62c61732f",
+      "16_内部销售及应收应付三项匹配.png": "7df11fbd82a87ecf38a83a475f3f8b080847bd0186d1ae42ee7063df67cecbf6",
+      "18_鸿旺小合并已签核.png": "ff8f479d5e06aee5f50c2d8abc1e6c2f890dbc4f1aff7e5fd26b12403974cbee",
+      "19_集团投资权益200审批.png": "2654f6345099f089006159977918fe74fa97ab11e92c959b4709ef701ca1235b",
+      "20_集团引用鸿旺上卷.png": "4260f5d7603a277a742970731b588cc5830e1c12434def8016ad1741306c6ff1",
+      "22_余额一分差原行凭证.png": "27eef9fd95672c67dcfd8d5e9456914fe7b115a3fdbeba3f35ce96c137b06d37",
+      "23_内部40与39差异阻断.png": "d9e90d095225e942ff15fb31622a3ffbb6f1e72c017f2ee41945ff73e0854f0d",
+      "24_金额异常追NC原字段.png": "e670c4a6248c9d16b759baa02a7fde121b1fc82336758d70f038fe193dbb4876"
+    },
+    "architecture": "documentation-set/assets/从零建账系统架构.png",
+    "remarks": "核对空业务、实际母公司、本币与客商原值、余额仅核对、通过状态、40/20/ARAP20、下级有效引用及一分和一万元异常的单位/原批次/原凭证；图中确认弹窗不冒充已完成业务。"
+  },
+  "independentHttpProofSha256": {
+    "acceptance/review/closing-boundary-proof.json": "f1056246faab1db258ed2ac25e55a3ff4cd25213c9dc69f9619252585909a19f",
+    "acceptance/review/custom-id-proof.json": "29f66186da1802dcd3edbabb777491015d19f32a7a8f5d87251b8887960b26de"
+  },
+  "resolvedReviewFindings": [
+    "旧手工完整源/试算导入及sales可写措辞统一Foundation403；字段旧结构仅历史兼容解释。",
+    "集团即使新增匹配0项仍须当前层扫描，产品/用户/专项均写明。",
+    "法人币种保护覆盖已有期初/凭证/余额及账簿映射，非只在已生成报表后保护。",
+    "10列余额与年初入账分离，六金额原账含合法结转，管理PL排除结转，历史核对快照不可替换。",
+    "预算法人比例/权重和利润比较基准能力陈述收敛到真实界面及动作；技术0不当已编预算。",
+    "模板路径、生成本层法人按钮、税费科目类别及单法人核对图注对齐当前交付。",
+    "旧ERP passed证明不作为Foundation通过依据，主金样正确840/270/470。"
+  ],
+  "criticalFactsVerified": [
+    "默认无业务masters/ledger/sources/eliminations/results/fx/budget数字；technical空根禁止正式计算。",
+    "非TY母法人PARENT与A1/B1/C1在全新SQLite经真实HTTP完成两层签核，原币0.01元不丢失。",
+    "38行含真实合法结转的凭证核对四家全部通过；原账PL期末0而管理合并仍840/270/470。",
+    "所有正式叶子需当前ERP源和最新余额核对；外部手工源、试算、销售及伪erpMatchId均403零写。",
+    "余额批次跨期停用400且原批继续有效；合并结果保存本次balanceSnapshots和来源。",
+    "投资200是期初来源及真实股权依据，不捏造本年投资业务凭证；集团资产470。",
+    "本机中文Demo、NC文件适配尚未在线连接、受限全资模型及预算边界明确。"
+  ],
+  "reviewLimitations": [
+    "语义审查不代替最终Word/PDF分页、裁切、目录与下载验证；由交付流程另验。",
+    "Windows原生启动链在Wine兼容环境验证不等于用户实际Windows电脑已跑过。",
+    "不宣称生产身份隔离、NC在线连接、NCI/商誉/复杂资本事件/未实现利润及税项或完整业务驱动财务预算。"
+  ]
+}

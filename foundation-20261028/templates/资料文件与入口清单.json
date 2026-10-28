@@ -1,0 +1,281 @@
+{
+  "softwareBaseline": "FOUNDATION-20261028",
+  "period": "2026-06",
+  "companyName": "杭州天元宠物用品有限公司",
+  "amountUnit": "输入元两位／报表万元六位",
+  "businessSeededBySoftware": false,
+  "blankImportTemplateCount": 5,
+  "exampleXlsxCount": 5,
+  "manualPreparationCount": 4,
+  "files": [
+    {
+      "file": "guide-assets/templates/空白模板/01_法人科目映射_空白模板.xlsx",
+      "sha256": "9a978b194574c8c18d6e3e1b5305505f8ffcf9f42de82a2d7a5600d9a5933484",
+      "importable": true,
+      "blank": true,
+      "rows": 0,
+      "columns": 5,
+      "sheet": "导入数据",
+      "systemPath": "ERP凭证与期初→①科目字段映射→选择文件并导入"
+    },
+    {
+      "file": "guide-assets/templates/已填示例/01_法人科目映射_已填示例.xlsx",
+      "sha256": "e6ed4ab5ede8490a033fe3692f2c7fe431a368276668a3b8e9999ad3f518a507",
+      "importable": true,
+      "blank": false,
+      "rows": 48,
+      "columns": 5,
+      "sheet": "导入数据",
+      "systemPath": "ERP凭证与期初→①科目字段映射→选择文件并导入"
+    },
+    {
+      "file": "guide-assets/templates/CSV示例/01_法人科目映射_已填示例.csv",
+      "sha256": "bfbf9ac481b9e4db7380ab1fffb5ccc6e89e444b587a09f99421262cbee8368a",
+      "importable": true,
+      "blank": false,
+      "rows": 48,
+      "columns": 5,
+      "systemPath": "ERP凭证与期初→①科目字段映射→选择文件并导入"
+    },
+    {
+      "file": "guide-assets/templates/空白模板/02_年初科目余额_空白模板.xlsx",
+      "sha256": "317773be45c851d2d51f4115e4e6065e384e0bfa34045ab00c1774fc6abff1e9",
+      "importable": true,
+      "blank": true,
+      "rows": 0,
+      "columns": 9,
+      "sheet": "导入数据",
+      "systemPath": "ERP凭证与期初→②年初科目余额→选择文件并导入"
+    },
+    {
+      "file": "guide-assets/templates/已填示例/02_年初科目余额_已填示例.xlsx",
+      "sha256": "d659acaaeeabaca114aaf696dd55b316798fe50b6e49c1b02551bc8f6d64f9f5",
+      "importable": true,
+      "blank": false,
+      "rows": 8,
+      "columns": 9,
+      "sheet": "导入数据",
+      "systemPath": "ERP凭证与期初→②年初科目余额→选择文件并导入"
+    },
+    {
+      "file": "guide-assets/templates/CSV示例/02_年初科目余额_已填示例.csv",
+      "sha256": "edc762153c5ecd09dca68055991a80d88b9b042ed0ab0e6d55c66820b9ebcc5c",
+      "importable": true,
+      "blank": false,
+      "rows": 8,
+      "columns": 9,
+      "systemPath": "ERP凭证与期初→②年初科目余额→选择文件并导入"
+    },
+    {
+      "file": "guide-assets/templates/空白模板/03_NC65财务凭证_空白模板.xlsx",
+      "sha256": "2a820e19c395bd74e34156c5aec9ba435002873a8b30a6bdf1ab81bc0dbacfeb",
+      "importable": true,
+      "blank": true,
+      "rows": 0,
+      "columns": 48,
+      "sheet": "导入数据",
+      "systemPath": "ERP凭证与期初→下方导入NC6.5凭证"
+    },
+    {
+      "file": "guide-assets/templates/已填示例/03_NC65财务凭证_已填示例.xlsx",
+      "sha256": "502148c66004aea08d5ac53570a4341fbbeb36040502b2ec16b4228dba210654",
+      "importable": true,
+      "blank": false,
+      "rows": 26,
+      "columns": 48,
+      "sheet": "导入数据",
+      "systemPath": "ERP凭证与期初→下方导入NC6.5凭证"
+    },
+    {
+      "file": "guide-assets/templates/CSV示例/03_NC65财务凭证_已填示例.csv",
+      "sha256": "a6a6a3658ac5a216ce4ea04e6ecdee641ab6a41abab1aa5d8f72737685dedc5a",
+      "importable": true,
+      "blank": false,
+      "rows": 26,
+      "columns": 48,
+      "systemPath": "ERP凭证与期初→下方导入NC6.5凭证"
+    },
+    {
+      "file": "guide-assets/templates/空白模板/04_通用凭证_空白模板.xlsx",
+      "sha256": "10653bafd0c83328b7dc8ded7aafe81aa9a0d03b2658e99bd8ba36f7688d97cd",
+      "importable": true,
+      "blank": true,
+      "rows": 0,
+      "columns": 15,
+      "sheet": "导入数据",
+      "systemPath": "ERP凭证与期初→③完整已记账凭证→选择文件并导入"
+    },
+    {
+      "file": "guide-assets/templates/已填示例/04_通用凭证_已填示例_与NC二选一.xlsx",
+      "sha256": "faf217862b11849bb685d8710e791a765a4473cf4c03779f7a996f1ecf754043",
+      "importable": true,
+      "blank": false,
+      "rows": 26,
+      "columns": 15,
+      "sheet": "导入数据",
+      "systemPath": "ERP凭证与期初→③完整已记账凭证→选择文件并导入"
+    },
+    {
+      "file": "guide-assets/templates/CSV示例/04_通用凭证_已填示例.csv",
+      "sha256": "3ab91313f0ae68afcfe0eed19598c45e92ba4528a93d847a0dd45b027d063e7a",
+      "importable": true,
+      "blank": false,
+      "rows": 26,
+      "columns": 15,
+      "systemPath": "ERP凭证与期初→③完整已记账凭证→选择文件并导入"
+    },
+    {
+      "file": "guide-assets/templates/空白模板/05_六月科目余额核对表_空白模板.xlsx",
+      "sha256": "7e7579a1e2be59ddd91ecbe6c4ff10b89cc331ab32a5d13f675a625954b4bd8b",
+      "importable": true,
+      "blank": true,
+      "rows": 0,
+      "columns": 10,
+      "sheet": "导入数据",
+      "systemPath": "ERP凭证与期初→④科目余额核对表→选择文件并导入"
+    },
+    {
+      "file": "guide-assets/templates/已填示例/05_六月科目余额核对表_已填示例.xlsx",
+      "sha256": "d7c31406013898f435b56925071b4932610764823c84e7c8ad602f00799415a6",
+      "importable": true,
+      "blank": false,
+      "rows": 48,
+      "columns": 10,
+      "sheet": "导入数据",
+      "systemPath": "ERP凭证与期初→④科目余额核对表→选择文件并导入"
+    },
+    {
+      "file": "guide-assets/templates/CSV示例/05_六月科目余额核对表_已填示例.csv",
+      "sha256": "d57715f3657b0810d39220751e8f1b0eb0438479b6a32d7dd5933f15574cf682",
+      "importable": true,
+      "blank": false,
+      "rows": 48,
+      "columns": 10,
+      "systemPath": "ERP凭证与期初→④科目余额核对表→选择文件并导入"
+    },
+    {
+      "file": "guide-assets/templates/06_法人持股合并范围_页面准备表.xlsx",
+      "sha256": "21917a65deef2a32ec33d028823d27836298f7725f0eea37b48b749335990e5e",
+      "importable": false,
+      "systemPath": "集团组织与持股→新增法人/维护成员；持股与企业合并→维护真实持股"
+    },
+    {
+      "file": "guide-assets/templates/07_NC账簿客商_页面准备表.xlsx",
+      "sha256": "d81f3622fff9be9bd3883586a6596b3b87c79f068ab974de964191e0446f1211",
+      "importable": false,
+      "systemPath": "ERP凭证与期初→维护NC6.5适配"
+    },
+    {
+      "file": "guide-assets/templates/08_异常修复核对_页面准备表.xlsx",
+      "sha256": "ac28a6f2e72cfcdce82d838cdfaa8c01e52131ef89c6bd4faf3762e44f46ccd7",
+      "importable": false,
+      "systemPath": "内部交易匹配与差异／余额核对→原凭证→补充核对信息或更正重导"
+    },
+    {
+      "file": "guide-assets/templates/09_集团投资权益抵销_页面准备表.xlsx",
+      "sha256": "18cb8020638cb4ef55054f975d1361fe78442f6105ff3eeffac510c5f555a3e3",
+      "importable": false,
+      "systemPath": "抵销与调整凭证→新增分层抵销草稿→负责人审批"
+    },
+    {
+      "file": "guide-assets/templates/已填示例/NC适配配置_仅页面照填.json",
+      "sha256": "1380566af11fb40ba5b50e5db8890b10f83bf9dd432ba240edf4a7cdc066cd2b",
+      "importable": false,
+      "systemPath": "对照维护NC6.5适配，不存在JSON配置上传入口"
+    }
+  ],
+  "entities": [
+    {
+      "id": "TY",
+      "code": "TY00",
+      "name": "杭州天元宠物用品有限公司",
+      "short": "天元本部",
+      "currency": "CNY",
+      "parentId": null,
+      "percent": 100,
+      "owner": "集团财务负责人"
+    },
+    {
+      "id": "HW",
+      "code": "HW00",
+      "name": "鸿旺单体",
+      "short": "鸿旺单体",
+      "currency": "CNY",
+      "parentId": "TY",
+      "percent": 100,
+      "owner": "鸿旺财务"
+    },
+    {
+      "id": "HW_CAT",
+      "code": "HW01",
+      "name": "鸿旺猫爬架生产事业部",
+      "short": "鸿旺猫爬架",
+      "currency": "CNY",
+      "parentId": "TY",
+      "percent": 100,
+      "owner": "猫爬架财务"
+    },
+    {
+      "id": "HW_ELEC",
+      "code": "HW02",
+      "name": "杭州鸿旺宠物用品有限公司电子工厂",
+      "short": "鸿旺电子工厂",
+      "currency": "CNY",
+      "parentId": "TY",
+      "percent": 100,
+      "owner": "电子工厂财务"
+    }
+  ],
+  "golden": {
+    "HW": {
+      "revenue": 600,
+      "net": 180,
+      "assets": 280,
+      "cash": 260,
+      "receivable": 20,
+      "payable": 0
+    },
+    "HW_CAT": {
+      "revenue": 200,
+      "net": 60,
+      "assets": 110,
+      "cash": 110,
+      "receivable": 0,
+      "payable": 0
+    },
+    "HW_ELEC": {
+      "revenue": 100,
+      "net": 30,
+      "assets": 100,
+      "cash": 100,
+      "receivable": 0,
+      "payable": 20
+    },
+    "HW_GROUP": {
+      "revenue": 840,
+      "cost": 480,
+      "expense": 90,
+      "net": 270,
+      "assets": 470,
+      "liabilities": 0,
+      "capital": 200,
+      "retained": 270
+    },
+    "TY_GROUP": {
+      "revenue": 840,
+      "cost": 480,
+      "expense": 90,
+      "net": 270,
+      "assets": 470,
+      "liabilities": 0,
+      "capital": 200,
+      "retained": 270
+    }
+  },
+  "notes": [
+    "新软件首次业务数据全空，实体和合并单元由用户创建。",
+    "示例仅外部文件导入，不自动载入业务。",
+    "所有凭证6月15发生，1—5月无发生是假设。",
+    "NC与通用凭证示例二选一，余额只核对不入账。"
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "passed": true,
+  "candidate": false,
+  "softwareBaseline": "FOUNDATION-20261028",
+  "generatedUtc": "2026-10-28T10:46:59.946861+00:00",
+  "method": "Independent input data; actual HTTP, fresh SQLite and full process restart. No product business functions imported.",
+  "sourceSha256": {
+    "backend/API-CONTRACT.md": "10a910d21ee34eaa8ee7d8d2b77bc1cab70eb15939148e762be59f66994f2961",
+    "backend/CALCULATION-CONTRACT.md": "0d4efe1dad6b0252ff0db1e2bc8322b5b24a7e938cf63155f43a293b1b010259",
+    "backend/FOUNDATION-CONTRACT.md": "e0f045d7ea9f6fec0404cf13363fca50fc196ba11b1918e2c8bfab8a6c03b10e",
+    "backend/LEDGER-CONTRACT.md": "c7749e2aea83d3cfdeb47ab29bdb0d335de4d10eb72708cf30f8781012fff2c5",
+    "backend/balance_domain.py": "76f7b4d7e7f945607858bb2c6f2bd498c17287ad92fe907cebdc1c63c737a8e5",
+    "backend/consolidation.py": "bf59624876203d442bbd36705774bf3338d8638b3b8a31cc6ebebe2493a462cf",
+    "backend/engine.py": "cdea2d2319771e6ab4a855f7a665ec7fd04cdc7d8b7b005c407062e3a8523741",
+    "backend/erp_domain.py": "83437930d98c80153d239c4581d4020d68c7048a0f302bd7b1abdb96b9dcfcfa",
+    "backend/finance.py": "31e1fd61f35dc8d68fecb10d0209fd108237e2aded2efa80b2970fbed2019114",
+    "backend/ledger.py": "c6b72fae0754d89782e5c950f4d6b73fa3c9286409732004ef5e770824ccef0e",
+    "backend/ledger_seed.py": "13cc623ea2811bf6a9a45b4f393ed2038d4fa06452079f9b397a29224d45b351",
+    "backend/legacy_engine.py": "ecc9fc84cb156183dc2f6b56e25c8ec2409441577b3830c8d107701261d9230f",
+    "backend/multilevel_domain.py": "e4ce5b1e51fe0199932a1c0c87c817cdb598f1a083c59a4270c961ae6c69a9d5",
+    "backend/multilevel_seed.py": "425b810becb6e56cb8f579c5ce5f03cad29e2a9dd194f902ec3de5be0e8c12db",
+    "backend/server.py": "d5778fd6a83f295a4bccd848c3c26d4210f09975feddbbcf1b6f4249890c2801",
+    "backend/store.py": "54efa83d9fca55edffde8ffad575ded9f1f3dd90d909ee69604eff9f04674249",
+    "backend/test_consolidation.py": "bdff9a77433cfb505c2417528f4308d675ae76d68b813864968cc4fa23298c9e",
+    "backend/test_erp_calculation.py": "4c981585feb5daea9d788f743c4c25365263a35a92267dbefeaa7f79e3d626b9",
+    "backend/test_erp_domain.py": "c81e6739ba664aaf20025007a557beff7fc424b88012e7507ca571fab7d37926",
+    "backend/test_foundation.py": "9e715a47ab4727788d16b16e441a9925f33cf03a92cfc19d3af8aabade952664",
+    "backend/test_ledger.py": "3a73ec23d1c12c609522261e436ba9a6d96494ce0873a460189ebb6853a45f3c",
+    "backend/test_multilevel_domain.py": "242fbf647f125426c1af86f655ce7b2bfdf8a0559d2f6f44bf8e13946476691b",
+    "backend/test_multilevel_http.py": "2a00733ba0ec69c48951abf723859c20d557dfcfb518dfe44fbf4c590c13640b",
+    "build_windows.py": "d967d1875c0e77ea678d678908534d0032811fe0d03a94efea91d3c9ccd5085b",
+    "frontend/dist/index.html": "07dd3bbfaae9dedde01118cf3548de7f5ad35308369e646598d898beabc2800e",
+    "frontend/src/app.js": "31d4dc149a340b654a147190e29634cccecf66af21062391d18702becc588be1",
+    "frontend/src/budget.js": "cb2f22953f95d4409b4749c82f38eabdc4834f337de9738c75099e016cea8062",
+    "frontend/src/erp-actions.js": "2bb45ba75a8a2b734334a747679b6ff5ea47103a274b6e61d81aa88a2cc1a943",
+    "frontend/src/erp-pages.js": "653c545724b87b33225dcc8f03a7c58c40903d302bc7efb995118b7895fa1699",
+    "frontend/src/foundation.js": "08d8ef5c4e8d4e56bf270dfe1cc81be0a1f3465bba20518d4a53403c840ffce5",
+    "frontend/src/ml-actions.js": "81758e156a3f5a2fe702eebdb20f7d8ff6695d7d0143312f2f2ab3b4e2687c16",
+    "frontend/src/ml-pages.js": "b6ba99a86c0627ec5163fbdebde070b9ec01cfe5103cdb0cb39c4f28dbbb5160",
+    "frontend/src/shell.html": "f6cfc0be61c4e0875ac3e00c052cb252c3eba725c7cb7e26753f9560f4191a71",
+    "frontend/src/style.css": "1e3b3132d911f9b082152d160792ab7711eaba93ae10e97750c00a51d3715027",
+    "frontend-build.py": "fc96158360084d129ddd767499d54bf03659a0c51920a89bae2a4e1bd0ebc41f",
+    "package_windows.py": "267a624fbdc0e0fe47e50a7b433f8117ac9145549b184b53a3fe88f0f4410f40",
+    "windows/app/demo_launcher.py": "efb298c984a0dc631fc434e197d6164134ae7793101dec060f7b1c3f8820d7ee",
+    "windows/launcher.c": "e1057562511205ef2d20fee4462673f1724121bb159c9b6fb1e9eb5e99c9839b"
+  },
+  "sourceUnchangedDuringRun": true,
+  "inputSha256": {
+    "guide-assets/templates/空白模板/01_法人科目映射_空白模板.xlsx": "9a978b194574c8c18d6e3e1b5305505f8ffcf9f42de82a2d7a5600d9a5933484",
+    "guide-assets/templates/已填示例/01_法人科目映射_已填示例.xlsx": "e6ed4ab5ede8490a033fe3692f2c7fe431a368276668a3b8e9999ad3f518a507",
+    "guide-assets/templates/CSV示例/01_法人科目映射_已填示例.csv": "bfbf9ac481b9e4db7380ab1fffb5ccc6e89e444b587a09f99421262cbee8368a",
+    "guide-assets/templates/空白模板/02_年初科目余额_空白模板.xlsx": "317773be45c851d2d51f4115e4e6065e384e0bfa34045ab00c1774fc6abff1e9",
+    "guide-assets/templates/已填示例/02_年初科目余额_已填示例.xlsx": "d659acaaeeabaca114aaf696dd55b316798fe50b6e49c1b02551bc8f6d64f9f5",
+    "guide-assets/templates/CSV示例/02_年初科目余额_已填示例.csv": "edc762153c5ecd09dca68055991a80d88b9b042ed0ab0e6d55c66820b9ebcc5c",
+    "guide-assets/templates/空白模板/03_NC65财务凭证_空白模板.xlsx": "2a820e19c395bd74e34156c5aec9ba435002873a8b30a6bdf1ab81bc0dbacfeb",
+    "guide-assets/templates/已填示例/03_NC65财务凭证_已填示例.xlsx": "502148c66004aea08d5ac53570a4341fbbeb36040502b2ec16b4228dba210654",
+    "guide-assets/templates/CSV示例/03_NC65财务凭证_已填示例.csv": "a6a6a3658ac5a216ce4ea04e6ecdee641ab6a41abab1aa5d8f72737685dedc5a",
+    "guide-assets/templates/空白模板/04_通用凭证_空白模板.xlsx": "10653bafd0c83328b7dc8ded7aafe81aa9a0d03b2658e99bd8ba36f7688d97cd",
+    "guide-assets/templates/已填示例/04_通用凭证_已填示例_与NC二选一.xlsx": "faf217862b11849bb685d8710e791a765a4473cf4c03779f7a996f1ecf754043",
+    "guide-assets/templates/CSV示例/04_通用凭证_已填示例.csv": "3ab91313f0ae68afcfe0eed19598c45e92ba4528a93d847a0dd45b027d063e7a",
+    "guide-assets/templates/空白模板/05_六月科目余额核对表_空白模板.xlsx": "7e7579a1e2be59ddd91ecbe6c4ff10b89cc331ab32a5d13f675a625954b4bd8b",
+    "guide-assets/templates/已填示例/05_六月科目余额核对表_已填示例.xlsx": "d7c31406013898f435b56925071b4932610764823c84e7c8ad602f00799415a6",
+    "guide-assets/templates/CSV示例/05_六月科目余额核对表_已填示例.csv": "d57715f3657b0810d39220751e8f1b0eb0438479b6a32d7dd5933f15574cf682",
+    "guide-assets/templates/06_法人持股合并范围_页面准备表.xlsx": "21917a65deef2a32ec33d028823d27836298f7725f0eea37b48b749335990e5e",
+    "guide-assets/templates/07_NC账簿客商_页面准备表.xlsx": "d81f3622fff9be9bd3883586a6596b3b87c79f068ab974de964191e0446f1211",
+    "guide-assets/templates/08_异常修复核对_页面准备表.xlsx": "ac28a6f2e72cfcdce82d838cdfaa8c01e52131ef89c6bd4faf3762e44f46ccd7",
+    "guide-assets/templates/09_集团投资权益抵销_页面准备表.xlsx": "18cb8020638cb4ef55054f975d1361fe78442f6105ff3eeffac510c5f555a3e3",
+    "guide-assets/templates/已填示例/NC适配配置_仅页面照填.json": "1380566af11fb40ba5b50e5db8890b10f83bf9dd432ba240edf4a7cdc066cd2b"
+  },
+  "inputFilesUnchangedDuringRun": true,
+  "caseCount": 10,
+  "cases": [
+    {
+      "case": "F01 默认空业务框架与种子旁路拒绝",
+      "passed": true,
+      "evidence": {
+        "法人/科目/源/凭证/余额/抵销/结果全空": true,
+        "技术容器不算业务实体": true,
+        "空范围计算拒绝": true,
+        "旧种子入口拒绝": true,
+        "各期无业务种子": true
+      }
+    },
+    {
+      "case": "F02 真实四XLSX从零创建档案到两层签核",
+      "passed": true,
+      "evidence": {
+        "映射": 48,
+        "年初": 8,
+        "NC原48列凭证": 26,
+        "外部科目余额": 48,
+        "鸿旺准确匹配": 3,
+        "两层收入": 840,
+        "两层净利": 270,
+        "两层资产": 470,
+        "集团资本": 200,
+        "集团留存": 270,
+        "历史收入源行": 3,
+        "余额核对不增加分录": true,
+        "原48字段保留": true
+      }
+    },
+    {
+      "case": "F03 科目余额一分差异/源行/凭证/合并门禁",
+      "passed": true,
+      "evidence": {
+        "缺余额先阻断": true,
+        "一分外部差2科目": 2,
+        "源行/批次/原凭证可查": true,
+        "不自动补差": true,
+        "更正外部余额再核对通过": true,
+        "不重复记账": true
+      }
+    },
+    {
+      "case": "F04 缺共同号异常补注与原字段保留",
+      "passed": true,
+      "evidence": {
+        "缺号差异": 2,
+        "精确双方来源": true,
+        "有效行规范化补注": true,
+        "NC原字段不变": true,
+        "余额与源失效后重生重核": true,
+        "修复后鸿旺收入": 840
+      }
+    },
+    {
+      "case": "F05 余额相符但内部40/39差额/更正重导/历史只读",
+      "passed": true,
+      "evidence": {
+        "各自余额平衡仍有双方交易差": true,
+        "卖方40买方39差1万元": true,
+        "差异追两凭证": true,
+        "正式合并拒绝": true,
+        "补注金额拒绝零写": true,
+        "同key重导恢复": true,
+        "旧成本120万元源与历史hash不变": true
+      }
+    },
+    {
+      "case": "F06 合法损益结转原账余额核对与管理净利不归零",
+      "passed": true,
+      "evidence": {
+        "原始业务26行加合法结转12行": 38,
+        "原账累计含结转": true,
+        "PL科目期末0与留存已结金额核对通过": true,
+        "余额可追结转原行": true,
+        "管理收入与净利未清零/未重复结转": true,
+        "最终集团净利": 270
+      }
+    },
+    {
+      "case": "F07 权限/CSRF/手工源及伪内部销售旁路拒绝",
+      "passed": true,
+      "evidence": {
+        "无CSRF403": true,
+        "只读403": true,
+        "手工源/试算旁路403零写": true,
+        "伪造手工内部销售403": true,
+        "投资权益正常路径由完整链已核": true
+      }
+    },
+    {
+      "case": "F08 不平重复错期与已有账务改币种零写",
+      "passed": true,
+      "evidence": {
+        "不平/重复/未确认凭证拒绝": true,
+        "错期/重复科目余额拒绝": true,
+        "跨月停用余额拒绝": true,
+        "已有ERP的法人改币种拒绝": true,
+        "全部零写入": true
+      }
+    },
+    {
+      "case": "F09 通用XLSX替代及服务完整重启",
+      "passed": true,
+      "evidence": {
+        "通用XLSX替代独立账套完整闭环": true,
+        "完整服务停止重启保留法人/配置/凭证/核对/签核": true,
+        "凭证行": 26,
+        "集团收入": 840
+      }
+    },
+    {
+      "case": "F10 混合现金流逐原行分类修复",
+      "passed": true,
+      "evidence": {
+        "两cash行混合经营/筹资无分类先拒绝": true,
+        "逐条有依据补注后通过": true,
+        "cashflow经营200/筹资40万元": true,
+        "不倒挤现金流": true
+      }
+    }
+  ],
+  "harnessSha256": {
+    "run_foundation_api.py": "96dfb09b10d1acf1b5e5876e62ba6c3bf143cd2c4409eab047e8c4d03e20cfe8",
+    "foundation_fixtures.py": "e81f66db55c7a0f9d5d09bc8685505d80b54ad697d79a7c191a6da1270c76d3a",
+    "support.py": "07b445171fdec7de1c09841fb042dae74dae9b4dd2d97c42880f7dd8479ff18d"
+  }
+}
