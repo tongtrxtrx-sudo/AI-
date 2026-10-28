@@ -1,6 +1,6 @@
 # 鸿旺2026年6月：单体报表CSV导入到小合并
 
-**[下载Word图文指南（22页、16张实机截图）](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/hongwang-june-2026/EPM-Hongwang-202606-Statements-Guide-CN.docx)** · [查看PDF](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/hongwang-june-2026/EPM-Hongwang-202606-Statements-Guide-CN.pdf) · **[下载指南与全部示例资料（约9.5MB）](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/hongwang-june-2026/EPM-Hongwang-202606-Statements-Kit.zip)**
+**[下载Word图文指南（22页、16张实机截图）](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/7c41718787d3bb4ea5869e1d3e9497ffd4066da9/hongwang-june-2026/EPM-Hongwang-202606-Statements-Guide-CN.docx)** · [查看PDF](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/7c41718787d3bb4ea5869e1d3e9497ffd4066da9/hongwang-june-2026/EPM-Hongwang-202606-Statements-Guide-CN.pdf) · **[下载指南与全部示例资料（约9.5MB）](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/7c41718787d3bb4ea5869e1d3e9497ffd4066da9/hongwang-june-2026/EPM-Hongwang-202606-Statements-Kit.zip)**
 
 适用于原ERP-20261021，现有EXE无需升级。本次是报表报送路径：**财务三表报送→导入完整三表CSV**，不是NC凭证入口。只接受UTF-8 CSV；Excel整理表需另存CSV；金额人民币万元，不是元。
 
@@ -32,4 +32,4 @@
 
 已有有效ERP凭证时，使用指南独立报表练习目录或继续ERP流程，不混用源指纹。年初实收资本与初始化历史不同，按附录A先在完整源表单同步真实历史口径并校验保存，再用CSV；不改真实资本凑演示值，不删旧账套。
 
-[6组实际HTTP验收](六月鸿旺小合并真实验收.md)和[独立核对](独立核对.md)均通过，实机真实上传三CSV后已完成有效签核，输入15文件、截图21张和运行源34份均绑定校验值，Word引用其中16张。公开实际下载记录见public-download-verification.json。本次未改变EXE和master。
+[6组实际HTTP验收](六月鸿旺小合并真实验收.md)和[独立核对](独立核对.md)均通过，实机真实上传三CSV后已完成有效签核，输入15文件、截图21张和运行源34份均绑定校验值，Word引用其中16张。Word、PDF、ZIP及15份数据文件共18项均已匿名HTTPS实际下载，字节／SHA256／文档结构全部核验通过，见[公开下载记录](public-download-verification.json)。下载链接固定至实际制品提交。本次未改变EXE和master。

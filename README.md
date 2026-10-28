@@ -18,7 +18,7 @@ NC6.5导出CSV/XLSX→账簿与科目/内部客商映射→期初及已记账凭
 
 ## 鸿旺2026年6月单体报表导入与小合并图文指南
 
-**[下载Word：22页、16张实机步骤截图](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/hongwang-june-2026/EPM-Hongwang-202606-Statements-Guide-CN.docx)** · [下载PDF](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/hongwang-june-2026/EPM-Hongwang-202606-Statements-Guide-CN.pdf) · [下载三主体示例CSV及全套资料](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/hongwang-june-2026/EPM-Hongwang-202606-Statements-Kit.zip)。适用于原Demo，无需升级；本次走“财务三表报送”的CSV万元口径，不是NC凭证模板。示例1—6月累计收入840、净利270，6月当月收入160、净利54，6月末资产470，详细条件和真实资料处理见指南及[本期说明](hongwang-june-2026/README.md)。
+**[下载Word：22页、16张实机步骤截图](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/7c41718787d3bb4ea5869e1d3e9497ffd4066da9/hongwang-june-2026/EPM-Hongwang-202606-Statements-Guide-CN.docx)** · [下载PDF](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/7c41718787d3bb4ea5869e1d3e9497ffd4066da9/hongwang-june-2026/EPM-Hongwang-202606-Statements-Guide-CN.pdf) · [下载三主体示例CSV及全套资料](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/7c41718787d3bb4ea5869e1d3e9497ffd4066da9/hongwang-june-2026/EPM-Hongwang-202606-Statements-Kit.zip)。适用于原Demo，无需升级；本次走“财务三表报送”的CSV万元口径，不是NC凭证模板。示例1—6月累计收入840、净利270，6月当月收入160、净利54，6月末资产470，详细条件和真实资料处理见指南及[本期说明](hongwang-june-2026/README.md)。
 
 ## Excel模板与带截图导入指南（同软件基线补充）
 

@@ -1,0 +1,185 @@
+{
+  "passed": true,
+  "verifiedUtc": "2026-10-28T09:35:08.660320+00:00",
+  "artifactCommit": "7c41718787d3bb4ea5869e1d3e9497ffd4066da9",
+  "businessPeriod": "2026-06",
+  "softwareBaseline": "ERP-20261021",
+  "softwareChanged": false,
+  "existingSoftwareZipUnchanged": true,
+  "masterUnchanged": true,
+  "masterCommit": "5581c0997311578ac42c5a8c136fdad60e98efcc",
+  "method": "实际匿名HTTPS GET下载Word/PDF/ZIP及15数据文件，逐字节、SHA256及真实文档/CSV结构核验。",
+  "files": [
+    {
+      "file": "hongwang-june-2026/EPM-Hongwang-202606-Statements-Kit.zip",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/7c41718787d3bb4ea5869e1d3e9497ffd4066da9/hongwang-june-2026/EPM-Hongwang-202606-Statements-Kit.zip",
+      "httpStatus": 200,
+      "bytes": 9481560,
+      "sha256": "3d10085c8796e673a46c73af8c161617d4617aeef447549943ac8c8c7819ccae",
+      "matchesLocalArtifact": true,
+      "zipCrcPassed": true
+    },
+    {
+      "file": "hongwang-june-2026/EPM-Hongwang-202606-Statements-Guide-CN.docx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/7c41718787d3bb4ea5869e1d3e9497ffd4066da9/hongwang-june-2026/EPM-Hongwang-202606-Statements-Guide-CN.docx",
+      "httpStatus": 200,
+      "bytes": 3322492,
+      "sha256": "1539b074c9bcf399d2f83ecd469847bdb1fd9f653ab922410d8ae8504f00e718",
+      "matchesLocalArtifact": true,
+      "zipCrcPassed": true,
+      "trueWordXml": true
+    },
+    {
+      "file": "hongwang-june-2026/EPM-Hongwang-202606-Statements-Guide-CN.pdf",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/7c41718787d3bb4ea5869e1d3e9497ffd4066da9/hongwang-june-2026/EPM-Hongwang-202606-Statements-Guide-CN.pdf",
+      "httpStatus": 200,
+      "bytes": 2385852,
+      "sha256": "0f56442b344d727c1be25d0d18da3592cd487e5ff63139615e907019af236ed7",
+      "matchesLocalArtifact": true,
+      "pdfHeaderPassed": true
+    },
+    {
+      "file": "hongwang-june-2026/data/示例CSV/01_鸿旺单体_2026-06_已填示例.csv",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/7c41718787d3bb4ea5869e1d3e9497ffd4066da9/hongwang-june-2026/data/%E7%A4%BA%E4%BE%8BCSV/01_%E9%B8%BF%E6%97%BA%E5%8D%95%E4%BD%93_2026-06_%E5%B7%B2%E5%A1%AB%E7%A4%BA%E4%BE%8B.csv",
+      "httpStatus": 200,
+      "bytes": 3816,
+      "sha256": "5cbf33ca17fbe0009b0dd704c1b5f55c9e303167510261a8da68b05cdf590afd",
+      "matchesLocalArtifact": true,
+      "csvRows": 99
+    },
+    {
+      "file": "hongwang-june-2026/data/示例CSV/02_猫爬架法人_2026-06_已填示例.csv",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/7c41718787d3bb4ea5869e1d3e9497ffd4066da9/hongwang-june-2026/data/%E7%A4%BA%E4%BE%8BCSV/02_%E7%8C%AB%E7%88%AC%E6%9E%B6%E6%B3%95%E4%BA%BA_2026-06_%E5%B7%B2%E5%A1%AB%E7%A4%BA%E4%BE%8B.csv",
+      "httpStatus": 200,
+      "bytes": 3797,
+      "sha256": "b302a8fd0d5ca04d6f83a6f4f90dfa85be28931ad065cb78e532957329e78d60",
+      "matchesLocalArtifact": true,
+      "csvRows": 99
+    },
+    {
+      "file": "hongwang-june-2026/data/示例CSV/03_电子工厂法人_2026-06_已填示例.csv",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/7c41718787d3bb4ea5869e1d3e9497ffd4066da9/hongwang-june-2026/data/%E7%A4%BA%E4%BE%8BCSV/03_%E7%94%B5%E5%AD%90%E5%B7%A5%E5%8E%82%E6%B3%95%E4%BA%BA_2026-06_%E5%B7%B2%E5%A1%AB%E7%A4%BA%E4%BE%8B.csv",
+      "httpStatus": 200,
+      "bytes": 3793,
+      "sha256": "fff929331efe5b5e7896256c995b1bb16fb2acce2c078952413a5eded825b27c",
+      "matchesLocalArtifact": true,
+      "csvRows": 99
+    },
+    {
+      "file": "hongwang-june-2026/data/示例CSV/04_鸿旺三法人_2026-06_合并导入示例.csv",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/7c41718787d3bb4ea5869e1d3e9497ffd4066da9/hongwang-june-2026/data/%E7%A4%BA%E4%BE%8BCSV/04_%E9%B8%BF%E6%97%BA%E4%B8%89%E6%B3%95%E4%BA%BA_2026-06_%E5%90%88%E5%B9%B6%E5%AF%BC%E5%85%A5%E7%A4%BA%E4%BE%8B.csv",
+      "httpStatus": 200,
+      "bytes": 11284,
+      "sha256": "5bcf2fbc9f6af63e5ddf9cf74a0e9dca8d41507dad13ec9b5c21caff88870956",
+      "matchesLocalArtifact": true,
+      "csvRows": 297
+    },
+    {
+      "file": "hongwang-june-2026/data/空白CSV/01_鸿旺单体_2026-06_待填模板.csv",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/7c41718787d3bb4ea5869e1d3e9497ffd4066da9/hongwang-june-2026/data/%E7%A9%BA%E7%99%BDCSV/01_%E9%B8%BF%E6%97%BA%E5%8D%95%E4%BD%93_2026-06_%E5%BE%85%E5%A1%AB%E6%A8%A1%E6%9D%BF.csv",
+      "httpStatus": 200,
+      "bytes": 3672,
+      "sha256": "3969e6ba76dd06495049b8be9223efcf1171306e1315dd149ecb534b4c5f45a1",
+      "matchesLocalArtifact": true,
+      "csvRows": 99
+    },
+    {
+      "file": "hongwang-june-2026/data/空白CSV/02_猫爬架法人_2026-06_待填模板.csv",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/7c41718787d3bb4ea5869e1d3e9497ffd4066da9/hongwang-june-2026/data/%E7%A9%BA%E7%99%BDCSV/02_%E7%8C%AB%E7%88%AC%E6%9E%B6%E6%B3%95%E4%BA%BA_2026-06_%E5%BE%85%E5%A1%AB%E6%A8%A1%E6%9D%BF.csv",
+      "httpStatus": 200,
+      "bytes": 3672,
+      "sha256": "ee448bedace1e7205709009267d38fe036abceb77bce745ee65a49cc10e34176",
+      "matchesLocalArtifact": true,
+      "csvRows": 99
+    },
+    {
+      "file": "hongwang-june-2026/data/空白CSV/03_电子工厂法人_2026-06_待填模板.csv",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/7c41718787d3bb4ea5869e1d3e9497ffd4066da9/hongwang-june-2026/data/%E7%A9%BA%E7%99%BDCSV/03_%E7%94%B5%E5%AD%90%E5%B7%A5%E5%8E%82%E6%B3%95%E4%BA%BA_2026-06_%E5%BE%85%E5%A1%AB%E6%A8%A1%E6%9D%BF.csv",
+      "httpStatus": 200,
+      "bytes": 3672,
+      "sha256": "bd65b1c52c8f8b9195ce918909640c6ca21fbdd0715a9b471b4e516b1cb30d63",
+      "matchesLocalArtifact": true,
+      "csvRows": 99
+    },
+    {
+      "file": "hongwang-june-2026/data/Excel整理表/01_鸿旺单体_2026-06_已填示例_需另存CSV.xlsx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/7c41718787d3bb4ea5869e1d3e9497ffd4066da9/hongwang-june-2026/data/Excel%E6%95%B4%E7%90%86%E8%A1%A8/01_%E9%B8%BF%E6%97%BA%E5%8D%95%E4%BD%93_2026-06_%E5%B7%B2%E5%A1%AB%E7%A4%BA%E4%BE%8B_%E9%9C%80%E5%8F%A6%E5%AD%98CSV.xlsx",
+      "httpStatus": 200,
+      "bytes": 14638,
+      "sha256": "e0f006ed9af5fe58ff443719b521f7e37139dcf709cf0fe46b854927c11d07dc",
+      "matchesLocalArtifact": true,
+      "zipCrcPassed": true,
+      "trueExcelXml": true
+    },
+    {
+      "file": "hongwang-june-2026/data/Excel整理表/01_鸿旺单体_2026-06_待填模板_需另存CSV.xlsx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/7c41718787d3bb4ea5869e1d3e9497ffd4066da9/hongwang-june-2026/data/Excel%E6%95%B4%E7%90%86%E8%A1%A8/01_%E9%B8%BF%E6%97%BA%E5%8D%95%E4%BD%93_2026-06_%E5%BE%85%E5%A1%AB%E6%A8%A1%E6%9D%BF_%E9%9C%80%E5%8F%A6%E5%AD%98CSV.xlsx",
+      "httpStatus": 200,
+      "bytes": 14543,
+      "sha256": "4d0a977133769035e062b588cf75e9036834e1faace47632a6837d25029e2a85",
+      "matchesLocalArtifact": true,
+      "zipCrcPassed": true,
+      "trueExcelXml": true
+    },
+    {
+      "file": "hongwang-june-2026/data/Excel整理表/02_猫爬架法人_2026-06_已填示例_需另存CSV.xlsx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/7c41718787d3bb4ea5869e1d3e9497ffd4066da9/hongwang-june-2026/data/Excel%E6%95%B4%E7%90%86%E8%A1%A8/02_%E7%8C%AB%E7%88%AC%E6%9E%B6%E6%B3%95%E4%BA%BA_2026-06_%E5%B7%B2%E5%A1%AB%E7%A4%BA%E4%BE%8B_%E9%9C%80%E5%8F%A6%E5%AD%98CSV.xlsx",
+      "httpStatus": 200,
+      "bytes": 14627,
+      "sha256": "993699d176c6f53127335ad882459e705769c615b18981ecad5220a8883ce0b7",
+      "matchesLocalArtifact": true,
+      "zipCrcPassed": true,
+      "trueExcelXml": true
+    },
+    {
+      "file": "hongwang-june-2026/data/Excel整理表/02_猫爬架法人_2026-06_待填模板_需另存CSV.xlsx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/7c41718787d3bb4ea5869e1d3e9497ffd4066da9/hongwang-june-2026/data/Excel%E6%95%B4%E7%90%86%E8%A1%A8/02_%E7%8C%AB%E7%88%AC%E6%9E%B6%E6%B3%95%E4%BA%BA_2026-06_%E5%BE%85%E5%A1%AB%E6%A8%A1%E6%9D%BF_%E9%9C%80%E5%8F%A6%E5%AD%98CSV.xlsx",
+      "httpStatus": 200,
+      "bytes": 14542,
+      "sha256": "e34a2f38660350c291c831d1faf5e53c40912761eadfebd746aa8c88cc45ca5f",
+      "matchesLocalArtifact": true,
+      "zipCrcPassed": true,
+      "trueExcelXml": true
+    },
+    {
+      "file": "hongwang-june-2026/data/Excel整理表/03_电子工厂法人_2026-06_已填示例_需另存CSV.xlsx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/7c41718787d3bb4ea5869e1d3e9497ffd4066da9/hongwang-june-2026/data/Excel%E6%95%B4%E7%90%86%E8%A1%A8/03_%E7%94%B5%E5%AD%90%E5%B7%A5%E5%8E%82%E6%B3%95%E4%BA%BA_2026-06_%E5%B7%B2%E5%A1%AB%E7%A4%BA%E4%BE%8B_%E9%9C%80%E5%8F%A6%E5%AD%98CSV.xlsx",
+      "httpStatus": 200,
+      "bytes": 14629,
+      "sha256": "898bfccc703c487ed25bacddfc4938421bc432dfe7dc146877a527c5cc788da8",
+      "matchesLocalArtifact": true,
+      "zipCrcPassed": true,
+      "trueExcelXml": true
+    },
+    {
+      "file": "hongwang-june-2026/data/Excel整理表/03_电子工厂法人_2026-06_待填模板_需另存CSV.xlsx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/7c41718787d3bb4ea5869e1d3e9497ffd4066da9/hongwang-june-2026/data/Excel%E6%95%B4%E7%90%86%E8%A1%A8/03_%E7%94%B5%E5%AD%90%E5%B7%A5%E5%8E%82%E6%B3%95%E4%BA%BA_2026-06_%E5%BE%85%E5%A1%AB%E6%A8%A1%E6%9D%BF_%E9%9C%80%E5%8F%A6%E5%AD%98CSV.xlsx",
+      "httpStatus": 200,
+      "bytes": 14543,
+      "sha256": "3bbae4ca3bd1c5f57ba661dc05beb9fffc988af91045c3dcf3d122f698999463",
+      "matchesLocalArtifact": true,
+      "zipCrcPassed": true,
+      "trueExcelXml": true
+    },
+    {
+      "file": "hongwang-june-2026/data/Excel整理表/04_鸿旺三法人_2026-06_已填示例_需另存CSV.xlsx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/7c41718787d3bb4ea5869e1d3e9497ffd4066da9/hongwang-june-2026/data/Excel%E6%95%B4%E7%90%86%E8%A1%A8/04_%E9%B8%BF%E6%97%BA%E4%B8%89%E6%B3%95%E4%BA%BA_2026-06_%E5%B7%B2%E5%A1%AB%E7%A4%BA%E4%BE%8B_%E9%9C%80%E5%8F%A6%E5%AD%98CSV.xlsx",
+      "httpStatus": 200,
+      "bytes": 19373,
+      "sha256": "e5694014e00b4f710c59e7cb20c82d01168919ec7e76c328ed18551dee75c2eb",
+      "matchesLocalArtifact": true,
+      "zipCrcPassed": true,
+      "trueExcelXml": true
+    },
+    {
+      "file": "hongwang-june-2026/data/Excel整理表/05_内部销售抵销准备表_页面维护.xlsx",
+      "url": "https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/7c41718787d3bb4ea5869e1d3e9497ffd4066da9/hongwang-june-2026/data/Excel%E6%95%B4%E7%90%86%E8%A1%A8/05_%E5%86%85%E9%83%A8%E9%94%80%E5%94%AE%E6%8A%B5%E9%94%80%E5%87%86%E5%A4%87%E8%A1%A8_%E9%A1%B5%E9%9D%A2%E7%BB%B4%E6%8A%A4.xlsx",
+      "httpStatus": 200,
+      "bytes": 6941,
+      "sha256": "35398f8eb59052265f3592a1182d488ce9962ba307eb48490d73d3c889f62528",
+      "matchesLocalArtifact": true,
+      "zipCrcPassed": true,
+      "trueExcelXml": true
+    }
+  ]
+}
