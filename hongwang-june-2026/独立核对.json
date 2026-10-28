@@ -1,0 +1,221 @@
+{
+  "passed": true,
+  "reviewedUtc": "2026-10-28T09:29:25.533520+00:00",
+  "softwareBaseline": "ERP-20261021",
+  "guideId": "HW-STATEMENTS-202606-D1.0",
+  "businessPeriod": "2026-06",
+  "softwareChanged": false,
+  "guideFile": "content/鸿旺2026年6月单体报表导入与小合并操作指南.md",
+  "guideSha256": "ce36d310110ea80efc0f0e40f48786aec333a51c81fe8d9d388cd0cf6dde4a4d",
+  "inputFilesSha256": {
+    "data/示例CSV/01_鸿旺单体_2026-06_已填示例.csv": "5cbf33ca17fbe0009b0dd704c1b5f55c9e303167510261a8da68b05cdf590afd",
+    "data/Excel整理表/01_鸿旺单体_2026-06_已填示例_需另存CSV.xlsx": "e0f006ed9af5fe58ff443719b521f7e37139dcf709cf0fe46b854927c11d07dc",
+    "data/空白CSV/01_鸿旺单体_2026-06_待填模板.csv": "3969e6ba76dd06495049b8be9223efcf1171306e1315dd149ecb534b4c5f45a1",
+    "data/Excel整理表/01_鸿旺单体_2026-06_待填模板_需另存CSV.xlsx": "4d0a977133769035e062b588cf75e9036834e1faace47632a6837d25029e2a85",
+    "data/示例CSV/02_猫爬架法人_2026-06_已填示例.csv": "b302a8fd0d5ca04d6f83a6f4f90dfa85be28931ad065cb78e532957329e78d60",
+    "data/Excel整理表/02_猫爬架法人_2026-06_已填示例_需另存CSV.xlsx": "993699d176c6f53127335ad882459e705769c615b18981ecad5220a8883ce0b7",
+    "data/空白CSV/02_猫爬架法人_2026-06_待填模板.csv": "ee448bedace1e7205709009267d38fe036abceb77bce745ee65a49cc10e34176",
+    "data/Excel整理表/02_猫爬架法人_2026-06_待填模板_需另存CSV.xlsx": "e34a2f38660350c291c831d1faf5e53c40912761eadfebd746aa8c88cc45ca5f",
+    "data/示例CSV/03_电子工厂法人_2026-06_已填示例.csv": "fff929331efe5b5e7896256c995b1bb16fb2acce2c078952413a5eded825b27c",
+    "data/Excel整理表/03_电子工厂法人_2026-06_已填示例_需另存CSV.xlsx": "898bfccc703c487ed25bacddfc4938421bc432dfe7dc146877a527c5cc788da8",
+    "data/空白CSV/03_电子工厂法人_2026-06_待填模板.csv": "bd65b1c52c8f8b9195ce918909640c6ca21fbdd0715a9b471b4e516b1cb30d63",
+    "data/Excel整理表/03_电子工厂法人_2026-06_待填模板_需另存CSV.xlsx": "3bbae4ca3bd1c5f57ba661dc05beb9fffc988af91045c3dcf3d122f698999463",
+    "data/示例CSV/04_鸿旺三法人_2026-06_合并导入示例.csv": "5bcf2fbc9f6af63e5ddf9cf74a0e9dca8d41507dad13ec9b5c21caff88870956",
+    "data/Excel整理表/04_鸿旺三法人_2026-06_已填示例_需另存CSV.xlsx": "e5694014e00b4f710c59e7cb20c82d01168919ec7e76c328ed18551dee75c2eb",
+    "data/Excel整理表/05_内部销售抵销准备表_页面维护.xlsx": "35398f8eb59052265f3592a1182d488ce9962ba307eb48490d73d3c889f62528"
+  },
+  "dataFilesSha256": {
+    "data/示例CSV/01_鸿旺单体_2026-06_已填示例.csv": "5cbf33ca17fbe0009b0dd704c1b5f55c9e303167510261a8da68b05cdf590afd",
+    "data/Excel整理表/01_鸿旺单体_2026-06_已填示例_需另存CSV.xlsx": "e0f006ed9af5fe58ff443719b521f7e37139dcf709cf0fe46b854927c11d07dc",
+    "data/空白CSV/01_鸿旺单体_2026-06_待填模板.csv": "3969e6ba76dd06495049b8be9223efcf1171306e1315dd149ecb534b4c5f45a1",
+    "data/Excel整理表/01_鸿旺单体_2026-06_待填模板_需另存CSV.xlsx": "4d0a977133769035e062b588cf75e9036834e1faace47632a6837d25029e2a85",
+    "data/示例CSV/02_猫爬架法人_2026-06_已填示例.csv": "b302a8fd0d5ca04d6f83a6f4f90dfa85be28931ad065cb78e532957329e78d60",
+    "data/Excel整理表/02_猫爬架法人_2026-06_已填示例_需另存CSV.xlsx": "993699d176c6f53127335ad882459e705769c615b18981ecad5220a8883ce0b7",
+    "data/空白CSV/02_猫爬架法人_2026-06_待填模板.csv": "ee448bedace1e7205709009267d38fe036abceb77bce745ee65a49cc10e34176",
+    "data/Excel整理表/02_猫爬架法人_2026-06_待填模板_需另存CSV.xlsx": "e34a2f38660350c291c831d1faf5e53c40912761eadfebd746aa8c88cc45ca5f",
+    "data/示例CSV/03_电子工厂法人_2026-06_已填示例.csv": "fff929331efe5b5e7896256c995b1bb16fb2acce2c078952413a5eded825b27c",
+    "data/Excel整理表/03_电子工厂法人_2026-06_已填示例_需另存CSV.xlsx": "898bfccc703c487ed25bacddfc4938421bc432dfe7dc146877a527c5cc788da8",
+    "data/空白CSV/03_电子工厂法人_2026-06_待填模板.csv": "bd65b1c52c8f8b9195ce918909640c6ca21fbdd0715a9b471b4e516b1cb30d63",
+    "data/Excel整理表/03_电子工厂法人_2026-06_待填模板_需另存CSV.xlsx": "3bbae4ca3bd1c5f57ba661dc05beb9fffc988af91045c3dcf3d122f698999463",
+    "data/示例CSV/04_鸿旺三法人_2026-06_合并导入示例.csv": "5bcf2fbc9f6af63e5ddf9cf74a0e9dca8d41507dad13ec9b5c21caff88870956",
+    "data/Excel整理表/04_鸿旺三法人_2026-06_已填示例_需另存CSV.xlsx": "e5694014e00b4f710c59e7cb20c82d01168919ec7e76c328ed18551dee75c2eb",
+    "data/Excel整理表/05_内部销售抵销准备表_页面维护.xlsx": "35398f8eb59052265f3592a1182d488ce9962ba307eb48490d73d3c889f62528"
+  },
+  "screenshotsSha256": {
+    "screenshots/01_选择六月与鸿旺范围.png": "09b24def925498d3bec1543e137653dcd60d506a1b1096d7b0683cc1f01f75b7",
+    "screenshots/02_核对三个独立法人成员.png": "4402959dee9481fae929b78da8d7b01adcaca86d2c76098102b72d08f1ba7e05",
+    "screenshots/03_重开本层与依赖祖先.png": "41ac6be7e1612ef777fa7b6bc350d461108512a87e41bed14177fad7a80eaf37",
+    "screenshots/附图A_真实期初资本在表单维护.png": "da2514e8c3f07c0bb54a9dfe457e9e80bfc9788d21cc3d935f5000cd1f7f38b6",
+    "screenshots/附图B_历史权益与保存入口.png": "1ffdf8c62d15db1c0c2cf308e6ec6c52fdb2c2113b31c48d628cdb06dbeac786",
+    "screenshots/04_1_导入HW六月报表.png": "d6e0ff9f8879b891aa836aa476758233799edd87569227aa27cef15e7feb4d93",
+    "screenshots/04_2_导入HW_CAT六月报表.png": "35f9cfc214611b96b0350332f09926dee5bea6c820adcabb533d21b9fe4d6066",
+    "screenshots/04_3_导入HW_ELEC六月报表.png": "15036d7965769d5bcb69d61c028a93a7b7fb338479340e4c00f2fc4302806a77",
+    "screenshots/05_三家源版本与收入核对.png": "92b028d911070c1cfb82c4d42915bf7778877ce9f20845d8734feeaddd2c40ba",
+    "screenshots/06_单体源期初期末与累计.png": "73ae38f508e45ec12bc9420515662887113d9ded14208189abf23e38b65ca18a",
+    "screenshots/07_先识别旧初始化抵销.png": "4dccafea90b592c3fd387a0b9d7ce7ad3740b82777b2d610f46609efb398af66",
+    "screenshots/08A_维护本层内部销售抵销.png": "13712ce4c8cf950e04aa936b887c9aac3a74a0f6f4a1c7b719ddc1f37b960f6a",
+    "screenshots/08B_填写一至六月抵销明细.png": "13712ce4c8cf950e04aa936b887c9aac3a74a0f6f4a1c7b719ddc1f37b960f6a",
+    "screenshots/09_负责人审批抵销.png": "1975c3bdf3f7c8d6943ce977e2e7b5ad01b0b4e9544960c5fa11b08943afe8d3",
+    "screenshots/10_计算前检查全部通过.png": "1a0f86b92419fa704c8e7b7a9a0a509fc1313c1acd169a878e8e7f5eff40b8b0",
+    "screenshots/11_签核六月鸿旺新结果.png": "b6ffe83482eed786dc77fc09ebafddb6254d388d3ce04b3007e6681be3509b56",
+    "screenshots/12_六月鸿旺已签核结果.png": "2c6a0f6c4c0f7eb011846ffede3a20c51f8e1b0f6be8526b09750cbb5338fbee",
+    "screenshots/13A_合并利润表840与270.png": "65f5198b669992029dffd1a184a93802fc199b550b4494b13612c9a087f734d1",
+    "screenshots/13B_合并资产负债表470.png": "2f6857134a72304f58766f15a16aeb3c9434d38b412efa72b83366915d30d5d8",
+    "screenshots/13C_合并现金流量表470.png": "6eb11d1a1e5758e8199122d6211271e724ad5aeeab4511126a690bbba7f2159b",
+    "screenshots/14_结果来源和抵销追溯.png": "bf021d37a3840233af4d6a78f5921bf8682351a7df0ac118b265cec3c39072c7"
+  },
+  "usedScreenshots": [
+    "screenshots/01_选择六月与鸿旺范围.png",
+    "screenshots/02_核对三个独立法人成员.png",
+    "screenshots/03_重开本层与依赖祖先.png",
+    "screenshots/04_1_导入HW六月报表.png",
+    "screenshots/04_2_导入HW_CAT六月报表.png",
+    "screenshots/04_3_导入HW_ELEC六月报表.png",
+    "screenshots/05_三家源版本与收入核对.png",
+    "screenshots/07_先识别旧初始化抵销.png",
+    "screenshots/08A_维护本层内部销售抵销.png",
+    "screenshots/09_负责人审批抵销.png",
+    "screenshots/10_计算前检查全部通过.png",
+    "screenshots/11_签核六月鸿旺新结果.png",
+    "screenshots/13A_合并利润表840与270.png",
+    "screenshots/14_结果来源和抵销追溯.png",
+    "screenshots/附图A_真实期初资本在表单维护.png",
+    "screenshots/附图B_历史权益与保存入口.png"
+  ],
+  "sourceSha256": {
+    "backend/API-CONTRACT.md": "1f95a4e81a18f090d43253e975876f0311792365c1ad43ef631531b607a51b07",
+    "backend/CALCULATION-CONTRACT.md": "0d4efe1dad6b0252ff0db1e2bc8322b5b24a7e938cf63155f43a293b1b010259",
+    "backend/LEDGER-CONTRACT.md": "2dcb5fbcff887043b3baf780f114b7a008709631bd8cfc77480a65f2b113ef84",
+    "backend/consolidation.py": "fc6f2df87fd7feb9c47b6d873bffd33fac032951ed87cdf8382f93cb36460dcf",
+    "backend/engine.py": "7648cba8a69c3ff57781bd91bf5592b0baefd9ffcc9497481b33d8b07642c0e5",
+    "backend/erp_domain.py": "561e4338f94a48aa702b2d4bb6f91ec687b21c725f03dfdfadc18dd06866314f",
+    "backend/finance.py": "31e1fd61f35dc8d68fecb10d0209fd108237e2aded2efa80b2970fbed2019114",
+    "backend/ledger.py": "c6b72fae0754d89782e5c950f4d6b73fa3c9286409732004ef5e770824ccef0e",
+    "backend/ledger_seed.py": "13cc623ea2811bf6a9a45b4f393ed2038d4fa06452079f9b397a29224d45b351",
+    "backend/legacy_engine.py": "ecc9fc84cb156183dc2f6b56e25c8ec2409441577b3830c8d107701261d9230f",
+    "backend/multilevel_domain.py": "fef196c4dfadb66efc2a485dd30bcdb117242e282a79bb38f61ffdf90dc3eb80",
+    "backend/multilevel_seed.py": "425b810becb6e56cb8f579c5ce5f03cad29e2a9dd194f902ec3de5be0e8c12db",
+    "backend/server.py": "a670ab6b1830c756f969b89d2a6439c416b144eec59c6fed939a5d1460455f91",
+    "backend/store.py": "621f5d7624979d53272b95243054113cecabe3b5911866f0a7530fbb61c00fe8",
+    "backend/test_consolidation.py": "bdff9a77433cfb505c2417528f4308d675ae76d68b813864968cc4fa23298c9e",
+    "backend/test_erp_calculation.py": "4c981585feb5daea9d788f743c4c25365263a35a92267dbefeaa7f79e3d626b9",
+    "backend/test_erp_domain.py": "fe702fab6984552ef4f41824bc36c68cac75a8ace7e17ab2bc85fb36eaa73efb",
+    "backend/test_ledger.py": "3a73ec23d1c12c609522261e436ba9a6d96494ce0873a460189ebb6853a45f3c",
+    "backend/test_multilevel_domain.py": "a55dc707e8ec7a6b164991890331fb98433248806bb0d8d044b9e6364a066016",
+    "backend/test_multilevel_http.py": "e24a174f0cd9baebf671fbae23cd84d8fb52f7764212a186697d8c2b7b85eacd",
+    "build_windows.py": "89530418bb63e0e0af7ba48c18fd71d6a8b23b01065724bd445668493e2ece8a",
+    "frontend/dist/index.html": "5c9d9424b600239aec1652d59a043538032cc35a5d449d103a73f33ab0a5d15b",
+    "frontend/src/app.js": "7ec83702526f0801b1c7cd104c47dc0cfb8827aced7ac895293d660857a5c85f",
+    "frontend/src/budget.js": "fe8f17e1973c2611397a7c4986b1931da18edf27985aa98be7a935f946f80a36",
+    "frontend/src/erp-actions.js": "66aa00066098567ec032eec7b61506f1503963e2fef7fa7c518ba5d468c0f7c2",
+    "frontend/src/erp-pages.js": "189ede07bc4a5f9ab4e27d53495dabd2e0297f182e3af4109e32e2257c19d215",
+    "frontend/src/ml-actions.js": "0e4513083b3769045218dd563e2f2c165902adeda27495077d5262f5e63a3ffd",
+    "frontend/src/ml-pages.js": "cf47acd6495f13a3118c6581448715f3bfaaa56bd8e17fcbfef7c4afbb972c30",
+    "frontend/src/shell.html": "238cde93179cee1a2affdda1ed76779471559f19f920a73b46338671ef476388",
+    "frontend/src/style.css": "b058a720e03c8ed1746ac5b6a61da1a01984349914cd906afb67885c73cc48b2",
+    "frontend-build.py": "0ba1bb5e922e97035e531bacb5315fdb5ffded22786e7a38d1a7df4a78986252",
+    "package_windows.py": "6cd3af8cd5703c1b85c1ebf38ac90696edc9ae2042dd2592c87db76dae37eea7",
+    "windows/app/demo_launcher.py": "8cfda89fa687d31583ec81d958e5358a3d81d42d42f7dde991bed39d7cfb5016",
+    "windows/launcher.c": "5ff84aec79f1751d0512be0ab3535d0dd95fb0a9bb295636453478260ede7b95"
+  },
+  "businessExpectation": {
+    "inputEntities": 3,
+    "rowsPerEntity": 99,
+    "allSourceRows": 297,
+    "revenueBeforeElimination": 900,
+    "revenue": 840,
+    "cost": 480,
+    "expense": 90,
+    "net": 270,
+    "assets": 470,
+    "liabilities": 0,
+    "cash": 470,
+    "capital": 200,
+    "retained": 270,
+    "openingCash": 200,
+    "operatingCash": 270,
+    "salesElimination": 60,
+    "monthlySalesElimination": {
+      "1": 10,
+      "2": 10,
+      "3": 10,
+      "4": 10,
+      "5": 10,
+      "6": 10
+    }
+  },
+  "checks": [
+    {
+      "topic": "期间与单位",
+      "conclusion": "2026年06期是6月30日期末及1—6累计，输入本位币万元，非ERP元；未套用9月1400金样。"
+    },
+    {
+      "topic": "三独立法人及范围",
+      "conclusion": "HW/HW_CAT/HW_ELEC对应真实三个非重叠单体，HW00/HW01/HW02可作CSV编码；管理范围不改天元100%持股事实。"
+    },
+    {
+      "topic": "所需资料与月明细",
+      "conclusion": "完整年初/期末资产负债、累计PL/CF和1—6月明细；未知不填0、不倒摊现金流或累计。"
+    },
+    {
+      "topic": "导入文件及入口",
+      "conclusion": "财务三表报送/完整三表CSV，固定六表头，每家99行/三家297；Excel整理后仅首表另存UTF-8 CSV，非XLSX或NC凭证入口。"
+    },
+    {
+      "topic": "文件逐行复核",
+      "conclusion": "已独立解析最终15资料文件摘要及三份已填CSV结构、月累计、900/540/90与840/480/270/470算术。"
+    },
+    {
+      "topic": "全量下载范围",
+      "conclusion": "实际页面全量下载含七家693行，不能称选择HW就只导出三家；本次三份文件仅覆盖三家。"
+    },
+    {
+      "topic": "锁与已有ERP账务",
+      "conclusion": "负责人在6月重开HW及TY祖先；已有ERP有效账务时手工CSV不能绕过ERP来源前置，独立目录保留原环境。"
+    },
+    {
+      "topic": "真实资本历史条件",
+      "conclusion": "CSV不含equityHistory；真实年初资本变更需完整实际表单保存对齐历史依据，不改真实数凑100/50/50。"
+    },
+    {
+      "topic": "手工内部销售",
+      "conclusion": "汇总报表不自动识别内部客商/金额，按对账依据手工录本期本层销售60、每月10；草稿审批后才算。"
+    },
+    {
+      "topic": "预置抵销防双扣",
+      "conclusion": "停用或正确替换本月HW初始化66.67，不触其他期/集团投资；绿色勾稽不等于业务抵销依据正确。"
+    },
+    {
+      "topic": "情景边界",
+      "conclusion": "60为已结算销售，假设购入已外销且无未结内部往来/未实现利润；实际特殊事项不得当作本路径已经自动完成。"
+    },
+    {
+      "topic": "计算签核与追溯",
+      "conclusion": "逐一导入后检查源版本、审批、本层新计算、有效签核及三张报表；来源追源表和抵销，不伪称ERP原凭证血缘。"
+    },
+    {
+      "topic": "后期和大合并",
+      "conclusion": "本次目标止于6月HW；重算集团/后期报送需对应期间另做，不自动替代后期独立源。"
+    },
+    {
+      "topic": "截图及实际证据",
+      "conclusion": "实际交付三CSV经真实UI上传生成；截图绑定输入及源摘要，附图仅示意条件需正文解释；HTTP6组另有独立结果。"
+    },
+    {
+      "topic": "文档补充身份",
+      "conclusion": "此次仅同软件基线操作指南，未升级EXE/未覆盖旧数据和四册；不以模板说明冒称生产准则全覆盖。"
+    }
+  ],
+  "independentHttpProof": {
+    "file": "acceptance/六月鸿旺小合并真实验收.json",
+    "sha256": "520109223eeda5f739ade41df9a4ced322f5c619305c8c5011e213819a6b5688",
+    "passed": true,
+    "caseCount": 6
+  },
+  "realBrowserProof": {
+    "file": "evidence/六月操作截图与实机验证.json",
+    "sha256": "c0c66feee548448a9739618da4741688fb556714888ccfbd232abb1745be8411",
+    "passed": true
+  },
+  "scope": "逐章实际文稿语义、源代码契约、输入文件与现场截图复核；Word/PDF排版、公开下载另验，不以关键词替代语义阅读。"
+}

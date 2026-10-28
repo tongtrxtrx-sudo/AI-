@@ -1,0 +1,444 @@
+{
+  "passed": true,
+  "capturedUtc": "2026-10-28T09:24:35.890342+00:00",
+  "softwareBaseline": "ERP-20261021",
+  "method": "全新临时SQLite、真实HTTP/Chromium表单，分别上传最终三份CSV，停旧预置/维护审批新抵销并计算签核。未改产品源码。",
+  "sourceSha256": {
+    "backend/API-CONTRACT.md": "1f95a4e81a18f090d43253e975876f0311792365c1ad43ef631531b607a51b07",
+    "backend/CALCULATION-CONTRACT.md": "0d4efe1dad6b0252ff0db1e2bc8322b5b24a7e938cf63155f43a293b1b010259",
+    "backend/LEDGER-CONTRACT.md": "2dcb5fbcff887043b3baf780f114b7a008709631bd8cfc77480a65f2b113ef84",
+    "backend/consolidation.py": "fc6f2df87fd7feb9c47b6d873bffd33fac032951ed87cdf8382f93cb36460dcf",
+    "backend/engine.py": "7648cba8a69c3ff57781bd91bf5592b0baefd9ffcc9497481b33d8b07642c0e5",
+    "backend/erp_domain.py": "561e4338f94a48aa702b2d4bb6f91ec687b21c725f03dfdfadc18dd06866314f",
+    "backend/finance.py": "31e1fd61f35dc8d68fecb10d0209fd108237e2aded2efa80b2970fbed2019114",
+    "backend/ledger.py": "c6b72fae0754d89782e5c950f4d6b73fa3c9286409732004ef5e770824ccef0e",
+    "backend/ledger_seed.py": "13cc623ea2811bf6a9a45b4f393ed2038d4fa06452079f9b397a29224d45b351",
+    "backend/legacy_engine.py": "ecc9fc84cb156183dc2f6b56e25c8ec2409441577b3830c8d107701261d9230f",
+    "backend/multilevel_domain.py": "fef196c4dfadb66efc2a485dd30bcdb117242e282a79bb38f61ffdf90dc3eb80",
+    "backend/multilevel_seed.py": "425b810becb6e56cb8f579c5ce5f03cad29e2a9dd194f902ec3de5be0e8c12db",
+    "backend/server.py": "a670ab6b1830c756f969b89d2a6439c416b144eec59c6fed939a5d1460455f91",
+    "backend/store.py": "621f5d7624979d53272b95243054113cecabe3b5911866f0a7530fbb61c00fe8",
+    "backend/test_consolidation.py": "bdff9a77433cfb505c2417528f4308d675ae76d68b813864968cc4fa23298c9e",
+    "backend/test_erp_calculation.py": "4c981585feb5daea9d788f743c4c25365263a35a92267dbefeaa7f79e3d626b9",
+    "backend/test_erp_domain.py": "fe702fab6984552ef4f41824bc36c68cac75a8ace7e17ab2bc85fb36eaa73efb",
+    "backend/test_ledger.py": "3a73ec23d1c12c609522261e436ba9a6d96494ce0873a460189ebb6853a45f3c",
+    "backend/test_multilevel_domain.py": "a55dc707e8ec7a6b164991890331fb98433248806bb0d8d044b9e6364a066016",
+    "backend/test_multilevel_http.py": "e24a174f0cd9baebf671fbae23cd84d8fb52f7764212a186697d8c2b7b85eacd",
+    "build_windows.py": "89530418bb63e0e0af7ba48c18fd71d6a8b23b01065724bd445668493e2ece8a",
+    "frontend/dist/index.html": "5c9d9424b600239aec1652d59a043538032cc35a5d449d103a73f33ab0a5d15b",
+    "frontend/src/app.js": "7ec83702526f0801b1c7cd104c47dc0cfb8827aced7ac895293d660857a5c85f",
+    "frontend/src/budget.js": "fe8f17e1973c2611397a7c4986b1931da18edf27985aa98be7a935f946f80a36",
+    "frontend/src/erp-actions.js": "66aa00066098567ec032eec7b61506f1503963e2fef7fa7c518ba5d468c0f7c2",
+    "frontend/src/erp-pages.js": "189ede07bc4a5f9ab4e27d53495dabd2e0297f182e3af4109e32e2257c19d215",
+    "frontend/src/ml-actions.js": "0e4513083b3769045218dd563e2f2c165902adeda27495077d5262f5e63a3ffd",
+    "frontend/src/ml-pages.js": "cf47acd6495f13a3118c6581448715f3bfaaa56bd8e17fcbfef7c4afbb972c30",
+    "frontend/src/shell.html": "238cde93179cee1a2affdda1ed76779471559f19f920a73b46338671ef476388",
+    "frontend/src/style.css": "b058a720e03c8ed1746ac5b6a61da1a01984349914cd906afb67885c73cc48b2",
+    "frontend-build.py": "0ba1bb5e922e97035e531bacb5315fdb5ffded22786e7a38d1a7df4a78986252",
+    "package_windows.py": "6cd3af8cd5703c1b85c1ebf38ac90696edc9ae2042dd2592c87db76dae37eea7",
+    "windows/app/demo_launcher.py": "8cfda89fa687d31583ec81d958e5358a3d81d42d42f7dde991bed39d7cfb5016",
+    "windows/launcher.c": "5ff84aec79f1751d0512be0ab3535d0dd95fb0a9bb295636453478260ede7b95"
+  },
+  "productSourceUnchanged": true,
+  "inputFilesSha256": {
+    "data/示例CSV/01_鸿旺单体_2026-06_已填示例.csv": "5cbf33ca17fbe0009b0dd704c1b5f55c9e303167510261a8da68b05cdf590afd",
+    "data/示例CSV/02_猫爬架法人_2026-06_已填示例.csv": "b302a8fd0d5ca04d6f83a6f4f90dfa85be28931ad065cb78e532957329e78d60",
+    "data/示例CSV/03_电子工厂法人_2026-06_已填示例.csv": "fff929331efe5b5e7896256c995b1bb16fb2acce2c078952413a5eded825b27c"
+  },
+  "inputFilesUnchanged": true,
+  "javascriptErrors": [],
+  "browser": {
+    "engine": "Chromium",
+    "viewport": {
+      "width": 1600,
+      "height": 1160
+    },
+    "locale": "zh-CN"
+  },
+  "downloadedSourceExample": {
+    "file": "evidence/现场下载本期全量源CSV_2026-06.csv",
+    "sha256": "1ce1c27c95e2be93b0f8087ef8d8359aae49b8573edea28338c416417577884b",
+    "rows": 693,
+    "meaning": "本期全七家，不只鸿旺；每家99行"
+  },
+  "sample": {
+    "month": 6,
+    "unitId": "HW_GROUP",
+    "sourceRevenues": {
+      "HW": 600,
+      "HW_CAT": 200,
+      "HW_ELEC": 100
+    },
+    "sourceVersions": {
+      "HW": 2,
+      "HW_CAT": 2,
+      "HW_ELEC": 2
+    },
+    "manualElimination": {
+      "sourceId": "HW-JUNE-2026-CSV-SALES-001",
+      "amount": 60,
+      "monthlyAmounts": {
+        "1": 10,
+        "2": 10,
+        "3": 10,
+        "4": 10,
+        "5": 10,
+        "6": 10
+      }
+    },
+    "result": {
+      "id": "RES-HW_GROUP-202606-V1",
+      "revenue": 840,
+      "cost": 480,
+      "expense": 90,
+      "net": 270,
+      "assets": 470,
+      "approvalStatus": "已签核",
+      "valid": true
+    }
+  },
+  "files": [
+    {
+      "file": "01_选择六月与鸿旺范围.png",
+      "title": "选择2026年06期与鸿旺小合并",
+      "menu": "顶部范围及期间",
+      "button": "鸿旺小合并／2026年06期",
+      "apiAction": "GET /api/bootstrap",
+      "purpose": "初始化数字不是本次已导入的结果；后续使用独立CSV重建。",
+      "context": {
+        "group": "HW_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "highlight": "仅截图时浏览器DOM描边，不改源文件",
+      "sha256": "09b24def925498d3bec1543e137653dcd60d506a1b1096d7b0683cc1f01f75b7"
+    },
+    {
+      "file": "02_核对三个独立法人成员.png",
+      "title": "核对三家独立法人范围",
+      "menu": "分级合并与结果",
+      "button": "维护成员",
+      "apiAction": "GET /api/bootstrap",
+      "purpose": "直接成员仅HW、HW_CAT、HW_ELEC；管理范围不代替真实持股。",
+      "context": {
+        "group": "HW_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "highlight": "无额外标注",
+      "sha256": "4402959dee9481fae929b78da8d7b01adcaca86d2c76098102b72d08f1ba7e05"
+    },
+    {
+      "file": "03_重开本层与依赖祖先.png",
+      "title": "重开本期鸿旺及依赖祖先",
+      "menu": "分级合并与结果",
+      "button": "重新开启及祖先→确认重开并保留历史",
+      "apiAction": "unit_reopen",
+      "purpose": "只解锁受影响范围；保留历史，不修改09期或旧ERP账套。",
+      "context": {
+        "group": "HW_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "highlight": "无额外标注",
+      "sha256": "41ac6be7e1612ef777fa7b6bc350d461108512a87e41bed14177fad7a80eaf37"
+    },
+    {
+      "file": "附图A_真实期初资本在表单维护.png",
+      "title": "真实期初资本不同先完整填源",
+      "menu": "财务三表报送",
+      "button": "编辑三表→期初与期末资产负债",
+      "apiAction": "source_save",
+      "purpose": "若实际资本与初始化100/50/50不同，完整实际三表表单保存会同步权益历史依据，不改实际数凑样例。",
+      "context": {
+        "group": "HW_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "highlight": "无额外标注",
+      "sha256": "da2514e8c3f07c0bb54a9dfe457e9e80bfc9788d21cc3d935f5000cd1f7f38b6"
+    },
+    {
+      "file": "附图B_历史权益与保存入口.png",
+      "title": "权益历史条件与校验保存",
+      "menu": "财务三表报送",
+      "button": "期初已确认人民币留存收益→校验并保存三表源",
+      "apiAction": "source_save",
+      "purpose": "同时填写实际完整期初期末/累计/各月数据，再保存；截图不提交示例变更。",
+      "context": {
+        "group": "HW_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "highlight": "无额外标注",
+      "sha256": "1ffdf8c62d15db1c0c2cf308e6ec6c52fdb2c2113b31c48d628cdb06dbeac786"
+    },
+    {
+      "file": "04_1_导入HW六月报表.png",
+      "title": "分别导入第1家六月单体报表",
+      "menu": "财务三表报送",
+      "button": "导入完整三表CSV→选择UTF-8 CSV→整批校验并导入",
+      "apiAction": "source_import",
+      "purpose": "弹窗2026-09是固定说明示例；实际文件为2026-06、本位币万元、每家99行。",
+      "context": {
+        "group": "HW_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "highlight": "无额外标注",
+      "sha256": "d6e0ff9f8879b891aa836aa476758233799edd87569227aa27cef15e7feb4d93"
+    },
+    {
+      "file": "04_2_导入HW_CAT六月报表.png",
+      "title": "分别导入第2家六月单体报表",
+      "menu": "财务三表报送",
+      "button": "导入完整三表CSV→选择UTF-8 CSV→整批校验并导入",
+      "apiAction": "source_import",
+      "purpose": "弹窗2026-09是固定说明示例；实际文件为2026-06、本位币万元、每家99行。",
+      "context": {
+        "group": "HW_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "highlight": "无额外标注",
+      "sha256": "35f9cfc214611b96b0350332f09926dee5bea6c820adcabb533d21b9fe4d6066"
+    },
+    {
+      "file": "04_3_导入HW_ELEC六月报表.png",
+      "title": "分别导入第3家六月单体报表",
+      "menu": "财务三表报送",
+      "button": "导入完整三表CSV→选择UTF-8 CSV→整批校验并导入",
+      "apiAction": "source_import",
+      "purpose": "弹窗2026-09是固定说明示例；实际文件为2026-06、本位币万元、每家99行。",
+      "context": {
+        "group": "HW_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "highlight": "无额外标注",
+      "sha256": "15036d7965769d5bcb69d61c028a93a7b7fb338479340e4c00f2fc4302806a77"
+    },
+    {
+      "file": "05_三家源版本与收入核对.png",
+      "title": "确认三个单体源均已入库",
+      "menu": "财务三表报送",
+      "button": "法人本期源报送",
+      "apiAction": "source_import",
+      "purpose": "三家源V2，收入600/200/100、净利180/60/30；还不是合并报表。",
+      "context": {
+        "group": "HW_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "highlight": "无额外标注",
+      "sha256": "92b028d911070c1cfb82c4d42915bf7778877ce9f20845d8734feeaddd2c40ba"
+    },
+    {
+      "file": "06_单体源期初期末与累计.png",
+      "title": "查看真实保存的单体源",
+      "menu": "财务三表报送",
+      "button": "查看→本期原币源",
+      "apiAction": "GET /api/bootstrap",
+      "purpose": "鸿旺期初现金100、期末现金280/留存180；当前是单体报表源，没有原始ERP凭证血缘。",
+      "context": {
+        "group": "HW_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "highlight": "无额外标注",
+      "sha256": "73ae38f508e45ec12bc9420515662887113d9ded14208189abf23e38b65ca18a"
+    },
+    {
+      "file": "07_先识别旧初始化抵销.png",
+      "title": "停用本期本层初始化66.67",
+      "menu": "抵销与调整凭证",
+      "button": "HW-SALES-06→停用",
+      "apiAction": "GET /api/bootstrap",
+      "purpose": "本例真实内部销售是60，旧初始化66.67不能叠加；不碰其他期或集团投资抵销。",
+      "context": {
+        "group": "HW_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "highlight": "仅截图时浏览器DOM描边，不改源文件",
+      "sha256": "4dccafea90b592c3fd387a0b9d7ce7ad3740b82777b2d610f46609efb398af66"
+    },
+    {
+      "file": "08A_维护本层内部销售抵销.png",
+      "title": "维护本层60万元销售草稿",
+      "menu": "抵销与调整凭证",
+      "button": "新增分层抵销草稿",
+      "apiAction": "elimination_save",
+      "purpose": "唯一来源号HW-JUNE-2026-CSV-SALES-001、鸿旺层、卖方HW、买方HW_CAT、CNY60万元。",
+      "context": {
+        "group": "HW_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "highlight": "无额外标注",
+      "sha256": "13712ce4c8cf950e04aa936b887c9aac3a74a0f6f4a1c7b719ddc1f37b960f6a"
+    },
+    {
+      "file": "08B_填写一至六月抵销明细.png",
+      "title": "按1—6月每月10分配",
+      "menu": "抵销与调整凭证",
+      "button": "按各月明细发生→六个月份金额",
+      "apiAction": "elimination_save",
+      "purpose": "本例每月10合计60，不默认全部在6月；单体汇总报表不能自动找到交易。",
+      "context": {
+        "group": "HW_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "highlight": "无额外标注",
+      "sha256": "13712ce4c8cf950e04aa936b887c9aac3a74a0f6f4a1c7b719ddc1f37b960f6a"
+    },
+    {
+      "file": "09_负责人审批抵销.png",
+      "title": "确认审批本层销售抵销",
+      "menu": "抵销与调整凭证",
+      "button": "审批→确认审批抵销",
+      "apiAction": "elimination_approve",
+      "purpose": "审批后还须计算并签核，未审批草稿不进入正式合并。",
+      "context": {
+        "group": "HW_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "highlight": "无额外标注",
+      "sha256": "1975c3bdf3f7c8d6943ce977e2e7b5ad01b0b4e9544960c5fa11b08943afe8d3"
+    },
+    {
+      "file": "10_计算前检查全部通过.png",
+      "title": "计算前核对三源与抵销",
+      "menu": "分级合并与结果",
+      "button": "计算本层新版本",
+      "apiAction": "GET /api/bootstrap",
+      "purpose": "明确在2026年06期计算；不沿用初始化或其他期间结果。",
+      "context": {
+        "group": "HW_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "highlight": "仅截图时浏览器DOM描边，不改源文件",
+      "sha256": "1a0f86b92419fa704c8e7b7a9a0a509fc1313c1acd169a878e8e7f5eff40b8b0"
+    },
+    {
+      "file": "11_签核六月鸿旺新结果.png",
+      "title": "签核当前六月新结果",
+      "menu": "分级合并与结果",
+      "button": "签核当前结果→确认签核",
+      "apiAction": "result_approve",
+      "purpose": "核对输入版本和三表后签核，上级才可引用本版。",
+      "context": {
+        "group": "HW_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "highlight": "无额外标注",
+      "sha256": "b6ffe83482eed786dc77fc09ebafddb6254d388d3ce04b3007e6681be3509b56"
+    },
+    {
+      "file": "12_六月鸿旺已签核结果.png",
+      "title": "有效结果及三个源V2",
+      "menu": "分级合并与结果",
+      "button": "当前结果／直接输入／历史版本",
+      "apiAction": "GET /api/bootstrap",
+      "purpose": "六月收入840、净利270、资产470；本指南不继续计算集团。",
+      "context": {
+        "group": "HW_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "highlight": "无额外标注",
+      "sha256": "2c6a0f6c4c0f7eb011846ffede3a20c51f8e1b0f6be8526b09750cbb5338fbee"
+    },
+    {
+      "file": "13A_合并利润表840与270.png",
+      "title": "合并利润表",
+      "menu": "集团三张报表",
+      "button": "合并利润表",
+      "apiAction": "GET /api/bootstrap",
+      "purpose": "顶部仍选鸿旺小合并、2026年06期；菜单叫集团三张报表不代表切到大合并。",
+      "context": {
+        "group": "HW_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "highlight": "无额外标注",
+      "sha256": "65f5198b669992029dffd1a184a93802fc199b550b4494b13612c9a087f734d1"
+    },
+    {
+      "file": "13B_合并资产负债表470.png",
+      "title": "合并资产负债表",
+      "menu": "集团三张报表",
+      "button": "合并资产负债表",
+      "apiAction": "GET /api/bootstrap",
+      "purpose": "顶部仍选鸿旺小合并、2026年06期；菜单叫集团三张报表不代表切到大合并。",
+      "context": {
+        "group": "HW_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "highlight": "无额外标注",
+      "sha256": "2f6857134a72304f58766f15a16aeb3c9434d38b412efa72b83366915d30d5d8"
+    },
+    {
+      "file": "13C_合并现金流量表470.png",
+      "title": "合并现金流量表",
+      "menu": "集团三张报表",
+      "button": "合并现金流量表",
+      "apiAction": "GET /api/bootstrap",
+      "purpose": "顶部仍选鸿旺小合并、2026年06期；菜单叫集团三张报表不代表切到大合并。",
+      "context": {
+        "group": "HW_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "highlight": "无额外标注",
+      "sha256": "6eb11d1a1e5758e8199122d6211271e724ad5aeeab4511126a690bbba7f2159b"
+    },
+    {
+      "file": "14_结果来源和抵销追溯.png",
+      "title": "来源版本与60万元抵销",
+      "menu": "分级合并与结果",
+      "button": "查看完整结果与钻取",
+      "apiAction": "GET /api/bootstrap",
+      "purpose": "保留三家源版本和本层来源号；报表路径追源表，不假称能追ERP原始凭证。",
+      "context": {
+        "group": "HW_GROUP",
+        "month": 6,
+        "currency": "CNY",
+        "entity": "all"
+      },
+      "highlight": "无额外标注",
+      "sha256": "bf021d37a3840233af4d6a78f5921bf8682351a7df0ac118b265cec3c39072c7"
+    }
+  ],
+  "notes": [
+    "六列CSV是本位币万元，不能直接上传XLSX或使用ERP凭证入口。",
+    "弹窗2026-09是固定示例，实际文件与期间2026-06。",
+    "独立新目录手工源，不篡改已有ERP源。",
+    "仅虚构数据，无token/数据库/私有日志。"
+  ]
+}

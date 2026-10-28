@@ -16,6 +16,10 @@ NC6.5导出CSV/XLSX→账簿与科目/内部客商映射→期初及已记账凭
 
 差异保留双方凭证、原行与原因，不自动倒挤。核实后可补内部客商、关联号或现金流类别，留下前后标注；金额错误需核对ERP、更正后停用旧批次再导入。历史签核结果追溯其当时源、凭证与抵销快照；当前匹配差异清单在重扫时更新，需留存时及时导出。
 
+## 鸿旺2026年6月单体报表导入与小合并图文指南
+
+**[下载Word：22页、16张实机步骤截图](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/hongwang-june-2026/EPM-Hongwang-202606-Statements-Guide-CN.docx)** · [下载PDF](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/hongwang-june-2026/EPM-Hongwang-202606-Statements-Guide-CN.pdf) · [下载三主体示例CSV及全套资料](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/epm-download-20261019/hongwang-june-2026/EPM-Hongwang-202606-Statements-Kit.zip)。适用于原Demo，无需升级；本次走“财务三表报送”的CSV万元口径，不是NC凭证模板。示例1—6月累计收入840、净利270，6月当月收入160、净利54，6月末资产470，详细条件和真实资料处理见指南及[本期说明](hongwang-june-2026/README.md)。
+
 ## Excel模板与带截图导入指南（同软件基线补充）
 
 **[下载6份Excel模板＋已填示例＋24页Word/PDF说明（约9.5MB）](https://raw.githubusercontent.com/tongtrxtrx-sudo/AI-/81bf4545bec24e1a09b714a40c02bc2affbdbff9/TianyuanEPM-NC65-Excel-Import-Kit-D1.0.zip)**。你现有ERP-20261021无需更新EXE。

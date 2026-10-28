@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "pdfSha256": "0f56442b344d727c1be25d0d18da3592cd487e5ff63139615e907019af236ed7",
+  "representativePages": [
+    3,
+    9,
+    18,
+    20
+  ],
+  "inspected": [
+    "范围与法人对应表",
+    "实际CSV上传弹窗",
+    "合并利润表及字段来源说明",
+    "真实资本初始化条件附图"
+  ],
+  "machineBounds": {
+    "pages": 22,
+    "outOfPageWords": 0
+  },
+  "scope": "代表页人工视检配合全部PDF文字边界检查，不冒称逐页人工审阅。"
+}

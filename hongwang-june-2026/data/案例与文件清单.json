@@ -1,0 +1,269 @@
+{
+  "softwareBaseline": "ERP-20261021",
+  "period": "2026-06",
+  "unit": "本位币万元（六位小数）",
+  "headers": [
+    "法人编码",
+    "期间",
+    "数据区",
+    "项目编码",
+    "金额",
+    "月份"
+  ],
+  "softwareChanged": false,
+  "sourcePath": "财务三表报送→导入完整三表CSV",
+  "notERP": true,
+  "files": [
+    {
+      "file": "data/示例CSV/01_鸿旺单体_2026-06_已填示例.csv",
+      "sha256": "5cbf33ca17fbe0009b0dd704c1b5f55c9e303167510261a8da68b05cdf590afd",
+      "entityId": "HW",
+      "entityCode": "HW00",
+      "name": "鸿旺单体",
+      "rows": 99,
+      "blank": false,
+      "directImport": true
+    },
+    {
+      "file": "data/Excel整理表/01_鸿旺单体_2026-06_已填示例_需另存CSV.xlsx",
+      "sha256": "e0f006ed9af5fe58ff443719b521f7e37139dcf709cf0fe46b854927c11d07dc",
+      "entityId": "HW",
+      "entityCode": "HW00",
+      "name": "鸿旺单体",
+      "rows": 99,
+      "blank": false,
+      "directImport": false
+    },
+    {
+      "file": "data/空白CSV/01_鸿旺单体_2026-06_待填模板.csv",
+      "sha256": "3969e6ba76dd06495049b8be9223efcf1171306e1315dd149ecb534b4c5f45a1",
+      "entityId": "HW",
+      "entityCode": "HW00",
+      "name": "鸿旺单体",
+      "rows": 99,
+      "blank": true,
+      "directImport": true
+    },
+    {
+      "file": "data/Excel整理表/01_鸿旺单体_2026-06_待填模板_需另存CSV.xlsx",
+      "sha256": "4d0a977133769035e062b588cf75e9036834e1faace47632a6837d25029e2a85",
+      "entityId": "HW",
+      "entityCode": "HW00",
+      "name": "鸿旺单体",
+      "rows": 99,
+      "blank": true,
+      "directImport": false
+    },
+    {
+      "file": "data/示例CSV/02_猫爬架法人_2026-06_已填示例.csv",
+      "sha256": "b302a8fd0d5ca04d6f83a6f4f90dfa85be28931ad065cb78e532957329e78d60",
+      "entityId": "HW_CAT",
+      "entityCode": "HW01",
+      "name": "鸿旺猫爬架生产事业部",
+      "rows": 99,
+      "blank": false,
+      "directImport": true
+    },
+    {
+      "file": "data/Excel整理表/02_猫爬架法人_2026-06_已填示例_需另存CSV.xlsx",
+      "sha256": "993699d176c6f53127335ad882459e705769c615b18981ecad5220a8883ce0b7",
+      "entityId": "HW_CAT",
+      "entityCode": "HW01",
+      "name": "鸿旺猫爬架生产事业部",
+      "rows": 99,
+      "blank": false,
+      "directImport": false
+    },
+    {
+      "file": "data/空白CSV/02_猫爬架法人_2026-06_待填模板.csv",
+      "sha256": "ee448bedace1e7205709009267d38fe036abceb77bce745ee65a49cc10e34176",
+      "entityId": "HW_CAT",
+      "entityCode": "HW01",
+      "name": "鸿旺猫爬架生产事业部",
+      "rows": 99,
+      "blank": true,
+      "directImport": true
+    },
+    {
+      "file": "data/Excel整理表/02_猫爬架法人_2026-06_待填模板_需另存CSV.xlsx",
+      "sha256": "e34a2f38660350c291c831d1faf5e53c40912761eadfebd746aa8c88cc45ca5f",
+      "entityId": "HW_CAT",
+      "entityCode": "HW01",
+      "name": "鸿旺猫爬架生产事业部",
+      "rows": 99,
+      "blank": true,
+      "directImport": false
+    },
+    {
+      "file": "data/示例CSV/03_电子工厂法人_2026-06_已填示例.csv",
+      "sha256": "fff929331efe5b5e7896256c995b1bb16fb2acce2c078952413a5eded825b27c",
+      "entityId": "HW_ELEC",
+      "entityCode": "HW02",
+      "name": "杭州鸿旺宠物用品有限公司电子工厂",
+      "rows": 99,
+      "blank": false,
+      "directImport": true
+    },
+    {
+      "file": "data/Excel整理表/03_电子工厂法人_2026-06_已填示例_需另存CSV.xlsx",
+      "sha256": "898bfccc703c487ed25bacddfc4938421bc432dfe7dc146877a527c5cc788da8",
+      "entityId": "HW_ELEC",
+      "entityCode": "HW02",
+      "name": "杭州鸿旺宠物用品有限公司电子工厂",
+      "rows": 99,
+      "blank": false,
+      "directImport": false
+    },
+    {
+      "file": "data/空白CSV/03_电子工厂法人_2026-06_待填模板.csv",
+      "sha256": "bd65b1c52c8f8b9195ce918909640c6ca21fbdd0715a9b471b4e516b1cb30d63",
+      "entityId": "HW_ELEC",
+      "entityCode": "HW02",
+      "name": "杭州鸿旺宠物用品有限公司电子工厂",
+      "rows": 99,
+      "blank": true,
+      "directImport": true
+    },
+    {
+      "file": "data/Excel整理表/03_电子工厂法人_2026-06_待填模板_需另存CSV.xlsx",
+      "sha256": "3bbae4ca3bd1c5f57ba661dc05beb9fffc988af91045c3dcf3d122f698999463",
+      "entityId": "HW_ELEC",
+      "entityCode": "HW02",
+      "name": "杭州鸿旺宠物用品有限公司电子工厂",
+      "rows": 99,
+      "blank": true,
+      "directImport": false
+    },
+    {
+      "file": "data/示例CSV/04_鸿旺三法人_2026-06_合并导入示例.csv",
+      "sha256": "5bcf2fbc9f6af63e5ddf9cf74a0e9dca8d41507dad13ec9b5c21caff88870956",
+      "rows": 297,
+      "blank": false,
+      "directImport": true
+    },
+    {
+      "file": "data/Excel整理表/04_鸿旺三法人_2026-06_已填示例_需另存CSV.xlsx",
+      "sha256": "e5694014e00b4f710c59e7cb20c82d01168919ec7e76c328ed18551dee75c2eb",
+      "rows": 297,
+      "blank": false,
+      "directImport": false
+    },
+    {
+      "file": "data/Excel整理表/05_内部销售抵销准备表_页面维护.xlsx",
+      "sha256": "35398f8eb59052265f3592a1182d488ce9962ba307eb48490d73d3c889f62528",
+      "directImport": false
+    }
+  ],
+  "expected": {
+    "inputEntities": 3,
+    "rowsPerEntity": 99,
+    "allSourceRows": 297,
+    "revenueBeforeElimination": 900,
+    "revenue": 840,
+    "cost": 480,
+    "expense": 90,
+    "net": 270,
+    "assets": 470,
+    "liabilities": 0,
+    "cash": 470,
+    "capital": 200,
+    "retained": 270,
+    "openingCash": 200,
+    "operatingCash": 270,
+    "salesElimination": 60,
+    "monthlySalesElimination": {
+      "1": 10,
+      "2": 10,
+      "3": 10,
+      "4": 10,
+      "5": 10,
+      "6": 10
+    }
+  },
+  "sourceMonthlyDesign": [
+    {
+      "id": "HW",
+      "code": "HW00",
+      "revenue": [
+        90,
+        90,
+        100,
+        100,
+        110,
+        110
+      ],
+      "cost": [
+        50,
+        50,
+        60,
+        60,
+        70,
+        70
+      ],
+      "expense": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "id": "HW_CAT",
+      "code": "HW01",
+      "revenue": [
+        30,
+        30,
+        30,
+        30,
+        40,
+        40
+      ],
+      "cost": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "expense": [
+        3,
+        3,
+        3,
+        3,
+        4,
+        4
+      ]
+    },
+    {
+      "id": "HW_ELEC",
+      "code": "HW02",
+      "revenue": [
+        15,
+        15,
+        15,
+        15,
+        20,
+        20
+      ],
+      "cost": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "expense": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ]
+}

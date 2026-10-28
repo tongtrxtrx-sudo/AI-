@@ -1,0 +1,214 @@
+{
+  "passed": true,
+  "verifiedUtc": "2026-10-28T09:24:54.114510+00:00",
+  "softwareBaseline": "ERP-20261021",
+  "period": "2026-06",
+  "method": "独立新私有临时SQLite、真实HTTP公开接口；未导入产品计算函数；CSV为实际交付文件。",
+  "sourceSha256": {
+    "backend/API-CONTRACT.md": "1f95a4e81a18f090d43253e975876f0311792365c1ad43ef631531b607a51b07",
+    "backend/CALCULATION-CONTRACT.md": "0d4efe1dad6b0252ff0db1e2bc8322b5b24a7e938cf63155f43a293b1b010259",
+    "backend/LEDGER-CONTRACT.md": "2dcb5fbcff887043b3baf780f114b7a008709631bd8cfc77480a65f2b113ef84",
+    "backend/consolidation.py": "fc6f2df87fd7feb9c47b6d873bffd33fac032951ed87cdf8382f93cb36460dcf",
+    "backend/engine.py": "7648cba8a69c3ff57781bd91bf5592b0baefd9ffcc9497481b33d8b07642c0e5",
+    "backend/erp_domain.py": "561e4338f94a48aa702b2d4bb6f91ec687b21c725f03dfdfadc18dd06866314f",
+    "backend/finance.py": "31e1fd61f35dc8d68fecb10d0209fd108237e2aded2efa80b2970fbed2019114",
+    "backend/ledger.py": "c6b72fae0754d89782e5c950f4d6b73fa3c9286409732004ef5e770824ccef0e",
+    "backend/ledger_seed.py": "13cc623ea2811bf6a9a45b4f393ed2038d4fa06452079f9b397a29224d45b351",
+    "backend/legacy_engine.py": "ecc9fc84cb156183dc2f6b56e25c8ec2409441577b3830c8d107701261d9230f",
+    "backend/multilevel_domain.py": "fef196c4dfadb66efc2a485dd30bcdb117242e282a79bb38f61ffdf90dc3eb80",
+    "backend/multilevel_seed.py": "425b810becb6e56cb8f579c5ce5f03cad29e2a9dd194f902ec3de5be0e8c12db",
+    "backend/server.py": "a670ab6b1830c756f969b89d2a6439c416b144eec59c6fed939a5d1460455f91",
+    "backend/store.py": "621f5d7624979d53272b95243054113cecabe3b5911866f0a7530fbb61c00fe8",
+    "backend/test_consolidation.py": "bdff9a77433cfb505c2417528f4308d675ae76d68b813864968cc4fa23298c9e",
+    "backend/test_erp_calculation.py": "4c981585feb5daea9d788f743c4c25365263a35a92267dbefeaa7f79e3d626b9",
+    "backend/test_erp_domain.py": "fe702fab6984552ef4f41824bc36c68cac75a8ace7e17ab2bc85fb36eaa73efb",
+    "backend/test_ledger.py": "3a73ec23d1c12c609522261e436ba9a6d96494ce0873a460189ebb6853a45f3c",
+    "backend/test_multilevel_domain.py": "a55dc707e8ec7a6b164991890331fb98433248806bb0d8d044b9e6364a066016",
+    "backend/test_multilevel_http.py": "e24a174f0cd9baebf671fbae23cd84d8fb52f7764212a186697d8c2b7b85eacd",
+    "build_windows.py": "89530418bb63e0e0af7ba48c18fd71d6a8b23b01065724bd445668493e2ece8a",
+    "frontend/dist/index.html": "5c9d9424b600239aec1652d59a043538032cc35a5d449d103a73f33ab0a5d15b",
+    "frontend/src/app.js": "7ec83702526f0801b1c7cd104c47dc0cfb8827aced7ac895293d660857a5c85f",
+    "frontend/src/budget.js": "fe8f17e1973c2611397a7c4986b1931da18edf27985aa98be7a935f946f80a36",
+    "frontend/src/erp-actions.js": "66aa00066098567ec032eec7b61506f1503963e2fef7fa7c518ba5d468c0f7c2",
+    "frontend/src/erp-pages.js": "189ede07bc4a5f9ab4e27d53495dabd2e0297f182e3af4109e32e2257c19d215",
+    "frontend/src/ml-actions.js": "0e4513083b3769045218dd563e2f2c165902adeda27495077d5262f5e63a3ffd",
+    "frontend/src/ml-pages.js": "cf47acd6495f13a3118c6581448715f3bfaaa56bd8e17fcbfef7c4afbb972c30",
+    "frontend/src/shell.html": "238cde93179cee1a2affdda1ed76779471559f19f920a73b46338671ef476388",
+    "frontend/src/style.css": "b058a720e03c8ed1746ac5b6a61da1a01984349914cd906afb67885c73cc48b2",
+    "frontend-build.py": "0ba1bb5e922e97035e531bacb5315fdb5ffded22786e7a38d1a7df4a78986252",
+    "package_windows.py": "6cd3af8cd5703c1b85c1ebf38ac90696edc9ae2042dd2592c87db76dae37eea7",
+    "windows/app/demo_launcher.py": "8cfda89fa687d31583ec81d958e5358a3d81d42d42f7dde991bed39d7cfb5016",
+    "windows/launcher.c": "5ff84aec79f1751d0512be0ab3535d0dd95fb0a9bb295636453478260ede7b95"
+  },
+  "sourceUnchangedDuringRun": true,
+  "harnessSha256": "322178a4b69cc6ddf83f506b1f9bde112ca976ecf279919faba81e7059a53819",
+  "inputSha256": {
+    "data/示例CSV/01_鸿旺单体_2026-06_已填示例.csv": "5cbf33ca17fbe0009b0dd704c1b5f55c9e303167510261a8da68b05cdf590afd",
+    "data/Excel整理表/01_鸿旺单体_2026-06_已填示例_需另存CSV.xlsx": "e0f006ed9af5fe58ff443719b521f7e37139dcf709cf0fe46b854927c11d07dc",
+    "data/空白CSV/01_鸿旺单体_2026-06_待填模板.csv": "3969e6ba76dd06495049b8be9223efcf1171306e1315dd149ecb534b4c5f45a1",
+    "data/Excel整理表/01_鸿旺单体_2026-06_待填模板_需另存CSV.xlsx": "4d0a977133769035e062b588cf75e9036834e1faace47632a6837d25029e2a85",
+    "data/示例CSV/02_猫爬架法人_2026-06_已填示例.csv": "b302a8fd0d5ca04d6f83a6f4f90dfa85be28931ad065cb78e532957329e78d60",
+    "data/Excel整理表/02_猫爬架法人_2026-06_已填示例_需另存CSV.xlsx": "993699d176c6f53127335ad882459e705769c615b18981ecad5220a8883ce0b7",
+    "data/空白CSV/02_猫爬架法人_2026-06_待填模板.csv": "ee448bedace1e7205709009267d38fe036abceb77bce745ee65a49cc10e34176",
+    "data/Excel整理表/02_猫爬架法人_2026-06_待填模板_需另存CSV.xlsx": "e34a2f38660350c291c831d1faf5e53c40912761eadfebd746aa8c88cc45ca5f",
+    "data/示例CSV/03_电子工厂法人_2026-06_已填示例.csv": "fff929331efe5b5e7896256c995b1bb16fb2acce2c078952413a5eded825b27c",
+    "data/Excel整理表/03_电子工厂法人_2026-06_已填示例_需另存CSV.xlsx": "898bfccc703c487ed25bacddfc4938421bc432dfe7dc146877a527c5cc788da8",
+    "data/空白CSV/03_电子工厂法人_2026-06_待填模板.csv": "bd65b1c52c8f8b9195ce918909640c6ca21fbdd0715a9b471b4e516b1cb30d63",
+    "data/Excel整理表/03_电子工厂法人_2026-06_待填模板_需另存CSV.xlsx": "3bbae4ca3bd1c5f57ba661dc05beb9fffc988af91045c3dcf3d122f698999463",
+    "data/示例CSV/04_鸿旺三法人_2026-06_合并导入示例.csv": "5bcf2fbc9f6af63e5ddf9cf74a0e9dca8d41507dad13ec9b5c21caff88870956",
+    "data/Excel整理表/04_鸿旺三法人_2026-06_已填示例_需另存CSV.xlsx": "e5694014e00b4f710c59e7cb20c82d01168919ec7e76c328ed18551dee75c2eb",
+    "data/Excel整理表/05_内部销售抵销准备表_页面维护.xlsx": "35398f8eb59052265f3592a1182d488ce9962ba307eb48490d73d3c889f62528"
+  },
+  "inputFilesUnchangedDuringRun": true,
+  "cases": [
+    {
+      "case": "资料结构与明确月份单位",
+      "passed": true,
+      "evidence": {
+        "三份各99行": true,
+        "合并文件297行且等同三份顺序拼接": true,
+        "六月及六个发生月正确": true,
+        "Excel整理表非直接入口且无公式": true
+      }
+    },
+    {
+      "case": "五类错误整批零写入",
+      "passed": true,
+      "evidence": {
+        "negativeCases": [
+          {
+            "name": "批内第三家期末不平",
+            "rejected": true,
+            "zeroWrite": true,
+            "message": "杭州鸿旺宠物用品有限公司电子工厂 · 期末资产＝负债＋权益不平衡，差额1.000000万元。"
+          },
+          {
+            "name": "期间错为9月",
+            "rejected": true,
+            "zeroWrite": true,
+            "message": "CSV第2行期间与当前选择不一致。"
+          },
+          {
+            "name": "缺6月明细",
+            "rejected": true,
+            "zeroWrite": true,
+            "message": "monthlyProfit的6月项目与模板不符。"
+          },
+          {
+            "name": "重复法人区字段月份",
+            "rejected": true,
+            "zeroWrite": true,
+            "message": "CSV第299行法人/数据区/项目/月份重复。"
+          },
+          {
+            "name": "累计区误填月份",
+            "rejected": true,
+            "zeroWrite": true,
+            "message": "CSV第2行累计数据区的月份应留空。"
+          }
+        ]
+      }
+    },
+    {
+      "case": "三份逐一导入与草稿审批签核历史",
+      "passed": true,
+      "evidence": {
+        "依次三份CSV实际导入": true,
+        "sourceVersions": {
+          "HW": 2,
+          "HW_CAT": 2,
+          "HW_ELEC": 2
+        },
+        "替换旧抵销前预览收入": 833.33,
+        "新手工抵销": {
+          "amount": 60,
+          "monthlyAmounts": {
+            "1": 10.0,
+            "2": 10.0,
+            "3": 10.0,
+            "4": 10.0,
+            "5": 10.0,
+            "6": 10.0
+          },
+          "seller": "HW",
+          "buyer": "HW_CAT"
+        },
+        "草稿未审批阻止计算且零写入": true,
+        "signedResult": {
+          "id": "RES-HW_GROUP-202606-V1",
+          "version": 1,
+          "actual": {
+            "revenue": 840.0,
+            "cost": 480.0,
+            "expense": 90.0,
+            "net": 270.0,
+            "assets": 470.0,
+            "liabilities": 0.0,
+            "cash": 470.0
+          },
+          "sourceVersions": {
+            "HW": 2,
+            "HW_CAT": 2,
+            "HW_ELEC": 2
+          }
+        },
+        "期初现金200经营270期末470": true,
+        "sixthMonthOnly": {
+          "revenue": 160,
+          "cost": 90,
+          "expense": 16,
+          "net": 54,
+          "operatingCash": 54
+        },
+        "签核后改源拒绝": true,
+        "重开重导新版本但历史源金额不变": true,
+        "9月历史不受6月修改影响": true
+      }
+    },
+    {
+      "case": "三家合并297行一次导入",
+      "passed": true,
+      "evidence": {
+        "一次三家297行导入": true,
+        "单独与合并文件同样结果": true,
+        "actual": {
+          "revenue": 840.0,
+          "net": 270.0,
+          "assets": 470.0,
+          "cash": 470.0
+        }
+      }
+    },
+    {
+      "case": "真实期初资本变化与历史参数",
+      "passed": true,
+      "evidence": {
+        "改变期初资本但CSV不含历史参数时拒绝且零写入": true,
+        "rejection": "历史资本明细必须且仅属于当前法人，并等于其期初实收资本。",
+        "source_save完整源同步历史资本110后相同CSV可导入": true,
+        "未强迫套示例100": true,
+        "sourceVersion": 3
+      }
+    },
+    {
+      "case": "已存在ERP凭证模式不能混绕",
+      "passed": true,
+      "evidence": {
+        "ERP有效凭证后手工CSV不能绕过凭证源指纹": true,
+        "failedEntityChecks": [
+          "erp_source_HW",
+          "erp_source_HW_CAT",
+          "erp_source_HW_ELEC"
+        ],
+        "rejection": "计算前置未通过：鸿旺单体凭证三表版本：凭证、科目映射或期初已变化，须重新生成法人三表，不能沿用旧报送。；鸿旺猫爬架生产事业部凭证三表版本：凭证、科目映射或期初已变化，须重新生成法人三表，不能沿用旧报送。；杭州鸿旺宠物用品有限公司电子工厂凭证三表版本：凭证、科目映射或期初已变化，须重新生成法人三表，不能沿用旧报送。；本层ERP内部交易匹配版本：请先运行本层内部交易匹配，查看差异并生成抵销草稿。",
+        "建议": "独立数据目录练习，不删旧账套，不把当前ERP凭证账套强改为手工源。"
+      }
+    }
+  ],
+  "limitations": [
+    "这是单体报表完整源CSV路径，不是NC凭证导入；当前此入口仅CSV，Excel整理后须另存UTF-8 CSV。",
+    "聚合报表不能自动辨识内部客商和共同交易；本例手工审批已结算销售60，不演示期末未结往来或未实现存货利润。",
+    "金额本位币万元，6月指6月30日余额及1—6月累计，逐月1—6必须完整；不把累计倒摊。",
+    "原EXE和产品代码未改，实际客户数据仍须按会计政策和适用范围核对。"
+  ]
+}
